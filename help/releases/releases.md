@@ -1,7 +1,7 @@
 ---
 description: Spiega la strategia di rilascio continuo delle funzioni per Adobe Mix Modeler
 title: Versioni di Adobe Mix Modeler
-source-git-commit: 827c25486bb56c80c52e663f391d60083e094f83
+source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
@@ -11,7 +11,6 @@ ht-degree: 0%
 # Versioni di Adobe Mix Modeler
 
 I rilasci di Adobe Mix Modeler funzionano su un modello di distribuzione continua che consente un approccio scalabile e graduale alla distribuzione delle funzioni.
-
 
 <!--
 ## Release strategy

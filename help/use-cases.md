@@ -2,9 +2,9 @@
 title: Casi d’uso di Adobe Mix Modeler
 description: Casi di utilizzo di Adobe Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Questo caso d’uso ti aiuta a misurare l’impatto del marketing su tutti i can
 
 ### Sfide
 
-Le problematiche affrontate da questo caso d’uso sono:
+I problemi affrontati da questi casi d’uso sono:
 
 * È difficile misurare le prestazioni incrementali dai dati silos dei percorsi dei clienti, dalla perdita di segnale e dai giardini murati.
 * Incoerenza nelle informazioni provenienti da metodologie MMM e MTA separate, riducendo l’affidabilità dei risultati.
@@ -30,12 +30,12 @@ Le problematiche affrontate da questo caso d’uso sono:
 
 ### Approccio
 
-L’approccio basato su passaggi per questo caso d’uso:
+L’approccio basato su passaggi per questo caso d’uso è:
 
 | Passaggio | Dettagli |
 |---|---|
-| Acquisisci | Identifica e acquisisci le origini dati in schemi comuni. <br/>Sfruttare gli investimenti esistenti in Adobe Analytics o nel Customer Journey Analytics per accelerare l&#39;installazione. |
-| Configura | Configurare modelli flessibili utilizzando il framework AI-as-a-Service per gli obiettivi aziendali specifici<br/>Assicurati automaticamente la coerenza tra punto di contatto e livello di riepilogo con l’apprendimento del trasferimento bidirezionale. |
+| Acquisisci | Identifica e acquisisci le origini dati in schemi comuni. <br/>Applica gli investimenti esistenti in Adobe Analytics o nel Customer Journey Analytics per velocizzare l’implementazione. |
+| Configura | Configurare modelli flessibili utilizzando un framework AI-as-a-Service per gli obiettivi aziendali specifici<br/>Assicurati automaticamente la coerenza tra punto di contatto e livello di riepilogo con l’apprendimento del trasferimento bidirezionale. |
 | Analizza | Comprendi chiaramente il ROI del marketing complessivo e dei singoli canali/sottocanali.<br/>Scopri chiaramente quali punti di contatto favoriscono al meglio le conversioni incrementali. |
 
 {style="table-layout:auto"}
@@ -46,7 +46,7 @@ L’approccio basato su passaggi per questo caso d’uso:
 Un’implementazione corretta di questo utilizzo può avere il seguente impatto:
 
 * Incorpora dati aggregati, dati dei punti di contatto e variabili esogene per ottenere la visualizzazione più completa delle misurazioni.
-* Utilizza la soluzione AI-as-a-Service per creare rapidamente modelli di successo con accesso alla trasparenza dei modelli per un livello di affidabilità elevato.
+* Utilizza una soluzione AI-as-a-Service per creare rapidamente modelli di successo con accesso alla trasparenza dei modelli per un livello di affidabilità elevato.
 * Aumentare la fiducia nel processo decisionale strategico e tattico attraverso l’allineamento dei risultati a livello di riepilogo e punto di contatto.
 
 +++
@@ -54,13 +54,13 @@ Un’implementazione corretta di questo utilizzo può avere il seguente impatto:
 
 ## Creare piani di marketing che ottimizzino il ROI
 
-Questo caso d’uso sfrutta strumenti di ottimizzazione e pianificazione degli scenari compatibili con l’intelligenza artificiale per massimizzare il ROI.
+Questo caso d’uso utilizza strumenti di ottimizzazione e pianificazione degli scenari compatibili con l’intelligenza artificiale e intuitivi per massimizzare il ROI.
 
 +++ Dettagli
 
 ### Sfide
 
-Le problematiche affrontate da questo caso d’uso sono:
+I problemi affrontati da questi casi d’uso sono:
 
 * Creare piani di investimento di marketing basati sui dati e basati sulle curve di efficienza, senza affidarsi all’istinto.
 * Massimizzare i risultati su più aree geografiche, linee di business e canali simultaneamente.
@@ -69,7 +69,7 @@ Le problematiche affrontate da questo caso d’uso sono:
 
 ### Approccio
 
-L’approccio basato su passaggi per questo caso d’uso:
+L’approccio basato su passaggi per questo caso d’uso è:
 
 | Passaggio | Dettagli |
 |---|---|
@@ -90,44 +90,47 @@ Un’implementazione corretta di questo utilizzo può avere il seguente impatto:
 
 +++
 
+<!-- This use case is not supported with initial release
 
-## Ottimizzazioni dell&#39;inflight basato sui dati
+## Make data-driven inflight optimizations
 
-Questo caso d’uso consente di migliorare il ROI settimanale valutando le prestazioni effettive e previste per apportare miglioramenti in volo.
+This use case helps you to improve ROI weekly by assessing actual and forecasted performance to make inflight improvements.
 
-+++ Dettagli
++++ Details
 
-### Sfide
+### Challenges
 
-Le problematiche affrontate da questo caso d’uso sono:
+The challenges this use case addresses are:
 
-* Le prestazioni delle campagne sono spesso lente o non hanno bisogno di granularità per ottimizzarle con sicurezza.
-* Dati disordinati e non standardizzati su decine di canali e origini rallentano i tempi di analisi.
-* Nessun accesso democratizzato agli strumenti e dipendenza eccessiva da determinati esperti o fornitori esterni, aumentando i tempi di risposta.
+* Campaign performance is often slow, or lacks granularity need to confidently optimize.
+* Messy, non-standardized data across dozens of channels and sources drives slow time to insight.
+* No democratized access to tools and overreliance on select experts or external vendors, increasing turnaround times.
 
 
 
-### Approccio
+### Approach
 
-L’approccio basato su passaggi per questo caso d’uso:
+The step based approach for this use case:
 
-| Passaggio | Dettagli |
+| Step | Details |
 |---|---|
-| Acquisisci | Acquisisci i dati negli schemi comuni per semplificare l’aggiornamento dei modelli e la riutilizzabilità nelle applicazioni Experienci Platform.<br/>Semplificazione di data piping, pulizia e controllo qualità con strumenti di armonizzazione automatizzati. |
-| Aggiorna | Crea e aggiorna modelli AI/ML utilizzando una piattaforma self-service e di facile utilizzo.<br/>Ottieni nuovi risultati, tra cui il ROI storico e previsto per canale, su base settimanale o mensile. |
-| Ottimizza | Ottimizzazioni rapide dei voli spostando la spesa tra i canali in base alle prestazioni misurate. |
+| Ingest | Ingest data in common schemas for easy model refreshes and reusability across Experience Platform applications.<br/>Streamline data piping, cleaning & QA with automated harmonization tools. |
+| Refresh | Build and refresh AI/ML  models using a user-friendly, self-service platform.<br/>Get new results, including historic and forecasted ROIs by channel, on a weekly or monthly basis. |
+| Optimize | Make rapid inflight optimizations by shifting spend across channels based on measured performance. |
 
 {style="table-layout:auto"}
 
 
-### Impatto
+### Impact 
 
-Un’implementazione corretta di questo utilizzo può avere il seguente impatto:
+Successful implementation of this use can have the following impact:
 
-* Ottimizza velocità, scalabilità e usabilità tra i casi di utilizzo di misurazione e analisi con schemi di dati standardizzati e basi di dati comuni.
-* Eseguire rapidamente ottimizzazioni dell’inflight settimanali o mensili e massimizzare il ROI con spostamenti di spesa basati sui dati che riflettono il ROI più alto previsto.
+* Maximize speed, scalability, and usability across measurement & analytic use cases with standardized data schemas and common data foundation.
+* Rapidly make weekly or monthly inflight optimizations and maximize ROI with data-driven spend shifts that reflect best forecasted ROIs.
 
 +++
+
+-->
 
 ## Attivare informazioni tattiche tra le applicazioni Adobe
 
@@ -137,7 +140,7 @@ Questo caso d’uso consente di ottenere informazioni incrementali strategiche s
 
 ### Sfide
 
-Le problematiche affrontate da questo caso d’uso sono:
+I problemi affrontati da questi casi d’uso sono:
 
 * Le sole soluzioni top-down potrebbero non riuscire a individuare le opportunità di ottimizzazione delle chiavi granulari.
 * I risultati dei modelli di misurazione sono schiaccianti, eccessivamente descrittivi e non portano facilmente a informazioni o azioni.
@@ -146,11 +149,11 @@ Le problematiche affrontate da questo caso d’uso sono:
 
 ### Approccio
 
-L’approccio basato su passaggi per questo caso d’uso:
+L’approccio basato su passaggi per questo caso d’uso è:
 
 | Passaggio | Dettagli |
 |---|---|
-| Modello | Configura e forma il modello AI/ML per ottenere punteggi MTA coerenti per i punti di contatto e risultati aggregati MMM. |
+| Modello | Configura e addestra un modello AI/ML per ottenere punteggi di punti di contatto MTA coerenti e risultati aggregati MMM. |
 | Analizza | Esporta punteggi incrementali di punti di contatto in strumenti di business intelligence esterni o di Customer Journey Analytics.<br/>Esegui analisi granulare e crea dashboard avanzate utilizzando i punteggi dei punti di contatto. |
 | Azione | Crea e attiva lookalike per i segmenti consumer principali utilizzando Real-time Customer Data Platform.<br/>Sviluppa strategie di marketing basate sui dati per segmenti di clienti per campagne future. |
 
