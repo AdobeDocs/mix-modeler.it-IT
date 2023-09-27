@@ -2,7 +2,7 @@
 user-guide-title: Modellatore misto
 breadcrumb-title: Modellatore misto
 user-guide-description: Scopri come utilizzare Mixed Modeler.
-source-git-commit: 625ab651b676e50505f386cf70abb27f57f6c8f1
+source-git-commit: cf4890eb9efc2cfc82f9d2761983a13ad5d730ee
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 25%
@@ -46,6 +46,13 @@ ht-degree: 25%
 
 + [Casi d’uso](use-cases.md)
 
++ Versioni {#releases}
+   + [Versione più recente](releases/latest.md)
+   + [Versioni del 2023](releases/2023.md)
+   + [Processo di rilascio](releases/releases.md)
+
++ [Glossario](glossary.md)
+
 
 <!-- Admin integration with AEP not part of first release
 
@@ -55,12 +62,3 @@ ht-degree: 25%
   + [Audits](administration/audits.md)
   
 -->
-
-
-+ Versioni {#releases}
-   + [Versione più recente](releases/latest.md)
-   + [Versioni del 2023](releases/2023.md)
-   + [Processo di rilascio](releases/releases.md)
-
-+ [Glossario](glossary.md)
-
