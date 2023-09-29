@@ -2,10 +2,10 @@
 user-guide-title: Modellatore misto
 breadcrumb-title: Modellatore misto
 user-guide-description: Scopri come utilizzare Mixed Modeler.
-source-git-commit: 6b4744b1bd487b9e1c1b76f692bd86fbc236b6b1
+source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 26%
+source-wordcount: '66'
+ht-degree: 27%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 26%
    + [Set di dati](ingest-data/datasets.md)
 
 + [Casi d’uso](use-cases.md)
+
++ [Amministrazione](administration.md)
 
 + Versioni {#releases}
    + [Versione più recente](releases/latest.md)
