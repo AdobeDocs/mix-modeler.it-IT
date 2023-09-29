@@ -1,10 +1,10 @@
 ---
-title: Confronta piani
-description: Scopri come confrontare i piani in Adobe Mix Modeler.
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+title: Amministrazione
+description: Scopri come amministrare Adobe Mix Modeler.
+source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 7%
+source-wordcount: '158'
+ht-degree: 8%
 
 ---
 
@@ -17,11 +17,11 @@ Per il corretto funzionamento di Adobe Mix Modeler, è necessario impostare le a
 
 Nell’interfaccia utente di Adobe Experience Cloud,
 
-1. Seleziona **[!UICONTROL Permissions]** dalla barra a sinistra sotto **[!UICONTROL ADMINISTRATION]**.
+1. Seleziona **[!UICONTROL Permissions]** dalla barra a sinistra, sotto **[!UICONTROL ADMINISTRATION]**.
 
 1. Seleziona ![Persona](assets/icons/User.svg) **[!UICONTROL Roles]** dal pannello a sinistra.
 
-1. Seleziona un ruolo esistente o creane uno esistente utilizzando **[!UICONTROL Create role]**. Se è stato selezionato un ruolo esistente, selezionare ![Modifica](assets/icons/Edit.svg) **[!UICONTROL Edit]** per modificare le autorizzazioni per il ruolo. Consulta [Gestisci ruoli](https://helpx.adobe.com/it/enterprise/using/admin-console.html) per ulteriori informazioni.
+1. Seleziona un ruolo esistente o creane uno esistente utilizzando **[!UICONTROL Create role]**. Se si seleziona un ruolo esistente, selezionare ![Modifica](assets/icons/Edit.svg) **[!UICONTROL Edit]** per modificare le autorizzazioni per il ruolo. Consulta [Gestisci ruoli](https://helpx.adobe.com/it/enterprise/using/admin-console.html) per ulteriori informazioni.
 
 1. Accertati di selezionare le seguenti autorizzazioni per il ruolo:
 
