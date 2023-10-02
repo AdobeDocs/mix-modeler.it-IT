@@ -2,20 +2,20 @@
 user-guide-title: Modellatore misto
 breadcrumb-title: Modellatore misto
 user-guide-description: Scopri come utilizzare Mixed Modeler.
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 27%
+source-wordcount: '63'
+ht-degree: 38%
 
 ---
 
 
-# Guida di Modeler per mix di Adobi {#using}
+# Guida a Mix Modeler {#using}
 
-+ [Guida di Modeler per mix di Adobi](overview.md)
++ [Guida a Mix Modeler](overview.md)
 
 + Introduzione {#get-started}
-   + [Cos’è Adobe Mix Modeler?](get-started/about.md)
+   + [Che cos’è Mix Modeler?](get-started/about.md)
    + [Flusso di lavoro dell&#39;applicazione](get-started/workflow.md)
 
 + Dashboard di {#dashboard}

@@ -1,10 +1,10 @@
 ---
 title: Conversioni
-description: Scopri come creare conversioni da utilizzare come parte dell’armonizzazione dei dati in Adobe Mix Modeler.
+description: Scopri come creare conversioni da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Conversions
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '241'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Puoi definire le conversioni marketing per l’analisi di attribuzione.
 
 ## Gestire le conversioni
 
-Per visualizzare una tabella delle conversioni disponibili, nell’interfaccia di Adobe Mix Modeler:
+Per visualizzare una tabella delle conversioni disponibili, nell’interfaccia Mix Modeler:
 
 1. Seleziona ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
@@ -38,7 +38,7 @@ Le colonne della tabella specificano i dettagli sulla conversione:
 
 ## Aggiungere una conversione
 
-Per aggiungere una conversione, in ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** Interfaccia in Adobe Mix Modeler:
+Per aggiungere una conversione, in ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** interfaccia in Mix Modeler:
 
 1. Seleziona ![Aggiungi](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 

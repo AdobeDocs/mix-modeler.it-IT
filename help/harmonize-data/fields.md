@@ -1,10 +1,10 @@
 ---
 title: Campi armonizzati
-description: Scopri come definire i campi da utilizzare nell’ambito dell’armonizzazione dei dati in Adobe Mix Modeler.
-feature: Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+description: Scopri come definire i campi da utilizzare nell’ambito dell’armonizzazione dei dati in Mix Modeler.
+feature: Harmonized Data, Harmonized Fields
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '655'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ I campi armonizzati ti consentono di definire i campi che desideri utilizzare co
 
 ## Settori di armonizzazione globale
 
-I campi di armonizzazione globali predefiniti disponibili in Adobe Mix Modeler sono:
+I campi di armonizzazione globali predefiniti disponibili in Mix Modeler sono:
 
 
 | Nome campo | Nome visualizzato | Categoria | Tipo di dati | Commento |
@@ -53,7 +53,7 @@ Puoi aggiungere, modificare o eliminare i tuoi campi armonizzati sopra questi ca
 
 ## Gestisci campi armonizzati
 
-Per visualizzare una tabella dei campi armonizzati disponibili, nell’interfaccia di Adobe Mix Modeler:
+Per visualizzare una tabella dei campi armonizzati disponibili, nell’interfaccia Mix Modeler:
 
 1. Seleziona ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
@@ -81,7 +81,7 @@ Per visualizzare una tabella dei campi armonizzati disponibili, nell’interfacc
 
 ### Aggiungi un campo armonizzato
 
-Per aggiungere un campo armonizzato, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di in Adobe Mix Modeler:
+Per aggiungere un campo armonizzato, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di Mix Modeler:
 
 1. Seleziona ![Aggiungi](../assets/icons/AddCircle.svg)Aggiungi campo.
 
@@ -107,7 +107,7 @@ Per aggiungere un campo armonizzato, nella ![RicercaDati](../assets/icons/DataCh
 
 Puoi modificare solo i campi armonizzati che hai creato in precedenza. Non è possibile modificare un campo armonizzato globale.
 
-Per modificare un campo armonizzato, nella sezione ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di in Adobe Mix Modeler:
+Per modificare un campo armonizzato, nella sezione ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di Mix Modeler:
 
 1. Seleziona il campo armonizzato da modificare. Ad esempio, **[!UICONTROL Region]**.
 
@@ -121,7 +121,7 @@ Per modificare un campo armonizzato, nella sezione ![RicercaDati](../assets/icon
 
 Puoi eliminare solo i campi armonizzati creati in precedenza. Non puoi eliminare un campo armonizzato globale.
 
-Per eliminare un campo armonizzato, nella sezione ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di in Adobe Mix Modeler:
+Per eliminare un campo armonizzato, nella sezione ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di Mix Modeler:
 
 1. Seleziona il campo armonizzato da eliminare, ad esempio **[!UICONTROL Region]**.
 

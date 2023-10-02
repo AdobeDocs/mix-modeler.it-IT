@@ -1,10 +1,10 @@
 ---
 title: Piani
-description: Scopri come visualizzare, selezionare e intervenire sui piani in Adobe Mix Modeler.
+description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 2%
 
 ---
@@ -12,12 +12,12 @@ ht-degree: 2%
 
 # Piani
 
-I piani in Adobe Mix Modeler consentono di allocare budget per business unit e canale. La funzionalità di pianificazione è integrata con i risultati dei modelli formati in base ai dati armonizzati.
+I piani in Mix Modeler consentono di allocare budget per business unit e canale. La funzionalità di pianificazione è integrata con i risultati dei modelli formati in base ai dati armonizzati.
 
 
 ## Visualizza piani
 
-Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia di Adobe Mix Modeler:
+Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia Mix Modeler:
 
 1. Seleziona ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** dalla barra a sinistra.
 

@@ -1,10 +1,10 @@
 ---
 title: Regole del set di dati
-description: Scopri come definire le regole dei set di dati da utilizzare come parte dell’armonizzazione dei dati in Adobe Mix Modeler.
+description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Regole del set di dati
 
-Le regole del set di dati ti aiutano a mappare i campi armonizzati con i campi dei dati acquisiti in Adobe Mix Modeler.
+Le regole del set di dati ti aiutano a mappare i campi armonizzati con i campi dei dati acquisiti in Mix Modeler.
 
 * Per i dati aggregati acquisiti in Adobe Experience Platform, mappi uno o più campi del set di dati disponibili ai campi armonizzati appropriati.
 * Per i dati evento, puoi mappare singolarmente uno o più campi armonizzati ai campi del set di dati, direttamente o utilizzando le condizioni.
@@ -20,7 +20,7 @@ Le regole del set di dati ti aiutano a mappare i campi armonizzati con i campi d
 
 ## Gestire regole e mappature dei set di dati
 
-Per visualizzare una tabella delle mappature dei set di dati disponibili, nell’interfaccia di Adobe Mix Modeler:
+Per visualizzare una tabella dei mapping dei set di dati disponibili, nell’interfaccia Mix Modeler:
 
 1. Seleziona ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
@@ -32,7 +32,7 @@ Le colonne della tabella specificano i dettagli sulle mappature dei set di dati:
 | ---------------------- | ----------|
 | Set di dati | Nome del set di dati. |
 | Origine | L’origine del set di dati, che può essere Adobe Analytics, Experience Events, Summary (aggregato) o Consumer Experience Events. |
-| Schema | Schema a cui è conforme il set di dati. Puoi selezionare rapidamente il nome dello schema per aprire lo schema in una nuova scheda nell’editor schema in Modellatore di mix di Adobi: Schemi. |
+| Schema | Schema a cui è conforme il set di dati. Puoi selezionare rapidamente il nome dello schema per aprire lo schema in una nuova scheda nell’editor schema in Mix Modeler - Schemi. |
 | Granularità | Granularità dei dati nel set di dati. I valori possibili sono Giornaliero, Settimanale, Mensile o Annuale. |
 | Inizio della settimana | Specifica quale giorno della settimana viene considerato come inizio di una nuova settimana per il set di dati specifico. |
 | Ultima modifica | Dati e ora dell’ultima modifica della mappatura del set di dati. |
@@ -41,7 +41,7 @@ Le colonne della tabella specificano i dettagli sulle mappature dei set di dati:
 
 ### Creare una mappatura del set di dati
 
-Per creare una mappatura di set di dati, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Adobe Mix Modeler, seleziona **[!UICONTROL Create Dataset Mapping]**.
+Per creare una mappatura di set di dati, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler, seleziona **[!UICONTROL Create Dataset Mapping]**.
 
 In **[!UICONTROL Create]** schermo,
 
@@ -107,7 +107,7 @@ Al termine, seleziona **[!UICONTROL Save]** per salvare la mappatura, oppure sel
 
 ### Modificare una mappatura di set di dati
 
-Per modificare la mappatura di un set di dati, in ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Interfaccia in Adobe Mix Modeler:
+Per modificare la mappatura di un set di dati, in ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interfaccia in Mix Modeler:
 
 1. Seleziona ![Altro](../assets/icons/More.svg) nel **[!UICONTROL Dataset]** per la mappatura del set di dati che desideri modificare.
 1. Dal menu di scelta rapida, selezionare ![Modifica](../assets/icons/Edit.svg) **[!UICONTROL Edit]** per iniziare a modificare la mappatura del set di dati. Fai riferimento a [Creare una mappatura del set di dati](#create-a-dataset-mapping) per ulteriori dettagli.
@@ -115,7 +115,7 @@ Per modificare la mappatura di un set di dati, in ![RicercaDati](../assets/icons
 
 ### Eliminare una mappatura di set di dati
 
-Per eliminare una mappatura di set di dati, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Interfaccia in Adobe Mix Modeler:
+Per eliminare una mappatura di set di dati, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interfaccia in Mix Modeler:
 
 1. Seleziona ![Altro](../assets/icons/More.svg) nel **[!UICONTROL Dataset]** per il mapping di set di dati che desideri eliminare.
 1. Dal menu di scelta rapida, selezionare ![Elimina](../assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare la mappatura del set di dati.

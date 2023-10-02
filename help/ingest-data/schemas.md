@@ -1,10 +1,10 @@
 ---
 title: Schemi
-description: Scopri come gestire gli schemi necessari per acquisire i dati in Adobe Mix Modeler.
+description: Scopri come gestire gli schemi necessari per acquisire i dati in Mix Modeler.
 feature: Schemas
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '344'
 ht-degree: 6%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 6%
 
 # Schemi
 
-Per gestire gli schemi, supportare i dati da acquisire in Adobe Experience Platform e utilizzare in Adobe Mix Modeler:
+Per gestire gli schemi, supportare i dati che desideri acquisire in Adobe Experience Platform e utilizzare in Mix Modeler:
 
-1. Passa all&#39;interfaccia di Adobe Mix Modeler.
+1. Passa all’interfaccia Mix Modeler.
 
 1. Seleziona ![Schemi](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, sotto **[!UICONTROL DATA MANAGEMENT]**.
 
@@ -22,7 +22,7 @@ Consulta la [Panoramica dell’interfaccia utente degli schemi](https://experien
 
 ## Dati aggregati o di riepilogo
 
-Si consiglia vivamente di utilizzare la classe Metriche di riepilogo XDM come base dello schema sottostante qualsiasi dato aggregato o di riepilogo che si desidera acquisire in Experienci Platform e utilizzare in Adobe Mix Modeler.
+Si consiglia vivamente di utilizzare la classe Metriche di riepilogo XDM come base dello schema sottostante qualsiasi dato aggregato o di riepilogo che si desidera acquisire in Experienci Platform e utilizzare in Mix Modeler.
 
 Utilizza la classe Metriche di riepilogo XDM per:
 

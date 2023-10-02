@@ -1,18 +1,18 @@
 ---
-title: Casi d’uso di Adobe Mix Modeler
-description: Casi di utilizzo di Adobe Mix Modeler.
+title: Casi d’uso per Mix Modeler
+description: Casi di utilizzo di Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 3%
 
 ---
 
 
-# Casi d’uso di Adobe Mix Modeler
+# Casi d’uso per Mix Modeler
 
-Adobe Mix Modeler consente i seguenti casi d’uso chiave.
+Mix Modeler abilita i seguenti casi d’uso chiave.
 
 ## Comprendere le prestazioni incrementali omnicanale
 

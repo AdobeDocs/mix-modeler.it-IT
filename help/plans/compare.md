@@ -1,18 +1,18 @@
 ---
 title: Confronta piani
-description: Scopri come confrontare i piani in Adobe Mix Modeler.
+description: Scopri come confrontare i piani in Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
 
 # Confronta piani
 
-Per confrontare i piani nell&#39;interfaccia di Adobe Mix Modeler Plans:
+Per confrontare i piani nell&#39;interfaccia Piani Mix Modeler:
 
 * Seleziona ![Confronta](../assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. In Confronta piani selezionare un piano per ciascuno di essi **[!UICONTROL _Seleziona piano_]**.
 

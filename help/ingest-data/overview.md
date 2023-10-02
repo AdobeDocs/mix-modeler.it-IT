@@ -1,10 +1,10 @@
 ---
 title: Acquisire dati
-description: Scopri come acquisire i dati in Adobe Mix Modeler.
+description: Scopri come acquisire dati in Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '460'
 ht-degree: 14%
 
 ---
@@ -28,7 +28,7 @@ Puoi utilizzare qualsiasi tipo di meccanismo supportato da Adobe Experience Plat
 
 ## Linee guida
 
-Per acquisire in Adobe Experience Platform i dati da utilizzare con Adobe Mix Modeler, attieniti alle seguenti linee guida:
+Per acquisire i dati in Adobe Experience Platform per l’utilizzo con Mix Modeler, segui queste linee guida:
 
 * Non dovrebbero esserci sovrapposizioni nei dati incrementali aggiunti ai set di dati.
 * Tutti i dati provenienti da una singola origine devono avere la stessa granularità.
@@ -38,7 +38,7 @@ Per acquisire in Adobe Experience Platform i dati da utilizzare con Adobe Mix Mo
 
 ## Esempi
 
-Di seguito sono riportati alcuni esempi di dati utilizzati in genere in Adobe Mix Modeler oltre i dati degli eventi di esperienza standard.
+Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre i dati di eventi di esperienza più standard.
 
 +++ Aggregazione dei dati relativi allo sforzo di marketing
 
@@ -80,7 +80,8 @@ Di seguito sono riportati alcuni esempi di dati utilizzati in genere in Adobe Mi
 
 +++
 
-Per lavorare con i dati in Adobe Mix Modeler, è necessario che i dati vengano raccolti in set di dati e modellati secondo gli schemi in Adobe Experience Platform. L’interfaccia Adobe Mix Modeler consente di accedere facilmente agli schemi e all’interfaccia utente dei set di dati di Experienci Platform.
+Per lavorare con i dati in Mix Modeler, è necessario che siano raccolti in set di dati e modellati secondo gli schemi in Adobe Experience Platform. L’interfaccia Mix Modeler consente di accedere facilmente sia all’interfaccia utente Schemi che a quella Set di dati.
+
 
 >[!MORELIKETHIS]
 >

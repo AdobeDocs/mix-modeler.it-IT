@@ -1,10 +1,10 @@
 ---
 title: Creare un piano
-description: Scopri come creare un piano in Adobe Mix Modeler.
+description: Scopri come creare un piano in Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Creare un piano
 
-In Adobe Mix Modeler, è possibile creare un piano utilizzando l&#39;area di lavoro del piano. Nell&#39;area di lavoro del piano è possibile impostare i dettagli e i budget del piano e del modello sottostante da utilizzare per il piano. Una volta specificati i dettagli, il budget e il modello, puoi procedere con un piano consigliato dall’intelligenza artificiale o modificare la spesa per canale.
+In Mix Modeler è possibile creare un piano utilizzando l&#39;area di lavoro del piano. Nell&#39;area di lavoro del piano è possibile impostare i dettagli e i budget del piano e del modello sottostante da utilizzare per il piano. Una volta specificati i dettagli, il budget e il modello, puoi procedere con un piano consigliato dall’intelligenza artificiale o modificare la spesa per canale.
 
-Per creare un piano, in ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** in Adobe Mix Modeler, seleziona **[!UICONTROL Open plan canvas]**.
+Per creare un piano, in ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** in Mix Modeler, seleziona **[!UICONTROL Open plan canvas]**.
 
 1. Nella schermata di creazione del piano:
 

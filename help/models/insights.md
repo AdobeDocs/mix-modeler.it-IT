@@ -1,8 +1,8 @@
 ---
 title: Approfondimenti modello
-description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Adobe Mix Modeler.
+description: Scopri come ottenere dettagli sul modello, ad esempio panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Approfondimenti modello
 
-Per visualizzare le informazioni sul modello, in ![Modelli](../assets/icons/FileData.svg) **[!UICONTROL Models]** Interfaccia in Adobe Mix Modeler:
+Per visualizzare le informazioni sul modello, in ![Modelli](../assets/icons/FileData.svg) **[!UICONTROL Models]** interfaccia in Mix Modeler:
 
 1. Seleziona il nome di un modello con un **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dal **[!UICONTROL Models]** tabella.
 
@@ -68,5 +68,7 @@ La scheda Qualità modello mostra i widget per la misurazione:
 * MAPE (errore percentuale assoluto medio), uno dei KPI più comunemente utilizzati per misurare la precisione della previsione ed esprime l&#39;errore di previsione come percentuale del valore effettivo.
 
 * RMSE (Root Mean Square Error, errore quadratico medio): indica l&#39;errore medio, ponderato in base al quadrato dell&#39;errore.
+
+![Qualità del modello](../assets/model-quality.png)
 
 

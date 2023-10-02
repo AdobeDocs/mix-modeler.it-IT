@@ -1,10 +1,10 @@
 ---
 title: Creare un modello
-description: Scopri come creare un modello in Adobe Mix Modeler.
+description: Scopri come creare un modello in Mix Modeler.
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Creare un modello
 
-Per creare un modello, in ![Modelli](../assets/icons/FileData.svg) **[!UICONTROL Models]** in Adobe Mix Modeler, seleziona **[!UICONTROL Guide me]**.
+Per creare un modello, in ![Modelli](../assets/icons/FileData.svg) **[!UICONTROL Models]** in Mix Modeler, seleziona **[!UICONTROL Guide me]**.
 
 Per creare modelli personalizzati basati sull’intelligenza artificiale, l’interfaccia fornisce un flusso guidato e dettagliato di configurazione del modello.
 
 1. In **[!UICONTROL Setup]** passaggio:
 
-   1. Inserisci il modello **[!UICONTROL Name]**, ad esempio `Demo model`. Immetti un **[!UICONTROL Description]**, ad esempio `Demo model to explore AI featues of Adobe Mix Modeler`.
+   1. Inserisci il modello **[!UICONTROL Name]**, ad esempio `Demo model`. Immetti un **[!UICONTROL Description]**, ad esempio `Demo model to explore AI featues of Mix Modeler`.
 
       ![Nome e descrizione del modello](../assets/model-name-description.png)
 
@@ -113,7 +113,7 @@ Per creare modelli personalizzati basati sull’intelligenza artificiale, l’in
 
    1. In **[!UICONTROL Define training window]** sezione, seleziona tra
 
-      * **[!UICONTROL Have Adobe Mix Modeler select a helpful training window]** e
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** e
 
       * **[!UICONTROL Manually input a training window]**. Se selezionata, definisci il numero di anni in **[!UICONTROL Include events the following years prior to a conversion]**.
 

@@ -1,10 +1,10 @@
 ---
 title: Dashboard di panoramica dei dati armonizzati
-description: Scopri come utilizzare la dashboard di panoramica dei dati armonizzata in Adobe Mix Modeler.
+description: Scopri come utilizzare la dashboard di panoramica dei dati armonizzata in Mix Modeler.
 feature: Dashboard, Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Panoramica dei dati armonizzati
 
-La scheda Dati armonizzati nella panoramica di Adobe Mix Modeler fornisce informazioni approfondite sui dati armonizzati configurati per essere utilizzati come parte dei dati acquisiti e della configurazione dei dati armonizzati.
+La scheda Dati armonizzati nella panoramica di Mix Modeler fornisce informazioni approfondite sui dati armonizzati configurati per essere utilizzati come parte dei dati acquisiti e della configurazione dei dati armonizzati.
 
 La panoramica mostra quattro widget per schede di stato KPI (riga superiore) e altri sei widget configurabili.
 
