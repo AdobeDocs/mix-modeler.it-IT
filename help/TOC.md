@@ -1,11 +1,11 @@
 ---
-user-guide-title: Guida di Modeler per mix di Adobi
+user-guide-title: Guida a Mix Modeler
 breadcrumb-title: Guida a Mix Modeler
-user-guide-description: Scopri come utilizzare l’Adobe Mix Modeler.
-source-git-commit: d02cfdf3ad5a0872a0f9c2c9f98973e79f1a9de8
+user-guide-description: Scopri come utilizzare Mix Modeler.
+source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 40%
+source-wordcount: '65'
+ht-degree: 46%
 
 ---
 

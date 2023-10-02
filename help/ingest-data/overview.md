@@ -2,9 +2,9 @@
 title: Acquisire dati
 description: Scopri come acquisire dati in Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 14%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 # Acquisire dati
 
-L’Adobe Mix Modeler utilizza i dati a livello di evento, aggrega i dati delle attività di marketing provenienti da vari giardini murati e aggrega o riassume i dati provenienti da qualsiasi altra origine, ad esempio pubblicità offline, fattori interni o esterni.
+Mix Modeler funziona con i dati a livello di evento, aggrega i dati delle attività di marketing provenienti da vari giardini murati e aggrega o riepiloga i dati provenienti da qualsiasi altra origine, ad esempio pubblicità offline, fattori interni o esterni.
 
 I clienti possono utilizzare qualsiasi tipo di dati acquisito in Adobe Experience Platform come set di dati e basato su schemi che utilizzano ExperienceEvent XDM o Metriche di riepilogo XDM come classe base.
 
