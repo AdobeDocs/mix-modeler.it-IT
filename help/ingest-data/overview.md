@@ -2,9 +2,9 @@
 title: Acquisire dati
 description: Scopri come acquisire i dati in Adobe Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: ae1c74ed2edf1e69e7ab77d16aba797921c14ad9
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '466'
 ht-degree: 14%
 
 ---
@@ -12,16 +12,18 @@ ht-degree: 14%
 
 # Acquisire dati
 
-Adobe Mix Modeler funziona sia con i dati a livello di evento che con i dati aggregati delle attività di marketing provenienti da vari giardini murati. I clienti possono utilizzare tutti i tipi di dati acquisiti in Adobe Experience Platform come set di dati e basati su schemi basati su XDM Experience Event.
+L’Adobe Mix Modeler utilizza i dati a livello di evento, aggrega i dati delle attività di marketing provenienti da vari giardini murati e aggrega o riassume i dati provenienti da qualsiasi altra origine, ad esempio pubblicità offline, fattori interni o esterni.
+
+I clienti possono utilizzare qualsiasi tipo di dati acquisito in Adobe Experience Platform come set di dati e basato su schemi che utilizzano ExperienceEvent XDM o Metriche di riepilogo XDM come classe base.
 
 Ad esempio:
 
 * dati raccolti utilizzando il connettore di origine di Adobe Analytics e trasformati in set di dati conformi all’impostazione predefinita o a una versione personalizzata dello schema di Adobe Analytics, oppure in alternativa,
 * dati raccolti utilizzando Adobe Experience Platform Web SDK, Mobile SDK o l’API del server di rete Edge per raccogliere le interazioni dei clienti su web, dispositivi mobili o qualsiasi altro tipo di dispositivo,
-* dati di riepilogo da diverse origini del traffico o del giardino protetto, basati su uno schema che include la classe XDM Summary Metrics con il gruppo di campi Riepilogo traffico e conversione,
-* dati non commerciali (ad esempio indicatori macroeconomici) utili per la creazione di modelli,
+* dati aggregati provenienti da giardini murati (come Facebook, YouTube), da fonti di traffico o da dati pubblicitari offline,
+* dati aggregati o di riepilogo non di marketing contenenti fattori interni o esterni utili per la creazione di modelli.
 
-Puoi utilizzare qualsiasi tipo di meccanismo supportato da Adobe Experience Platform per acquisire il livello dell’evento esperienza e aggregare i dati delle attività di marketing. Ad esempio gli SDK di Adobe Experience Platform, le API, i connettori di origine e l’acquisizione in streaming e batch.
+Puoi utilizzare qualsiasi tipo di meccanismo supportato da Adobe Experience Platform per acquisire il livello dell’evento esperienza, aggregare i dati delle attività di marketing e i dati provenienti da altre origini. Ad esempio gli SDK di Adobe Experience Platform, le API, i connettori di origine e l’acquisizione in streaming e batch.
 
 
 ## Linee guida
@@ -78,7 +80,7 @@ Di seguito sono riportati alcuni esempi di dati utilizzati in genere in Adobe Mi
 
 +++
 
-Per lavorare con i dati in Adobe Mix Modeler, è necessario che i dati vengano raccolti in set di dati e modellati secondo gli schemi in Adobe Experience Platform. L’interfaccia di Adobe Mix Modeler consente di accedere facilmente sia all’interfaccia utente Schemi che a quella Set di dati.
+Per lavorare con i dati in Adobe Mix Modeler, è necessario che i dati vengano raccolti in set di dati e modellati secondo gli schemi in Adobe Experience Platform. L’interfaccia Adobe Mix Modeler consente di accedere facilmente agli schemi e all’interfaccia utente dei set di dati di Experienci Platform.
 
 >[!MORELIKETHIS]
 >
