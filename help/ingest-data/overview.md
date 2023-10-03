@@ -2,33 +2,33 @@
 title: Acquisire dati
 description: Scopri come acquisire dati in Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
+exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 14%
 
 ---
-
 
 # Acquisire dati
 
 Mix Modeler funziona con i dati a livello di evento, aggrega i dati delle attività di marketing provenienti da vari giardini murati e aggrega o riepiloga i dati provenienti da qualsiasi altra origine, ad esempio pubblicità offline, fattori interni o esterni.
 
-I clienti possono utilizzare qualsiasi tipo di dati acquisito in Adobe Experience Platform come set di dati e basato su schemi che utilizzano ExperienceEvent XDM o Metriche di riepilogo XDM come classe base.
+I clienti possono utilizzare qualsiasi tipo di dati acquisito in Experienci Platform come set di dati e basato su schemi che utilizzano ExperienceEvent XDM o Metriche di riepilogo XDM come classe base.
 
 Ad esempio:
 
 * dati raccolti utilizzando il connettore di origine di Adobe Analytics e trasformati in set di dati conformi all’impostazione predefinita o a una versione personalizzata dello schema di Adobe Analytics, oppure in alternativa,
-* dati raccolti utilizzando Adobe Experience Platform Web SDK, Mobile SDK o l’API del server di rete Edge per raccogliere le interazioni dei clienti su web, dispositivi mobili o qualsiasi altro tipo di dispositivo,
+* dati raccolti utilizzando l’SDK per web di Experienci Platform, l’SDK per dispositivi mobili o l’API del server di rete Edge per raccogliere le interazioni dei clienti su web, dispositivi mobili o qualsiasi altro tipo di dispositivo,
 * dati aggregati provenienti da giardini murati (come Facebook, YouTube), da fonti di traffico o da dati pubblicitari offline,
 * dati aggregati o di riepilogo non di marketing contenenti fattori interni o esterni utili per la creazione di modelli.
 
-Puoi utilizzare qualsiasi tipo di meccanismo supportato da Adobe Experience Platform per acquisire il livello dell’evento esperienza, aggregare i dati delle attività di marketing e i dati provenienti da altre origini. Ad esempio gli SDK di Adobe Experience Platform, le API, i connettori di origine e l’acquisizione in streaming e batch.
+Puoi utilizzare qualsiasi tipo di meccanismo, supportato da Experienci Platform, per acquisire a livello di evento l’esperienza, aggregare i dati relativi alle attività di marketing e i dati provenienti da altre origini. Ad esempio gli SDK di Experience Platform, le API, i connettori di origine e l’acquisizione in streaming e batch.
 
 
 ## Linee guida
 
-Per acquisire i dati in Adobe Experience Platform per l’utilizzo con Mix Modeler, segui queste linee guida:
+Per acquisire i dati in Experienci Platform per l’utilizzo con Mix Modeler, segui queste linee guida:
 
 * Non dovrebbero esserci sovrapposizioni nei dati incrementali aggiunti ai set di dati.
 * Tutti i dati provenienti da una singola origine devono avere la stessa granularità.
@@ -38,7 +38,7 @@ Per acquisire i dati in Adobe Experience Platform per l’utilizzo con Mix Model
 
 ## Esempi
 
-Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre i dati di eventi di esperienza più standard.
+Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre ai dati dell’evento di esperienza più standard.
 
 +++ Aggregazione dei dati relativi allo sforzo di marketing
 
@@ -80,7 +80,7 @@ Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre
 
 +++
 
-Per lavorare con i dati in Mix Modeler, è necessario che siano raccolti in set di dati e modellati secondo gli schemi in Adobe Experience Platform. L’interfaccia Mix Modeler consente di accedere facilmente sia all’interfaccia utente Schemi che a quella Set di dati.
+Per lavorare con i dati in Mix Modeler, è necessario che i dati vengano raccolti in set di dati e modellati secondo gli schemi di Experienci Platform. L’interfaccia Mix Modeler consente di accedere facilmente sia all’interfaccia utente Schemi che a quella Set di dati.
 
 
 >[!MORELIKETHIS]

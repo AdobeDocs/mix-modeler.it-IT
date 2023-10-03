@@ -2,13 +2,13 @@
 title: Piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%
 
 ---
-
 
 # Piani
 
@@ -69,7 +69,8 @@ Per confrontare i piani:
 Per eliminare i piani:
 
 1. Selezionare uno o più piani dalla tabella.
-1. Seleziona ![Elimina](../assets/icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni. Il piano viene eliminato immediatamente.
+1. Seleziona ![Elimina](../assets/icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni.
 
-
-
+   >[!WARNING]
+   >
+   >   I piani selezionati vengono eliminati immediatamente.

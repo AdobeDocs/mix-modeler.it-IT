@@ -2,17 +2,17 @@
 title: Schemi
 description: Scopri come gestire gli schemi necessari per acquisire i dati in Mix Modeler.
 feature: Schemas
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '345'
 ht-degree: 6%
 
 ---
 
-
 # Schemi
 
-Per gestire gli schemi, supportare i dati che desideri acquisire in Adobe Experience Platform e utilizzare in Mix Modeler:
+Per gestire gli schemi, supportare i dati che desideri acquisire in Experienci Platform e utilizzare in Mix Modeler:
 
 1. Passa all’interfaccia Mix Modeler.
 
@@ -40,7 +40,7 @@ Uno schema che utilizza **[!DNL XDM Summary Metrics]** la classe base può esser
 
 ![Schema Fattori Esterni](../assets/external-factors-schema.png)
 
-Questo semplice schema può essere utilizzato per acquisire set di dati contenenti dati per:
+Questo semplice schema può essere utilizzato per acquisire set di dati contenenti dati per, ad esempio:
 
 - Dati di indice della concorrenza
 

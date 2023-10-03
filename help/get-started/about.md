@@ -1,18 +1,19 @@
 ---
 title: Panoramica di Mix Modeler
 description: Ottieni una panoramica delle funzionalità di Mix Modeler.
+short-description: Ottieni una panoramica delle funzionalità di Mix Modeler.
 feature: Plans, Harmonized Data, Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-
 # Panoramica di Mix Modeler
 
-Mix Modeler, con tecnologia Adobe Sensei, consente agli esperti di marketing di misurare le campagne e ottimizzare la pianificazione in modo olistico su tutti i canali: a pagamento, guadagnato e di proprietà. La metodologia unificata misura in modo incrementale sia i punti di contatto di marketing che i livelli aggregati, garantendo al contempo risultati pienamente coerenti.
+Mix Modeler, con tecnologia Adobe Sensei, consente agli esperti di marketing di misurare le campagne e ottimizzare la pianificazione in modo olistico su tutti i canali: a pagamento, guadagnato e di proprietà. La metodologia unificata misura in modo incrementale sia ai punti di contatto di marketing che a livello aggregato, garantendo al contempo risultati pienamente coerenti.
 
 Mix Modeler fornisce l’impatto incrementale di tutte le attività di marketing sui risultati di business e campagne attraverso un’applicazione di misurazione olistica (end-to-end) per il marketing digitale e offline.
 
@@ -45,12 +46,3 @@ Mix Modeler offre le seguenti funzionalità:
 | **Creare e confrontare scenari di budget** | Sviluppare più piani di budget e confrontarne l&#39;impatto per prendere decisioni ottimali per l&#39;azienda. |
 
 {style="table-layout:auto"}
-
-
-
-
-
-
-
-
-

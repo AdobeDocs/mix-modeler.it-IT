@@ -2,13 +2,13 @@
 title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
 
 ---
-
 
 # Regole del set di dati
 
@@ -61,7 +61,7 @@ In **[!UICONTROL Create]** schermo,
 
       ![Creare le regole del set di dati](../assets/dataset-create-summary.png)
 
-1. Dopo aver selezionato un tipo di evento set di dati, nella casella ombreggiata sotto **[!UICONTROL Map to harmonized fields]**:
+1. Dopo aver selezionato un tipo di evento di set di dati (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), nella casella ombreggiata sottostante **[!UICONTROL Map to harmonized fields]**:
 
    1. Seleziona un campo armonizzato da **[!UICONTROL Standard harmonized field]**.
 
@@ -132,4 +132,3 @@ Per sincronizzare i dati tra i dati armonizzati e i set di dati di riepilogo e/o
 1. Seleziona **[!UICONTROL Sync]** per avviare la sincronizzazione in base alle regole definite per i set di dati tra dati armonizzati e dati nei set di dati. Per annullare la sincronizzazione, selezionare **[!UICONTROL Cancel]**.
 
    ![Sincronizza dati](../assets/sync-data.png)
-

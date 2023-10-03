@@ -2,19 +2,19 @@
 title: Campi armonizzati
 description: Scopri come definire i campi da utilizzare nell’ambito dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 10%
 
 ---
 
-
 # Campi armonizzati
 
 I campi armonizzati ti consentono di definire i campi per gli stessi dati concettualmente, provenienti da origini diverse, ciascuno con la propria definizione di tali dati. Ad esempio, una metrica di clic può essere definita e denominata in modo diverso a seconda dell’origine dei dati. Un campo armonizzato dei clic ti consente di definire una nomenclatura comune per una metrica di clic in base a tali diverse origini di dati di clic.
 
-I campi armonizzati ti consentono di definire i campi che desideri utilizzare come parte del flusso di lavoro armonizza dati. I campi definiti possono essere utilizzati per definire le regole dei set di dati, i punti di contatto di marketing e la conversione.
+I campi armonizzati ti consentono di definire i campi che desideri utilizzare come parte del flusso di lavoro armonizza dati. I campi definiti possono essere utilizzati per definire regole per set di dati, punti di contatto di marketing e conversioni.
 
 ## Settori di armonizzazione globale
 
@@ -126,5 +126,3 @@ Per eliminare un campo armonizzato, nella sezione ![RicercaDati](../assets/icons
 1. Seleziona il campo armonizzato da eliminare, ad esempio **[!UICONTROL Region]**.
 
 1. Seleziona ![Elimina](../assets/icons/Delete.svg) **[!UICONTROL Delete]** dal **[!UICONTROL Edit harmonization values]** riquadro sinistro.
-
-
