@@ -1,13 +1,13 @@
 ---
 title: Panoramica di Mix Modeler
-description: Ottieni una panoramica delle funzionalità di Mix Modeler.
-short-description: Ottieni una panoramica delle funzionalità di Mix Modeler.
+description: Panoramica sulle funzionalità chiave di Mix Modeler.
+short-description: Panoramica sulle funzionalità chiave di Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
