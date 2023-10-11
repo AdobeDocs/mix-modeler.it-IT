@@ -2,13 +2,13 @@
 title: Creare un modello
 description: Scopri come creare un modello in Mix Modeler.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
+source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
-
 
 # Creare un modello
 
@@ -127,9 +127,9 @@ Per creare modelli personalizzati basati sull’intelligenza artificiale, l’in
 
       1. Seleziona **[!UICONTROL Rule type]**.
 
-      1. Distribuisci le percentuali per ciascuno dei canali elencati in **[!UICONTROL Name]**, utilizzando **[!UICONTROL Contribution proportion]** colonna. Assicurati che la distribuzione totale delle percentuali ammonti al 100%.
+      1. Specifica le percentuali di contributo per uno dei canali elencati in **[!UICONTROL Name]**, utilizzando **[!UICONTROL Contribution proportion]** colonna.
 
-      1. Puoi aggiungere per ogni canale una **[!UICONTROL Level of confidence]** percentuale.
+      1. Se necessario, puoi aggiungere per ogni canale una **[!UICONTROL Level of confidence]** percentuale.
 
       1. Quando necessario, utilizza **[!UICONTROL Clear all]** per cancellare tutti i valori di input per **[!UICONTROL Contribution proportion]** e **[!UICONTROL Level of confidence]** colonne.
 
@@ -146,4 +146,3 @@ Per creare modelli personalizzati basati sull’intelligenza artificiale, l’in
    Seleziona **[!UICONTROL Back]** per tornare al passaggio precedente.
 
    Seleziona **[!UICONTROL Cancel]** per annullare la configurazione del modello.
-
