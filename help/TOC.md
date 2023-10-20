@@ -2,10 +2,10 @@
 user-guide-title: Guida di Mix Modeler
 breadcrumb-title: Guida di Mix Modeler
 user-guide-description: Scopri come utilizzare Mix Modeler.
-source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
+source-git-commit: 101029c8b6095b3ec9842228913fac3720132cdf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 55%
+source-wordcount: '70'
+ht-degree: 51%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 55%
 + Piani {#plans}
    + [Panoramica](plans/overview.md)
    + [Creare un piano](plans/create.md)
+   + [Modificare un piano](plans/edit.md)
+   + [Confronta piani](plans/compare.md)
 
 + Armonizzare i dati {#harmonize-data}
    + [Panoramica](harmonize-data/overview.md)

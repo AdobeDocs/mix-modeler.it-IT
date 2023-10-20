@@ -3,10 +3,10 @@ title: Piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 1%
 
 ---
 
@@ -14,8 +14,22 @@ ht-degree: 2%
 
 I piani in Mix Modeler consentono di allocare budget per business unit e canale. La funzionalità di pianificazione è integrata con i risultati dei modelli formati in base ai dati armonizzati.
 
+Un piano delinea gli investimenti discrezionali (ad esempio i budget) che un’azienda intende spendere per progetti di marketing nel corso di un determinato arco temporale in servizio di KPI comuni (ad esempio ordini, ricavi). I piani possono includere le spese da canali come pubblicità a pagamento, contenuti web sponsorizzati, eventi.
 
-## Visualizza piani
+Un piano richiede:
+
+- un modello,
+- una serie di dati,
+- un budget.
+
+Un piano può facoltativamente includere:
+
+- una finestra di riconoscimento configurata,
+- più date di volo, ognuna con un budget prefissato,
+- vincoli di budget minimi e massimi per canale e data di volo.
+
+
+## Gestisci piani
 
 Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia Mix Modeler:
 
@@ -40,6 +54,14 @@ Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia Mix Modele
 
 1. Utilizzare ![Ricerca](../assets/icons/Search.svg) per cercare e filtrare la tabella per uno o più piani specifici.
 
+## Creare un piano
+
+Per creare un piano, utilizzare la procedura guidata di creazione del piano Mix Modeler. Consulta [Creare un piano](create.md) per ulteriori dettagli.
+
+
+## Modificare un piano
+
+Per modificare un piano, selezionarne il nome dalla tabella. Consulta [Modificare un piano](edit.md) per ulteriori informazioni.
 
 ## Selezione e azione sui piani
 

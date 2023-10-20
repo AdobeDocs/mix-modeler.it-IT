@@ -2,7 +2,8 @@
 title: Creare un piano
 description: Scopri come creare un piano in Mix Modeler.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -70,6 +71,3 @@ Per creare un piano, in ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Pla
    1. Al termine, seleziona **[!UICONTROL Create]**.
 
    1. In **[!UICONTROL Create plan]** finestra di dialogo, seleziona **[!UICONTROL Create plan]** per creare il piano. Seleziona **[!UICONTROL Cancel]** per annullare la creazione del piano.
-
-
-
