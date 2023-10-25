@@ -3,16 +3,16 @@ title: Acquisire dati
 description: Scopri come acquisire dati in Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 14%
 
 ---
 
 # Acquisire dati
 
-Mix Modeler funziona con i dati a livello di evento, aggrega i dati delle attività di marketing provenienti da vari giardini murati e aggrega o riepiloga i dati provenienti da qualsiasi altra origine, ad esempio pubblicità offline, fattori interni o esterni.
+Mix Modeler funziona con i dati a livello di evento, aggrega i dati di riepilogo delle attività di marketing provenienti da vari giardini murati e aggrega o riassume i dati provenienti da qualsiasi altra origine, come pubblicità offline, fattori interni o esterni.
 
 I clienti possono utilizzare qualsiasi tipo di dati acquisito in Experienci Platform come set di dati e basato su schemi che utilizzano ExperienceEvent XDM o Metriche di riepilogo XDM come classe base.
 
@@ -20,7 +20,7 @@ Ad esempio:
 
 * dati raccolti utilizzando il connettore di origine di Adobe Analytics e trasformati in set di dati conformi all’impostazione predefinita o a una versione personalizzata dello schema di Adobe Analytics, oppure in alternativa,
 * dati raccolti utilizzando l’SDK per web di Experienci Platform, l’SDK per dispositivi mobili o l’API del server di rete Edge per raccogliere le interazioni dei clienti su web, dispositivi mobili o qualsiasi altro tipo di dispositivo,
-* dati aggregati provenienti da giardini murati (come Facebook, YouTube), da fonti di traffico o da dati pubblicitari offline,
+* dati aggregati o riassuntivi provenienti da giardini murati (come Facebook, YouTube), da fonti di traffico o da dati pubblicitari offline,
 * dati aggregati o di riepilogo non di marketing contenenti fattori interni o esterni utili per la creazione di modelli.
 
 Puoi utilizzare qualsiasi tipo di meccanismo, supportato da Experienci Platform, per acquisire a livello di evento l’esperienza, aggregare i dati relativi alle attività di marketing e i dati provenienti da altre origini. Ad esempio gli SDK di Experience Platform, le API, i connettori di origine e l’acquisizione in streaming e batch.
