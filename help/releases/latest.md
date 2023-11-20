@@ -4,28 +4,30 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 6%
+source-wordcount: '190'
+ht-degree: 10%
 
 ---
 
 # Note sulla versione corrente di Mix Modeler
 
-**Ultimo aggiornamento**: 4 ottobre 2023.
+**Ultimo aggiornamento**: 16 novembre 2023.
 
-Queste note sulla versione descrivono la versione iniziale di Mix Modeler. I rilasci di Mix Modeler funzionano secondo un modello di distribuzione continua che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
+Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rilasci di Mix Modeler funzionano secondo un modello di distribuzione continua che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
 
 
 ## Funzioni nuove o aggiornate
 
 | Funzione | Descrizione | Disponibilità generale |
 |---|---|---|
-| **Acquisizione di dati riepilogati** | [Acquisizione di dati riepilogati](../ingest-data/overview.md) (ad esempio, dati sulla spesa del giardino murato, programmi di volo TV) utilizzando la nuova classe di riepilogo in Experience Platform. | 4 ottobre 2023 |
-| **Misurare l’impatto incrementale degli investimenti di marketing** | [Comprendere](../dashboard/overview.md) il ROI incrementale e l’impatto del marketing per gli obiettivi aziendali o per le campagne tattiche. | 4 ottobre 2023 |
-| **Apprendimento del trasferimento di attribuzione multi-touch (MTA) e modellazione marketing mix (MMM)** | Prendere decisioni più sicure attraverso l&#39;unificazione di MMM e MTA [modelli](../models/overview.md) tramite l’apprendimento tramite trasferimento. | 4 ottobre 2023 |
-| **Pianificazione dello scenario di investimento marketing** | Sviluppo di budget multipli [piani](../plans/overview.md) e confrontarne l&#39;impatto per prendere decisioni ottimali per la tua azienda. | 4 ottobre 2023 |
+| **Pulsanti Scarica CSV** | I pulsanti Scarica CSV sono ora disponibili come parte di [Pianifica approfondimenti](../plans/edit.md) e [Approfondimenti modello](../models/insights.md#model-insights). | 16 novembre 2023 |
+| **Colonna CPA nella tabella di suddivisione dell’intervallo di dati** | La colonna CPA viene aggiunta a [Disaggregazione per intervallo di dati](../plans/edit.md) tabella in Informazioni sul piano. | 16 novembre 2023 |
+| **Visualizzazione del ROI del canale a pagamento previsto** | [ROI del canale pagato previsto](../plans/edit.md) La visualizzazione viene aggiunta alle informazioni del piano. | 16 novembre 2023 |
+| **Interfaccia utente panoramica modelli aggiornata** | [Panoramica dei modelli](../models/overview.md) L’interfaccia utente di è stata aggiornata in linea con l’interfaccia utente Panoramica piani. | 16 novembre 2023 |
+| **Nuova valutazione di un modello** | È stata aggiunta la possibilità di attivare [nuova valutazione dei nuovi dati utilizzando un modello esistente](../models/overview.md#re-score). | 16 novembre 2023 |
+| **Visualizzazione dei contributi aggiornata** | Il [Contributo per visualizzazione data e media di base](../models/insights.md#model-insights) viene aggiornato a un grafico in pila ordinato. | 16 novembre 2023 |
 
 {style="table-layout:auto"}
 
@@ -33,4 +35,4 @@ Queste note sulla versione descrivono la versione iniziale di Mix Modeler. I ril
 >[!MORELIKETHIS]
 >
 >* [Introduzione a Mix Modeler](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Documentazione dell’Experience League di Mix Modeler](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
+>* [Documentazione dell’Experience League di Mix Modeler](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=it)

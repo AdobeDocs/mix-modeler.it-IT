@@ -2,13 +2,13 @@
 title: Modificare un piano
 description: Scopri come modificare un piano in Mix Modeler.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 91385595-284f-4fcb-b54b-9539905e552b
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # Modificare un piano
 
@@ -16,13 +16,24 @@ Per modificare un piano, nel ![PLan](../assets/icons/FileChart.svg) **[!UICONTRO
 
 In entrata [!UICONTROL Plan insights], vengono create le informazioni del piano, con la visualizzazione [!UICONTROL Model], il [!UICONTROL Data range], e [!UICONTROL Total budget] su cui si basa il piano.
 
-Al termine del recupero, viene visualizzata una panoramica del piano con visualizzazioni per [!UICONTROL Forecasted ROI] e [!UICONTROL Forecasted revenue].
+Al termine del recupero, viene visualizzata una panoramica del piano, costituita da:
+
+- [!UICONTROL Forecasted paid channel ROI] visualizzazione
+- [!UICONTROL Forecasted revenue] visualizzazione
+- [!UICONTROL Data range breakdown] tabella del piano, con le colonne per
+
+   - Channel
+   - ROI
+   - CPA
+   - Ricavi
+   - Obiettivo di conversione
+   - Spesa
+
+![Panoramica di un piano](../assets/overview-plan.png)
 
 1. Seleziona **[!UICONTROL Close]** per tornare all&#39;interfaccia Piani.
 
-1. (facoltativo) Seleziona **[!UICONTROL Plan breakdown]** per visualizzare una tabella di suddivisione del piano.
-
-   ![Panoramica di un piano](../assets/overview-plan.png)
+1. Per scaricare un file CSV contenente i dati del raggruppamento per intervallo di date, seleziona ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 1. Per modificare il piano, seleziona **[!UICONTROL Edit plan]**:
 
@@ -65,4 +76,3 @@ Al termine del recupero, viene visualizzata una panoramica del piano con visuali
 1. Per annullare gli aggiornamenti del piano, seleziona **[!UICONTROL Cancel]**.
 
    In **[!UICONTROL No work will be saved]** finestra di dialogo, seleziona **[!UICONTROL Cancel]** per continuare a lavorare sul piano o selezionare **[!UICONTROL OK]** per tornare all&#39;interfaccia Piani.
-

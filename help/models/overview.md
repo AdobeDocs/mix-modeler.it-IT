@@ -3,9 +3,9 @@ title: Modelli
 description: Scopri come configurare e utilizzare i modelli in Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,10 @@ Per visualizzare una tabella dei modelli correnti, nell’interfaccia Mix Modele
    |---|---|
    | Nome | Nome del modello |
    | Descrizione | Descrizione del modello |
-   | Eventi di conversione | Conversione selezionata per il modello. |
-   | Set di dati | Set di dati utilizzato dal modello per addestrare e valutare. Per impostazione predefinita, questo è il set di dati armonizzato. |
+   | Evento di conversione | Conversione selezionata per il modello. |
    | Frequenza di esecuzione | Frequenza di esecuzione dell&#39;addestramento del modello. |
    | Ultima esecuzione | La data e l’ora dell’ultimo addestramento del modello. |
-   | Stato ultima esecuzione | Lo stato dell’ultima esecuzione dell’addestramento del modello. <br/><span style="color:green">●</span> Completato<br/><span style="color:orange">●</span> Problema di formazione<br/> <span style="color:orange">●</span> In attesa di formazione <br/><span style="color:red">●</span> Non riuscito |
+   | Stato | Lo stato dell’ultima esecuzione dell’addestramento del modello. <br/><span style="color:green">●</span> Completato<br/><span style="color:orange">●</span> Problema di formazione<br/> <span style="color:orange">●</span> In attesa di formazione <br/><span style="color:red">●</span> Non riuscito |
 
    {style="table-layout:auto"}
 
@@ -73,9 +72,7 @@ Per eliminare un modello:
 
 Per visualizzare ulteriori dettagli su un modello:
 
-1. Selezionare il nome del modello di cui si desidera visualizzare ulteriori dettagli.
-
-1. Dal menu di scelta rapida, selezionare **[!UICONTROL More]**. I dettagli del modello selezionato vengono visualizzati nel riquadro di destra.
+1. Seleziona ![Info](../assets/icons/Info.svg) affinché un modello possa mostrare un pop-up con i relativi dettagli.
 
 
 
@@ -93,3 +90,20 @@ Per visualizzare le informazioni di un modello, nell’interfaccia Mix Modeler:
 1. Seleziona il nome di un modello con un **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dal **[!UICONTROL Models]** tabella.
 
 1. Dal menu di scelta rapida, selezionare **[!UICONTROL Model Insights]**. Sei stato reindirizzato a [Approfondimenti modello](insights.md).
+
+
+### Punteggio di nuovo
+
+>[!NOTE]
+>
+>Questa selezione è disponibile solo su modelli addestrati correttamente.
+>
+
+Per assegnare nuovamente un punteggio a un modello, nell’interfaccia Mix Modeler:
+
+1. Seleziona ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
+
+1. Seleziona il nome di un modello con un **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dal **[!UICONTROL Models]** tabella.
+
+1. Dal menu di scelta rapida, selezionare **[!UICONTROL Re-score]**. La visualizzazione di uno stato aggiornato per il modello potrebbe richiedere alcuni minuti.
+

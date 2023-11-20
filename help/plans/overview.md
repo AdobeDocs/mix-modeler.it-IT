@@ -3,9 +3,9 @@ title: Piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '417'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,6 @@ Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia Mix Modele
    | Nome colonna | Dettagli |
    |---|---|
    | Nome | Nome del piano |
-   | Descrizione | Descrizione del modello |
    | Modello | Modello utilizzato come base per il piano. |
    | Intervallo date | Intervallo di date completo per un piano. |
    | Budget | Budget totale per un piano. |
@@ -62,6 +61,7 @@ Per creare un piano, utilizzare la procedura guidata di creazione del piano Mix 
 ## Modificare un piano
 
 Per modificare un piano, selezionarne il nome dalla tabella. Consulta [Modificare un piano](edit.md) per ulteriori informazioni.
+
 
 ## Selezione e azione sui piani
 

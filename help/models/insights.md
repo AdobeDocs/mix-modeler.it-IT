@@ -2,13 +2,13 @@
 title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, ad esempio panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # Approfondimenti modello
 
@@ -27,36 +27,37 @@ Puoi vedere quando il modello specificato viene aggiornato l’ultima volta e i 
 
 La scheda Cronologia mostra i widget per:
 
-* Conversione e spesa per trimestre fiscale e prodotto
+* Conversione e spesa per trimestre fiscale e prodotto.
 
-* Spesa per canale
+* Spesa per canale.
 
-* Spesa punto di contatto
+* Spesa punto di contatto.
 
   Puoi selezionare un canale alternativo basato sulla spesa da visualizzare per questo widget. Seleziona un canale da **[!UICONTROL Channels]**.
 
-* Volume punto di contatto
+* Volume del punto di contatto.
 
   Puoi selezionare un canale alternativo basato su volume da visualizzare per questo widget. Seleziona un canale da **[!UICONTROL Channels]**.
 
-
-
 ![Modello - Panoramica storica](../assets/model-historical-overview.png)
-
 
 ## Approfondimenti modello
 
 La scheda Approfondimenti modello mostra i widget per:
 
-* Contributo per data e supporto base
+* Contributo per data e media di base. Il grafico in pila è ordinato: Base in basso, Non spendere canali al centro e Spendere canali in alto.
 
-* Contributo per canale
+* Contributo per canale.
 
-* Riepilogo prestazioni marketing
+* Riepilogo prestazioni marketing.
+
+![Modello - Approfondimenti modello](../assets/model-model-insights.png)
 
 Puoi passare il cursore sopra i singoli elementi del grafico in ciascun widget per visualizzare un elemento a comparsa con ulteriori dettagli.
 
-![Modello - Approfondimenti modello](../assets/model-model-insights.png)
+Per scaricare un file CSV contenente i dati del widget, seleziona ![Scarica](../assets/icons/Download.svg).
+
+
 
 
 ## Qualità del modello
@@ -71,4 +72,4 @@ La scheda Qualità modello mostra i widget per la misurazione:
 
 ![Qualità del modello](../assets/model-quality.png)
 
-
+Per scaricare un file CSV contenente i dati del widget, seleziona ![Altro](../assets/icons/More.svg) nel widget e dal menu di scelta rapida selezionare ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
