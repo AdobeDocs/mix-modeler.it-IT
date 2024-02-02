@@ -4,16 +4,16 @@ description: Panoramica sulle funzionalità chiave di Mix Modeler.
 short-description: Panoramica sulle funzionalità chiave di Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
+source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '287'
 ht-degree: 8%
 
 ---
 
 # Panoramica di Mix Modeler
 
-Guarda questo video per una breve panoramica delle funzionalità di Mix Modeler.
+Guarda questo video per una rapida panoramica delle funzionalità di Mix Modeler.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
@@ -50,3 +50,7 @@ Mix Modeler offre le seguenti funzionalità:
 | **Creare e confrontare scenari di budget** | Sviluppare più piani di budget e confrontarne l&#39;impatto per prendere decisioni ottimali per l&#39;azienda. |
 
 {style="table-layout:auto"}
+
+>[!MORELIKETHIS]
+>
+>[Comprendere il flusso di lavoro di Mix Modeler](workflow.md)
