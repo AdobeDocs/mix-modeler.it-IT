@@ -3,9 +3,9 @@ title: Modelli
 description: Scopri come configurare e utilizzare i modelli in Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Un modello può facoltativamente includere:
 
 ## Creare un modello
 
-Per creare un modello, utilizzate il flusso di configurazione guidato del modello Mix Modeler, disponibile quando selezionate **[!UICONTROL Guide me]**. Consulta [Creare un modello](create.md) per ulteriori dettagli.
+Per creare un modello, utilizzate il flusso di configurazione guidato del modello Mix Modeler, disponibile quando selezionate **[!UICONTROL Open model canvas]**. Consulta [Creare un modello](create.md) per ulteriori dettagli.
 
 ## Gestisci modelli
 
@@ -54,19 +54,12 @@ Per visualizzare una tabella dei modelli correnti, nell’interfaccia Mix Modele
    | Evento di conversione | Conversione selezionata per il modello. |
    | Frequenza di esecuzione | Frequenza di esecuzione dell&#39;addestramento del modello. |
    | Ultima esecuzione | La data e l’ora dell’ultimo addestramento del modello. |
-   | Stato | Lo stato dell’ultima esecuzione dell’addestramento del modello. <br/><span style="color:green">●</span> Completato<br/><span style="color:orange">●</span> Problema di formazione<br/> <span style="color:orange">●</span> In attesa di formazione <br/><span style="color:red">●</span> Non riuscito |
+   | Stato | Lo stato dell’ultima esecuzione dell’addestramento del modello. <br/><span style="color:green">●</span> Completato<br/><span style="color:orange">●</span> Problema di formazione<br/> <span style="color:orange">●</span> In attesa di formazione <br/><span style="color:red">●</span> Non riuscito <br/><span style="color:gray">●</span> _ (quando è in corso un&#39;ultima esecuzione) |
 
    {style="table-layout:auto"}
 
 1. Per modificare le colonne visualizzate per l&#39;elenco, selezionare ![Impostazioni colonna](../assets/icons/ColumnSetting.svg) e attiva/disattiva colonne ![Verifica](../assets/icons/Checkmark.svg) o disattivato.
 
-### Eliminare un modello
-
-Per eliminare un modello:
-
-1. Selezionate il nome del modello da eliminare.
-
-1. Dal menu di scelta rapida, selezionare **[!UICONTROL Delete]** per eliminare il modello.
 
 ### Visualizzare i dettagli di un modello
 
@@ -78,32 +71,37 @@ Per visualizzare ulteriori dettagli su un modello:
 
 ### Approfondimenti modello
 
->[!NOTE]
->
->Questa selezione è disponibile solo su modelli addestrati correttamente.
->
-
 Per visualizzare le informazioni di un modello, nell’interfaccia Mix Modeler:
 
 1. Seleziona ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
-1. Seleziona il nome di un modello con un **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dal **[!UICONTROL Models]** tabella.
+1. Seleziona il nome di un modello con un **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dal **[!UICONTROL Models]** tabella. Le informazioni sul modello sono disponibili solo sui modelli addestrati correttamente.
 
 1. Dal menu di scelta rapida, selezionare **[!UICONTROL Model Insights]**. Sei stato reindirizzato a [Approfondimenti modello](insights.md).
 
 
 ### Punteggio di nuovo
 
->[!NOTE]
->
->Questa selezione è disponibile solo su modelli addestrati correttamente.
->
 
 Per assegnare nuovamente un punteggio a un modello, nell’interfaccia Mix Modeler:
 
 1. Seleziona ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
-1. Seleziona il nome di un modello con un **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dal **[!UICONTROL Models]** tabella.
+1. Seleziona il nome di un modello con un **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dal **[!UICONTROL Models]** tabella. Il nuovo punteggio è disponibile solo sui modelli addestrati correttamente.
 
 1. Dal menu di scelta rapida, selezionare **[!UICONTROL Re-score]**. La visualizzazione di uno stato aggiornato per il modello potrebbe richiedere alcuni minuti.
+
+
+### Eliminare un modello
+
+Per eliminare un modello:
+
+1. Selezionate il nome del modello da eliminare.
+
+1. Dal menu di scelta rapida, selezionare **[!UICONTROL Delete]** per eliminare il modello.
+
+   >[!WARNING]
+   >
+   >Il modello viene eliminato immediatamente.
+
 

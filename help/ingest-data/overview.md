@@ -3,10 +3,10 @@ title: Acquisire dati
 description: Scopri come acquisire dati in Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 14%
+source-wordcount: '459'
+ht-degree: 8%
 
 ---
 
@@ -44,11 +44,11 @@ Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre
 
 | Geo | Data | Tipo di data | Channel | Campaign | Clic | Guadagnato | Coinvolgimento | Impression | Open | Di proprietà | Inviate |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|
-| AMER | 2021-10-31 | giorno | EMAIL | | 12752 | | | | | | 1132945 |
-| AMER | 2021-10-31 | giorno | FB | | 148844 | | | | | | |
-| AMER | 2021-10-31 | giorno | YT | | | | 2314452 | | | | |
-| JPN | 2021-10-21 | giorno | EMAIL | | 21089 | | | | | | 3283626 |
-| JPN | 2021-10-21 | giorno | SOCIAL | | | | 621 | | | | |
+| AMER | 31/10/2021 | giorno | EMAIL | | 12752 | | | | | | 1132945 |
+| AMER | 31/10/2021 | giorno | FB | | 148844 | | | | | | |
+| AMER | 31/10/2021 | giorno | YT | | | | 2314452 | | | | |
+| JPN | 21/10/2021 | giorno | EMAIL | | 21089 | | | | | | 3283626 |
+| JPN | 21/10/2021 | giorno | SOCIAL | | | | 621 | | | | |
 
 {style="table-layout:auto"}
 
@@ -58,10 +58,10 @@ Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre
 
 | Geo | Data | Tipo di data | Prodotto | Unità vendute | Ricavi |
 |---|:---|:---:|---|--:|--:|
-| EMEA | 2021-09-13 | giorno | Economia creatrice | 603 | 36537.68 |
-| EMEA | 2021-09-13 | giorno | Metaverse | 55 | 21704.37 |
-| JPN | 2022-05-30 | giorno | Pro Imaging | 487 | 64469.60 |
-| JPN | 2022-05-30 | giorno | Document Cloud | 642 | 100509.07 |
+| EMEA | 13/09/2021 | giorno | Economia creatrice | 603 | 36537,68 |
+| EMEA | 13/09/2021 | giorno | Metaverse | 55 | 21704,37 |
+| JPN | 30/05/2022 | giorno | Pro Imaging | 487 | 64469,60 |
+| JPN | 30/05/2022 | giorno | Document Cloud | 642 | 100509,07 |
 
 {style="table-layout:auto"}
 
@@ -71,16 +71,16 @@ Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre
 
 | Dati | Tipo di data | Fattore | Valore |
 |---|:---:|:---:|:---|
-| 2020-08-02 | settimana | SPX | 3325.866 |
-| 2020-08-09 | settimana | SPX | 3364.158 |
-| 2020-08-16 | settimana | SPX | 3385.858 |
-| 2020-08-23 | settimana | SPX | 3497.965 |
+| 02/08/2020 | settimana | SPX | 3325,866 |
+| 09/08/2020 | settimana | SPX | 3364,158 |
+| 16/08/2020 | settimana | SPX | 3385,858 |
+| 23/08/2020 | settimana | SPX | 3497,965 |
 
 {style="table-layout:auto"}
 
 +++
 
-Per lavorare con i dati in Mix Modeler, è necessario che i dati vengano raccolti in set di dati e modellati secondo gli schemi di Experienci Platform. L’interfaccia Mix Modeler consente di accedere facilmente sia all’interfaccia utente Schemi che a quella Set di dati.
+Per lavorare con i dati in Mix Modeler, è necessario che i dati vengano raccolti in set di dati e modellati secondo gli schemi di Experienci Platform. L’interfaccia Mix Modeler consente di accedere facilmente sia agli schemi Experienci Platform che all’interfaccia utente dei set di dati.
 
 
 >[!MORELIKETHIS]

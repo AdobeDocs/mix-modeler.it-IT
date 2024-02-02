@@ -2,13 +2,13 @@
 title: Dashboard di panoramica dei dati armonizzati
 description: Scopri come utilizzare la dashboard di panoramica dei dati armonizzata in Mix Modeler.
 feature: Dashboard, Harmonized Data
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
 
 ---
-
 
 # Panoramica dei dati armonizzati
 
@@ -20,9 +20,9 @@ Per modificare il periodo di data per i dati da visualizzare nei widget, immette
 
 ## Filtri dati
 
-È possibile filtrare i dati visualizzati per tutti i widget utilizzando ![Filtro](../assets/icons/Filter.svg) **[!UICONTROL Data Filters]** riquadro.
+È possibile filtrare i dati visualizzati per tutti i widget utilizzando ![Filtro](../assets/icons/Filter.svg) **[!UICONTROL Category Filters]** riquadro.
 
-Selezionare uno o più filtri per ogni categoria (**[!UICONTROL Channel]**, **[!UICONTROL Brand]**, **[!UICONTROL Source Type]**, e **[!UICONTROL Traffic Source]**).
+Selezionare uno o più filtri per ogni categoria (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]**, e **[!UICONTROL Traffic Source]**).
 
 I filtri selezionati vengono visualizzati sopra i widget in **[!UICONTROL FILTERING BY:]**.
 
@@ -39,7 +39,7 @@ Puoi configurare ogni widget.
 
 * Nel widget scheda di stato KPI:
 
-   1. Seleziona ![Modifica](../assets/icons/Edit.svg) e ![Modifica](../assets/icons/Edit.svg) **[!UICONTROL Edit Data]** dal menu di scelta rapida.
+   1. Seleziona ![Modifica](../assets/icons/Edit.svg) e ![Modifica](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** dal menu di scelta rapida.
 
    1. In **[!UICONTROL KPI status card]** finestra di dialogo:
 
@@ -49,13 +49,13 @@ Puoi configurare ogni widget.
 
 * Sugli altri widget configurabili:
 
-   1. Seleziona ![Modifica](../assets/icons/Edit.svg) e ![Modifica](../assets/icons/Edit.svg) **[!UICONTROL Edit Data]** dal menu di scelta rapida.
+   1. Seleziona ![Modifica](../assets/icons/Edit.svg) e ![Modifica](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** dal menu di scelta rapida.
 
    1. In **[!UICONTROL Edit Data]** finestra di dialogo:
 
       1. Seleziona una metrica da **[!UICONTROL Select a metric]**, ad esempio **[!UICONTROL Impressions]**.
-      1. Seleziona una categoria da **[!UICONTROL Select category]**, ad esempio **[!UICONTROL Media Type]**.
-      1. (facoltativo) seleziona una seconda categoria da **[!UICONTROL Select second category (optional)]**, ad esempio **[!UICONTROL Traffic Source]**.
+      1. Seleziona una categoria da **[!UICONTROL Select category]**, ad esempio **[!UICONTROL Media types]**.
+      1. (facoltativo) seleziona una seconda categoria da **[!UICONTROL Select second category (optional)]**, ad esempio **[!UICONTROL Traffic sources]**.
       1. Seleziona ![Orologio](../assets/icons/Clock.svg) **[!UICONTROL Time]** o ![Calcolatrice](../assets/icons/Calculator.svg) **[!UICONTROL Total]** come tipo di analisi in **[!UICONTROL Select analysis type]**.
 
          Se si seleziona ![Orologio](../assets/icons/Clock.svg) **[!UICONTROL Time]**, è possibile specificare la frequenza temporale. Seleziona **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** o **[!UICONTROL Quarterly]** da **[!UICONTROL Select time frequency]**.
@@ -67,4 +67,3 @@ Puoi configurare ogni widget.
          Se non è possibile eseguire il rendering dell’anteprima perché i dati non sono disponibili, viene visualizzato ![Errore dati](../assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
 
       1. Seleziona **[!UICONTROL Apply]** per applicare le modifiche al widget. Seleziona **[!UICONTROL Cancel]** per annullare le modifiche apportate al widget corrente.
-

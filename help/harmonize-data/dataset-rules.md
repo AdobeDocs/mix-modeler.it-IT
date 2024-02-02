@@ -3,9 +3,9 @@ title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ Le regole del set di dati ti aiutano a mappare i campi armonizzati con i campi d
 * Per i dati evento, puoi mappare singolarmente uno o più campi armonizzati ai campi del set di dati, direttamente o utilizzando le condizioni.
 
 
-## Gestire regole e mappature dei set di dati
+## Gestire le regole dei set di dati
 
-Per visualizzare una tabella dei mapping dei set di dati disponibili, nell’interfaccia Mix Modeler:
+Per visualizzare una tabella delle regole dei set di dati disponibili, nell’interfaccia Mix Modeler:
 
 1. Seleziona ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
-1. Seleziona **[!UICONTROL Dataset rules]** dalla barra superiore. Viene visualizzata una tabella delle mappature dei set di dati.
+1. Seleziona **[!UICONTROL Dataset rules]** dalla barra superiore. Viene visualizzata una tabella delle regole del set di dati.
 
-Le colonne della tabella specificano i dettagli sulle mappature dei set di dati:
+Le colonne della tabella specificano i dettagli sulle regole del set di dati:
 
 | Nome colonna | Dettagli |
 | ---------------------- | ----------|
@@ -35,33 +35,34 @@ Le colonne della tabella specificano i dettagli sulle mappature dei set di dati:
 | Schema | Schema a cui è conforme il set di dati. Puoi selezionare rapidamente il nome dello schema per aprire lo schema in una nuova scheda nell’editor schema in Mix Modeler - Schemi. |
 | Granularità | Granularità dei dati nel set di dati. I valori possibili sono Giornaliero, Settimanale, Mensile o Annuale. |
 | Inizio della settimana | Specifica quale giorno della settimana viene considerato come inizio di una nuova settimana per il set di dati specifico. |
-| Ultima modifica | Dati e ora dell’ultima modifica della mappatura del set di dati. |
+| Stato | Stato del campo: <p><span style="color:gray">●</span> Bozza o <p><span style="color:green">●</span> Attivo |
+| Ultima modifica | Dati e ora dell’ultima modifica della regola del set di dati. |
 
 {style="table-layout:auto"}
 
-### Creare una mappatura del set di dati
+### Creare una regola del set di dati
 
-Per creare una mappatura di set di dati, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler, seleziona **[!UICONTROL Create Dataset Mapping]**.
+Per creare una regola del set di dati, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler, seleziona **[!UICONTROL Create Dataset rule]** nel **[!UICONTROL Dataset rules configuration]** procedura guidata.
 
 In **[!UICONTROL Create]** schermo,
 
-1. In entrata **[!UICONTROL Dataset Details]**, seleziona un set di dati da **[!UICONTROL Select dataset]** per iniziare la configurazione.
+1. In entrata **[!UICONTROL Dataset details]**, seleziona un set di dati da **[!UICONTROL Select dataset]** per iniziare la configurazione. Nell’elenco, i set di dati sono suddivisi in categorie **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** e **[!UICONTROL Summary]**.
 
 1. Seleziona un giorno per **[!UICONTROL Start of the week]**.
 
 1. Seleziona **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** per **[!UICONTROL Granularity]**.
 
-1. Dopo aver selezionato un **[!UICONTROL Summary]** tipo di set di dati:
+1. Quando hai selezionato un set di dati di **[!UICONTROL Summary]** categoria:
 
-   1. Mappa ciascuno dei **[!UICONTROL Available dataset fields]** corrispondente a **[!UICONTROL Standard harmonized fields]**. Se non desideri mappare un campo set di dati su un campo armonizzato, seleziona esplicitamente **[!UICONTROL -- None --]**.
+   1. Mappa ciascuno dei **[!UICONTROL Available dataset fields]** corrispondente a **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. Se non desideri mappare un campo set di dati su un campo armonizzato, seleziona esplicitamente **[!UICONTROL -- None --]**.
 
    1. Se hai bisogno di un nuovo campo armonizzato, non disponibile dall’elenco, seleziona **[!UICONTROL Create New]** creare un nuovo campo armonizzato. La finestra di dialogo viene visualizzata come descritto in [Aggiungi un nuovo campo armonizzato](fields.md#add-a-harmonized-field) per poter aggiungere rapidamente un nuovo campo armonizzato.
 
-   1. Una volta completata la mappatura per tutti i campi, seleziona **[!UICONTROL Save]**. Seleziona **[!UICONTROL Cancel]** per annullare la mappatura.
+   1. Una volta completata la mappatura per tutti i campi della regola, seleziona **[!UICONTROL Save as draft]** per salvare una bozza di versione della regola oppure **[!UICONTROL Save]** per salvare e attivare la regola.  Seleziona **[!UICONTROL Cancel]** per annullare la configurazione della regola.
 
       ![Creare le regole del set di dati](../assets/dataset-create-summary.png)
 
-1. Dopo aver selezionato un tipo di evento di set di dati (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), nella casella ombreggiata sottostante **[!UICONTROL Map to harmonized fields]**:
+1. Dopo aver selezionato un set di dati per la categoria dell’evento (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), nella casella sottostante **[!UICONTROL Map to harmonized fields]**:
 
    1. Seleziona un campo armonizzato da **[!UICONTROL Standard harmonized field]**.
 
@@ -93,7 +94,7 @@ In **[!UICONTROL Create]** schermo,
 
       * utilizza un **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** per mappare **[!UICONTROL Channel Type At Source]** campo armonizzato al **[!UICONTROL channel_type]** campo da **[!DNL Luma Transactions]** set di dati.
 
-      * utilizza un **[!UICONTROL Case]** **[!UICONTROL Mapping]** digita per mappare in modo condizionale il valore del **[!UICONTROL marketing.campaignName]** campo in **[!DNL Luma Transactions]** set di dati per **[!UICONTROL Campaign]** campo armonizzato. Il campo armonizzato di Campaign è impostato su:
+      * utilizza un **[!UICONTROL Case]** **[!UICONTROL Mapping type]** per mappare in modo condizionale il valore del **[!UICONTROL marketing.campaignName]** campo in **[!DNL Luma Transactions]** set di dati per **[!UICONTROL Campaign]** campo armonizzato. Il campo armonizzato di Campaign è impostato su:
 
          * `Black Friday` quando **[!UICONTROL marketing.campaignName]** è `_black_friday` o `BlackFriday`.
          * al valore del **[!UICONTROL marketing.campaignName]** in tutti gli altri casi
@@ -102,23 +103,23 @@ In **[!UICONTROL Create]** schermo,
 
 1. Seleziona ![Aggiungi](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** per definire campi aggiuntivi.
 
-Al termine, seleziona **[!UICONTROL Save]** per salvare la mappatura, oppure seleziona **[!UICONTROL Cancel]** per annullare la mappatura.
+Al termine, seleziona **[!UICONTROL Save as draft]** per salvare una bozza di versione della regola oppure **[!UICONTROL Save]** per salvare e attivare la regola.  Seleziona **[!UICONTROL Cancel]** per annullare la configurazione della regola.
 
 
-### Modificare una mappatura di set di dati
+### Modificare una regola del set di dati
 
-Per modificare la mappatura di un set di dati, in ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interfaccia in Mix Modeler:
+Per modificare una regola del set di dati, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interfaccia in Mix Modeler:
 
-1. Seleziona ![Altro](../assets/icons/More.svg) nel **[!UICONTROL Dataset]** per la mappatura del set di dati che desideri modificare.
-1. Dal menu di scelta rapida, selezionare ![Modifica](../assets/icons/Edit.svg) **[!UICONTROL Edit]** per iniziare a modificare la mappatura del set di dati. Fai riferimento a [Creare una mappatura del set di dati](#create-a-dataset-mapping) per ulteriori dettagli.
+1. Seleziona ![Altro](../assets/icons/More.svg) nel **[!UICONTROL Dataset]** per la regola del set di dati da modificare.
+1. Dal menu di scelta rapida, selezionare ![Modifica](../assets/icons/Edit.svg) **[!UICONTROL Edit]** per iniziare a modificare la regola del set di dati. Fai riferimento a [Creare una regola del set di dati](#create-a-dataset-rule) per ulteriori dettagli.
 
 
-### Eliminare una mappatura di set di dati
+### Eliminare una regola di set di dati
 
-Per eliminare una mappatura di set di dati, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interfaccia in Mix Modeler:
+Per eliminare una regola di set di dati, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interfaccia in Mix Modeler:
 
-1. Seleziona ![Altro](../assets/icons/More.svg) nel **[!UICONTROL Dataset]** per il mapping di set di dati che desideri eliminare.
-1. Dal menu di scelta rapida, selezionare ![Elimina](../assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare la mappatura del set di dati.
+1. Seleziona ![Altro](../assets/icons/More.svg) nel **[!UICONTROL Dataset]** per la regola del set di dati da eliminare.
+1. Dal menu di scelta rapida, selezionare ![Elimina](../assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare la regola del set di dati. Ti verrà richiesta una conferma. Seleziona **[!UICONTROL Delete]** per eliminare definitivamente la regola del set di dati selezionato.
 
 
 ## Sincronizza dati
@@ -132,3 +133,27 @@ Per sincronizzare i dati tra i dati armonizzati e i set di dati di riepilogo e/o
 1. Seleziona **[!UICONTROL Sync]** per avviare la sincronizzazione in base alle regole definite per i set di dati tra dati armonizzati e dati nei set di dati. Per annullare la sincronizzazione, selezionare **[!UICONTROL Cancel]**.
 
    ![Sincronizza dati](../assets/sync-data.png)
+
+
+## Preferenze di unione dati
+
+Puoi definire le preferenze per risolvere i conflitti quando i dati provenienti da origini riepilogate e da eventi vengono uniti tra loro. Per eseguire questa operazione:
+
+1. Seleziona ![Preferenze di unione dati](../assets/icons/Merge.svg) **Preferenze di unione dati**.
+
+1. In **[!UICONTROL Data merge preferences]** finestra di dialogo:
+
+   ![Preferenze di unione dati](../assets/data-merge-preferences.png)
+
+   1. Seleziona una preferenza per la metrica predefinita dal menu **[!UICONTROL Default metric preference]** elenco. <p>Viene applicata una preferenza predefinita quando, durante l’armonizzazione, più fonti di dati tentano di aggiornare un campo metrico per un determinato canale. Questa preferenza viene applicata a livello di sandbox, a meno che non venga bypassata per alcune preferenze di metrica definite in **[!UICONTROL Metric based preference]**.
+
+   1. Utilizzare ![Più](../assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**, per aggiungere una o più metriche di seguito **[!UICONTROL Metric based preference]**.
+
+
+
+      * Seleziona una metrica da **[!UICONTROL _Selezione delle metriche_]** elenco e
+      * Seleziona **[!UICONTROL Summary]** (Mostra origine dati) o **[!UICONTROL Event]** (Blocca selezione).
+
+      Utilizzare ![Elimina](../assets/icons/Close.svg) per eliminare una voce dall&#39;elenco.
+
+   1. Seleziona **[!UICONTROL Save]** per salvare le preferenze di unione dati. Seleziona **[!UICONTROL Cancel]** per annullare.

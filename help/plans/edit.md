@@ -3,9 +3,9 @@ title: Modificare un piano
 description: Scopri come modificare un piano in Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,11 @@ Al termine del recupero, viene visualizzata una panoramica del piano, costituita
 
 1. Seleziona **[!UICONTROL Close]** per tornare all&#39;interfaccia Piani.
 
+1. Seleziona **[!UICONTROL X]** o **[!UICONTROL  %]** su come **[!UICONTROL View ROI]**.
+
 1. Per scaricare un file CSV contenente i dati del raggruppamento per intervallo di date, seleziona ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+1. Per visualizzare la suddivisione dell’intervallo di date per categoria di canali, seleziona **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, o **[!UICONTROL Non-paid channels]** dal **[!UICONTROL View]** selezione.
 
 1. Per modificare il piano, seleziona **[!UICONTROL Edit plan]**:
 
@@ -53,7 +57,7 @@ Al termine del recupero, viene visualizzata una panoramica del piano, costituita
 
          1. Modifica il **[!UICONTROL Date range]** per uno o più intervalli di date del piano, digitando le date o selezionando un intervallo di date utilizzando ![Calendario](../assets/icons/Calendar.svg).
 
-         1. Modifica il **[!UICONTROL Budget]** uno o più intervalli di date del piano.
+         1. Modifica il **[!UICONTROL Budget]** per uno o più intervalli di date del piano.
 
          Per aggiungere altri intervalli di date, ciascuno con il relativo budget, seleziona ![CalendarAdd](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 

@@ -2,10 +2,10 @@
 user-guide-title: Guida di Mix Modeler
 breadcrumb-title: Guida di Mix Modeler
 user-guide-description: Scopri come utilizzare Mix Modeler.
-source-git-commit: a16438f55c0f819c63a3252dbf1de7297ea23b35
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 50%
+source-wordcount: '75'
+ht-degree: 44%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 50%
    + [Che cos’è Mix Modeler?](get-started/about.md)
    + [Flusso di lavoro dell&#39;applicazione](get-started/workflow.md)
 
-+ Dashboard di {#dashboard}
++ Dashboard {#dashboard}
    + [Panoramica](dashboard/overview.md)
    + [Dati armonizzati](dashboard/harmonized-data.md)
    + [Piani](dashboard/plans.md)
@@ -41,6 +41,7 @@ ht-degree: 50%
    + [Regole del set di dati](harmonize-data/dataset-rules.md)
    + [Punti di contatto di marketing](harmonize-data/marketing-touchpoints.md)
    + [Conversioni](harmonize-data/conversions.md)
+   + [Rapporto utilizzo](harmonize-data/usage-report.md)
 
 + Acquisire dati {#ingest-data}
    + [Panoramica](ingest-data/overview.md)

@@ -3,9 +3,9 @@ title: Creare un piano
 description: Scopri come creare un piano in Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Per creare un piano, in ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Pla
 
       1. Immetti un **[!UICONTROL Plan name]**, ad esempio `Demo plan`. Immetti un **[!UICONTROL Description]**, ad esempio `Demo plan for Luma company`.
       1. Seleziona un **[!UICONTROL Model]** da **[!UICONTROL _Seleziona un’opzione._.]**.
-      1. Puoi selezionare ![LinkOut](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** per creare un modello direttamente dalla creazione del piano.
+      1. Puoi selezionare ![LinkOut](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** per creare un modello direttamente dalla creazione del piano. Verrà aperta una nuova scheda nel browser e verranno visualizzati i [Modelli](../models/overview.md) di rete.
 
          ![Impostazione piano](../assets/plan-setup.png)
 
@@ -70,4 +70,4 @@ Per creare un piano, in ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Pla
 
    1. Al termine, seleziona **[!UICONTROL Create]**.
 
-   1. In **[!UICONTROL Create plan]** finestra di dialogo, seleziona **[!UICONTROL Create plan]** per creare il piano. Seleziona **[!UICONTROL Cancel]** per annullare la creazione del piano.
+   1. In **[!UICONTROL Create plan]** finestra di dialogo, seleziona **[!UICONTROL Create plan]** per creare il piano. Seleziona **[!UICONTROL Cancel]** per annullare la creazione del piano. A **[!UICONTROL No work is saved]** viene visualizzata una finestra di dialogo di conferma.

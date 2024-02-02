@@ -2,13 +2,13 @@
 title: Dati punteggio
 description: Scopri come i dati di punteggio di un modello in Mix Modeler vengono mantenuti.
 feature: Models
-source-git-commit: 3596b83937b3f61ac453940f3a666d8aaf713679
+exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 7%
+source-wordcount: '247'
+ht-degree: 5%
 
 ---
-
 
 # Dati punteggio
 
@@ -40,3 +40,4 @@ Lo schema include un gruppo di campi con un oggetto contenente i dettagli dei pu
 | **touchpointName** | Stringa | Nome del punto di contatto creato durante il passaggio di impostazione della definizione del punto di contatto. Attualmente il punto di contatto è definito sul canale multimediale. |
 | **touchpointStartDate** | Data | Data di inizio della finestra del punto di contatto. |
 
+Consulta [Schemi](../ingest-data/schemas.md) per ulteriori informazioni.

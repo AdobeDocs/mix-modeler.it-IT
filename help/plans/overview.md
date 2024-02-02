@@ -3,10 +3,10 @@ title: Piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 1%
+source-wordcount: '496'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia Mix Modele
    | Budget | Budget totale per un piano. |
    | Rendimento previsto | Rendimento previsto per un piano |
    | ROI previsto | ROI previsto per un piano. |
-   | Stato | Stato di un piano. |
+   | Stato | Stato di un piano: <p><span style="color:red">●</span> Non riuscito, <p><span style="color:blue">●</span> Elaborazione, o <p><span style="color:green">●</span> Completato. |
 
    {style="table-layout:auto"}
 
@@ -78,6 +78,11 @@ Per duplicare un piano:
 1. Selezionare un singolo piano dalla tabella.
 1. Seleziona ![Copia](../assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni. Un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**, viene aggiunto nella parte superiore della tabella.
 
+In alternativa:
+
+1. Seleziona ![Altro](../assets/icons/More.svg) per un piano nella tabella.
+1. Seleziona **[!UICONTROL Duplicate]** dal menu di scelta rapida. Un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**, viene aggiunto nella parte superiore della tabella.
+
 ### Confronta piani
 
 Per confrontare i piani:
@@ -92,6 +97,11 @@ Per eliminare i piani:
 
 1. Selezionare uno o più piani dalla tabella.
 1. Seleziona ![Elimina](../assets/icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni.
+
+In alternativa:
+
+1. Seleziona ![Altro](../assets/icons/More.svg) per un piano nella tabella.
+1. Seleziona **[!UICONTROL Delete]** dal menu di scelta rapida. Un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**, viene aggiunto nella parte superiore della tabella.
 
    >[!WARNING]
    >

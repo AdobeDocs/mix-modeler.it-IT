@@ -3,10 +3,10 @@ title: Punti di contatto di marketing
 description: Scopri come creare punti di contatto di marketing da utilizzare nell’ambito dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 1%
+source-wordcount: '366'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Per visualizzare una tabella dei punti di contatto di marketing disponibili nell
 
 1. Seleziona ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
-1. Seleziona **[!UICONTROL Marketing touchpoint]** dalla barra superiore. Viene visualizzata una tabella dei punti di contatto di marketing.
+1. Seleziona **[!UICONTROL Marketing touchpoint]** dalla barra superiore. Viene visualizzata una tabella dei punti di contatto di marketing. Se sono disponibili più pagine, utilizza ![Freccia sinistra](../assets/icons/ChevronLeft.svg) o ![Freccia a destra](../assets/icons/ChevronRight.svg) a **[!UICONTROL Page _x _di_x_]** per spostarsi tra le pagine della tabella.
 
 Le colonne della tabella specificano i dettagli del punto di contatto di marketing:
 
@@ -31,6 +31,7 @@ Le colonne della tabella specificano i dettagli del punto di contatto di marketi
 | Nome | Nome del punto di contatto di marketing. |
 | Metrica di spesa | La metrica di dati armonizzata da utilizzare per calcolare la spesa per i punti di contatto. |
 | Metrica volume | La metrica di dati armonizzata da utilizzare per calcolare il volume del punto di contatto. |
+| Regola | La regola del punto di contatto da utilizzare. |
 | Creato | Data e ora della creazione del punto di contatto di marketing. |
 | Ultima modifica | Data e ora dell’ultima modifica del punto di contatto marketing. |
 
@@ -48,7 +49,7 @@ Per aggiungere un punto di contatto di marketing, nella ![RicercaDati](../assets
 
    1. Definisci un **[!UICONTROL Touchpoint rule]**.
 
-      1. Seleziona un valore da **[!UICONTROL *Seleziona armonizza...*]**, ad esempio **[!UICONTROL Brand]**.
+      1. Seleziona un valore da **[!UICONTROL *Seleziona armonizzato *]**, ad esempio **[!UICONTROL Brand]**.
 
       1. Seleziona un valore per l’operatore ![Freccia](../assets/icons/ChevronDown.svg), ad esempio **[!UICONTROL is]**.
 
@@ -63,4 +64,21 @@ Per aggiungere un punto di contatto di marketing, nella ![RicercaDati](../assets
    1. Per creare il punto di contatto di marketing, seleziona **[!UICONTROL Create]**. Per annullare la creazione di un punto di contatto di marketing, seleziona **[!UICONTROL Cancel]** .
 
 1. Una volta creato, il punto di contatto viene aggiunto alla tabella dei punti di contatto di marketing.
+
+
+## Visualizzare un punto di contatto di marketing
+
+Per visualizzare un punto di contatto di marketing:
+
+1. Seleziona ![Altro](../assets/icons/More.svg) quando passi il cursore sul nome di un punto di contatto marketing nella tabella.
+
+1. Seleziona ![Visualizza](../assets/icons/ViewDetail.svg) **Visualizza**. Una finestra di dialogo mostra i dettagli del punto di contatto di marketing. Consulta [Aggiungere un punto di contatto di marketing](#add-a-marketing-touchpoint) per ulteriori informazioni. Seleziona **[!UICONTROL Cancel]** per chiudere la finestra di dialogo
+
+
+## Eliminare un punto di contatto di marketing
+
+Per eliminare un punto di contatto di marketing:
+
+1. Seleziona ![Elimina](../assets/icons/Delete.svg) **Elimina** quando passi il cursore sul nome di un punto di contatto marketing nella tabella.
+1. In **[!UICONTROL Delete touchpoint]** finestra di dialogo di conferma selezione **[!UICONTROL Delete]** per eliminare definitivamente il punto di contatto marketing.
 

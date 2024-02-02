@@ -2,13 +2,13 @@
 title: Confronta piani
 description: Scopri come confrontare i piani in Mix Modeler.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
-
 
 # Confronta piani
 
@@ -23,9 +23,9 @@ L&#39;interfaccia Confronta piani mostra informazioni e widget su:
 * Piano
 * Intervallo date
 * Modello
-* Budget
-* Tipo di mix
-* Suddivisione spesa
+* Budget totale
+* Bugetting del canale: **[!UICONTROL AI automated]** o **[!UICONTROL Custom + AI]**
+* Spesa pianificata
 * ROI previsto
 * Suddivisione del ROI
 * Rendimento previsto
