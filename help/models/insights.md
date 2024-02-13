@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, ad esempio panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ La scheda Approfondimenti modello mostra i widget per:
 
 * Riepilogo prestazioni marketing.
 
+* Curve di risposta marginale.
+
 ![Modello - Approfondimenti modello](../assets/model-model-insights.png)
 
 Puoi passare il cursore sopra i singoli elementi del grafico in ciascun widget per visualizzare un elemento a comparsa con ulteriori dettagli.
 
 Per scaricare un file CSV contenente i dati del widget, seleziona ![Scarica](../assets/icons/Download.svg).
+
+Per scaricare i dati completi di informazioni sul modello in formato Microsoft® Excel, seleziona ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
 
