@@ -4,7 +4,7 @@ description: Scopri come misurare le campagne e ottimizzare le pianificazioni in
 short-description: Scopri come misurare le campagne e ottimizzare le pianificazioni in modo olistico su tutti i canali con Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
+source-git-commit: 1e5bfe6901332f5545e6bdeea46da96d475b3ce1
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 18%
@@ -13,7 +13,7 @@ ht-degree: 18%
 
 # Guida Adobe Mix Modeler
 
-Questa guida alla documentazione tecnica fornisce supporto autonomo, ad Adobe **Mix Modeler**. Mix Modeler è un’applicazione Adobe Experience Cloud che misura le campagne e ottimizza la pianificazione olistica su tutti i canali: a pagamento, guadagnato e di proprietà. Mix Modeler è basato su Adobe Experience Platform e viene fornito con tecnologia Adobe Sensei.
+Questa guida alla documentazione tecnica fornisce supporto autonomo, ad Adobe **Mix Modeler**. Mix Modeler è un’applicazione Adobe Experience Cloud che misura le campagne e ottimizza la pianificazione olistica su tutti i canali: a pagamento, guadagnato e di proprietà. Mix Modeler è basato su Adobe Experience Platform e su Adobe Sensei.
 
 ## Inizia con le nozioni di base
 
