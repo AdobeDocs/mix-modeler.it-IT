@@ -3,9 +3,9 @@ title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -54,11 +54,13 @@ In **[!UICONTROL Create]** schermo,
 
 1. Quando hai selezionato un set di dati di **[!UICONTROL Summary]** categoria:
 
+   1. Per definire se i dati per il set di dati devono essere aggregati o sostituiscono dati esistenti, seleziona **[!UICONTROL Aggregation]** o **[!UICONTROL Replacement]** per **[!UICONTROL Data restatement is by]**.
+
    1. Mappa ciascuno dei **[!UICONTROL Available dataset fields]** corrispondente a **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. Se non desideri mappare un campo set di dati su un campo armonizzato, seleziona esplicitamente **[!UICONTROL -- None --]**.
 
    1. Se hai bisogno di un nuovo campo armonizzato, non disponibile dall’elenco, seleziona **[!UICONTROL Create New]** creare un nuovo campo armonizzato. La finestra di dialogo viene visualizzata come descritto in [Aggiungi un nuovo campo armonizzato](fields.md#add-a-harmonized-field) per poter aggiungere rapidamente un nuovo campo armonizzato.
 
-   1. Una volta completata la mappatura per tutti i campi della regola, seleziona **[!UICONTROL Save as draft]** per salvare una bozza di versione della regola oppure **[!UICONTROL Save]** per salvare e attivare la regola.  Seleziona **[!UICONTROL Cancel]** per annullare la configurazione della regola.
+   1. Una volta completata la mappatura per tutti i campi della regola, seleziona **[!UICONTROL Save as draft]** per salvare una bozza di versione della regola oppure **[!UICONTROL Save]** per salvare e attivare la regola. Seleziona **[!UICONTROL Cancel]** per annullare la configurazione della regola.
 
       ![Creare le regole del set di dati](../assets/dataset-create-summary.png)
 
@@ -103,7 +105,7 @@ In **[!UICONTROL Create]** schermo,
 
 1. Seleziona ![Aggiungi](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** per definire campi aggiuntivi.
 
-Al termine, seleziona **[!UICONTROL Save as draft]** per salvare una bozza di versione della regola oppure **[!UICONTROL Save]** per salvare e attivare la regola.  Seleziona **[!UICONTROL Cancel]** per annullare la configurazione della regola.
+Al termine, seleziona **[!UICONTROL Save as draft]** per salvare una bozza di versione della regola oppure **[!UICONTROL Save]** per salvare e attivare la regola. Seleziona **[!UICONTROL Cancel]** per annullare la configurazione della regola.
 
 
 ### Modificare una regola del set di dati
@@ -119,7 +121,7 @@ Per modificare una regola del set di dati, nella ![RicercaDati](../assets/icons/
 Per eliminare una regola di set di dati, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interfaccia in Mix Modeler:
 
 1. Seleziona ![Altro](../assets/icons/More.svg) nel **[!UICONTROL Dataset]** per la regola del set di dati da eliminare.
-1. Dal menu di scelta rapida, selezionare ![Elimina](../assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare la regola del set di dati. Ti verrà richiesta una conferma. Seleziona **[!UICONTROL Delete]** per eliminare definitivamente la regola del set di dati selezionato.
+1. Dal menu di scelta rapida, selezionare ![Elimina](../assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare la regola del set di dati. Viene richiesta una conferma. Seleziona **[!UICONTROL Delete]** per eliminare definitivamente la regola del set di dati selezionato.
 
 
 ## Sincronizza dati
@@ -130,7 +132,7 @@ Per sincronizzare i dati tra i dati armonizzati e i set di dati di riepilogo e/o
 
 1. Dalla sezione **[!UICONTROL Sync data for dataset rules]** , seleziona una delle seguenti opzioni: **[!UICONTROL Refresh harmonized data for summary datasets]**, **[!UICONTROL Refresh harmonized data for event datasets]**, o **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
 
-1. Seleziona **[!UICONTROL Sync]** per avviare la sincronizzazione in base alle regole definite per i set di dati tra dati armonizzati e dati nei set di dati. Per annullare la sincronizzazione, selezionare **[!UICONTROL Cancel]**.
+1. Per avviare la sincronizzazione in base alle regole definite del set di dati tra dati armonizzati e dati nei set di dati, seleziona **[!UICONTROL Sync]**. Per annullare la sincronizzazione, selezionare **[!UICONTROL Cancel]**.
 
    ![Sincronizza dati](../assets/sync-data.png)
 

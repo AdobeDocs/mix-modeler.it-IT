@@ -3,9 +3,9 @@ title: Armonizzare i dati
 description: Scopri come armonizzare i dati in Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '893'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ I dati in Mix Modeler sono di natura diversa a seconda della fonte dei dati. I d
 * dati aggregati o riassuntivi, ad esempio raccolti da fonti di dati provenienti da giardini murati o dati pubblicitari offline raccolti (come spendere) dall’esecuzione di una campagna su cartelloni pubblicitari, un evento o una campagna pubblicitaria fisica,
 * dati evento, ad esempio da origini dati di prime parti. Questi dati dell’evento possono essere raccolti tramite il connettore di origine di Adobe Analytics da Adobe Analytics, oppure tramite l’SDK per web o mobile di Experienci Platform o l’API della rete Edge, oppure possono essere acquisiti tramite i connettori di origine.
 
-Il servizio di armonizzazione di Mix Modeler assimila i dati aggregati e i dati evento in una visualizzazione dati coerente. Questa visualizzazione dati, combinata con dati di fattori interni ed esterni, è la sorgente dei modelli in Mix Modeler.
+Il servizio di armonizzazione di Mix Modeler assimila i dati aggregati e i dati evento in una visualizzazione dati coerente. Questa visualizzazione dati, combinata con dati di fattori interni ed esterni, è la sorgente dei modelli in Mix Modeler. Il servizio utilizza la granularità più elevata tra i diversi set di dati. Ad esempio, se un set di dati ha una granularità mensile e i set di dati rimanenti hanno granularità settimanale e giornaliera, il servizio di armonizzazione crea una visualizzazione dati con granularità mensile.
 
 ## Un esempio di dati armonizzati
 
@@ -118,7 +118,7 @@ Per visualizzare i dati armonizzati, nell’interfaccia Mix Modeler:
 
 1. Seleziona ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dalla barra a sinistra.
 
-1. Seleziona **[!UICONTROL Harmonized Data]** dalla barra superiore. Viene visualizzato un riepilogo dei dati armonizzati in base ai campi, alle regole del set di dati, ai punti di contatto di marketing e alle conversioni definite.
+1. Seleziona **[!UICONTROL Harmonized Data]** dalla barra superiore. Viene mostrato un riassunto dei dati armonizzati in base ai campi, alle regole del set di dati, ai punti di contatto di marketing e alle conversioni definite.
 
    1. Per ridefinire il periodo su cui si basa la ricapitolazione dei dati armonizzati, immettere un intervallo di date per **[!UICONTROL Date range]** o utilizzare ![Calendario](../assets/icons/Calendar.svg) per selezionare un intervallo di dati.
 
