@@ -3,9 +3,9 @@ title: Modificare un piano
 description: Scopri come modificare un piano in Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
+source-git-commit: 128a548af9b22e6b14794b1ba94def6431e97c51
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Al termine del recupero, viene visualizzata una panoramica del piano, costituita
 
 1. Per scaricare un file CSV contenente i dati del raggruppamento per intervallo di date, seleziona ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Dal menu di scelta rapida:
 
-   - Seleziona ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** per dati dettagliati in formato CSV, oppure
+   - Seleziona ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** per dati dettagliati in formato CSV.
    - Seleziona ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** per i dati di riepilogo in formato CSV.
 
    I dati dettagliati sono dati granulari divisi per settimana. I dati di riepilogo sono dati chiave dell’intervallo di date fornito dal modello.
