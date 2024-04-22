@@ -3,9 +3,9 @@ title: Modificare un piano
 description: Scopri come modificare un piano in Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
+source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Al termine del recupero, viene visualizzata una panoramica del piano, costituita
 
 1. Seleziona **[!UICONTROL X]** o **[!UICONTROL  %]** su come **[!UICONTROL View ROI]**.
 
-1. Per scaricare un file CSV contenente i dati del raggruppamento per intervallo di date, seleziona ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+1. Per scaricare un file CSV contenente i dati del raggruppamento per intervallo di date, seleziona ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Dal menu di scelta rapida, selezionare ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** per dati dettagliati in formato CSV, oppure ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** per i dati di riepilogo in formato CSV.
 
 1. Per visualizzare la suddivisione dell’intervallo di date per categoria di canali, seleziona **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, o **[!UICONTROL Non-paid channels]** dal **[!UICONTROL View]** selezione.
 
