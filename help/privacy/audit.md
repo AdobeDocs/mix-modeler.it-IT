@@ -2,7 +2,7 @@
 title: Audit
 description: Scopri come controllare Mix Modeler.
 feature: Administration
-source-git-commit: 44e37f385241d90da87e1fd85fb4ce9024b67250
+source-git-commit: e1ef6f2b54ae7c80cb115b417909b154b6153ce2
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 6%
@@ -50,3 +50,4 @@ Per esaminare il registro di controllo, nell’interfaccia Mix Modeler:
 1. Per modificare le colonne visualizzate nel registro attività, seleziona ![Colonne](../assets/icons/ColumnSetting.svg) e nella **[!UICONTROL Customize table]** finestra di dialogo, seleziona le colonne da visualizzare. Seleziona **[!UICONTROL Apply]** per applicare la selezione, **[!UICONTROL Cancel]** per annullare la selezione.
 
 1. Per scaricare il registro di controllo, seleziona ![Scarica](../assets/icons/Download.svg) **[!UICONTROL Download log]**. In **[!UICONTROL Download log]** finestra di dialogo, seleziona **[!UICONTROL CSV]** o **[!UICONTROL JSON]** come formato e seleziona **[!UICONTROL Download]**.
+
