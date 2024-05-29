@@ -3,9 +3,9 @@ title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: e86e0d64db01eb98c68c3f6877f5a7cc8b855b88
+source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Per sincronizzare i dati tra i dati armonizzati e i set di dati di riepilogo e/o
 
 >[!NOTE]
 >
->[!BADGE Beta]{type=Informative}
+>[!BADGE beta]{type=Informative}
 
 Le preferenze di unione dati consentono di risolvere i conflitti quando si uniscono dati provenienti da origini dati riepilogate ed eventi. I casi di utilizzo sono:
 
@@ -153,9 +153,9 @@ Le preferenze di unione dati consentono di risolvere i conflitti quando si unisc
 
 Per garantire previsioni accurate dei modelli, puoi definire le preferenze di unione dei dati:
 
-1. Seleziona ![Preferenze di unione dati](../assets/icons/Merge.svg) [!BADGE beta] **Preferenze di unione dati**.
+1. Seleziona ![Preferenze di unione dati](../assets/icons/Merge.svg) [!BADGE beta].
 
-1. In **[!UICONTROL Data merge preferences]** finestra di dialogo:
+1. In **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative}
 
    ![Preferenze di unione dati](../assets/data-merge-preferences.png)
 
@@ -168,12 +168,12 @@ Per garantire previsioni accurate dei modelli, puoi definire le preferenze di un
          1. Seleziona **[!UICONTROL CHANNELS]** o **[!UICONTROL CONVERSION TYPES]**. Dall’elenco, seleziona **[!UICONTROL All]** o un tipo di canale o conversione specifico.
          1. Seleziona **[!UICONTROL Summary]** o **[!UICONTROL Event]** per specificare se i dati di riepilogo o i dati evento sono preferiti per la metrica (e per tutti o per il canale selezionato) durante l’unione dei dati.
 
-Per aggiungere uno o più tipi di canale o conversione aggiuntivi:
+         Per aggiungere uno o più tipi di canale o conversione aggiuntivi:
 
          1. Seleziona ![Più](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** o ![Più](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. Seleziona **[!UICONTROL Summary]** (Mostra origine dati) o **[!UICONTROL Event]** (Blocca selezione).
 
-Per eliminare un canale o un tipo di conversione: select ![Croce](../assets/icons/Close.svg).
+         Per eliminare un canale o un tipo di conversione, seleziona ![Croce](../assets/icons/Close.svg).
 
       1. Per aggiungere preferenze più specifiche basate su metriche, ripeti il passaggio precedente.
 
@@ -181,10 +181,13 @@ Per eliminare un canale o un tipo di conversione: select ![Croce](../assets/icon
 
 1. Seleziona **[!UICONTROL Save]** per salvare le preferenze di unione dati. È stata avviata una risincronizzazione dei dati. <br/>Seleziona **[!UICONTROL Cancel]** per annullare.
 
-## Controllo dell’accesso a livello di campo
+<!--
+## Field-level access control
 
-Durante la configurazione delle regole del set di dati per i set di dati armonizzati, Experienci Platform [controllo degli accessi basato su attributi](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) viene applicato a livello di campo. Un campo è limitato quando un’etichetta viene associata a un campo schema e viene abilitato un criterio attivo che nega l’accesso a tale campo. Di conseguenza:
+When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
 
-* quando crei una regola di set di dati, non vengono visualizzati i campi dello schema con restrizioni,
-* non puoi visualizzare o modificare la mappatura di uno o più campi dello schema per i quali esistono restrizioni. Quando modifichi o visualizzi una regola del set di dati contenente tali campi con restrizioni, viene visualizzata la schermata seguente.
-  ![Azione non consentita](../assets/action-not-permitted.png)
+* you do not see the schema fields that are restricted for you when you create a dataset rule, 
+* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
+  ![Action not permitted](../assets/action-not-permitted.png)
+
+-->
