@@ -3,9 +3,9 @@ title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: e86e0d64db01eb98c68c3f6877f5a7cc8b855b88
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ Le colonne della tabella specificano i dettagli sulle regole del set di dati:
 | Nome colonna | Dettagli |
 | ---------------------- | ----------|
 | Set di dati | Nome del set di dati. |
-| Origine | L’origine del set di dati, che può essere Adobe Analytics, Experience Events, Summary (aggregato) o Consumer Experience Events. |
-| Schema | Schema a cui è conforme il set di dati. Puoi selezionare rapidamente il nome dello schema per aprire lo schema in una nuova scheda nell’editor schema in Mix Modeler - Schemi. |
+| Origine | L’origine del set di dati: Adobe Analytics, Eventi esperienza, Riepilogo (aggregato) o Eventi esperienza del consumatore. |
+| Schema | Schema a cui è conforme il set di dati. Puoi selezionare rapidamente il nome dello schema per aprire lo schema in una nuova scheda nell’editor schema in ![Schema](../assets/icons/Schemas.svg) [Schemi](../ingest-data/schemas.md). |
 | Granularità | Granularità dei dati nel set di dati. I valori possibili sono Giornaliero, Settimanale, Mensile o Annuale. |
 | Inizio della settimana | Specifica quale giorno della settimana viene considerato come inizio di una nuova settimana per il set di dati specifico. |
 | Stato | Stato del campo: <p><span style="color:gray">●</span> Bozza o <p><span style="color:green">●</span> Attivo |
@@ -42,7 +42,7 @@ Le colonne della tabella specificano i dettagli sulle regole del set di dati:
 
 ### Creare una regola del set di dati
 
-Per creare una regola del set di dati, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler, seleziona **[!UICONTROL Create Dataset rule]** nel **[!UICONTROL Dataset rules configuration]** procedura guidata.
+Per creare una regola del set di dati, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler, seleziona **[!UICONTROL Create a dataset rule]** nel **[!UICONTROL Dataset rules configuration]** procedura guidata.
 
 In **[!UICONTROL Create]** schermo,
 
@@ -54,11 +54,11 @@ In **[!UICONTROL Create]** schermo,
 
 1. Quando hai selezionato un set di dati di **[!UICONTROL Summary]** categoria:
 
-   1. Per definire se i dati per il set di dati devono essere aggregati o sostituiscono dati esistenti, seleziona **[!UICONTROL Aggregation]** o **[!UICONTROL Replacement]** per **[!UICONTROL Data restatement is by]**.
+   1. Per definire se i dati per il set di dati aggregano o sostituiscono i dati esistenti, seleziona **[!UICONTROL Aggregation]** o **[!UICONTROL Replacement]** per **[!UICONTROL Data restatement is by]**.
 
    1. Mappa ciascuno dei **[!UICONTROL Available dataset fields]** corrispondente a **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. Se non desideri mappare un campo set di dati su un campo armonizzato, seleziona esplicitamente **[!UICONTROL -- None --]**.
 
-   1. Se hai bisogno di un nuovo campo armonizzato, non disponibile dall’elenco, seleziona **[!UICONTROL Create New]** creare un nuovo campo armonizzato. La finestra di dialogo viene visualizzata come descritto in [Aggiungi un nuovo campo armonizzato](fields.md#add-a-harmonized-field) per poter aggiungere rapidamente un nuovo campo armonizzato.
+   1. Se hai bisogno di un nuovo campo armonizzato, non disponibile dall’elenco, seleziona **[!UICONTROL Create New]** creare un nuovo campo armonizzato. La finestra di dialogo viene visualizzata come descritto in [Aggiungi un nuovo campo armonizzato](fields.md#add-a-harmonized-field).
 
    1. Una volta completata la mappatura per tutti i campi della regola, seleziona **[!UICONTROL Save as draft]** per salvare una bozza di versione della regola oppure **[!UICONTROL Save]** per salvare e attivare la regola. Seleziona **[!UICONTROL Cancel]** per annullare la configurazione della regola.
 
@@ -80,9 +80,9 @@ In **[!UICONTROL Create]** schermo,
 
       1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo del set di dati o al valore immesso.
 
-      1. Dopo aver selezionato **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo del set di dati o al valore immesso.
+      1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo del set di dati o al valore immesso.
 
-         1. Inoltre, puoi definire uno o più casi, costituiti da una o più condizioni per impostare esplicitamente i valori. Ogni condizione può verificare la presenza di un **[!UICONTROL *Campo set di dati AEP *]**se **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**o se **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**, o **[!UICONTROL Ends With]**un valore immesso in corrispondenza di**[!UICONTROL * Immetti il valore di input *]**.
+         1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ogni condizione può verificare la presenza di un **[!UICONTROL *Campo set di dati AEP *]**se **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**o se **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**, o **[!UICONTROL Ends With]**un valore immesso in corrispondenza di**[!UICONTROL * Immetti il valore di input *]**.
 
          1. Per aggiungere un altro caso, seleziona ![Aggiungi](../assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, per aggiungere un&#39;altra condizione, seleziona ![Aggiungi](../assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -130,7 +130,10 @@ Per sincronizzare i dati tra i dati armonizzati e i set di dati di riepilogo e/o
 
 1. Seleziona **[!UICONTROL Sync data]**.
 
-1. Dalla sezione **[!UICONTROL Sync data for dataset rules]** , seleziona una delle seguenti opzioni: **[!UICONTROL Refresh harmonized data for summary datasets]**, **[!UICONTROL Refresh harmonized data for event datasets]**, o **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
+1. Dalla sezione **[!UICONTROL Sync data for dataset rules]** finestra di dialogo, seleziona
+   * **[!UICONTROL Refresh harmonized data for summary datasets]**,
+   * **[!UICONTROL Refresh harmonized data for event datasets]**, o
+   * **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
 
 1. Per avviare la sincronizzazione in base alle regole definite del set di dati tra dati armonizzati e dati nei set di dati, seleziona **[!UICONTROL Sync]**. Per annullare la sincronizzazione, selezionare **[!UICONTROL Cancel]**.
 
@@ -139,23 +142,49 @@ Per sincronizzare i dati tra i dati armonizzati e i set di dati di riepilogo e/o
 
 ## Preferenze di unione dati
 
-Puoi definire le preferenze per risolvere i conflitti quando i dati provenienti da origini riepilogate e da eventi vengono uniti tra loro. Per eseguire questa operazione:
+>[!NOTE]
+>
+>[!BADGE Beta]{type=Informative}
 
-1. Seleziona ![Preferenze di unione dati](../assets/icons/Merge.svg) **Preferenze di unione dati**.
+Le preferenze di unione dati consentono di risolvere i conflitti quando si uniscono dati provenienti da origini dati riepilogate ed eventi. I casi di utilizzo sono:
+
+* la stessa metrica pubblicitaria è misurata e segnalata in più set di dati, oppure
+* la misurazione delle metriche può essere incompleta in alcuni set di dati, mentre un altro set di dati può essere un superset di una particolare metrica, con conseguente doppio conteggio.
+
+Per garantire previsioni accurate dei modelli, puoi definire le preferenze di unione dei dati:
+
+1. Seleziona ![Preferenze di unione dati](../assets/icons/Merge.svg) [!BADGE beta] **Preferenze di unione dati**.
 
 1. In **[!UICONTROL Data merge preferences]** finestra di dialogo:
 
    ![Preferenze di unione dati](../assets/data-merge-preferences.png)
 
-   1. Seleziona una preferenza per la metrica predefinita dal menu **[!UICONTROL Default metric preference]** elenco. <p>Viene applicata una preferenza predefinita quando, durante l’armonizzazione, più fonti di dati tentano di aggiornare un campo metrico per un determinato canale. Questa preferenza viene applicata a livello di sandbox, a meno che non venga bypassata per alcune preferenze di metrica definite in **[!UICONTROL Metric based preference]**.
+   * Seleziona un **[!UICONTROL Default metric preference]**. La preferenza metrica predefinita selezionata viene applicata quando, durante l’armonizzazione, più origini di dati aggiornano un campo metrico per un determinato canale. La preferenza viene applicata a livello di sandbox, a meno che non venga bypassata per specifiche preferenze basate su metriche.
 
-   1. Utilizzare ![Più](../assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**, per aggiungere una o più metriche di seguito **[!UICONTROL Metric based preference]**.
+   * Per aggiungere preferenze specifiche basate su metriche:
 
+      1. Seleziona ![Più](../assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+         1. Seleziona una metrica da **[!UICONTROL *Selezione delle metriche *]**elenco.
+         1. Seleziona **[!UICONTROL CHANNELS]** o **[!UICONTROL CONVERSION TYPES]**. Dall’elenco, seleziona **[!UICONTROL All]** o un tipo di canale o conversione specifico.
+         1. Seleziona **[!UICONTROL Summary]** o **[!UICONTROL Event]** per specificare se i dati di riepilogo o i dati evento sono preferiti per la metrica (e per tutti o per il canale selezionato) durante l’unione dei dati.
 
+Per aggiungere uno o più tipi di canale o conversione aggiuntivi:
 
-      * Seleziona una metrica da **[!UICONTROL _Selezione delle metriche_]** elenco e
-      * Seleziona **[!UICONTROL Summary]** (Mostra origine dati) o **[!UICONTROL Event]** (Blocca selezione).
+         1. Seleziona ![Più](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** o ![Più](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+         1. Seleziona **[!UICONTROL Summary]** (Mostra origine dati) o **[!UICONTROL Event]** (Blocca selezione).
 
-      Utilizzare ![Elimina](../assets/icons/Close.svg) per eliminare una voce dall&#39;elenco.
+Per eliminare un canale o un tipo di conversione: select ![Croce](../assets/icons/Close.svg).
 
-   1. Seleziona **[!UICONTROL Save]** per salvare le preferenze di unione dati. Seleziona **[!UICONTROL Cancel]** per annullare.
+      1. Per aggiungere preferenze più specifiche basate su metriche, ripeti il passaggio precedente.
+
+   * Per eliminare una specifica preferenza basata su metriche, seleziona ![Elimina](../assets/icons/Delete.svg).
+
+1. Seleziona **[!UICONTROL Save]** per salvare le preferenze di unione dati. È stata avviata una risincronizzazione dei dati. <br/>Seleziona **[!UICONTROL Cancel]** per annullare.
+
+## Controllo dell’accesso a livello di campo
+
+Durante la configurazione delle regole del set di dati per i set di dati armonizzati, Experienci Platform [controllo degli accessi basato su attributi](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) viene applicato a livello di campo. Un campo è limitato quando un’etichetta viene associata a un campo schema e viene abilitato un criterio attivo che nega l’accesso a tale campo. Di conseguenza:
+
+* quando crei una regola di set di dati, non vengono visualizzati i campi dello schema con restrizioni,
+* non puoi visualizzare o modificare la mappatura di uno o più campi dello schema per i quali esistono restrizioni. Quando modifichi o visualizzi una regola del set di dati contenente tali campi con restrizioni, viene visualizzata la schermata seguente.
+  ![Azione non consentita](../assets/action-not-permitted.png)

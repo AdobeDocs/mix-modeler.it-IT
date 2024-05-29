@@ -4,18 +4,25 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: e90ddd25ba7b78bd360096dda4e3af80304a5176
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 8%
+source-wordcount: '260'
+ht-degree: 9%
 
 ---
 
 # Note sulla versione corrente di Mix Modeler
 
-**Ultimo aggiornamento**: 1 aprile 2024.
+**Ultimo aggiornamento**: 29 maggio 2024.
 
 Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rilasci di Mix Modeler funzionano secondo un modello di distribuzione continua che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
+
+## Maggio 2024
+
+| Funzione | Descrizione | Disponibilità generale |
+|---|---|---|
+| **Preferenze di unione dati** [!BADGE beta] | [Preferenze di unione dati](../harmonize-data/dataset-rules.md#data-merge-preferences) aiuta a risolvere i conflitti quando i dati provenienti da origini dati riepilogate ed eventi vengono uniti. | 29 maggio 2024 |
+| **Controllo dell’accesso a livello di campo** | Quando definisci le regole del set di dati, Experienci Platform [controllo degli accessi basato su attributi](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) viene applicato su un [a livello di campo](../harmonize-data/dataset-rules.md#field-level-access-control). | 29 maggio 2024 |
 
 
 ## Aprile 2024
@@ -42,4 +49,4 @@ Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rila
 >[!MORELIKETHIS]
 >
 >* [Introduzione a Mix Modeler](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Documentazione dell’Experience League di Mix Modeler](https://experienceleague.adobe.com/en/docs/mix-modeler)
+>* [Documentazione dell’Experience League di Mix Modeler](https://experienceleague.adobe.com/it/docs/mix-modeler)
