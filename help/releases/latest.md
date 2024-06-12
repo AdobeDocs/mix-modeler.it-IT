@@ -4,9 +4,9 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
+source-git-commit: cefa5ccc8850e4931b2d0acffe9ca5e8c3f92e00
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '285'
 ht-degree: 10%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 10%
 
 Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rilasci di Mix Modeler funzionano secondo un modello di distribuzione continua che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
 
+## Giugno 2024
+
+| Funzione | Descrizione | Disponibilità generale |
+|---|---|---|
+| **Controllo dell’accesso a livello di campo** | Quando definisci le regole del set di dati, Experienci Platform [controllo degli accessi basato su attributi](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) viene applicato su un [a livello di campo](../harmonize-data/dataset-rules.md#field-level-access-control). | 12 giugno 2024 |
+| P **punti di contatto della conoscenza precedenti** | Solo i punti di contatto di marketing, specificati in [!UICONTROL Configure] , sono disponibili per la selezione in [[!UICONTROL Prior Knowledge]](../models/create.md) sezione. | 12 giugno 2024 |
+
+{style="table-layout:auto"}
+
 ## Maggio 2024
 
 | Funzione | Descrizione | Disponibilità generale |
@@ -25,9 +34,7 @@ Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rila
 
 {style="table-layout:auto"}
 
-<!--
-| **Field-level access control** | When defining dataset rules, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | May 29, 2024 |
--->
+
 
 
 ## Aprile 2024

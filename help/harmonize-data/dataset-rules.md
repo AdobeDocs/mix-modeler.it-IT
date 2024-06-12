@@ -3,9 +3,9 @@ title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
+source-git-commit: a066cdff03eade86b09f03209a08ebfa2ab32e8e
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Per garantire previsioni accurate dei modelli, puoi definire le preferenze di un
 
    ![Preferenze di unione dati](../assets/data-merge-preferences.png)
 
-   * Seleziona un **[!UICONTROL Default metric preference]**. La preferenza metrica predefinita selezionata viene applicata quando, durante l’armonizzazione, più origini di dati aggiornano un campo metrico per un determinato canale. La preferenza viene applicata a livello di sandbox, a meno che non venga bypassata per specifiche preferenze basate su metriche.
+   * Seleziona un **[!UICONTROL Default metric preference]**. La preferenza metrica predefinita selezionata viene applicata quando, durante l’armonizzazione, più origini di dati aggiornano un campo metrico per un determinato canale. La preferenza viene applicata a livello di sandbox, a meno che non venga bypassata per specifiche preferenze basate su metriche. Puoi scegliere tra **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** e **[!UICONTROL Sum of summmary and event data]**.
 
    * Per aggiungere preferenze specifiche basate su metriche:
 
@@ -181,13 +181,11 @@ Per garantire previsioni accurate dei modelli, puoi definire le preferenze di un
 
 1. Seleziona **[!UICONTROL Save]** per salvare le preferenze di unione dati. È stata avviata una risincronizzazione dei dati. <br/>Seleziona **[!UICONTROL Cancel]** per annullare.
 
-<!--
-## Field-level access control
 
-When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
+## Controllo dell’accesso a livello di campo
 
-* you do not see the schema fields that are restricted for you when you create a dataset rule, 
-* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
-  ![Action not permitted](../assets/action-not-permitted.png)
+Durante la configurazione delle regole del set di dati per i set di dati armonizzati, Experienci Platform [controllo degli accessi basato su attributi](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) viene applicato a livello di campo. Un campo è limitato quando un’etichetta viene associata a un campo schema e viene abilitato un criterio attivo che nega l’accesso a tale campo. Di conseguenza:
 
--->
+* quando crei una regola di set di dati, non vengono visualizzati i campi dello schema con restrizioni,
+* non puoi visualizzare o modificare la mappatura di uno o più campi dello schema per i quali esistono restrizioni. Quando modifichi o visualizzi una regola del set di dati contenente tali campi con restrizioni, viene visualizzata la schermata seguente.
+  ![Azione non consentita](../assets/action-not-permitted.png)
