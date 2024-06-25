@@ -3,10 +3,10 @@ title: Audit
 description: Scopri come accedere ai controlli di audit da Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 28ab9273c1f606c8b685225f412d51ee305b5f31
+source-git-commit: c45f4e4412258f959726c49129c6b9b6fff48f4a
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 7%
+source-wordcount: '315'
+ht-degree: 6%
 
 ---
 
@@ -22,21 +22,30 @@ Per esaminare il registro di controllo, nell’interfaccia Mix Modeler:
 
    | Categoria | Azione | Stato |
    |---|---|---|
-   | Regola set di dati Mix Modeler | Creare | Consenti o negato |
-   | Regola set di dati Mix Modeler | Aggiornamento | Consenti o negato |
-   | Regola set di dati Mix Modeler | Elimina | Consenti o negato |
-   | Campo Mix Modeler | Creare | Consenti o negato |
-   | Campo Mix Modeler | Aggiornamento | Consenti o negato |
-   | Campo Mix Modeler | Elimina | Consenti o negato |
-   | Punto di contatto marketing Mix Modeler | Creare | Consenti o negato |
-   | Punto di contatto marketing Mix Modeler | Aggiornamento | Consenti o negato |
-   | Punto di contatto marketing Mix Modeler | Elimina | Consenti o negato |
-   | Conversione Mix Modeler | Creare | Consenti o negato |
-   | Conversione Mix Modeler | Aggiornamento | Consenti o negato |
-   | Conversione Mix Modeler | Elimina | Consenti o negato |
-   | Modello Mix Modeler | Creare | Consenti o negato |
-   | Modello Mix Modeler | Aggiornamento | Consenti o negato |
-   | Modello Mix Modeler | Elimina | Consenti o negato |
+   | Regola set di dati Mix Modeler | Creare | Consenti o nega |
+   | Regola set di dati Mix Modeler | Aggiornamento | Consenti o nega |
+   | Regola set di dati Mix Modeler | Elimina | Consenti o nega |
+   | Campo Mix Modeler | Creare | Consenti o nega |
+   | Campo Mix Modeler | Aggiornamento | Consenti o nega |
+   | Campo Mix Modeler | Elimina | Consenti o nega |
+   | Punto di contatto marketing Mix Modeler | Creare | Consenti o nega |
+   | Punto di contatto marketing Mix Modeler | Aggiornamento | Consenti o nega |
+   | Punto di contatto marketing Mix Modeler | Elimina | Consenti o nega |
+   | Conversione Mix Modeler | Creare | Consenti o nega |
+   | Conversione Mix Modeler | Aggiornamento | Consenti o nega |
+   | Conversione Mix Modeler | Elimina | Consenti o nega |
+   | Modello Mix Modeler | Creare | Consenti o nega |
+   | Modello Mix Modeler | Aggiornamento | Consenti o nega |
+   | Modello Mix Modeler | Elimina | Consenti o nega |
+   | Modello Mix Modeler | Punteggio di nuovo | Consenti o nega |
+   | Modello Mix Modeler | Clona | Consenti o nega |
+   | Modello Mix Modeler | Addestra/Riallena | Consenti o nega |
+   | Modello Mix Modeler | Download/salvataggio dei metadati | Consenti o nega |
+   | Piano Mix Modeler | Creare | Consenti o nega |
+   | Piano Mix Modeler | Aggiornamento | Consenti o nega |
+   | Piano Mix Modeler | Modifica modello associato | Consenti o nega |
+   | Armonizzazione dei dati Mix Modeler | Attiva sincronizzazione | Consenti o nega |
+
 
 1. Seleziona una voce nel registro attività per aprire un pannello e ottenere ulteriori dettagli.
 
