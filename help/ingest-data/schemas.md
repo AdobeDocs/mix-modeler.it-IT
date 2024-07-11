@@ -3,7 +3,7 @@ title: Schemi
 description: Scopri come gestire gli schemi necessari per acquisire i dati in Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 3%
@@ -12,17 +12,17 @@ ht-degree: 3%
 
 # Schemi
 
-Per gestire gli schemi, supportare i dati che desideri acquisire in Experienci Platform e utilizzare in Mix Modeler:
+Per gestire gli schemi, supportare i dati che desideri acquisire in Experience Platform e utilizzare in Mix Modeler:
 
 1. Passa all’interfaccia Mix Modeler.
 
-1. Seleziona ![Schemi](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, sotto **[!UICONTROL SETUP]**.
+1. Seleziona ![Schemi](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, sotto **[!UICONTROL SETUP]**.
 
 Consulta la [Panoramica dell’interfaccia utente degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) per ulteriori informazioni.
 
 ## Dati aggregati o di riepilogo
 
-Si consiglia vivamente di utilizzare la classe Metriche di riepilogo XDM come base dello schema sottostante qualsiasi dato aggregato o di riepilogo che si desidera acquisire in Experienci Platform e utilizzare in Mix Modeler.
+Si consiglia vivamente di utilizzare la classe Metriche di riepilogo XDM come base dello schema sottostante qualsiasi dato aggregato o di riepilogo che si desidera acquisire in Experience Platform e utilizzare in Mix Modeler.
 
 Utilizza la classe Metriche di riepilogo XDM per:
 
@@ -38,7 +38,7 @@ Utilizza la classe Metriche di riepilogo XDM per:
 
 Uno schema che utilizza **[!DNL XDM Summary Metrics]** la classe base può essere semplice, come illustrato nella **[!DNL ExternalFactorSummarySchema]** di seguito.
 
-![Schema Fattori Esterni](../assets/external-factors-schema.png)
+![Schema Fattori Esterni](/help/assets//external-factors-schema.png)
 
 Questo semplice schema può essere utilizzato per acquisire set di dati contenenti dati per, ad esempio:
 
@@ -65,14 +65,14 @@ Questo semplice schema può essere utilizzato per acquisire set di dati contenen
 
 Vedi di seguito per un esempio più completo di **[!DNL LumaPaidMarketingSchema]** utilizzando **[!DNL XDM Summary Metrics]** come classe base. Lo schema utilizza gruppi di campi dedicati (con annotazioni di colori) per le metriche (**[!DNL AMMMetrics]**), dimensioni (**[!DNL AMMDimensions]**) e altre informazioni specifiche per il cliente (**[!DNL CustomerSpecific]**).
 
-![Schema di riepilogo](../assets/summary-schema.png)
+![Schema di riepilogo](/help/assets//summary-schema.png)
 
-Data la natura asincrona dell’acquisizione del profilo, durante la raccolta di dati aggregati o di riepilogo da origini esterne si consiglia di utilizzare il gruppo di campi Dettagli audit sistema di origine esterna come parte di uno schema. Questo gruppo di campi definisce un set di proprietà di controllo per le origini esterne.
+Data la natura asincrona dell’acquisizione del profilo, durante la raccolta di dati aggregati o di riepilogo da origini esterne si consiglia di utilizzare il gruppo di campi Dettagli audit del sistema Source esterno come parte di uno schema. Questo gruppo di campi definisce un set di proprietà di controllo per le origini esterne.
 
 
 ## Tipi di dati supportati
 
-Attualmente, Mix Modeler supporta un sottoinsieme di tipi di dati Experienci Platform. I seguenti tipi di dati di base (campi), indicati in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), sono supportati:
+Attualmente, Mix Modeler supporta un sottoinsieme di tipi di dati Experience Platform. I seguenti tipi di dati di base (campi), indicati in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), sono supportati:
 
 - Stringa
 - Intero

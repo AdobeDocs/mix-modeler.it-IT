@@ -3,7 +3,7 @@ title: Campi armonizzati
 description: Scopri come definire i campi da utilizzare nell’ambito dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 8%
@@ -27,7 +27,7 @@ I campi di armonizzazione globali predefiniti disponibili in Mix Modeler sono:
 | campaign | Campaign | Dimensione | Stringa |           |
 | channel | Channel | Dimensione | Stringa |           |
 | channel_id | ID canale | Dimensione | Stringa |           |
-| channel_type_at_source | Tipo di canale all’origine | Dimensione | Stringa |           |
+| channel_type_at_source | Tipo Di Canale In Source | Dimensione | Stringa |           |
 | channel | Channel | Dimensione | Stringa |           |
 | clic | Clic | Metrica | Numero |           |
 | conversiontype | Tipo di conversione | Dimensione | Stringa |           |
@@ -43,7 +43,7 @@ I campi di armonizzazione globali predefiniti disponibili in Mix Modeler sono:
 | mediatype | Tipo di file multimediale | Dimensione | Stringa |           |
 | net_sales | Vendite nette | Metrica | Valuta |           |
 | ordini | Ordini | Metrica | Numero |           |
-| sourcetype | Tipo di origine | Dimensione | Stringa |           |
+| sourcetype | Tipo Source | Dimensione | Stringa |           |
 | spendere | Spesa | Metrica | Valuta |           |
 | trafficsource | Traffic Source | Dimensione | Stringa |           |
 
@@ -55,9 +55,9 @@ Puoi aggiungere, modificare o eliminare i tuoi campi armonizzati sopra questi ca
 
 Per visualizzare una tabella dei campi armonizzati disponibili, nell’interfaccia Mix Modeler:
 
-1. Seleziona ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
+1. Seleziona ![RicercaDati](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
-1. Seleziona **[!UICONTROL Fields]** dalla barra superiore. Viene visualizzata una tabella dei campi armonizzati. Se sono disponibili più pagine, utilizza ![Freccia sinistra](../assets/icons/ChevronLeft.svg) o ![Freccia a destra](../assets/icons/ChevronRight.svg) a **[!UICONTROL Page _x _di_x_]** per spostarsi tra le pagine della tabella.
+1. Seleziona **[!UICONTROL Fields]** dalla barra superiore. Viene visualizzata una tabella dei campi armonizzati. Se sono disponibili più pagine, utilizza ![Freccia sinistra](/help/assets//icons/ChevronLeft.svg) o ![Freccia a destra](/help/assets//icons/ChevronRight.svg) a **[!UICONTROL Page _x _di_x_]** per spostarsi tra le pagine della tabella.
 
    Le colonne della tabella specificano i dettagli relativi ai campi armonizzati
 
@@ -74,14 +74,14 @@ Per visualizzare una tabella dei campi armonizzati disponibili, nell’interfacc
 
    {style="table-layout:auto"}
 
-1. Per cercare un campo armonizzato specifico, utilizzare ![Ricerca](../assets/icons/Search.svg) **[!UICONTROL *Cerca campo armonizzato *]**.
+1. Per cercare un campo armonizzato specifico, utilizzare ![Ricerca](/help/assets//icons/Search.svg) **[!UICONTROL *Cerca campo armonizzato *]**.
 
 
 ### Aggiungi un campo armonizzato
 
-Per aggiungere un campo armonizzato, nella ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di Mix Modeler:
+Per aggiungere un campo armonizzato, nella ![RicercaDati](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di Mix Modeler:
 
-1. Seleziona ![Aggiungi](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. Seleziona ![Aggiungi](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. In **[!UICONTROL Create]** finestra di dialogo:
 
@@ -98,14 +98,14 @@ Per aggiungere un campo armonizzato, nella ![RicercaDati](../assets/icons/DataCh
 
    1. Seleziona **[!UICONTROL Submit]** per aggiungere il campo armonizzato. Seleziona **[!UICONTROL Close]** per chiudere la finestra di dialogo senza aggiungere il campo armonizzato.
 
-      ![Crea un campo](../assets/create-field.png)
+      ![Crea un campo](/help/assets//create-field.png)
 
 
 ### Modificare un campo armonizzato
 
 Puoi modificare solo i campi armonizzati creati in precedenza (il proprietario è il client). Non è possibile modificare un campo armonizzato globale.
 
-Per modificare un campo armonizzato, nella sezione ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di Mix Modeler:
+Per modificare un campo armonizzato, nella sezione ![RicercaDati](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di Mix Modeler:
 
 1. Seleziona il campo armonizzato da modificare. Ad esempio, **[!UICONTROL Region]**.
 
@@ -113,17 +113,17 @@ Per modificare un campo armonizzato, nella sezione ![RicercaDati](../assets/icon
 
 1. Seleziona **[!UICONTROL Submit]** applicare le modifiche al campo armonizzato.
 
-   ![Modificare un campo](../assets/edit-field.png)
+   ![Modificare un campo](/help/assets//edit-field.png)
 
 ### Cancellare un campo armonizzato
 
 Puoi eliminare solo i campi armonizzati creati in precedenza (il proprietario è il client). Non puoi eliminare un campo armonizzato globale.
 
-Per eliminare un campo armonizzato, nella sezione ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di Mix Modeler:
+Per eliminare un campo armonizzato, nella sezione ![RicercaDati](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di Mix Modeler:
 
 1. Seleziona il campo armonizzato da eliminare, ad esempio **[!UICONTROL Region]**.
 
-1. Seleziona ![Elimina](../assets/icons/Delete.svg) **[!UICONTROL Delete]** dal **[!UICONTROL Edit harmonization values]** riquadro sinistro.
+1. Seleziona ![Elimina](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** dal **[!UICONTROL Edit harmonization values]** riquadro sinistro.
 
    >[!WARNING]
    >

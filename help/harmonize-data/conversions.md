@@ -3,7 +3,7 @@ title: Conversioni
 description: Scopri come creare conversioni da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Puoi definire le conversioni marketing per l’analisi di attribuzione.
 
 Per visualizzare una tabella delle conversioni disponibili, nell’interfaccia Mix Modeler:
 
-1. Seleziona ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
+1. Seleziona ![RicercaDati](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
 1. Seleziona **[!UICONTROL Conversions]** dalla barra superiore. Vedi una tabella delle conversioni.
 
@@ -39,9 +39,9 @@ Le colonne della tabella specificano i dettagli sulla conversione:
 
 ## Aggiungere una conversione
 
-Per aggiungere una conversione, in ![RicercaDati](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** interfaccia in Mix Modeler:
+Per aggiungere una conversione, in ![RicercaDati](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** interfaccia in Mix Modeler:
 
-1. Seleziona ![Aggiungi](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
+1. Seleziona ![Aggiungi](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
 1. In **[!UICONTROL Create conversion]** finestra di dialogo:
 
@@ -51,7 +51,7 @@ Per aggiungere una conversione, in ![RicercaDati](../assets/icons/DataCheck.svg)
 
       1. Seleziona un valore da **[!UICONTROL *Seleziona armonizza...*]**, ad esempio `Conversion types`.
 
-      1. Seleziona un valore per l’operatore ![Freccia](../assets/icons/ChevronDown.svg), ad esempio **[!UICONTROL is]**.
+      1. Seleziona un valore per l’operatore ![Freccia](/help/assets//icons/ChevronDown.svg), ad esempio **[!UICONTROL is]**.
 
       1. Seleziona un valore da **[!UICONTROL *Seleziona valore *]**oppure inserisci un valore, ad esempio **[!UICONTROL Store]**.
 
@@ -61,7 +61,7 @@ Per aggiungere una conversione, in ![RicercaDati](../assets/icons/DataCheck.svg)
 
    1. Per creare la conversione, seleziona **[!UICONTROL Create]**. Per annullare la creazione di una conversione, seleziona **[!UICONTROL Cancel]**.
 
-      ![Testo alternativo](../assets/create-conversion.png)
+      ![Testo alternativo](/help/assets//create-conversion.png)
 
 1. Una volta creata, la conversione viene aggiunta alla tabella delle conversioni.
 
@@ -70,14 +70,14 @@ Per aggiungere una conversione, in ![RicercaDati](../assets/icons/DataCheck.svg)
 
 Per visualizzare una conversione:
 
-1. Seleziona ![Altro](../assets/icons/More.svg) quando passi il cursore su un nome di conversione nella tabella.
+1. Seleziona ![Altro](/help/assets//icons/More.svg) quando passi il cursore su un nome di conversione nella tabella.
 
-1. Seleziona ![Visualizza](../assets/icons/ViewDetail.svg) **Visualizza**. Una finestra di dialogo mostra i dettagli della conversione. Consulta [Aggiungere una conversione](#add-a-conversion) per ulteriori informazioni. Seleziona **[!UICONTROL Cancel]** per chiudere la finestra di dialogo
+1. Seleziona ![Visualizza](/help/assets//icons/ViewDetail.svg) **Visualizza**. Una finestra di dialogo mostra i dettagli della conversione. Consulta [Aggiungere una conversione](#add-a-conversion) per ulteriori informazioni. Seleziona **[!UICONTROL Cancel]** per chiudere la finestra di dialogo
 
 
 ## Eliminare una conversione
 
 Per eliminare una conversione:
 
-1. Seleziona ![Elimina](../assets/icons/Delete.svg) **Elimina** quando passi il cursore su un nome di conversione nella tabella.
+1. Seleziona ![Elimina](/help/assets//icons/Delete.svg) **Elimina** quando passi il cursore su un nome di conversione nella tabella.
 1. In **[!UICONTROL Delete conversion]** finestra di dialogo di conferma selezione **[!UICONTROL Delete]** per eliminare definitivamente la conversione.
