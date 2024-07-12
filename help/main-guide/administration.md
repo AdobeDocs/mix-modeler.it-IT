@@ -3,9 +3,9 @@ title: Amministrazione
 description: Scopri come amministrare Mix Modeler.
 feature: Administration
 exl-id: 76d6d15d-a838-4ee2-9929-e55ea8946b80
-source-git-commit: 995f15b6d2dd99d5304a4cda7b1fa5f8a1d00023
+source-git-commit: 4d84c93121fc476cc6610ad572bab161bbacfc23
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ Nell’interfaccia utente di Adobe Experience Cloud:
 
 1. Seleziona **[!UICONTROL Permissions]** dalla barra a sinistra, sotto **[!UICONTROL ADMINISTRATION]**.
 
-1. Seleziona {{user}} **[!UICONTROL Roles]** dal pannello a sinistra.
+1. Seleziona ![Utente](/help/assets/icons/User.svg) **[!UICONTROL Roles]** dal pannello a sinistra.
 
-1. Seleziona un ruolo esistente o creane uno esistente utilizzando **[!UICONTROL Create role]** (ad esempio, **Mix Modeler**). Se si seleziona un ruolo esistente, selezionare {{edit}} **[!UICONTROL Edit]** per modificare le autorizzazioni per il ruolo. Consulta [Gestisci ruoli](https://helpx.adobe.com/it/enterprise/using/admin-console.html) per ulteriori informazioni.
+1. Seleziona un ruolo esistente o creane uno esistente utilizzando **[!UICONTROL Create role]** (ad esempio, **Mix Modeler**). Se si seleziona un ruolo esistente, selezionare ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** per modificare le autorizzazioni per il ruolo. Consulta [Gestisci ruoli](https://helpx.adobe.com/it/enterprise/using/admin-console.html) per ulteriori informazioni.
 
 1. Verifica di aver selezionato una o più sandbox per il ruolo.
 
