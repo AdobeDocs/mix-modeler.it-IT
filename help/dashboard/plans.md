@@ -21,8 +21,8 @@ La scheda Piani in Panoramica di Mix Modeler mostra i widget per [!UICONTROL Bud
 
 I dati visualizzati per i widget sono determinati da:
 
-* Il piano. Seleziona un piano da **[!UICONTROL Plan name]** utilizzando **[!UICONTROL _Seleziona un&#39;opzione..._]**.
+* Il piano. Selezionare un piano da **[!UICONTROL Plan name]** utilizzando **[!UICONTROL _Selezionare un&#39;opzione..._]**.
 
-* Il periodo di data specificato. Per modificare il periodo di data, inserire manualmente una data di inizio e una data di fine oppure selezionare un periodo di data, utilizzando ![Calendario](/help/assets//icons/Calendar.svg).
+* Il periodo di data specificato. Per modificare il periodo di data, immettere manualmente una data di inizio e una data di fine oppure selezionare un periodo di data, utilizzando ![Calendario](/help/assets//icons/Calendar.svg).
 
 

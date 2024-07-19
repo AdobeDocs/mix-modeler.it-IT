@@ -47,20 +47,20 @@ Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia Mix Modele
    | Budget | Budget totale per un piano. |
    | Rendimento previsto | Rendimento previsto per un piano |
    | ROI previsto | ROI previsto per un piano. |
-   | Stato | Stato di un piano: <p><span style="color:red">●</span> Non riuscito, <p><span style="color:blue">●</span> Elaborazione, o <p><span style="color:green">●</span> Completato. |
+   | Stato | Stato di un piano: <p><span style="color:red">●</span> non riuscito, <p>Elaborazione di <span style="color:blue">●</span> oppure <p><span style="color:green">●</span> completato. |
 
    {style="table-layout:auto"}
 
-1. Utilizzare ![Ricerca](/help/assets//icons/Search.svg) per cercare e filtrare la tabella per uno o più piani specifici.
+1. Utilizza ![Ricerca](/help/assets//icons/Search.svg) per cercare e filtrare la tabella per uno o più piani specifici.
 
 ## Creare un piano
 
-Per creare un piano, utilizzare la procedura guidata di creazione del piano Mix Modeler. Consulta [Creare un piano](create.md) per ulteriori dettagli.
+Per creare un piano, utilizzare la procedura guidata di creazione del piano Mix Modeler. Per ulteriori dettagli, vedere [Creare un piano](create.md).
 
 
 ## Modificare un piano
 
-Per modificare un piano, selezionarne il nome dalla tabella. Consulta [Modificare un piano](edit.md) per ulteriori informazioni.
+Per modificare un piano, selezionarne il nome dalla tabella. Per ulteriori informazioni, vedere [Modificare un piano](edit.md).
 
 
 ## Selezione e azione sui piani
@@ -69,26 +69,26 @@ Per modificare un piano, selezionarne il nome dalla tabella. Consulta [Modificar
 
 Per rimuovere tutte le selezioni nella tabella Piani, selezionare ![Chiudi](/help/assets//icons/Close.svg) nella barra delle azioni
 
-![Barra delle azioni Piani](/help/assets//plans-action-bar.png)
+![Barra delle azioni dei piani](/help/assets//plans-action-bar.png)
 
 ### Duplicare un piano
 
 Per duplicare un piano:
 
 1. Selezionare un singolo piano dalla tabella.
-1. Seleziona ![Copia](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni. Un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**, viene aggiunto nella parte superiore della tabella.
+1. Seleziona ![Copia](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni. Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**.
 
 In alternativa:
 
-1. Seleziona ![Altro](/help/assets//icons/More.svg) per un piano nella tabella.
-1. Seleziona **[!UICONTROL Duplicate]** dal menu di scelta rapida. Un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**, viene aggiunto nella parte superiore della tabella.
+1. Selezionare ![Altro](/help/assets//icons/More.svg) per un piano nella tabella.
+1. Selezionare **[!UICONTROL Duplicate]** dal menu di scelta rapida. Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**.
 
 ### Confronta piani
 
 Per confrontare i piani:
 
 1. Selezionare due piani dalla tabella.
-1. Seleziona ![Confronta](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** dalla barra delle azioni. Vedete la **[!UICONTROL Compare plans]** UI.
+1. Seleziona ![Confronta](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** dalla barra delle azioni. Viene visualizzata l&#39;interfaccia utente di **[!UICONTROL Compare plans]**.
 
 
 ### Elimina piani
@@ -100,8 +100,8 @@ Per eliminare i piani:
 
 In alternativa:
 
-1. Seleziona ![Altro](/help/assets//icons/More.svg) per un piano nella tabella.
-1. Seleziona **[!UICONTROL Delete]** dal menu di scelta rapida. Un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**, viene aggiunto nella parte superiore della tabella.
+1. Selezionare ![Altro](/help/assets//icons/More.svg) per un piano nella tabella.
+1. Selezionare **[!UICONTROL Delete]** dal menu di scelta rapida. Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**.
 
    >[!WARNING]
    >

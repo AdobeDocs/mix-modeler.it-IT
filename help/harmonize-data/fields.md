@@ -55,9 +55,9 @@ Puoi aggiungere, modificare o eliminare i tuoi campi armonizzati sopra questi ca
 
 Per visualizzare una tabella dei campi armonizzati disponibili, nell’interfaccia Mix Modeler:
 
-1. Seleziona ![RicercaDati](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
+1. Seleziona ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
-1. Seleziona **[!UICONTROL Fields]** dalla barra superiore. Viene visualizzata una tabella dei campi armonizzati. Se sono disponibili più pagine, utilizza ![Freccia sinistra](/help/assets//icons/ChevronLeft.svg) o ![Freccia a destra](/help/assets//icons/ChevronRight.svg) a **[!UICONTROL Page _x _di_x_]** per spostarsi tra le pagine della tabella.
+1. Seleziona **[!UICONTROL Fields]** dalla barra superiore. Viene visualizzata una tabella dei campi armonizzati. Se sono disponibili altre pagine, usa ![Freccia a sinistra](/help/assets//icons/ChevronLeft.svg) o ![Freccia a destra](/help/assets//icons/ChevronRight.svg) alle **[!UICONTROL Page _x _di_x_]** per spostarti tra le pagine della tabella.
 
    Le colonne della tabella specificano i dettagli relativi ai campi armonizzati
 
@@ -65,38 +65,38 @@ Per visualizzare una tabella dei campi armonizzati disponibili, nell’interfacc
    | ---------------------- | ----------|
    | Nome campo | Nome del campo armonizzato. |
    | Nome visualizzato | Nome visualizzato del campo armonizzato. Questo nome visualizzato viene utilizzato quando si definiscono le regole del set di dati, il punto di contatto di marketing e le definizioni di conversione. |
-   | Categoria | Specifica se un campo dati armonizzato è un [!UICONTROL Dimension], a [!UICONTROL Metric] o [!UICONTROL Derived]. Una categoria derivata è un campo armonizzato che utilizza una definizione di formula basata su metriche. |
+   | Categoria | Specifica se un campo dati armonizzato è [!UICONTROL Dimension], [!UICONTROL Metric] o [!UICONTROL Derived]. Una categoria derivata è un campo armonizzato che utilizza una definizione di formula basata su metriche. |
    | Tipo di dati | Specifica il tipo di dati ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL Date time]). |
    | Data di creazione | Data e ora di creazione del campo armonizzato. |
-   | Proprietario | Indica se un campo armonizzato è un campo predefinito ([!UICONTROL Global]) o è definito da te ([!UICONTROL Client]). |
+   | Proprietario | Indica se un campo armonizzato è predefinito ([!UICONTROL Global]) o è definito dall&#39;utente ([!UICONTROL Client]). |
    | Data ultima modifica | Data e ora dell’ultima modifica del campo armonizzato. |
    | Formula | Specifica la formula per un campo armonizzato basato su una categoria derivata. |
 
    {style="table-layout:auto"}
 
-1. Per cercare un campo armonizzato specifico, utilizzare ![Ricerca](/help/assets//icons/Search.svg) **[!UICONTROL *Cerca campo armonizzato *]**.
+1. Per cercare un campo armonizzato specifico, utilizzare ![Cerca](/help/assets//icons/Search.svg) **[!UICONTROL *Cerca campo armonizzato *]**.
 
 
 ### Aggiungi un campo armonizzato
 
-Per aggiungere un campo armonizzato, nella ![RicercaDati](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di Mix Modeler:
+Per aggiungere un campo armonizzato, nell&#39;interfaccia ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** in Mix Modeler:
 
-1. Seleziona ![Aggiungi](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. Selezionare ![Aggiungi](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
-1. In **[!UICONTROL Create]** finestra di dialogo:
+1. Nella finestra di dialogo **[!UICONTROL Create]**:
 
-   1. Immetti un **[!UICONTROL Field name]**, ad esempio `region`.
-   1. Immetti un **[!UICONTROL Display name]**, ad esempio `Region`.
-   1. Seleziona un **[!UICONTROL Category]**: **[!UICONTROL Dimension]**, **[!UICONTROL Metric]** o **[!UICONTROL Derived]**.
+   1. Immettere un **[!UICONTROL Field name]**, ad esempio `region`.
+   1. Immettere un **[!UICONTROL Display name]**, ad esempio `Region`.
+   1. Selezionare un **[!UICONTROL Category]**: **[!UICONTROL Dimension]**, **[!UICONTROL Metric]** o **[!UICONTROL Derived]**.
 
-      Quando selezioni **[!UICONTROL Derived]**, specifica un **[!UICONTROL Formula]**. Per creare un’espressione aritmetica valida, combina una o più metriche di **[!UICONTROL Insert Metric]** con uno o più operatori **[!UICONTROL + - * / ( )]** . Ad esempio: `[orders]/[impressions]`
+      Quando selezioni **[!UICONTROL Derived]**, specifica **[!UICONTROL Formula]**. Per creare un&#39;espressione aritmetica valida, combinare una o più metriche di **[!UICONTROL Insert Metric]** con uno o più operatori **[!UICONTROL + - * / ( )]**. Ad esempio: `[orders]/[impressions]`
 
-   1. Seleziona un **[!UICONTROL Data type]**.
+   1. Seleziona **[!UICONTROL Data type]**.
 
-      - **[!UICONTROL String]** o **[!UICONTROL Date time]**, quando Categoria selezionata è Dimension.
-      - **[!UICONTROL Number]** o **[!UICONTROL Currency]** quando Categoria selezionata è Metrica o Derivata.
+      - **[!UICONTROL String]** o **[!UICONTROL Date time]**, quando la categoria selezionata è Dimension.
+      - **[!UICONTROL Number]** o **[!UICONTROL Currency]** se la categoria selezionata è metrica o derivata.
 
-   1. Seleziona **[!UICONTROL Submit]** per aggiungere il campo armonizzato. Seleziona **[!UICONTROL Close]** per chiudere la finestra di dialogo senza aggiungere il campo armonizzato.
+   1. Selezionare **[!UICONTROL Submit]** per aggiungere il campo armonizzato. Seleziona **[!UICONTROL Close]** per chiudere la finestra di dialogo senza aggiungere il campo armonizzato.
 
       ![Crea un campo](/help/assets//create-field.png)
 
@@ -105,25 +105,25 @@ Per aggiungere un campo armonizzato, nella ![RicercaDati](/help/assets//icons/Da
 
 Puoi modificare solo i campi armonizzati creati in precedenza (il proprietario è il client). Non è possibile modificare un campo armonizzato globale.
 
-Per modificare un campo armonizzato, nella sezione ![RicercaDati](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di Mix Modeler:
+Per modificare un campo armonizzato, nell&#39;interfaccia ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** in Mix Modeler:
 
 1. Seleziona il campo armonizzato da modificare. Ad esempio, **[!UICONTROL Region]**.
 
-1. In **[!UICONTROL Edit harmonization values]** , modificare i valori per **[!UICONTROL Display name]**, **[!UICONTROL Category]**, e **[!UICONTROL Data type]**. Consulta [Aggiungi un campo armonizzato](#add-a-harmonized-field) per ulteriori informazioni.
+1. Nel riquadro **[!UICONTROL Edit harmonization values]** modificare i valori per **[!UICONTROL Display name]**, **[!UICONTROL Category]** e **[!UICONTROL Data type]**. Per ulteriori informazioni, vedere [Aggiungere un campo armonizzato](#add-a-harmonized-field).
 
-1. Seleziona **[!UICONTROL Submit]** applicare le modifiche al campo armonizzato.
+1. Selezionare **[!UICONTROL Submit]** per applicare le modifiche al campo armonizzato.
 
-   ![Modificare un campo](/help/assets//edit-field.png)
+   ![Modifica un campo](/help/assets//edit-field.png)
 
 ### Cancellare un campo armonizzato
 
 Puoi eliminare solo i campi armonizzati creati in precedenza (il proprietario è il client). Non puoi eliminare un campo armonizzato globale.
 
-Per eliminare un campo armonizzato, nella sezione ![RicercaDati](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Interfaccia di Mix Modeler:
+Per eliminare un campo armonizzato, nell&#39;interfaccia ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** in Mix Modeler:
 
-1. Seleziona il campo armonizzato da eliminare, ad esempio **[!UICONTROL Region]**.
+1. Selezionare il campo armonizzato da eliminare, ad esempio **[!UICONTROL Region]**.
 
-1. Seleziona ![Elimina](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** dal **[!UICONTROL Edit harmonization values]** riquadro sinistro.
+1. Selezionare ![Elimina](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** dal riquadro sinistro **[!UICONTROL Edit harmonization values]**.
 
    >[!WARNING]
    >

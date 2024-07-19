@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Approfondimenti modello
 
-Per visualizzare le informazioni sul modello, in ![Modelli](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** interfaccia in Mix Modeler:
+Per visualizzare le informazioni sul modello, nell&#39;interfaccia ![Models](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** in Mix Modeler:
 
-1. Dalla sezione **[!UICONTROL Models]** nella tabella, selezionare il nome di un modello che ha **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]**.
+1. Dalla tabella **[!UICONTROL Models]**, selezionare il nome di un modello con **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]**.
 
 1. Dal menu di scelta rapida, selezionare **[!UICONTROL Model Insights]**.
 
-![Barra delle schede Approfondimenti modello](/help/assets//model-insights-tabbar.png)
+![Barra della scheda Informazioni modello](/help/assets//model-insights-tabbar.png)
 
-Viene visualizzata l&#39;ultima volta che il modello specificato viene aggiornato e i widget vengono visualizzati utilizzando quattro schede: [Approfondimenti modello](#model-insights), [Attribuzione](#attribution), [Diagnostica](#diagnostics), e [Panoramica storica](#historical-overview).
+Puoi vedere quando il modello specificato viene aggiornato l&#39;ultima volta e i widget vengono visualizzati utilizzando quattro schede: [Informazioni sul modello](#model-insights), [Attribuzione](#attribution), [Diagnostica](#diagnostics) e [Panoramica cronologica](#historical-overview).
 
-È possibile modificare il periodo di data su cui si basano i widget di ciascuna scheda. Inserisci un periodo di data o seleziona ![Calendario](/help/assets//icons/Calendar.svg) per selezionare un periodo di data.
+È possibile modificare il periodo di data su cui si basano i widget di ciascuna scheda. Immettere un periodo di data o selezionare ![Calendario](/help/assets//icons/Calendar.svg) per selezionare un periodo di data.
 
 ## [!UICONTROL Model insights]
 
@@ -35,19 +35,19 @@ La scheda Approfondimenti modello mostra i widget per:
 * Riepilogo prestazioni marketing.
 
 * Curve di risposta marginale.
-  <br/>Seleziona un canale da **[!UICONTROL Channel]** per aggiornare il widget per un canale specifico.
+  <br/>Selezionare un canale dall&#39;elenco a discesa **[!UICONTROL Channel]** per aggiornare il widget per un canale specifico.
 
 ![Modello - Approfondimenti modello](/help/assets//model-insights-insights.png)
 
 Puoi passare il cursore sopra i singoli elementi del grafico in ciascun widget per visualizzare un elemento a comparsa con ulteriori dettagli.
 
-Per scaricare un file CSV contenente i dati del widget, seleziona ![Scarica](/help/assets//icons/Download.svg).
+Per scaricare un file CSV contenente i dati per il widget, seleziona ![Scarica](/help/assets//icons/Download.svg).
 
-Per scaricare i dati completi di informazioni sul modello in formato Microsoft® Excel, seleziona ![Scarica](/help/assets//icons/Download.svg) **[!UICONTROL Download data]**.
+Per scaricare i dati completi di Approfondimenti modello in formato Microsoft® Excel, seleziona ![Scarica](/help/assets//icons/Download.svg) **[!UICONTROL Download data]**.
 
 ## [!UICONTROL Attribution]
 
-Utilizzo di [!UICONTROL Attribution] , è possibile comprendere l’efficacia dei punti di contatto e delle campagne di marketing che presentano dati a livello di evento. Sono supportati i seguenti modelli di attribuzione:
+Utilizzando la scheda [!UICONTROL Attribution], puoi comprendere l’efficacia dei punti di contatto e delle campagne di marketing con dati a livello di evento. Sono supportati i seguenti modelli di attribuzione:
 
 * In base al modello selezionato in Mix Modeler:
    * Algoritmica - Influenzato
@@ -59,9 +59,9 @@ Utilizzo di [!UICONTROL Attribution] , è possibile comprendere l’efficacia de
    * Lineare
    * Ushape
 
-Consulta [Attribuzione multi-touch](../get-started/about.md#multi-touch-attribution) per un’introduzione alla funzionalità di attribuzione multi-touch in Mix Modeler.
+Consulta [Attribuzione multi-touch](../get-started/about.md#multi-touch-attribution) per un&#39;introduzione alla funzionalità di attribuzione multi-touch in Mix Modeler.
 
-Seleziona uno o più modelli di attribuzione dal menu **[!UICONTROL Attribution Model]** elenco a discesa. I modelli di attribuzione selezionati si applicano a tutti i widget nella scheda Attribuzione.
+Selezionare uno o più modelli di attribuzione dall&#39;elenco a discesa **[!UICONTROL Attribution Model]**. I modelli di attribuzione selezionati si applicano a tutti i widget nella scheda Attribuzione.
 
 ![Attribuzione](/help/assets//model-insights-attribution.png)
 
@@ -71,23 +71,23 @@ La scheda Attribuzione è costituita dai widget seguenti:
 
 ### [!UICONTROL Overview]
 
-Il [!UICONTROL Overview] il widget mostra, per i modelli di attribuzione selezionati, i totali e le percentuali di conversione. Selezionando più modelli si aggiungono ulteriori cerchi alla visualizzazione, ciascuno con il proprio colore corrispondente alla legenda.
+Il widget [!UICONTROL Overview] mostra, per i modelli di attribuzione selezionati, i totali e le percentuali di conversione. Selezionando più modelli si aggiungono ulteriori cerchi alla visualizzazione, ciascuno con il proprio colore corrispondente alla legenda.
 
 Per visualizzare un pop-up con i dettagli di un modello di attribuzione, passa il cursore del mouse su uno dei cerchi nella visualizzazione.
 
 ### [!UICONTROL Trends]
 
-Il [!UICONTROL Daily trends], [!UICONTROL Weekly trends], o [!UICONTROL Monthly trends] il widget mostra, per i modelli di attribuzione selezionati, le tendenze di conversione giornaliere, settimanali o mensili.
+Il widget [!UICONTROL Daily trends], [!UICONTROL Weekly trends] o [!UICONTROL Monthly trends] mostra le tendenze di conversione giornaliere, settimanali o mensili per i modelli di attribuzione selezionati.
 
-Per scegliere il periodo, seleziona **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** o **[!UICONTROL Monthly trends]** da ![Altro](/help/assets//icons/More.svg).
+Per scegliere il periodo, selezionare **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** o **[!UICONTROL Monthly trends]** da ![Altro](/help/assets//icons/More.svg).
 
 Per visualizzare i dettagli, passa il cursore del mouse sulla riga di dati di un modello di attribuzione specifico per visualizzare un elemento a comparsa che mostra il numero totale di conversioni per tali dati.
 
 ### [!UICONTROL Breakdown]
 
-Il [!UICONTROL Breakdown] il widget è una suddivisione per canale o punto di contatto delle conversioni per ciascuno dei modelli di attribuzione selezionati. Questo widget può essere utile per prendere decisioni sull’efficacia di ciascun canale o punto di contatto.
+Il widget [!UICONTROL Breakdown] è una suddivisione per canale o punto di contatto delle conversioni per ciascuno dei modelli di attribuzione selezionati. Questo widget può essere utile per prendere decisioni sull’efficacia di ciascun canale o punto di contatto.
 
-Per scegliere il tipo di suddivisione, seleziona **[!UICONTROL Breakdown by channel]** o **[!UICONTROL Breakdown by touchpoint]** da ![Altro](/help/assets//icons/More.svg).
+Per scegliere il tipo di suddivisione, selezionare **[!UICONTROL Breakdown by channel]** o **[!UICONTROL Breakdown by touchpoint]** da ![Altro](/help/assets//icons/More.svg).
 
 Per visualizzare i dettagli, passa il cursore sopra uno degli elementi del grafico.
 
@@ -108,19 +108,19 @@ La finestra di dialogo espansa Prime campagne mostra la stessa tabella con colon
 
   Puoi selezionare ciascuna delle intestazioni di colonna aggiuntive per ordinare la tabella in ordine crescente o decrescente.
 
-Per chiudere la finestra di dialogo Campagne principali espansa, seleziona **[!UICONTROL Close]**.
+Per chiudere la finestra di dialogo Inizio campagne espansa, selezionare **[!UICONTROL Close]**.
 
 
 ### [!UICONTROL Breakdown by touchpoint position]
 
-Il [!UICONTROL Breakdown by touchpoint position] la visualizzazione è una suddivisione delle conversioni attribuite per posizione del punto di contatto e del punto di contatto in tutti i percorsi di conversione. Questo grafico consente di confrontare se un punto di contatto contribuisce meglio in una posizione rispetto alle posizioni rimanenti e ad altri punti di contatto in qualsiasi posizione.
+La visualizzazione [!UICONTROL Breakdown by touchpoint position] è una suddivisione delle conversioni attribuite per posizione del punto di contatto e punto di contatto in tutti i percorsi di conversione. Questo grafico consente di confrontare se un punto di contatto contribuisce meglio in una posizione rispetto alle posizioni rimanenti e ad altri punti di contatto in qualsiasi posizione.
 
 >[!NOTE]
 >
 >La somma del contributo in percentuale per un modello di attribuzione in tutti i punti di contatto e le posizioni deve essere pari a 100.
 
 
-Le posizioni [!UICONTROL Starter], [!UICONTROL Player] e [!UICONTROL Closer] sono definiti come segue:
+Le posizioni [!UICONTROL Starter], [!UICONTROL Player] e [!UICONTROL Closer] sono definite come segue:
 
 | Posizione | Descrizione |
 |---|---|
@@ -131,7 +131,7 @@ Le posizioni [!UICONTROL Starter], [!UICONTROL Player] e [!UICONTROL Closer] son
 
 ### [!UICONTROL Top conversion paths]
 
-Il [!UICONTROL Top conversion paths] la visualizzazione mostra i primi 5 percorsi di conversione in base ai modelli di attribuzione selezionati.
+La visualizzazione [!UICONTROL Top conversion paths] mostra i primi 5 percorsi di conversione in base ai modelli di attribuzione selezionati.
 
 Per ogni percorso di conversione, vedi:
 
@@ -146,11 +146,11 @@ Per ogni percorso di conversione, vedi:
 
 La scheda Diagnostica mostra i widget per:
 
-* [!UICONTROL Model Assessment] Questa visualizzazione, che puoi suddividere in Conversioni effettive rispetto a quelle previste o residue.
+* Visualizzazione [!UICONTROL Model Assessment], che è possibile suddividere in Conversioni effettive rispetto a quelle previste o residue.
 
-  Per suddividere la visualizzazione, seleziona **[!UICONTROL Actual vs. Predicted]** o **[!UICONTROL Residuals]** dal **[!UICONTROL Breakdown]** elenco.
+  Per suddividere la visualizzazione, selezionare **[!UICONTROL Actual vs. Predicted]** o **[!UICONTROL Residuals]** dall&#39;elenco **[!UICONTROL Breakdown]**.
 
-* [!UICONTROL Model fitting metrics] tabella, che mostra le seguenti colonne per ogni metrica di conversione:
+* Tabella [!UICONTROL Model fitting metrics], che mostra le seguenti colonne per ogni metrica di conversione:
 
    * Conversione effettiva
 
@@ -168,13 +168,13 @@ La scheda Diagnostica mostra i widget per:
 
   Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets//icons/Download.svg).
 
-* [!UICONTROL Touchpoint effectiveness] tabella, che rappresenta il risultato del modello algoritmico Attribution AI. I dati per questa tabella vengono generati solo per periodi di tempo specifici. Seleziona **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets//icons/InfoOutline.svg) per ulteriori dettagli.
+* Tabella [!UICONTROL Touchpoint effectiveness], che rappresenta il risultato del modello algoritmico Attribution AI. I dati per questa tabella vengono generati solo per periodi di tempo specifici. Seleziona **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets//icons/InfoOutline.svg) per ulteriori dettagli.
 
   La visualizzazione mostra, in ordine decrescente di [!UICONTROL Efficiency measure] ![Ordine decrescente](/help/assets//icons/SortOrderDown.svg), per ogni punto di contatto:
 
-   * [!UICONTROL Paths touched]: visualizza la percentuale di percorsi che raggiungono la conversione e la percentuale di percorsi che non raggiungono la conversione. Per un punto di contatto, puoi vedere più conversioni attribuite quando il rapporto di conversione dell’attribuzione è elevato. Questo rapporto confronta la percentuale di percorsi che conducono alla conversione con la percentuale di percorsi che la conducono *non* portare alla conversione.
-   * [!UICONTROL Efficiency measure]: generato dal modello di attribuzione algoritmica, la misura di efficienza indica l’importanza relativa di un punto di contatto verso la conversione, indipendentemente dal volume del punto di contatto. L&#39;efficienza è misurata su una scala da 1 a 5. Tieni presente che un volume di punti di contatto più elevato non garantisce una misura di efficienza più elevata.
-   * [!UICONTROL Total volume]: il numero aggregato di volte in cui un utente tocca un punto di contatto. Il numero include i punti di contatto visualizzati su un percorso che raggiunge la conversione e i percorsi *non* con conseguente conversione.
+   * [!UICONTROL Paths touched]: visualizza la percentuale di percorsi che raggiungono la conversione e la percentuale di percorsi che non raggiungono la conversione. Per un punto di contatto, puoi vedere più conversioni attribuite quando il rapporto di conversione dell’attribuzione è elevato. Questo rapporto confronta la percentuale di percorsi che portano alla conversione rispetto alla percentuale di percorsi che portano alla conversione *not*.
+   * [!UICONTROL Efficiency measure]: generato dal modello di attribuzione algoritmica, la misura di efficienza indica l&#39;importanza relativa di un punto di contatto verso la conversione, indipendentemente dal volume del punto di contatto. L&#39;efficienza è misurata su una scala da 1 a 5. Tieni presente che un volume di punti di contatto più elevato non garantisce una misura di efficienza più elevata.
+   * [!UICONTROL Total volume]: numero aggregato di volte in cui un utente tocca un punto di contatto. Il numero include i punti di contatto visualizzati in un percorso che raggiunge la conversione e i percorsi *non* che determinano la conversione.
 
 ![Diagnostica](/help/assets//model-insights-diagnostics.png)
 
@@ -189,10 +189,10 @@ La scheda Cronologia mostra i widget per:
 
 * Spesa punto di contatto.
 
-  Puoi selezionare un canale alternativo basato sulla spesa da visualizzare per questo widget. Seleziona un canale da **[!UICONTROL Channels]**.
+  Puoi selezionare un canale alternativo basato sulla spesa da visualizzare per questo widget. Selezionare un canale da **[!UICONTROL Channels]**.
 
 * Volume del punto di contatto.
 
-  Puoi selezionare un canale alternativo basato su volume da visualizzare per questo widget. Seleziona un canale da **[!UICONTROL Channels]**.
+  Puoi selezionare un canale alternativo basato su volume da visualizzare per questo widget. Selezionare un canale da **[!UICONTROL Channels]**.
 
-![Modello - Panoramica storica](/help/assets//model-insights-historical-overview.png)
+![Modello - Panoramica cronologica](/help/assets//model-insights-historical-overview.png)

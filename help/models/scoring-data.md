@@ -12,9 +12,9 @@ ht-degree: 5%
 
 # Dati punteggio
 
-Come parte del punteggio di un modello, i dati di punteggio vengono mantenuti all’interno di un set di dati in Experienci Platform. Questo set di dati è conforme a uno schema creato per ogni modello nell’istanza Mix Modeler.
+Come parte del punteggio di un modello, i dati di punteggio vengono mantenuti all’interno di un set di dati in Experience Platform. Questo set di dati è conforme a uno schema creato per ogni modello nell’istanza Mix Modeler.
 
-Lo schema per il punteggio dei dati è denominato come `AMM AI Schema - <name of model> <id>`. Ad esempio: `AMM AI Schema - Model for Online Conversion 10120`.
+Lo schema per il punteggio dei dati è denominato come `AMM AI Schema - <name of model> <id>`. Esempio: `AMM AI Schema - Model for Online Conversion 10120`.
 
 Il set di dati, che mantiene i dati di punteggio per un modello, è denominato come `AMM AI Aggregrate Scores - <id>`, ad esempio `AMM AI Aggregrate Scores - 10120`.
 
@@ -25,8 +25,8 @@ Lo schema include un gruppo di campi con un oggetto contenente i dettagli dei pu
 
 | Nome campo | Tipo | Definizione |
 |---|---|---|
-| **campaignGroup** | Stringa | Nome del gruppo della campagna. |
-| **campaignName** | Stringa | Nome della campagna. |
+| **gruppoCampagne** | Stringa | Nome del gruppo della campagna. |
+| **nomeCampagna** | Stringa | Nome della campagna. |
 | **contributo** | Doppio | Contributo attribuito a questa conversione per il punto di contatto specificato. |
 | **conversionEndDate** | Data | Data di fine della finestra di conversione. |
 | **conversionName** | Stringa | Nome della conversione creata durante il passaggio di impostazione della definizione di conversione. |
@@ -36,8 +36,8 @@ Lo schema include un gruppo di campi con un oggetto contenente i dettagli dei pu
 | **mediaSubChannel** | Stringa | Nome del sottocanale. |
 | **ricavi** | Doppio | Ricavi attribuiti a questa conversione per il punto di contatto specificato. |
 | **scoreCreatedTime** | DateTime | Ora di creazione di questo record di punteggio. |
-| **touchpointEndDate** | Data | Data di fine della finestra del punto di contatto. |
-| **touchpointName** | Stringa | Nome del punto di contatto creato durante il passaggio di impostazione della definizione del punto di contatto. Attualmente il punto di contatto è definito sul canale multimediale. |
-| **touchpointStartDate** | Data | Data di inizio della finestra del punto di contatto. |
+| **dataFinePuntoDiContatto** | Data | Data di fine della finestra del punto di contatto. |
+| **nomePuntoDiContatto** | Stringa | Nome del punto di contatto creato durante il passaggio di impostazione della definizione del punto di contatto. Attualmente il punto di contatto è definito sul canale multimediale. |
+| **dataInizioPuntoDiContatto** | Data | Data di inizio della finestra del punto di contatto. |
 
-Consulta [Schemi](../ingest-data/schemas.md) per ulteriori informazioni.
+Per ulteriori informazioni, vedere [Schemi](../ingest-data/schemas.md).

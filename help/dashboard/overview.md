@@ -15,7 +15,7 @@ ht-degree: 1%
 
 La dashboard panoramica in Mix Modeler consente di visualizzare una panoramica dei dati armonizzati e dei piani tramite vari widget configurabili.
 
-Per accedere alla panoramica, seleziona ![Home](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** dalla barra a sinistra nell’interfaccia di Mix Modeler.
+Per accedere alla panoramica, seleziona ![Home](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** dalla barra a sinistra nell&#39;interfaccia di Mix Modeler.
 
 Da qui puoi ottenere ulteriori dettagli su:
 

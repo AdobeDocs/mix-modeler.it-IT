@@ -34,9 +34,9 @@ L’approccio basato su passaggi per questo caso d’uso è:
 
 | Passaggio | Dettagli |
 |---|---|
-| Acquisisci | Identifica e acquisisci le origini dati in schemi comuni. <br/>Applica gli investimenti esistenti in Adobe Analytics o nel Customer Journey Analytics per velocizzare l’implementazione. |
-| Configurare | Configurare modelli flessibili utilizzando un framework AI-as-a-Service per gli obiettivi aziendali specifici<br/>Assicurati automaticamente la coerenza tra punto di contatto e livello di riepilogo con l’apprendimento del trasferimento bidirezionale. |
-| Analizza | Comprendi chiaramente il ROI del marketing complessivo e dei singoli canali/sottocanali.<br/>Scopri chiaramente quali punti di contatto favoriscono al meglio le conversioni incrementali. |
+| Acquisisci | Identifica e acquisisci le origini dati in schemi comuni. <br/>Applica gli investimenti esistenti in Adobe Analytics o Customer Journey Analytics per velocizzare la distribuzione. |
+| Configurare | Configura modelli flessibili utilizzando un framework AI-as-a-Service per i tuoi obiettivi aziendali specifici<br/>Assicurati automaticamente la coerenza tra punto di contatto e livello di riepilogo con l&#39;apprendimento del trasferimento bidirezionale. |
+| Analizza | Comprendi chiaramente il ROI del marketing complessivo e dei singoli canali/sottocanali.<br/>Scopri chiaramente quali punti di contatto possono favorire le conversioni incrementali. |
 
 {style="table-layout:auto"}
 
@@ -75,7 +75,7 @@ L’approccio basato su passaggi per questo caso d’uso è:
 |---|---|
 | Configurare | Possibilità di personalizzare facilmente i modelli di misurazione in base agli obiettivi aziendali.<br/>Definisci i parametri con pochi clic, senza bisogno di codifica: ad esempio canali, aree geografiche, cicli di vendita, ritardi, fattori di business interni ed esterni e altro ancora. |
 | Addestra | Addestra i modelli AI/ML configurati su per scoprire il modo migliore per adattarsi ai dati di input, fornendo risultati più precisi. |
-| Ottimizza | Ottieni allocazioni di budget ottimizzate automatizzate in base alle previsioni dei modelli.<br/>Puoi sviluppare e confrontare più scenari di budget con pochi clic, grazie a un’interfaccia utente intuitiva. |
+| Ottimizza | Ottieni allocazioni di budget ottimizzate automatizzate in base alle previsioni dei modelli.<br/>Sviluppa e confronta più scenari di budget in pochi clic tramite un&#39;interfaccia utente intuitiva. |
 
 {style="table-layout:auto"}
 

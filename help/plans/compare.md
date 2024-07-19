@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Per confrontare i piani nell&#39;interfaccia Piani Mix Modeler:
 
-* Seleziona ![Confronta](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. In Confronta piani selezionare un piano per ciascuno di essi **[!UICONTROL _Seleziona piano_]**.
+* Selezionare ![Confronta](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. In Confronta piani selezionare un piano per ogni **[!UICONTROL _Seleziona piano_]**.
 
 * In alternativa, è possibile selezionare due piani dalla tabella Piani e dalla barra delle azioni selezionare ![Confronta](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
 
@@ -40,4 +40,4 @@ Dove:
 
 Puoi passare il cursore sopra i singoli elementi del grafico in ciascun widget per visualizzare un elemento a comparsa con ulteriori dettagli.
 
-Seleziona **[!UICONTROL Close]** per tornare alla panoramica dei piani.
+Selezionare **[!UICONTROL Close]** per tornare alla panoramica dei piani.

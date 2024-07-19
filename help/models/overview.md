@@ -35,7 +35,7 @@ Un modello può facoltativamente includere:
 
 ## Creare un modello
 
-Per creare un modello, utilizzate il flusso di configurazione guidato del modello Mix Modeler, disponibile quando selezionate **[!UICONTROL Open model canvas]**. Consulta [Creare un modello](create.md) per ulteriori dettagli.
+Per creare un modello, utilizzare il flusso di configurazione guidato del modello Mix Modeler passo dopo passo disponibile quando si seleziona **[!UICONTROL Open model canvas]**. Per ulteriori dettagli, vedere [Creare un modello](create.md).
 
 ## Gestisci modelli
 
@@ -54,18 +54,18 @@ Per visualizzare una tabella dei modelli correnti, nell’interfaccia Mix Modele
    | Evento di conversione | Conversione selezionata per il modello. |
    | Frequenza di esecuzione | Frequenza di esecuzione dell&#39;addestramento del modello. |
    | Ultima esecuzione | La data e l’ora dell’ultimo addestramento del modello. |
-   | Stato | Lo stato dell’ultima esecuzione dell’addestramento del modello. <br/><span style="color:green">●</span> Completato<br/><span style="color:orange">●</span> Problema di formazione<br/> <span style="color:orange">●</span> In attesa di formazione <br/><span style="color:red">●</span> Non riuscito <br/><span style="color:gray">●</span> _ (quando è in corso un&#39;ultima esecuzione) |
+   | Stato | Lo stato dell’ultima esecuzione dell’addestramento del modello. <br/><span style="color:green">●</span> riuscito<br/><span style="color:orange">●</span> problema di formazione<br/> <span style="color:orange">●</span> In attesa del corso di formazione <br/><span style="color:red">●</span> Non riuscito <br/><span style="color:gray">●</span> _ (quando è in corso l&#39;ultima esecuzione) |
 
    {style="table-layout:auto"}
 
-1. Per modificare le colonne visualizzate per l&#39;elenco, selezionare ![Impostazioni colonna](/help/assets//icons/ColumnSetting.svg) e attiva/disattiva colonne ![Verifica](/help/assets//icons/Checkmark.svg) o disattivato.
+1. Per modificare le colonne visualizzate per l&#39;elenco, selezionare ![Impostazioni colonna](/help/assets//icons/ColumnSetting.svg) e attivare o disattivare le colonne in ![Controlla](/help/assets//icons/Checkmark.svg).
 
 
 ### Visualizzare i dettagli di un modello
 
 Per visualizzare ulteriori dettagli su un modello:
 
-1. Seleziona ![Info](/help/assets//icons/Info.svg) affinché un modello possa mostrare un pop-up con i relativi dettagli.
+1. Seleziona ![Info](/help/assets//icons/Info.svg) per un modello per visualizzare un popup con i dettagli.
 
 
 
@@ -75,9 +75,9 @@ Per visualizzare le informazioni di un modello, nell’interfaccia Mix Modeler:
 
 1. Seleziona ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
-1. Seleziona il nome di un modello con un **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dal **[!UICONTROL Models]** tabella. Le informazioni sul modello sono disponibili solo sui modelli addestrati correttamente.
+1. Seleziona il nome di un modello con **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dalla tabella **[!UICONTROL Models]**. Le informazioni sul modello sono disponibili solo sui modelli addestrati correttamente.
 
-1. Dal menu di scelta rapida, selezionare **[!UICONTROL Model Insights]**. Sei stato reindirizzato a [Approfondimenti modello](insights.md).
+1. Dal menu di scelta rapida, selezionare **[!UICONTROL Model Insights]**. Sei stato reindirizzato a [Model Insights](insights.md).
 
 
 ### Punteggio di nuovo
@@ -87,7 +87,7 @@ Per assegnare nuovamente un punteggio a un modello, nell’interfaccia Mix Model
 
 1. Seleziona ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
-1. Seleziona il nome di un modello con un **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dal **[!UICONTROL Models]** tabella. Il nuovo punteggio è disponibile solo sui modelli addestrati correttamente.
+1. Seleziona il nome di un modello con **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dalla tabella **[!UICONTROL Models]**. Il nuovo punteggio è disponibile solo sui modelli addestrati correttamente.
 
 1. Dal menu di scelta rapida, selezionare **[!UICONTROL Re-score]**. La visualizzazione di uno stato aggiornato per il modello potrebbe richiedere alcuni minuti.
 

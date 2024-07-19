@@ -35,7 +35,7 @@ Per ottenere questo risultato, Mix Modeler combina:
 
 L’apprendimento del trasferimento bidirezionale AI/ML unifica i risultati della modellazione marketing mix (MMM) e dell’attribuzione multi-touch (MTA) per garantire risultati coerenti tra le misurazioni e la pianificazione in un mondo senza cookie.
 
-![Apprendimento del trasferimento bidirezionale](/help/assets//birdirectional-transfer-learning.png){width="500" align="center"}
+![Apprendimento con trasferimento bidirezionale](/help/assets//birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## Funzionalità
@@ -44,10 +44,10 @@ Mix Modeler offre le seguenti funzionalità:
 
 | Funzionalità | Descrizione |
 |---|---|
-| **Misurazione delle prestazioni incrementali** | Comprendi il ROI incrementale e l’impatto del marketing tra gli obiettivi aziendali o gli obiettivi delle campagne tattiche. |
+| **Misura le prestazioni incrementali** | Comprendi il ROI incrementale e l’impatto del marketing tra gli obiettivi aziendali o gli obiettivi delle campagne tattiche. |
 | **Unificare i risultati in MMM e MTA** | Prendi decisioni più sicure attraverso l’unificazione dei modelli di marketing mix modeling (MMM) e attribuzione multi-touch (MTA) tramite l’apprendimento del trasferimento. |
 | **Allocazione ottimale dei budget** | Identifica l’allocazione ottimale del budget in base alla spesa di marketing e all’impatto sugli obiettivi. |
-| **Creare e confrontare scenari di budget** | Sviluppare più piani di budget e confrontarne l&#39;impatto per prendere decisioni ottimali per l&#39;azienda. |
+| **Crea e confronta scenari di budget** | Sviluppare più piani di budget e confrontarne l&#39;impatto per prendere decisioni ottimali per l&#39;azienda. |
 
 {style="table-layout:auto"}
 
@@ -93,6 +93,6 @@ Puoi utilizzare la funzionalità di attribuzione multi-touch di Mix Modeler nei 
 * Attribuzione a livello di evento full funnel: scopri l’impatto del marketing sull’intero percorso di clienti. Ad esempio, l’iscrizione gratuita all’account per la conversione a pagamento e oltre.
 * Valutazioni dei partner: valutare l’efficacia delle agenzie e dei partner in base ai risultati di attribuzione.
 
-Consulta [Approfondimenti modello - Attribuzione](../models/insights.md#attribution) su come accedere agli approfondimenti sull’attribuzione multi-touch in Mix Modeler.
+Consulta [Approfondimenti modello - Attribuzione](../models/insights.md#attribution) su come accedere agli approfondimenti sull&#39;attribuzione multi-touch in Mix Modeler.
 
 

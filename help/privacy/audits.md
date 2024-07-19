@@ -16,9 +16,9 @@ Utilizza l’interfaccia Audit, parte dell’Experience Platform incorporato nel
 
 Per esaminare il registro di controllo, nell’interfaccia Mix Modeler:
 
-1. Seleziona ![Elenco attività](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** da **[!UICONTROL PRIVACY]**.
+1. Selezionare ![Elenco attività](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** da **[!UICONTROL PRIVACY]**.
 
-1. In entrata **[!UICONTROL Audits]**, è possibile trovare **[!UICONTROL Activity log]**. Il registro attività mostra le voci per le seguenti categorie, azioni e stato di Mix Modeler.
+1. In **[!UICONTROL Audits]**, è possibile trovare **[!UICONTROL Activity log]**. Il registro attività mostra le voci per le seguenti categorie, azioni e stato di Mix Modeler.
 
    | Categoria | Azione | Stato |
    |---|---|---|
@@ -49,11 +49,11 @@ Per esaminare il registro di controllo, nell’interfaccia Mix Modeler:
 
 1. Seleziona una voce nel registro attività per aprire un pannello e ottenere ulteriori dettagli.
 
-   ![Audit Mix Modeler](/help/assets/mix-modeler-audit.png)
+   ![Controllo Mix Modeler](/help/assets/mix-modeler-audit.png)
 
-1. Per filtrare **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** o **[!UICONTROL Date]** intervallo, seleziona ![Filtro](/help/assets/icons/Filter.svg).
+1. Per filtrare in base all&#39;intervallo **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** o **[!UICONTROL Date]**, selezionare ![Filtro](/help/assets/icons/Filter.svg).
 
-1. Per modificare le colonne visualizzate nel registro attività, seleziona ![Colonne](/help/assets/icons/ColumnSetting.svg) e nella **[!UICONTROL Customize table]** finestra di dialogo, seleziona le colonne da visualizzare. Seleziona **[!UICONTROL Apply]** per applicare la selezione, **[!UICONTROL Cancel]** per annullare la selezione.
+1. Per modificare le colonne visualizzate nel registro attività, selezionare ![Colonne](/help/assets/icons/ColumnSetting.svg) e nella finestra di dialogo **[!UICONTROL Customize table]** selezionare le colonne da visualizzare. Selezionare **[!UICONTROL Apply]** per applicare la selezione, **[!UICONTROL Cancel]** per annullarla.
 
-1. Per scaricare il registro di controllo, seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. In **[!UICONTROL Download log]** finestra di dialogo, seleziona **[!UICONTROL CSV]** o **[!UICONTROL JSON]** come formato e seleziona **[!UICONTROL Download]**.
+1. Per scaricare il registro di controllo, selezionare ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. Nella finestra di dialogo **[!UICONTROL Download log]** selezionare **[!UICONTROL CSV]** o **[!UICONTROL JSON]** come formato e selezionare **[!UICONTROL Download]**.
 

@@ -18,7 +18,7 @@ Per gestire gli schemi, supportare i dati che desideri acquisire in Experience P
 
 1. Seleziona ![Schemi](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, sotto **[!UICONTROL SETUP]**.
 
-Consulta la [Panoramica dell’interfaccia utente degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) per ulteriori informazioni.
+Per ulteriori informazioni, consulta la [Panoramica dell&#39;interfaccia utente degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en).
 
 ## Dati aggregati o di riepilogo
 
@@ -36,7 +36,7 @@ Utilizza la classe Metriche di riepilogo XDM per:
 >
 >La definizione dello schema deve contenere almeno un campo numerico (utilizzando un valore Integer, Double, Boolean o un altro tipo numerico) per supportare le metriche richieste per i dati acquisiti.
 
-Uno schema che utilizza **[!DNL XDM Summary Metrics]** la classe base può essere semplice, come illustrato nella **[!DNL ExternalFactorSummarySchema]** di seguito.
+Uno schema che utilizza la classe base **[!DNL XDM Summary Metrics]** può essere semplice, come mostrato nella **[!DNL ExternalFactorSummarySchema]** seguente.
 
 ![Schema Fattori Esterni](/help/assets//external-factors-schema.png)
 
@@ -47,8 +47,8 @@ Questo semplice schema può essere utilizzato per acquisire set di dati contenen
   | timestamp | date_type | fattore | valore |
   |---|---|---|--:|
   | 2020-11-28T00:00:00.000Z | settimana | competitor_index | 289,8 |
-  | 05.05.2020:00:00.000Z | settimana | competitor_index | 291,2 |
-  | 12-12-2020:00:00.000Z | settimana | competitor_index | 280,07 |
+  | 2020-12-05T00:00:00.000Z | settimana | competitor_index | 291,2 |
+  | 2020-12-12T00:00:00.000Z | settimana | competitor_index | 280,07 |
   | ... | ... | ... | ... |
 
 - Dati festività pubbliche
@@ -56,14 +56,14 @@ Questo semplice schema può essere utilizzato per acquisire set di dati contenen
   | timestamp | date_type | fattore | valore |
   |---|---|---|--:|
   | 2020-11-28T00:00:00.000Z | settimana | all_Holiday_flag | 0,0 |
-  | 05.05.2020:00:00.000Z | settimana | all_Holiday_flag | 0,0 |
+  | 2020-12-05T00:00:00.000Z | settimana | all_Holiday_flag | 0,0 |
+  | 2020-12-12T00:00:00.000Z | settimana | all_Holiday_flag | 0,0 |
   | 12-12-2020:00:00.000Z | settimana | all_Holiday_flag | 0,0 |
-  | 2020-12-19T00:00:00.000Z | settimana | all_Holiday_flag | 0,0 |
   | 2020-12-26T00:00:00.000Z | settimana | all_Holiday_flag | 1,0 |
   | ... | ... | ... | ... |
 
 
-Vedi di seguito per un esempio più completo di **[!DNL LumaPaidMarketingSchema]** utilizzando **[!DNL XDM Summary Metrics]** come classe base. Lo schema utilizza gruppi di campi dedicati (con annotazioni di colori) per le metriche (**[!DNL AMMMetrics]**), dimensioni (**[!DNL AMMDimensions]**) e altre informazioni specifiche per il cliente (**[!DNL CustomerSpecific]**).
+Di seguito è riportato un esempio più completo di **[!DNL LumaPaidMarketingSchema]** che utilizza **[!DNL XDM Summary Metrics]** come classe base. Lo schema utilizza gruppi di campi dedicati (con annotazioni di colori) per metriche (**[!DNL AMMMetrics]**), dimensioni (**[!DNL AMMDimensions]**) e altre informazioni specifiche del cliente (**[!DNL CustomerSpecific]**).
 
 ![Schema di riepilogo](/help/assets//summary-schema.png)
 
@@ -72,7 +72,7 @@ Data la natura asincrona dell’acquisizione del profilo, durante la raccolta di
 
 ## Tipi di dati supportati
 
-Attualmente, Mix Modeler supporta un sottoinsieme di tipi di dati Experience Platform. I seguenti tipi di dati di base (campi), indicati in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), sono supportati:
+Attualmente, Mix Modeler supporta un sottoinsieme di tipi di dati Experience Platform. Sono supportati i seguenti tipi di dati di base (campi), menzionati in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type):
 
 - Stringa
 - Intero

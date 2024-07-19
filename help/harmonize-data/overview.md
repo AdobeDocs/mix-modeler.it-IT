@@ -71,10 +71,10 @@ Un set di dati di esempio per l’evento esperienza (eventi Web SDK) dal cliente
 
 | Timestamp | Spazio dei nomi identità | ID identità | Channel | Clic |
 |--- |--- |--- |--- |---:|
-| 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
-| 01-01-2022 00:01:01,000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
-| 01-08-2022 00:01:01,000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
-| 01-08-2022 00:01:01,000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
+| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
+| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
 
 {style="table-layout:auto"}
 
@@ -104,34 +104,34 @@ Desideri creare un set di dati armonizzato con granularità impostata su Settima
 
 ## Imposta dati armonizzati
 
-Per creare un set di dati armonizzato, come nella sezione [esempio](#an-example-of-harmonized-data), è necessario seguire questi passaggi:
+Per creare un set di dati armonizzato, come nell&#39;[esempio](#an-example-of-harmonized-data) semplificato, devi seguire questi passaggi:
 
-1. Definisci ulteriori [campi armonizzati](fields.md) che desideri utilizzare oltre i campi armonizzati globali già disponibili.
-1. Configurazione [regole del set di dati](dataset-rules.md) per mappare i campi dai set di dati aggregati o evento esperienza ai campi armonizzati.
-1. Definisci [punti di contatto di marketing](marketing-touchpoints.md) utilizzando i campi standard e armonizzati aggiuntivi definiti dall&#39;utente.
-1. Definisci [conversioni](conversions.md) utilizzando i campi standard e armonizzati aggiuntivi definiti dall&#39;utente.
+1. Definisci ulteriori [campi armonizzati](fields.md) da utilizzare oltre i campi armonizzati globali già disponibili.
+1. Imposta [regole set di dati](dataset-rules.md) per mappare i campi dai set di dati aggregati o dell&#39;evento esperienza ai campi armonizzati.
+1. Definisci [punti di contatto di marketing](marketing-touchpoints.md) utilizzando i campi standard e armonizzati aggiuntivi definiti.
+1. Definisci [conversioni](conversions.md) utilizzando i campi standard e altri campi armonizzati definiti.
 
 
 ## Visualizza dati armonizzati
 
 Per visualizzare i dati armonizzati, nell’interfaccia Mix Modeler:
 
-1. Seleziona ![RicercaDati](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dalla barra a sinistra.
+1. Seleziona ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dalla barra a sinistra.
 
 1. Seleziona **[!UICONTROL Harmonized Data]** dalla barra superiore. Viene mostrato un riassunto dei dati armonizzati in base ai campi, alle regole del set di dati, ai punti di contatto di marketing e alle conversioni definite.
 
    1. Per ridefinire il periodo su cui si basa la ricapitolazione dei dati armonizzati, immettere un intervallo di date per **[!UICONTROL Date range]** o utilizzare ![Calendario](/help/assets//icons/Calendar.svg) per selezionare un intervallo di dati.
 
-   1. Per modificare le colonne dei campi armonizzati visualizzate per la tabella dati armonizzata, utilizzare ![Impostazioni](/help/assets//icons/Setting.svg) per aprire **[!UICONTROL Column settings]** .
+   1. Per modificare le colonne dei campi armonizzati visualizzate per la tabella dati armonizzata, utilizzare ![Impostazioni](/help/assets//icons/Setting.svg) per aprire la finestra di dialogo **[!UICONTROL Column settings]**.
 
-      1. Seleziona ![SelectBox](/help/assets//icons/SelectBox.svg) una o più colonne da **[!UICONTROL AVAILABLE COLUMNS]** e utilizzare ![Freccia destra](/help/assets//icons/ChevronRight.svg) per aggiungere queste colonne a **[!UICONTROL SELECTED COLUMNS]**.
+      1. Selezionare ![SelectBox](/help/assets//icons/SelectBox.svg) una o più colonne da **[!UICONTROL AVAILABLE COLUMNS]** e utilizzare ![Chevron right](/help/assets//icons/ChevronRight.svg) per aggiungere queste colonne a **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. Seleziona ![SelectBox](/help/assets//icons/SelectBox.svg) una o più colonne da **[!UICONTROL SELECTED COLUMNS]** e utilizzare ![Freccia sinistra](/help/assets//icons/ChevronLeft.svg) per rimuovere le colonne selezionate e restituirle a **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Selezionare ![SelectBox](/help/assets//icons/SelectBox.svg) una o più colonne da **[!UICONTROL SELECTED COLUMNS]** e utilizzare ![Chevron left](/help/assets//icons/ChevronLeft.svg) per rimuovere le colonne selezionate e riportarle a **[!UICONTROL AVAILABLE COLUMNS]**.
 
-      1. Seleziona una colonna da **[!UICONTROL DEFAULT SORT]** e passa da **[!UICONTROL Ascending]** o **[!UICONTROL Descending]**.
+      1. Selezionare una colonna da **[!UICONTROL DEFAULT SORT]** e passare da **[!UICONTROL Ascending]** a **[!UICONTROL Descending]**.
 
-      1. Per modificare l’ordine delle colonne visualizzate, puoi spostare una colonna in **[!UICONTROL SELECTED COLUMNS]** su e giù tramite trascinamento.
+      1. Per modificare l&#39;ordine delle colonne visualizzate, è possibile spostare una colonna in **[!UICONTROL SELECTED COLUMNS]** verso l&#39;alto o il basso tramite trascinamento.
 
-   1. Seleziona **[!UICONTROL Submit]** per inviare le modifiche alle impostazioni di colonna. Seleziona **[!UICONTROL Close]** per annullare le modifiche apportate.
+   1. Seleziona **[!UICONTROL Submit]** per inviare le modifiche alle impostazioni della colonna. Selezionare **[!UICONTROL Close]** per annullare le modifiche apportate.
 
-1. Se sono disponibili più pagine, utilizza ![Freccia sinistra](/help/assets//icons/ChevronLeft.svg) o ![Freccia a destra](/help/assets//icons/ChevronRight.svg) a **[!UICONTROL Page _x _di_x_]** per spostarsi tra le pagine.
+1. Se sono disponibili altre pagine, usa ![Freccia a sinistra](/help/assets//icons/ChevronLeft.svg) o ![Freccia a destra](/help/assets//icons/ChevronRight.svg) alle **[!UICONTROL Page _x _di_x_]** per spostarti tra le pagine.

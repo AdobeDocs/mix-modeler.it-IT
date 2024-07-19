@@ -15,59 +15,59 @@ ht-degree: 0%
 
 In Mix Modeler è possibile creare un piano utilizzando l&#39;area di lavoro del piano. Nell&#39;area di lavoro del piano è possibile impostare i dettagli e i budget del piano e del modello sottostante da utilizzare per il piano. Una volta specificati i dettagli, il budget e il modello, puoi procedere con un piano consigliato dall’intelligenza artificiale o modificare la spesa per canale.
 
-Per creare un piano, in ![PLan](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** in Mix Modeler, seleziona **[!UICONTROL Open plan canvas]**.
+Per creare un piano, nell&#39;interfaccia ![PLan](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** in Mix Modeler, selezionare **[!UICONTROL Open plan canvas]**.
 
 1. Nella schermata di creazione del piano:
 
-   1. In **[!UICONTROL Setup]** sezione
+   1. Nella sezione **[!UICONTROL Setup]**
 
-      1. Immetti un **[!UICONTROL Plan name]**, ad esempio `Demo plan`. Immetti un **[!UICONTROL Description]**, ad esempio `Demo plan for Luma company`.
-      1. Seleziona un **[!UICONTROL Model]** da **[!UICONTROL _Seleziona un’opzione._.]**.
-      1. Puoi selezionare ![LinkOut](/help/assets//icons/LinkOut.svg) **[!UICONTROL Create model]** per creare un modello direttamente dalla creazione del piano. Verrà aperta una nuova scheda nel browser e verranno visualizzati i [Modelli](../models/overview.md) di rete.
+      1. Immettere un **[!UICONTROL Plan name]**, ad esempio `Demo plan`. Immettere un **[!UICONTROL Description]**, ad esempio `Demo plan for Luma company`.
+      1. Selezionare un **[!UICONTROL Model]** da **[!UICONTROL _Selezionare un&#39;opzione._.]**.
+      1. È possibile selezionare ![LinkOut](/help/assets//icons/LinkOut.svg) **[!UICONTROL Create model]** per creare un modello direttamente dalla creazione del piano. Verrà aperta una nuova scheda nel browser e verrà visualizzata l&#39;interfaccia [Models](../models/overview.md).
 
-         ![Impostazione piano](/help/assets//plan-setup.png)
+         ![Configurazione del piano](/help/assets//plan-setup.png)
 
-   1. In **[!UICONTROL Budget]** sezione:
+   1. Nella sezione **[!UICONTROL Budget]**:
 
       1. Specificare un intervallo di date digitando le date o selezionando un intervallo di date utilizzando ![Calendario](/help/assets//icons/Calendar.svg).
       1. Inserire un budget.
 
-      Per aggiungere altri intervalli di date, ciascuno con il relativo budget, seleziona ![CalendarAdd](/help/assets//icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+      Per aggiungere altri intervalli di date, ciascuno con il proprio budget, selezionare ![CalendarAdd](/help/assets//icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 
       Per eliminare un intervallo di date e il budget associato, selezionare ![Chiudi](/help/assets//icons/Close.svg).
 
       Per definire un budget massimo specificato:
 
-      1. Switch **[!UICONTROL Maximize budget]** su.
+      1. Attiva **[!UICONTROL Maximize budget]**.
       1. Specifica l&#39;importo del budget massimo. L’importo deve essere uguale o superiore all’importo totale dei budget specificato per gli intervalli di date.
 
          ![Budget del piano](/help/assets//plan-budget.png)
 
    1. Seleziona **[!UICONTROL Next]**.
 
-1. In **[!UICONTROL Done with all required fields]** finestra di dialogo:
+1. Nella finestra di dialogo **[!UICONTROL Done with all required fields]**:
 
    ![Piano completato](/help/assets//plan-done-required-fields.png)
 
-   * Seleziona <img src="/help/assets//icons/NewPlan.svg" width="25" /> **[!UICONTROL Create plan now]** se desideri generare un piano consigliato ai con ROI previsto.
+   * Seleziona <img src="/help/assets//icons/NewPlan.svg" width="25" /> **[!UICONTROL Create plan now]** se si desidera generare un piano consigliato di IA con ROI previsto.
 
-     Seleziona **[!UICONTROL OK]**. Il piano è stato creato.
-
-
-   * Seleziona ![ModificaTabella](/help/assets//icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]** se si desidera modificare il budget dei canali prima di creare un piano con ROI previsto.
-
-     Seleziona **[!UICONTROL OK]**, in modo da poter definire la spesa del canale in **[!UICONTROL Spend selection]** nel passaggio successivo.
+     Selezionare **[!UICONTROL OK]**. Il piano è stato creato.
 
 
+   * Selezionare ![TableEdit](/help/assets//icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]** se si desidera modificare il budget dei canali prima di creare un piano con ROI previsto.
 
-1. In **[!UICONTROL Spend selection]** sezione, per ogni intervallo di date del budget, utilizzare ![Freccia](/help/assets//icons/ChevronRight.svg) in alto apri la vista distribuzione canale per tale intervallo di dati.
+     Seleziona **[!UICONTROL OK]** per definire la spesa del tuo canale in **[!UICONTROL Spend selection]** nel passaggio successivo.
 
-   1. Per definire i budget per ciascun canale, immetti un valore per **[!UICONTROL Min]** e **[!UICONTROL Max]** oppure utilizzare i dispositivi di scorrimento.
 
-   1. Per passare da un input di valuta a un input di percentuale, seleziona **[!UICONTROL $]** o **[!UICONTROL %]** per **[!UICONTROL View spend by]**.
 
-      ![Selezione spesa](/help/assets//plan-spend-selection.png)
+1. Nella sezione **[!UICONTROL Spend selection]**, per ogni intervallo di date del budget, utilizza la ![freccia](/help/assets//icons/ChevronRight.svg) superiore per aprire la visualizzazione di distribuzione del canale per tale intervallo di dati.
 
-   1. Al termine, seleziona **[!UICONTROL Create]**.
+   1. Per definire i budget per ciascun canale, immettere un valore per **[!UICONTROL Min]** e **[!UICONTROL Max]** oppure utilizzare i cursori.
 
-   1. In **[!UICONTROL Create plan]** finestra di dialogo, seleziona **[!UICONTROL Create plan]** per creare il piano. Seleziona **[!UICONTROL Cancel]** per annullare la creazione del piano. A **[!UICONTROL No work is saved]** viene visualizzata una finestra di dialogo di conferma.
+   1. Per passare dalla valuta all&#39;input percentuale, selezionare **[!UICONTROL $]** o **[!UICONTROL %]** per **[!UICONTROL View spend by]**.
+
+      ![Selezione spese](/help/assets//plan-spend-selection.png)
+
+   1. Al termine, selezionare **[!UICONTROL Create]**.
+
+   1. Nella finestra di dialogo **[!UICONTROL Create plan]**, seleziona **[!UICONTROL Create plan]** per creare il piano. Selezionare **[!UICONTROL Cancel]** per annullare la creazione del piano. Viene visualizzata una finestra di dialogo **[!UICONTROL No work is saved]** per confermare.
