@@ -4,16 +4,16 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 7793d32d2b2cb8ede80df9d8e3ea4df5c92d26aa
+source-git-commit: f75aa1e24506dbb107a519337b0163a93b196ca7
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 8%
+source-wordcount: '376'
+ht-degree: 10%
 
 ---
 
 # Note sulla versione corrente di Mix Modeler
 
-**Ultimo aggiornamento**: 29 maggio 2024.
+**Ultimo aggiornamento**: 13 agosto 2024.
 
 Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rilasci di Mix Modeler funzionano secondo un modello di consegna continua, che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
 
@@ -24,8 +24,11 @@ Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rila
 | **[!UICONTROL Ad-hoc training and scoring]** | È possibile avviare un modello [riaddestramento](/help/models/overview.md#re-train), [punteggio (per i nuovi dati di marketing) o un nuovo punteggio](/help/models/overview.md#score-or-re-score) dall&#39;interfaccia Models. | 13 agosto 2024 |
 | **[!UICONTROL Policy enforcement]** | I criteri di Experience Platform vengono applicati durante la configurazione delle regole dei set di dati e quando si modificano le etichette nei dati sottostanti utilizzati in Mix Modeler. Per ulteriori dettagli, consulta [Criteri](../data-governance/policies.md). | 13 agosto 2024 |
 | **Igiene dei dati** | Le regole di igiene dei dati vengono rispettate durante l’eliminazione dei dati di origine. Vedere [Eliminazione di un set di dati di origine](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 13 agosto 2024 |
-| **Informazioni sul contributo dei fattori** | In [!UICONTROL Model insights], la scheda [[!UICONTROL Factors]](/help/models/insights.md#factors) offre informazioni relative a fattori esterni. | 13 agosto 2024 |
-| **Curve di risposta marginali** | Il widget [curve di risposta marginali](/help/models/insights.md#model-insights-1) in Informazioni modello ora aggiorna la curva e i valori corrispondenti in base alle modifiche nell&#39;intervallo di dati selezionato. Inoltre, il widget mostra il punto di break even marginale e il punto di rendimenti decrescenti. | 20 agosto 2024 |
+
+
+
+<!--| **Factor contribution insights** | In [!UICONTROL Model insights], the [[!UICONTROL Factors]](/help/models/insights.md#factors) tab offers external factor related insights. | August 13, 2024 |
+| **Marginal response curves** | The [marginal response curves](/help/models/insights.md#model-insights-1) widget in Model insights now updates the curve and corresponding values based on changes in the selected data range. Additionally, the widget shows the point of marginal break even and the point of diminishing returns. | August 20, 2024 |-->
 
 
 ## Giugno 2024
