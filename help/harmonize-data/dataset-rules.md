@@ -3,9 +3,9 @@ title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Nella schermata **[!UICONTROL Create]**,
 
          1. Per eliminare un caso o una condizione, selezionare ![Chiudi](/help/assets//icons/Close.svg) nel contenitore corrispondente.
 
-         1. Per selezionare se una o tutte le condizioni devono essere applicate a un caso, selezionare **[!UICONTROL Any of]** o **[!UICONTROL All of]**.
+         1. Per specificare se devono essere applicate le condizioni di un caso o tutte, selezionare **[!UICONTROL Any of]** o **[!UICONTROL All of]**.
 
          1. Per impostare il valore del risultato per un caso, immettere il valore in **[!UICONTROL Then]**.
 
@@ -126,7 +126,7 @@ Per eliminare una regola del set di dati, nell&#39;interfaccia ![DataSearch](/he
 
 ## Sincronizza dati
 
-Per sincronizzare i dati tra i dati armonizzati e i set di dati di riepilogo e/o evento, segui tutte le logiche delle regole dei set di dati:
+Per sincronizzare i dati tra i dati armonizzati e i set di dati di riepilogo e/o evento durante l’applicazione della logica nelle regole dei set di dati:
 
 1. Seleziona **[!UICONTROL Sync data]**.
 
@@ -159,7 +159,7 @@ Per garantire previsioni accurate dei modelli, puoi definire le preferenze di un
 
    ![Preferenze di unione dati](/help/assets//data-merge-preferences.png)
 
-   * Seleziona **[!UICONTROL Default metric preference]**. La preferenza metrica predefinita selezionata viene applicata quando, durante l’armonizzazione, più origini di dati aggiornano un campo metrico per un determinato canale. La preferenza viene applicata a livello di sandbox, a meno che non venga bypassata per specifiche preferenze basate su metriche. È possibile selezionare tra **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** e **[!UICONTROL Sum of summmary and event data]**.
+   * Seleziona **[!UICONTROL Default metric preference]**. La preferenza metrica predefinita selezionata viene applicata quando, durante l’armonizzazione, più origini di dati aggiornano un campo metrico per un determinato canale. La preferenza viene applicata a livello di sandbox, a meno che non venga bypassata per specifiche preferenze basate su metriche. È possibile selezionare tra **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** e **[!UICONTROL Sum of summary and event data]**.
 
    * Per aggiungere preferenze specifiche basate su metriche:
 
@@ -181,11 +181,13 @@ Per garantire previsioni accurate dei modelli, puoi definire le preferenze di un
 
 1. Selezionare **[!UICONTROL Save]** per salvare le preferenze di unione dati. È stata avviata una risincronizzazione dei dati. <br/>Selezionare **[!UICONTROL Cancel]** per annullare.
 
+## Eliminare un set di dati di origine
 
-## Controllo dell’accesso a livello di campo
+Quando si elimina un set di dati di origine utilizzato nei dati armonizzati, le voci sottostanti in tale set di dati di origine vengono rimosse da [[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md). Tuttavia, la regola del set di dati con il set di dati di origine eliminato rimane nell&#39;elenco di configurazione delle regole del set di dati con un&#39;icona ![DataRemove](/help/assets/icons/DataRemove.svg) che indica che il set di dati di origine è stato eliminato. Per maggiori dettagli:
 
-Durante la configurazione delle regole del set di dati per i set di dati armonizzati, il controllo dell&#39;accesso basato sull&#39;attributo [di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) viene applicato a livello di campo. Un campo è limitato quando un’etichetta viene associata a un campo schema e viene abilitato un criterio attivo che nega l’accesso a tale campo. Di conseguenza:
+* Selezionare ![Altro](/help/assets/icons/More.svg) e ![Anteprima](/help/assets/icons/Preview.svg) **[!UICONTROL View]** dal menu di scelta rapida.
+La finestra di dialogo **[!UICONTROL Dataset rule mapping - Fields]** visualizza informazioni sul set di dati di origine eliminato e sui campi utilizzati nella configurazione della regola del set di dati.
 
-* quando crei una regola di set di dati, non vengono visualizzati i campi dello schema con restrizioni,
-* non puoi visualizzare o modificare la mappatura di uno o più campi dello schema per i quali esistono restrizioni. Quando modifichi o visualizzi una regola del set di dati contenente tali campi con restrizioni, viene visualizzata la schermata seguente.
-  ![Azione non consentita](/help/assets//action-not-permitted.png)
+Quando si torna alla configurazione **[!UICONTROL Dataset rules]**, viene visualizzata una finestra di dialogo in cui viene spiegato che uno o più set di dati di origine sono stati eliminati. I dati armonizzati sono interessati da una prossima sincronizzazione ad hoc o pianificata. Verifica la configurazione delle regole del set di dati.
+
+I dati armonizzati vengono aggiornati senza i dati di origine eliminati alla successiva sincronizzazione ad hoc o pianificata. Tuttavia, continuerai a visualizzare le finestre di dialogo degli avvisi che ti richiedono di eliminare la regola del set di dati in base al set di dati di origine eliminato. Questo avviso consente agli utenti di visualizzare e valutare i campi interessati nel set di dati eliminato. E per determinare l’impatto sui punti di contatto di marketing o sulle conversioni che possono essere utilizzati in qualsiasi modello. Dopo aver valutato e attenuato questo impatto, devi eliminare la regola del set di dati dall’elenco di configurazione delle regole del set di dati.

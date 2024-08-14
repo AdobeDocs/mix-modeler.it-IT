@@ -3,16 +3,16 @@ title: Modelli
 description: Scopri come configurare e utilizzare i modelli in Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # Modelli
 
-La funzionalità dei modelli in Mix Modeler consente di configurare, addestrare e valutare modelli AI/ML specifici per gli obiettivi aziendali e supportati dall’apprendimento del trasferimento basato sull’intelligenza artificiale tra l’attribuzione multitouch e la modellazione marketing mix.
+La funzionalità dei modelli in Mix Modeler consente di configurare, addestrare e valutare modelli AI/ML specifici per gli obiettivi aziendali. La formazione e il punteggio supportano l’apprendimento del trasferimento basato sull’intelligenza artificiale tra attribuzione multitouch e modellazione marketing mix.
 
 I modelli si basano sui dati armonizzati creati come parte del flusso di lavoro dell’applicazione Mix Modeler.
 
@@ -20,17 +20,17 @@ Un modello in Mix Modeler è un modello di apprendimento automatico utilizzato p
 
 Un modello richiede:
 
-* una conversione,
-* uno o più punti di contatto di marketing (canali) costituiti da dati a livello riassuntivo, dati di punto di contatto di marketing (dati evento) o entrambi,
-* un intervallo di lookback configurabile per
-* una finestra di formazione configurabile.
+* Una conversione.
+* Uno o più punti di contatto di marketing (canali) costituiti da dati a livello di riepilogo, dati dei punti di contatto di marketing (dati evento) o entrambi.
+* Un intervallo di lookback configurabile.
+* Una finestra di formazione configurabile.
 
 Un modello può facoltativamente includere:
 
-* fattori esterni,
-* fattori interni,
-* i cosiddetti &quot;priori&quot; (distribuzione di probabilità che rappresenta la conoscenza o l’incertezza dei dati prima o prima di osservarli), che indicizza le conversioni precedenti per canale,
-* condivisione di spesa, che utilizza come proxy la condivisione di spesa relativa quando i dati di marketing sono sparsi.
+* Fattori esterni.
+* Fattori interni.
+* Conoscenza preventiva dei contributi di marketing da altre fonti, come la precedente esperienza delle parti interessate, test incrementali, altri modelli.
+* La condivisione di spesa, che utilizza come proxy la condivisione di spesa relativa quando i dati di marketing sono sparsi.
 
 
 ## Creare un modello
@@ -54,51 +54,96 @@ Per visualizzare una tabella dei modelli correnti, nell’interfaccia Mix Modele
    | Evento di conversione | Conversione selezionata per il modello. |
    | Frequenza di esecuzione | Frequenza di esecuzione dell&#39;addestramento del modello. |
    | Ultima esecuzione | La data e l’ora dell’ultimo addestramento del modello. |
-   | Stato | Lo stato dell’ultima esecuzione dell’addestramento del modello. <br/><span style="color:green">●</span> riuscito<br/><span style="color:orange">●</span> problema di formazione<br/> <span style="color:orange">●</span> In attesa del corso di formazione <br/><span style="color:red">●</span> Non riuscito <br/><span style="color:gray">●</span> _ (quando è in corso l&#39;ultima esecuzione) |
+   | Stato | Lo stato dell’ultima esecuzione dell’addestramento del modello. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) riuscito<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) problema di formazione<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) In attesa del corso di formazione <br/>![StatusRed](/help/assets/icons/StatusRed.svg) Non riuscito <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ (quando è in corso l&#39;ultima esecuzione) |
 
    {style="table-layout:auto"}
 
 1. Per modificare le colonne visualizzate per l&#39;elenco, selezionare ![Impostazioni colonna](/help/assets//icons/ColumnSetting.svg) e attivare o disattivare le colonne in ![Controlla](/help/assets//icons/Checkmark.svg).
 
+È possibile eseguire le azioni seguenti su un modello specifico.
 
-### Visualizzare i dettagli di un modello
+### Visualizza dettagli
 
 Per visualizzare ulteriori dettagli su un modello:
+
+1. Seleziona ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
 1. Seleziona ![Info](/help/assets//icons/Info.svg) per un modello per visualizzare un popup con i dettagli.
 
 
 
+### Duplica
+
+Potete duplicare rapidamente un modello.
+
+1. Seleziona ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
+
+1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Duplicate]**.
+
+
 ### Approfondimenti modello
 
-Per visualizzare le informazioni di un modello, nell’interfaccia Mix Modeler:
+La funzionalità Approfondimenti modello è disponibile solo su modelli con formazione e punteggi completati. Per visualizzare le informazioni di un modello:
 
 1. Seleziona ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
-1. Seleziona il nome di un modello con **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dalla tabella **[!UICONTROL Models]**. Le informazioni sul modello sono disponibili solo sui modelli addestrati correttamente.
+1. Selezionate il nome del modello.
 
-1. Dal menu di scelta rapida, selezionare **[!UICONTROL Model Insights]**. Sei stato reindirizzato a [Model Insights](insights.md).
-
-
-### Punteggio di nuovo
+Sei stato reindirizzato a [Model Insights](insights.md).
 
 
-Per assegnare nuovamente un punteggio a un modello, nell’interfaccia Mix Modeler:
+### Riaddestramento
+
+La riformazione di un modello è disponibile solo su modelli con formazione corretta. Per riaddestrare un modello:
 
 1. Seleziona ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
-1. Seleziona il nome di un modello con **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]** dalla tabella **[!UICONTROL Models]**. Il nuovo punteggio è disponibile solo sui modelli addestrati correttamente.
+1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Train]**. In alternativa, selezionare ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** dalla barra delle azioni blu.
 
-1. Dal menu di scelta rapida, selezionare **[!UICONTROL Re-score]**. La visualizzazione di uno stato aggiornato per il modello potrebbe richiedere alcuni minuti.
+   Nella finestra di dialogo **[!UICONTROL Train model]**, seleziona l&#39;opzione per:
+
+   * **[!UICONTROL Train model with last 2 years of marketing data]**, oppure
+   * **[!UICONTROL Train model using specific date range of data]**.
+Specifica l’intervallo di date. È possibile utilizzare il ![Calendario](/help/assets/icons/Calendar.svg) per selezionare un intervallo di date. Devi selezionare un intervallo di dati con un minimo di un anno.
+
+   ![Riaddestramento di un modello](../assets/re-train-model.png)
+
+1. Selezionare **[!UICONTROL Train]** per riaddestrare il modello.
+
+
+### Punteggio o nuovo punteggio
+
+
+Puoi assegnare un punteggio incrementale a un modello in base a nuovi dati di marketing o assegnare un nuovo punteggio a un modello per un intervallo di date specifico. Per assegnare un punteggio o un nuovo punteggio a un modello:
+
+1. Seleziona ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
+
+1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Score]**. In alternativa, selezionare ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** dalla barra delle azioni blu.
+
+   Nella finestra di dialogo **[!UICONTROL Score marketing data]**, seleziona l&#39;opzione per:
+
+   * **[!UICONTROL Score new marketing data from *mm/gg/aaaa *]**, per valutare il modello in modo incrementale utilizzando nuovi dati di marketing, oppure
+   * **[!UICONTROL Score specific date range of marketing data]** per ripetere il punteggio per un intervallo di date specifico.
+Specifica l’intervallo di date. È possibile utilizzare il ![Calendario](/help/assets/icons/Calendar.svg) per selezionare un intervallo di date.
+
+   ![Riaddestramento di un modello](../assets/re-score-model.png)
+
+1. Selezionare **[!UICONTROL Score]**. Quando si assegna un nuovo punteggio a un modello utilizzando un intervallo di dati specifico, viene visualizzata una finestra di dialogo **[!UICONTROL Existing model is replaced]** in cui viene richiesto di confermare la sostituzione del modello con nuovi punteggi per l’intervallo di date selezionato. Selezionare **[!UICONTROL Replace model]** per confermare.
 
 
 ### Eliminare un modello
 
 Per eliminare un modello:
 
-1. Selezionate il nome del modello da eliminare.
+1. Seleziona ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
-1. Dal menu di scelta rapida, selezionare **[!UICONTROL Delete]** per eliminare il modello.
+1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Delete]**. In alternativa, selezionare ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni blu.
+
+Per eliminare più modelli:
+
+1. Seleziona più modelli.
+
+1. Dalla barra blu delle azioni, seleziona ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare i modelli.
 
    >[!WARNING]
    >

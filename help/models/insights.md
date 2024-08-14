@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, ad esempio panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 6897f27520705f54d3f23018903a52536083b339
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Per visualizzare le informazioni sul modello, nell&#39;interfaccia ![Models](/he
 
 ![Barra della scheda Informazioni modello](/help/assets//model-insights-tabbar.png)
 
-Puoi vedere quando il modello specificato viene aggiornato l&#39;ultima volta e i widget vengono visualizzati utilizzando quattro schede: [Informazioni sul modello](#model-insights), [Attribuzione](#attribution), [Diagnostica](#diagnostics) e [Panoramica cronologica](#historical-overview).
+Puoi vedere quando il modello specificato viene aggiornato l&#39;ultima volta e i widget vengono visualizzati utilizzando quattro schede: [Informazioni sul modello](#model-insights), [Attribuzione](#attribution), [Fattori](#factors), [Diagnostica](#diagnostics) e [Panoramica cronologica](#historical-overview).
 
 È possibile modificare il periodo di data su cui si basano i widget di ciascuna scheda. Immettere un periodo di data o selezionare ![Calendario](/help/assets//icons/Calendar.svg) per selezionare un periodo di data.
 
@@ -34,7 +34,7 @@ La scheda Approfondimenti modello mostra i widget per:
 
 * Riepilogo prestazioni marketing.
 
-* Curve di risposta marginale.
+* Curve di risposta marginale.  Sia la curva che i valori corrispondenti vengono calcolati in base all&#39;intervallo di dati selezionato. Inoltre, questo widget mostra il punto di pareggio marginale e il punto di rendimenti decrescenti.
   <br/>Selezionare un canale dall&#39;elenco a discesa **[!UICONTROL Channel]** per aggiornare il widget per un canale specifico.
 
 ![Modello - Approfondimenti modello](/help/assets//model-insights-insights.png)
@@ -141,6 +141,15 @@ Per ogni percorso di conversione, vedi:
 * per ogni canale, la percentuale di contributo del modello di attribuzione e
 * la somma di queste percentuali di contributo del modello di attribuzione del canale.
 
+## **[!UICONTROL Factors]**
+
+La scheda Fattori mostra le informazioni relative ai fattori esterni.
+
+![Fattori](/help/assets/factors.png)
+
+Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets//icons/Download.svg).
+
+Se non sono disponibili dati, viene visualizzato un messaggio ![TabellaEGrafico](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 
