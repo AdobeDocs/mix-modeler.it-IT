@@ -3,7 +3,7 @@ title: Modificare un piano
 description: Scopri come modificare un piano in Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Modificare un piano
 
-Per modificare un piano, nell&#39;interfaccia ![PLan](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** in Mix Modeler, selezionare il piano in base al nome.
+Per modificare un piano, nell&#39;interfaccia ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** in Mix Modeler, selezionare il piano in base al nome.
 
 In [!UICONTROL Plan insights], vengono create le informazioni del piano, mostrando [!UICONTROL Model], [!UICONTROL Data range] e [!UICONTROL Total budget] su cui è basato il piano.
 
@@ -29,16 +29,16 @@ Al termine del recupero, viene visualizzata una panoramica del piano, costituita
    - Obiettivo di conversione
    - Spesa
 
-![Panoramica di un piano](/help/assets//overview-plan.png)
+![Panoramica di un piano](/help/assets/overview-plan.png)
 
 1. Selezionare **[!UICONTROL Close]** per tornare all&#39;interfaccia Piani.
 
 1. Selezionare **[!UICONTROL X]** o **[!UICONTROL  %]** su come **[!UICONTROL View ROI]**.
 
-1. Per scaricare un file CSV contenente i dati del raggruppamento per intervallo di date, seleziona ![Scarica](/help/assets//icons/Download.svg) **[!UICONTROL Download CSV]**. Dal menu di scelta rapida:
+1. Per scaricare un file CSV contenente i dati del raggruppamento per intervallo di date, seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Dal menu di scelta rapida:
 
-   - Seleziona ![Scarica](/help/assets//icons/Download.svg) **[!UICONTROL Detailed CSV]** per i dati dettagliati in formato CSV.
-   - Seleziona ![Scarica](/help/assets//icons/Download.svg) **[!UICONTROL Summary CSV]** per i dati di riepilogo in formato CSV.
+   - Seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** per i dati dettagliati in formato CSV.
+   - Seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Summary CSV]** per i dati di riepilogo in formato CSV.
 
    I dati dettagliati sono dati granulari divisi per settimana. I dati di riepilogo sono dati chiave dell’intervallo di date fornito dal modello.
 
@@ -46,13 +46,13 @@ Al termine del recupero, viene visualizzata una panoramica del piano, costituita
 
 1. Per modificare il piano, selezionare **[!UICONTROL Edit plan]**:
 
-   1. Nella sezione **[!UICONTROL Spend selection]**, per ogni intervallo di date del budget, utilizzare la ![freccia](/help/assets//icons/ChevronRight.svg) per aprire la visualizzazione di distribuzione del canale per tale intervallo di dati.
+   1. Nella sezione **[!UICONTROL Spend selection]**, per ogni intervallo di date del budget, utilizzare la ![freccia](/help/assets/icons/ChevronRight.svg) per aprire la visualizzazione di distribuzione del canale per tale intervallo di dati.
 
    1. Per modificare i budget per ciascun canale, modificare i valori per **[!UICONTROL Min]** e **[!UICONTROL Max]** o utilizzare i cursori.
 
    1. Per passare dalla valuta all&#39;input percentuale, selezionare **[!UICONTROL $]** o **[!UICONTROL %]** per **[!UICONTROL View spend by]**.
 
-      ![Selezione spese](/help/assets//spend-selection.png)
+      ![Selezione spese](/help/assets/spend-selection.png)
 
    1. Per modificare i dettagli del piano, selezionare **[!UICONTROL Edit details]**:
 
@@ -60,13 +60,13 @@ Al termine del recupero, viene visualizzata una panoramica del piano, costituita
 
       1. Nella sezione **[!UICONTROL Budget]**:
 
-         1. Modificare **[!UICONTROL Date range]** per uno o più intervalli di date del piano digitando le date o selezionando un intervallo di date utilizzando ![Calendario](/help/assets//icons/Calendar.svg).
+         1. Modificare **[!UICONTROL Date range]** per uno o più intervalli di date del piano digitando le date o selezionando un intervallo di date utilizzando ![Calendario](/help/assets/icons/Calendar.svg).
 
          1. Modifica **[!UICONTROL Budget]** per uno o più intervalli di date del piano.
 
-         Per aggiungere altri intervalli di date, ciascuno con il proprio budget, selezionare ![CalendarAdd](/help/assets//icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+         Per aggiungere altri intervalli di date, ciascuno con il proprio budget, selezionare ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 
-         Per eliminare un intervallo di date e il budget associato, selezionare ![Chiudi](/help/assets//icons/Close.svg).
+         Per eliminare un intervallo di date e il budget associato, selezionare ![Chiudi](/help/assets/icons/Close.svg).
 
          Per definire un budget massimo:
 
@@ -75,7 +75,7 @@ Al termine del recupero, viene visualizzata una panoramica del piano, costituita
 
       1. Selezionare **[!UICONTROL Next]** per tornare alla sezione **[!UICONTROL Spend]**. Seleziona **[!UICONTROL Cancel]** per tornare alla panoramica dei tuoi piani.
 
-         ![Dettagli piano](/help/assets//plan-details.png)
+         ![Dettagli piano](/help/assets/plan-details.png)
 
 
 1. Al termine della modifica del piano, selezionare **[!UICONTROL Edit]**.

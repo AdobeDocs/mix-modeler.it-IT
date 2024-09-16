@@ -3,7 +3,7 @@ title: Piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Un piano può facoltativamente includere:
 
 Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia Mix Modeler:
 
-1. Seleziona ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** dalla barra a sinistra.
+1. Seleziona ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** dalla barra a sinistra.
 
 1. Viene visualizzata una tabella dei piani correnti e del relativo stato.
 
@@ -51,7 +51,7 @@ Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia Mix Modele
 
    {style="table-layout:auto"}
 
-1. Utilizza ![Ricerca](/help/assets//icons/Search.svg) per cercare e filtrare la tabella per uno o più piani specifici.
+1. Utilizza ![Ricerca](/help/assets/icons/Search.svg) per cercare e filtrare la tabella per uno o più piani specifici.
 
 ## Creare un piano
 
@@ -67,20 +67,20 @@ Per modificare un piano, selezionarne il nome dalla tabella. Per ulteriori infor
 
 È possibile selezionare uno o più piani e visualizzare la barra delle azioni Piani. La barra delle azioni consente di eliminare, confrontare o duplicare i piani.
 
-Per rimuovere tutte le selezioni nella tabella Piani, selezionare ![Chiudi](/help/assets//icons/Close.svg) nella barra delle azioni
+Per rimuovere tutte le selezioni nella tabella Piani, selezionare ![Chiudi](/help/assets/icons/Close.svg) nella barra delle azioni
 
-![Barra delle azioni dei piani](/help/assets//plans-action-bar.png)
+![Barra delle azioni dei piani](/help/assets/plans-action-bar.png)
 
 ### Duplicare un piano
 
 Per duplicare un piano:
 
 1. Selezionare un singolo piano dalla tabella.
-1. Seleziona ![Copia](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni. Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**.
+1. Seleziona ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni. Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**.
 
 In alternativa:
 
-1. Selezionare ![Altro](/help/assets//icons/More.svg) per un piano nella tabella.
+1. Selezionare ![Altro](/help/assets/icons/More.svg) per un piano nella tabella.
 1. Selezionare **[!UICONTROL Duplicate]** dal menu di scelta rapida. Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**.
 
 ### Confronta piani
@@ -88,7 +88,7 @@ In alternativa:
 Per confrontare i piani:
 
 1. Selezionare due piani dalla tabella.
-1. Seleziona ![Confronta](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** dalla barra delle azioni. Viene visualizzata l&#39;interfaccia utente di **[!UICONTROL Compare plans]**.
+1. Seleziona ![Confronta](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]** dalla barra delle azioni. Viene visualizzata l&#39;interfaccia utente di **[!UICONTROL Compare plans]**.
 
 
 ### Elimina piani
@@ -96,11 +96,11 @@ Per confrontare i piani:
 Per eliminare i piani:
 
 1. Selezionare uno o più piani dalla tabella.
-1. Seleziona ![Elimina](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni.
+1. Seleziona ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni.
 
 In alternativa:
 
-1. Selezionare ![Altro](/help/assets//icons/More.svg) per un piano nella tabella.
+1. Selezionare ![Altro](/help/assets/icons/More.svg) per un piano nella tabella.
 1. Selezionare **[!UICONTROL Delete]** dal menu di scelta rapida. Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**.
 
    >[!WARNING]

@@ -3,47 +3,63 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, ad esempio panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 6897f27520705f54d3f23018903a52536083b339
+source-git-commit: 09ec757a37725d4b41231076bd99432bffd6d555
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
 
 # Approfondimenti modello
 
-Per visualizzare le informazioni sul modello, nell&#39;interfaccia ![Models](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** in Mix Modeler:
+Per visualizzare le informazioni sul modello, nell&#39;interfaccia ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** in Mix Modeler:
 
 1. Dalla tabella **[!UICONTROL Models]**, selezionare il nome di un modello con **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]**.
 
 1. Dal menu di scelta rapida, selezionare **[!UICONTROL Model Insights]**.
 
-![Barra della scheda Informazioni modello](/help/assets//model-insights-tabbar.png)
+![Barra della scheda Informazioni modello](/help/assets/model-insights-tabbar.png)
 
-Puoi vedere quando il modello specificato viene aggiornato l&#39;ultima volta e i widget vengono visualizzati utilizzando quattro schede: [Informazioni sul modello](#model-insights), [Attribuzione](#attribution), [Fattori](#factors), [Diagnostica](#diagnostics) e [Panoramica cronologica](#historical-overview).
+Puoi vedere quando il modello specificato viene aggiornato l&#39;ultima volta e le visualizzazioni vengono visualizzate utilizzando quattro schede: [Informazioni sul modello](#model-insights), [Attribuzione](#attribution), [Fattori](#factors), [Diagnostica](#diagnostics) e [Panoramica cronologica](#historical-overview).
 
-È possibile modificare il periodo di data su cui si basano i widget di ciascuna scheda. Immettere un periodo di data o selezionare ![Calendario](/help/assets//icons/Calendar.svg) per selezionare un periodo di data.
+Puoi modificare il periodo di data su cui si basano le visualizzazioni in ciascuna scheda. Immettere un periodo di data o selezionare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare un periodo di data.
 
 ## [!UICONTROL Model insights]
 
-La scheda Approfondimenti modello mostra i widget per:
+La scheda Approfondimenti modello mostra le visualizzazioni per [Contributo per data e supporto di base](#contribution-by-date-and-base-media), [Contributo per canale](#contribution-by-channel), [Riepilogo prestazioni marketing](#marketing-performance-summary) e [Curve di risposta marginali](#marginal-response-curves).
 
-* Contributo per data e media di base. Il grafico ad aree o barre sovrapposte è ordinato: Base in basso, Canali non spesi in mezzo e Canali spesi in alto.
+![Modello - Approfondimenti modello](/help/assets/model-insights-insights.png)
 
-* Contributo per canale.
+* Puoi passare il cursore sopra i singoli elementi del grafico in ogni visualizzazione per visualizzare un elemento a comparsa con ulteriori dettagli.
 
-* Riepilogo prestazioni marketing.
+* Per scaricare un file CSV contenente i dati per la visualizzazione, seleziona ![Scarica](/help/assets/icons/Download.svg).
 
-* Curve di risposta marginale.  Sia la curva che i valori corrispondenti vengono calcolati in base all&#39;intervallo di dati selezionato. Inoltre, questo widget mostra il punto di pareggio marginale e il punto di rendimenti decrescenti.
-  <br/>Selezionare un canale dall&#39;elenco a discesa **[!UICONTROL Channel]** per aggiornare il widget per un canale specifico.
+* Per scaricare i dati completi di Approfondimenti modello in formato Microsoft® Excel, seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
-![Modello - Approfondimenti modello](/help/assets//model-insights-insights.png)
 
-Puoi passare il cursore sopra i singoli elementi del grafico in ciascun widget per visualizzare un elemento a comparsa con ulteriori dettagli.
+### Contributo per data e media di base.
 
-Per scaricare un file CSV contenente i dati per il widget, seleziona ![Scarica](/help/assets//icons/Download.svg).
+Il grafico ad aree o barre sovrapposte è ordinato: Base in basso, Canali non spesi in mezzo e Canali spesi in alto.
 
-Per scaricare i dati completi di Approfondimenti modello in formato Microsoft® Excel, seleziona ![Scarica](/help/assets//icons/Download.svg) **[!UICONTROL Download data]**.
+### Contributo per canale
+
+La visualizzazione ad anello mostra una distribuzione del contributo per canale.
+
+### Riepilogo prestazioni marketing.
+
+Un grafico a barre orizzontale che mostra le prestazioni del ROI per canale.
+
+### Curve di risposta marginale.
+
+Il grafico a linee visualizza e confronta i rendimenti marginali generati dall’investimento nei canali di marketing.  Identifica inoltre il punto di pareggio in cui il ritorno incrementale è inferiore alla spesa incrementale. Di conseguenza, questa visualizzazione ti aiuta a capire quando l’investimento marketing inizia a diventare meno incisivo.
+
+La curva, il punto di pareggio e i valori corrispondenti vengono calcolati in base all’intervallo di dati selezionato e al canale selezionato.
+
+Per cambiare il canale:
+
+* Selezionare un canale dal menu a discesa **[!UICONTROL Channel]** per aggiornare la visualizzazione per un canale specifico.
+
+
 
 ## [!UICONTROL Attribution]
 
@@ -61,43 +77,43 @@ Utilizzando la scheda [!UICONTROL Attribution], puoi comprendere l’efficacia d
 
 Consulta [Attribuzione multi-touch](../get-started/about.md#multi-touch-attribution) per un&#39;introduzione alla funzionalità di attribuzione multi-touch in Mix Modeler.
 
-Selezionare uno o più modelli di attribuzione dall&#39;elenco a discesa **[!UICONTROL Attribution Model]**. I modelli di attribuzione selezionati si applicano a tutti i widget nella scheda Attribuzione.
+Selezionare uno o più modelli di attribuzione dal menu a discesa **[!UICONTROL Attribution Model]**. I modelli di attribuzione selezionati si applicano a tutte le visualizzazioni nella scheda Attribuzione.
 
-![Attribuzione](/help/assets//model-insights-attribution.png)
+![Attribuzione](/help/assets/model-insights-attribution.png)
 
 I punteggi dell’evento granulare di attribuzione multi-touch di Mix Modeler sono allineati ai punteggi e ai ROI complessivi di Mix Modeler. Questi punteggi sono resi disponibili anche come set di dati in Experience Platform.
 
-La scheda Attribuzione è costituita dai widget seguenti:
+La scheda Attribuzione è costituita dalle seguenti visualizzazioni:
 
 ### [!UICONTROL Overview]
 
-Il widget [!UICONTROL Overview] mostra, per i modelli di attribuzione selezionati, i totali e le percentuali di conversione. Selezionando più modelli si aggiungono ulteriori cerchi alla visualizzazione, ciascuno con il proprio colore corrispondente alla legenda.
+La visualizzazione [!UICONTROL Overview] mostra, per i modelli di attribuzione selezionati, i totali e le percentuali di conversione. Selezionando più modelli si aggiungono ulteriori cerchi alla visualizzazione, ciascuno con il proprio colore corrispondente alla legenda.
 
 Per visualizzare un pop-up con i dettagli di un modello di attribuzione, passa il cursore del mouse su uno dei cerchi nella visualizzazione.
 
 ### [!UICONTROL Trends]
 
-Il widget [!UICONTROL Daily trends], [!UICONTROL Weekly trends] o [!UICONTROL Monthly trends] mostra le tendenze di conversione giornaliere, settimanali o mensili per i modelli di attribuzione selezionati.
+La visualizzazione [!UICONTROL Daily trends], [!UICONTROL Weekly trends] o [!UICONTROL Monthly trends] mostra le tendenze di conversione giornaliere, settimanali o mensili per i modelli di attribuzione selezionati.
 
-Per scegliere il periodo, selezionare **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** o **[!UICONTROL Monthly trends]** da ![Altro](/help/assets//icons/More.svg).
+Per scegliere il periodo, selezionare **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** o **[!UICONTROL Monthly trends]** da ![Altro](/help/assets/icons/More.svg).
 
 Per visualizzare i dettagli, passa il cursore del mouse sulla riga di dati di un modello di attribuzione specifico per visualizzare un elemento a comparsa che mostra il numero totale di conversioni per tali dati.
 
 ### [!UICONTROL Breakdown]
 
-Il widget [!UICONTROL Breakdown] è una suddivisione per canale o punto di contatto delle conversioni per ciascuno dei modelli di attribuzione selezionati. Questo widget può essere utile per prendere decisioni sull’efficacia di ciascun canale o punto di contatto.
+La visualizzazione [!UICONTROL Breakdown] è una suddivisione per canale o punto di contatto delle conversioni per ciascuno dei modelli di attribuzione selezionati. Questa visualizzazione può essere utile per prendere decisioni sull’efficacia di ciascun canale o punto di contatto.
 
-Per scegliere il tipo di suddivisione, selezionare **[!UICONTROL Breakdown by channel]** o **[!UICONTROL Breakdown by touchpoint]** da ![Altro](/help/assets//icons/More.svg).
+Per scegliere il tipo di suddivisione, selezionare **[!UICONTROL Breakdown by channel]** o **[!UICONTROL Breakdown by touchpoint]** da ![Altro](/help/assets/icons/More.svg).
 
 Per visualizzare i dettagli, passa il cursore sopra uno degli elementi del grafico.
 
 ### [!UICONTROL Top campaigns]
 
-Il widget Campagne principali mostra una tabella delle campagne principali con colonne per Nome campagna, Canale, Tipo di media e Conversioni incrementali. Questo widget può aiutare a informare il team dell’efficacia di una campagna specifica per un dato canale e fornire informazioni sulle campagne in cui investire ulteriormente.
+La visualizzazione Campagne principali mostra una tabella delle campagne principali con colonne per Nome campagna, Canale, Tipo di media e Conversioni incrementali. Questa visualizzazione può aiutare a informare il team dell’efficacia di una campagna specifica per un dato canale e fornire informazioni sulle campagne in cui investire ulteriormente.
 
 ↑ Per ordinare la tabella in ordine crescente o decrescente ↓ per le conversioni Canale, Tipo di file multimediale o Incrementale, seleziona l’intestazione della colonna e attiva/disattiva l’ordinamento.
 
-Per espandere la tabella in una finestra di dialogo separata, selezionare **[!UICONTROL Expand]** da ![Altro](/help/assets//icons/More.svg).
+Per espandere la tabella in una finestra di dialogo separata, selezionare **[!UICONTROL Expand]** da ![Altro](/help/assets/icons/More.svg).
 
 La finestra di dialogo espansa Prime campagne mostra la stessa tabella con colonne aggiuntive per
 
@@ -147,13 +163,16 @@ La scheda Fattori mostra le informazioni relative ai fattori esterni.
 
 ![Fattori](/help/assets/factors.png)
 
-Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets//icons/Download.svg).
+Questa visualizzazione ti aiuta a comprendere l’effetto incrementale che vari fattori interni ed esterni hanno sulla linea di base delle conversioni. Ad esempio, condizioni economiche o attività promozionali.
+
+
+Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets/icons/Download.svg).
 
 Se non sono disponibili dati, viene visualizzato un messaggio ![TabellaEGrafico](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 
-La scheda Diagnostica mostra i widget per:
+La scheda Diagnostica mostra le visualizzazioni per:
 
 * Visualizzazione [!UICONTROL Model Assessment], che è possibile suddividere in Conversioni effettive rispetto a quelle previste o residue.
 
@@ -175,22 +194,22 @@ La scheda Diagnostica mostra i widget per:
 
       * RMSE (Root Mean Square Error): indica l’errore medio, ponderato in base al quadrato dell’errore.
 
-  Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets//icons/Download.svg).
+  Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets/icons/Download.svg).
 
-* Tabella [!UICONTROL Touchpoint effectiveness], che rappresenta il risultato del modello algoritmico Attribution AI. I dati per questa tabella vengono generati solo per periodi di tempo specifici. Seleziona **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets//icons/InfoOutline.svg) per ulteriori dettagli.
+* Tabella [!UICONTROL Touchpoint effectiveness], che rappresenta il risultato del modello algoritmico Attribution AI. I dati per questa tabella vengono generati solo per periodi di tempo specifici. Seleziona **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) per ulteriori dettagli.
 
-  La visualizzazione mostra, in ordine decrescente di [!UICONTROL Efficiency measure] ![Ordine decrescente](/help/assets//icons/SortOrderDown.svg), per ogni punto di contatto:
+  La visualizzazione mostra, in ordine decrescente di [!UICONTROL Efficiency measure] ![Ordine decrescente](/help/assets/icons/SortOrderDown.svg), per ogni punto di contatto:
 
    * [!UICONTROL Paths touched]: visualizza la percentuale di percorsi che raggiungono la conversione e la percentuale di percorsi che non raggiungono la conversione. Per un punto di contatto, puoi vedere più conversioni attribuite quando il rapporto di conversione dell’attribuzione è elevato. Questo rapporto confronta la percentuale di percorsi che portano alla conversione rispetto alla percentuale di percorsi che portano alla conversione *not*.
    * [!UICONTROL Efficiency measure]: generato dal modello di attribuzione algoritmica, la misura di efficienza indica l&#39;importanza relativa di un punto di contatto verso la conversione, indipendentemente dal volume del punto di contatto. L&#39;efficienza è misurata su una scala da 1 a 5. Tieni presente che un volume di punti di contatto più elevato non garantisce una misura di efficienza più elevata.
    * [!UICONTROL Total volume]: numero aggregato di volte in cui un utente tocca un punto di contatto. Il numero include i punti di contatto visualizzati in un percorso che raggiunge la conversione e i percorsi *non* che determinano la conversione.
 
-![Diagnostica](/help/assets//model-insights-diagnostics.png)
+![Diagnostica](/help/assets/model-insights-diagnostics.png)
 
 
 ## [!UICONTROL Historical overview]
 
-La scheda Cronologia mostra i widget per:
+La scheda Cronologia mostra le visualizzazioni per:
 
 * Conversione e spesa per trimestre fiscale e prodotto.
 
@@ -198,10 +217,10 @@ La scheda Cronologia mostra i widget per:
 
 * Spesa punto di contatto.
 
-  Puoi selezionare un canale alternativo basato sulla spesa da visualizzare per questo widget. Selezionare un canale da **[!UICONTROL Channels]**.
+  Puoi selezionare un canale alternativo basato sulla spesa da visualizzare per questa visualizzazione. Selezionare un canale da **[!UICONTROL Channels]**.
 
 * Volume del punto di contatto.
 
-  Puoi selezionare un canale alternativo basato su volume da visualizzare per questo widget. Selezionare un canale da **[!UICONTROL Channels]**.
+  Puoi selezionare un canale alternativo basato sul volume da visualizzare per questa visualizzazione. Selezionare un canale da **[!UICONTROL Channels]**.
 
-![Modello - Panoramica cronologica](/help/assets//model-insights-historical-overview.png)
+![Modello - Panoramica cronologica](/help/assets/model-insights-historical-overview.png)

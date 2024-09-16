@@ -3,7 +3,7 @@ title: Confronta piani
 description: Scopri come confrontare i piani in Mix Modeler.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 Per confrontare i piani nell&#39;interfaccia Piani Mix Modeler:
 
-* Selezionare ![Confronta](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. In Confronta piani selezionare un piano per ogni **[!UICONTROL _Seleziona piano_]**.
+* Selezionare ![Confronta](/help/assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. In Confronta piani selezionare un piano per ogni **[!UICONTROL _Seleziona piano_]**.
 
-* In alternativa, è possibile selezionare due piani dalla tabella Piani e dalla barra delle azioni selezionare ![Confronta](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
+* In alternativa, è possibile selezionare due piani dalla tabella Piani e dalla barra delle azioni selezionare ![Confronta](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]**.
 
-L&#39;interfaccia Confronta piani mostra informazioni e widget su:
+L’interfaccia Confronta piani mostra informazioni e visualizzazioni su:
 
 * Piano
 * Intervallo date
@@ -36,8 +36,8 @@ Dove:
 * Il CPA è definito come Spesa/Conversione incrementale.
 
 
-![Confronta piani](/help/assets//compare-plans.png)
+![Confronta piani](/help/assets/compare-plans.png)
 
-Puoi passare il cursore sopra i singoli elementi del grafico in ciascun widget per visualizzare un elemento a comparsa con ulteriori dettagli.
+Puoi passare il cursore sopra i singoli elementi del grafico in ogni visualizzazione per visualizzare un elemento a comparsa con ulteriori dettagli.
 
 Selezionare **[!UICONTROL Close]** per tornare alla panoramica dei piani.

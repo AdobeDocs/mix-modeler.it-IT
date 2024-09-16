@@ -2,7 +2,8 @@
 title: Controlli di accesso
 description: Scopri come configurare i controlli di accesso in Mix Modeler.
 feature: Administration
-source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
+exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -31,5 +32,4 @@ Durante la configurazione delle regole del set di dati per i set di dati armoniz
 
 * quando crei una regola di set di dati, non vengono visualizzati i campi dello schema con restrizioni,
 * non puoi visualizzare o modificare la mappatura di uno o più campi dello schema per i quali esistono restrizioni. Quando modifichi o visualizzi una regola del set di dati contenente tali campi con restrizioni, viene visualizzata la schermata seguente.
-  ![Azione non consentita](/help/assets//action-not-permitted.png)
-
+  ![Azione non consentita](/help/assets/action-not-permitted.png)

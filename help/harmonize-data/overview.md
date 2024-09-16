@@ -3,7 +3,7 @@ title: Armonizzare i dati
 description: Scopri come armonizzare i dati in Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 7%
@@ -116,17 +116,17 @@ Per creare un set di dati armonizzato, come nell&#39;[esempio](#an-example-of-ha
 
 Per visualizzare i dati armonizzati, nell’interfaccia Mix Modeler:
 
-1. Seleziona ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dalla barra a sinistra.
+1. Seleziona ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dalla barra a sinistra.
 
 1. Seleziona **[!UICONTROL Harmonized Data]** dalla barra superiore. Viene mostrato un riassunto dei dati armonizzati in base ai campi, alle regole del set di dati, ai punti di contatto di marketing e alle conversioni definite.
 
-   1. Per ridefinire il periodo su cui si basa la ricapitolazione dei dati armonizzati, immettere un intervallo di date per **[!UICONTROL Date range]** o utilizzare ![Calendario](/help/assets//icons/Calendar.svg) per selezionare un intervallo di dati.
+   1. Per ridefinire il periodo su cui si basa la ricapitolazione dei dati armonizzati, immettere un intervallo di date per **[!UICONTROL Date range]** o utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare un intervallo di dati.
 
-   1. Per modificare le colonne dei campi armonizzati visualizzate per la tabella dati armonizzata, utilizzare ![Impostazioni](/help/assets//icons/Setting.svg) per aprire la finestra di dialogo **[!UICONTROL Column settings]**.
+   1. Per modificare le colonne dei campi armonizzati visualizzate per la tabella dati armonizzata, utilizzare ![Impostazioni](/help/assets/icons/Setting.svg) per aprire la finestra di dialogo **[!UICONTROL Column settings]**.
 
-      1. Selezionare ![SelectBox](/help/assets//icons/SelectBox.svg) una o più colonne da **[!UICONTROL AVAILABLE COLUMNS]** e utilizzare ![Chevron right](/help/assets//icons/ChevronRight.svg) per aggiungere queste colonne a **[!UICONTROL SELECTED COLUMNS]**.
+      1. Selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) una o più colonne da **[!UICONTROL AVAILABLE COLUMNS]** e utilizzare ![Chevron right](/help/assets/icons/ChevronRight.svg) per aggiungere queste colonne a **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. Selezionare ![SelectBox](/help/assets//icons/SelectBox.svg) una o più colonne da **[!UICONTROL SELECTED COLUMNS]** e utilizzare ![Chevron left](/help/assets//icons/ChevronLeft.svg) per rimuovere le colonne selezionate e riportarle a **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) una o più colonne da **[!UICONTROL SELECTED COLUMNS]** e utilizzare ![Chevron left](/help/assets/icons/ChevronLeft.svg) per rimuovere le colonne selezionate e riportarle a **[!UICONTROL AVAILABLE COLUMNS]**.
 
       1. Selezionare una colonna da **[!UICONTROL DEFAULT SORT]** e passare da **[!UICONTROL Ascending]** a **[!UICONTROL Descending]**.
 
@@ -134,4 +134,4 @@ Per visualizzare i dati armonizzati, nell’interfaccia Mix Modeler:
 
    1. Seleziona **[!UICONTROL Submit]** per inviare le modifiche alle impostazioni della colonna. Selezionare **[!UICONTROL Close]** per annullare le modifiche apportate.
 
-1. Se sono disponibili altre pagine, usa ![Freccia a sinistra](/help/assets//icons/ChevronLeft.svg) o ![Freccia a destra](/help/assets//icons/ChevronRight.svg) alle **[!UICONTROL Page _x _di_x_]** per spostarti tra le pagine.
+1. Se sono disponibili altre pagine, usa ![Freccia a sinistra](/help/assets/icons/ChevronLeft.svg) o ![Freccia a destra](/help/assets/icons/ChevronRight.svg) alle **[!UICONTROL Page _x _di_x_]** per spostarti tra le pagine.

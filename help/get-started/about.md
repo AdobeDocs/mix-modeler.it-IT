@@ -4,7 +4,7 @@ description: Panoramica sulle funzionalità chiave di Mix Modeler.
 short-description: Panoramica sulle funzionalità chiave di Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Per ottenere questo risultato, Mix Modeler combina:
 
 L’apprendimento del trasferimento bidirezionale AI/ML unifica i risultati della modellazione marketing mix (MMM) e dell’attribuzione multi-touch (MTA) per garantire risultati coerenti tra le misurazioni e la pianificazione in un mondo senza cookie.
 
-![Apprendimento con trasferimento bidirezionale](/help/assets//birdirectional-transfer-learning.png){width="500" align="center"}
+![Apprendimento con trasferimento bidirezionale](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## Funzionalità

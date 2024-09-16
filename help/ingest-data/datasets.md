@@ -3,7 +3,7 @@ title: Set di dati
 description: Scopri come gestire i set di dati necessari per acquisire i dati in Mix Modeler.
 feature: Datasets
 exl-id: 788de24d-9021-48f8-87ab-09252b91276a
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 5%
@@ -16,7 +16,7 @@ Per gestire i set di dati, contenenti i dati che desideri acquisire in Experienc
 
 1. Passa all’interfaccia Mix Modeler.
 
-1. Seleziona ![Dati](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**, sotto **[!UICONTROL SETUP]**.
+1. Seleziona ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**, sotto **[!UICONTROL SETUP]**.
 
 Per ulteriori informazioni, consulta la [Guida dell&#39;interfaccia utente dei set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en).
 
