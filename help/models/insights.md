@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, ad esempio panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 09ec757a37725d4b41231076bd99432bffd6d555
+source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Puoi modificare il periodo di data su cui si basano le visualizzazioni in ciascu
 
 ## [!UICONTROL Model insights]
 
-La scheda Approfondimenti modello mostra le visualizzazioni per [Contributo per data e supporto di base](#contribution-by-date-and-base-media), [Contributo per canale](#contribution-by-channel), [Riepilogo prestazioni marketing](#marketing-performance-summary) e [Curve di risposta marginali](#marginal-response-curves).
+La scheda Approfondimenti modello mostra le visualizzazioni per [Contributo per data e supporto di base](#contribution-by-date-and-base-media), [Contributo per canale](#contribution-by-channel), [Riepilogo prestazioni marketing](#marketing-performance-summary) e [Curve di risposta marginali](#marginal-response-curves). La scheda fornisce anche una tabella con [raggruppamento punto di contatto](#touchppint-breakdown).
 
 ![Modello - Approfondimenti modello](/help/assets/model-insights-insights.png)
 
@@ -37,7 +37,7 @@ La scheda Approfondimenti modello mostra le visualizzazioni per [Contributo per 
 * Per scaricare i dati completi di Approfondimenti modello in formato Microsoft® Excel, seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-### Contributo per data e media di base.
+### Contributo per data e media di base
 
 Il grafico ad aree o barre sovrapposte è ordinato: Base in basso, Canali non spesi in mezzo e Canali spesi in alto.
 
@@ -45,11 +45,11 @@ Il grafico ad aree o barre sovrapposte è ordinato: Base in basso, Canali non sp
 
 La visualizzazione ad anello mostra una distribuzione del contributo per canale.
 
-### Riepilogo prestazioni marketing.
+### Riepilogo prestazioni marketing
 
 Un grafico a barre orizzontale che mostra le prestazioni del ROI per canale.
 
-### Curve di risposta marginale.
+### Curve di risposta marginale
 
 Il grafico a linee visualizza e confronta i rendimenti marginali generati dall’investimento nei canali di marketing.  Identifica inoltre il punto di pareggio in cui il ritorno incrementale è inferiore alla spesa incrementale. Di conseguenza, questa visualizzazione ti aiuta a capire quando l’investimento marketing inizia a diventare meno incisivo.
 
@@ -60,6 +60,27 @@ Per cambiare il canale:
 * Selezionare un canale dal menu a discesa **[!UICONTROL Channel]** per aggiornare la visualizzazione per un canale specifico.
 
 
+### Suddivisione punto di contatto
+
+La tabella di suddivisione dei punti di contatto mostra i raggruppamenti dei punti di contatto per tutti i canali o per alcuni di essi su base settimanale.
+
+![Suddivisione punto di contatto](../assets/touchpoint-breakdown.png)
+
+Sono disponibili le seguenti colonne:
+
+| Colonna | Descrizione |
+|---|---|
+| **[!UICONTROL Date range]** | La settimana in cui generare il rapporto. |
+| **[!UICONTROL Touchpoint]** | Canale del punto di contatto specifico. |
+| **[!UICONTROL ROI]** | Percentuale di (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
+| **[!UICONTROL Revenue]** | I ricavi per l’intervallo di date. |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
+| **[!UICONTROL Conversions]** | Le conversioni per l’intervallo di date. |
+| **[!UICONTROL Spend]** | Spesa per l’intervallo di dati. |
+
+Per selezionare un canale specifico o tutti i canali, selezionare dal menu a discesa **[!UICONTROL View]**.
+
+Per scaricare il contenuto della tabella dei raggruppamenti dei punti di contatto, seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 ## [!UICONTROL Attribution]
 

@@ -3,7 +3,7 @@ title: Acquisire dati
 description: Scopri come acquisire dati in Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 8%
@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # Acquisire dati
 
-Mix Modeler funziona con i dati a livello di evento, aggrega i dati di riepilogo delle attività di marketing provenienti da vari giardini murati e aggrega o riassume i dati provenienti da qualsiasi altra origine, come pubblicità offline, fattori interni o esterni.
+Mix Modeler funziona con i dati a livello di evento, aggrega o riassume i dati delle attività di marketing provenienti da vari giardini murati, e aggrega o riepiloga i dati provenienti da qualsiasi altra origine, come pubblicità offline, fattori interni o fattori esterni.
 
 I clienti possono utilizzare qualsiasi tipo di dati acquisito in Experience Platform come set di dati e basato su schemi che utilizzano ExperienceEvent XDM o Metriche di riepilogo XDM come classe base.
 
