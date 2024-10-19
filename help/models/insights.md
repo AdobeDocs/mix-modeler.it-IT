@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, ad esempio panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,28 @@ Per cambiare il canale:
 
 * Selezionare un canale dal menu a discesa **[!UICONTROL Channel]** per aggiornare la visualizzazione per un canale specifico.
 
+
+### Suddivisione punto di contatto
+
+La tabella di suddivisione dei punti di contatto mostra i raggruppamenti dei punti di contatto per tutti i canali o per alcuni di essi su base settimanale.
+
+![Suddivisione punto di contatto](../assets/touchpoint-breakdown.png)
+
+Sono disponibili le seguenti colonne:
+
+| Colonna | Descrizione |
+|---|---|
+| **[!UICONTROL Date range]** | La settimana in cui generare il rapporto. |
+| **[!UICONTROL Touchpoint]** | Canale del punto di contatto specifico. |
+| **[!UICONTROL ROI]** | Percentuale di (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
+| **[!UICONTROL Revenue]** | I ricavi per l’intervallo di date. |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
+| **[!UICONTROL Conversions]** | Le conversioni per l’intervallo di date. |
+| **[!UICONTROL Spend]** | Spesa per l’intervallo di dati. |
+
+Per selezionare un canale specifico o tutti i canali, selezionare dal menu a discesa **[!UICONTROL View]**.
+
+Per scaricare il contenuto della tabella dei raggruppamenti dei punti di contatto, seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 
 ## [!UICONTROL Attribution]
