@@ -3,9 +3,9 @@ title: Modelli
 description: Scopri come configurare e utilizzare i modelli in Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 3801d6637fee491aa295ef586c2017a503466ffc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -62,25 +62,6 @@ Per visualizzare una tabella dei modelli correnti, nell’interfaccia Mix Modele
 
 È possibile eseguire le azioni seguenti su un modello specifico.
 
-### Visualizza dettagli
-
-Per visualizzare ulteriori dettagli su un modello:
-
-1. Seleziona ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
-
-1. Seleziona ![Info](/help/assets/icons/Info.svg) per un modello per visualizzare un popup con i dettagli.
-
-
-
-### Duplica
-
-Potete duplicare rapidamente un modello.
-
-1. Seleziona ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
-
-1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Duplicate]**.
-
-
 ### Approfondimenti modello
 
 La funzionalità Approfondimenti modello è disponibile solo su modelli con formazione e punteggi completati.
@@ -92,6 +73,52 @@ Per visualizzare le informazioni di un modello:
 1. Selezionate il nome del modello.
 
 Sei stato reindirizzato a [Model Insights](insights.md).
+
+
+### Visualizza dettagli
+
+Per visualizzare ulteriori dettagli su un modello:
+
+1. Seleziona ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
+
+1. Seleziona ![Info](/help/assets/icons/Info.svg) per un modello per visualizzare un popup con i dettagli.
+
+
+### Duplica
+
+Potete duplicare rapidamente un modello.
+
+1. Seleziona ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
+
+1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Duplicate]**.
+
+
+### Modifica
+
+Puoi modificare il nome, la descrizione e la pianificazione dell’apprendimento e del punteggio di un modello.
+
+1. Seleziona ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
+
+1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Edit]**.
+
+   Nella finestra di dialogo **[!UICONTROL Edit model]**:
+
+   * Immettere un nuovo **[!UICONTROL Name]** e **[!UICONTROL Description]**.
+
+   * Per abilitare la pianificazione, abilitare **[!UICONTROL Status]**. Puoi abilitare la pianificazione solo per i modelli che sono stati addestrati e valutati.
+
+      1. Seleziona **[!UICONTROL Scoring frequency]**:
+
+         * **[!UICONTROL Daily]**: immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: selezionare un giorno della settimana e immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]**: selezionare un giorno del mese dal menu a discesa Esegui su ogni e immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
+
+      1. Selezionare **[!UICONTROL Training frequency]** dal menu a discesa: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
+
+     ![Modifica modello](../assets/model-edit.png)
+
+1. Seleziona **[!UICONTROL Save]**.
+
 
 
 ### Riaddestramento

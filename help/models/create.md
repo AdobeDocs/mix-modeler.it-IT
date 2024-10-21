@@ -3,9 +3,9 @@ title: Creare un modello
 description: Scopri come creare un modello in Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
+source-git-commit: 91dec8849d0d6fe52974024d09012d9c40d36cec
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -121,14 +121,6 @@ Per creare modelli personalizzati basati sull’intelligenza artificiale, l’in
 
 1. Nel passaggio **[!UICONTROL Advanced]**:
 
-   1. Nella sezione **[!UICONTROL Define training window]**, seleziona tra
-
-      * **[!UICONTROL Have Mix Modeler select a helpful training window]** e
-
-      * **[!UICONTROL Manually input a training window]**. Se selezionata, definire il numero di anni in **[!UICONTROL Include events the following years prior to a conversion]**.
-
-        ![Modello - Definisci la finestra di formazione](/help/assets/model-define-training-window.png)
-
    1. Nella sezione **[!UICONTROL Spend share]**:
 
       * Per utilizzare i rapporti di investimento di marketing storici per informare il modello quando i dati di marketing sono sparsi, attivare **[!UICONTROL Allow spend share]**.
@@ -150,6 +142,30 @@ Per creare modelli personalizzati basati sull’intelligenza artificiale, l’in
       1. Se necessario, utilizzare **[!UICONTROL Clear all]** per cancellare tutti i valori di input per le colonne **[!UICONTROL Contribution proportion]** e **[!UICONTROL Level of confidence]**.
 
 
+1. Nel passaggio **[!UICONTROL Schedule]**:
+
+   1. Nella sezione **[!UICONTROL Schedule]** è possibile pianificare l&#39;apprendimento del modello e il punteggio.
+
+      ![Pianifica modello](../assets/model-schedule.png)
+
+      Per pianificare l’apprendimento e il punteggio del modello:
+
+      1. Attiva **[!UICONTROL Enable scheduled model scoring and training]**.
+      1. Seleziona **[!UICONTROL Scoring frequency]**:
+
+         * **[!UICONTROL Daily]**: immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: selezionare un giorno della settimana e immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]**: selezionare un giorno del mese dal menu a discesa Esegui su ogni e immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
+
+      1. Selezionare **[!UICONTROL Training frequency]** dal menu a discesa: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
+
+   1. Nella sezione **[!UICONTROL Define training window]**, seleziona tra:
+
+      ![Modello - Definisci la finestra di formazione](/help/assets/model-define-training-window.png)
+
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** e
+
+      * **[!UICONTROL Manually input a training window]**. Se selezionata, definire il numero di anni in **[!UICONTROL Include events the following years prior to a conversion]**.
 
 1. Seleziona **[!UICONTROL Finish]** per completare la configurazione del modello.
 
