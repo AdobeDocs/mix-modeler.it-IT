@@ -4,7 +4,7 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4901d4ad2ee0943ed651a0cc556f00be436a14a1
+source-git-commit: ab3b5b4177fff324d50463210724ef95db18e67f
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 11%
@@ -21,7 +21,7 @@ Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rila
 
 | Funzione | Descrizione | Disponibilità generale |
 |---|---|---|
-| **Pianifica formazione e punteggio** | È possibile pianificare l&#39;addestramento e il punteggio di un modello quando si [crea un modello](/help/models/create.md) e quando si modifica un modello da [Approfondimenti modello](/help/models/insights.md#edit) o dal menu di scelta rapida [di un modello](/help/models/overview.md#edit) nella tabella Modelli. | martedì 21 ottobre 2024 |
+| **Pianifica formazione e punteggio** | È possibile pianificare l&#39;addestramento e il punteggio di un modello quando si [crea un modello](/help/models/create.md#schedule) e quando si modifica un modello da [Approfondimenti modello](/help/models/insights.md#edit) o dal menu di scelta rapida [di un modello](/help/models/overview.md#edit) nella tabella Modelli. | martedì 21 ottobre 2024 |
 | **Tabella di suddivisione punti di contatto** | In [!UICONTROL Models], la scheda [[!UICONTROL Model insights]](/help/models/insights.md#factors) ora offre un&#39;ulteriore tabella [raggruppamento punto di contatto](../models/insights.md#touchpoint-breakdown). | mercoledì 1 ottobre 2024 |
 
 ## Agosto 2024
