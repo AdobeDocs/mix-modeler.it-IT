@@ -3,9 +3,9 @@ title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -146,12 +146,27 @@ Per sincronizzare i dati tra i dati armonizzati e i set di dati di riepilogo e/o
 >
 >[!BADGE beta]{type=Informative}
 
-Le preferenze di unione dati consentono di risolvere i conflitti quando si uniscono dati provenienti da origini dati riepilogate ed eventi. I casi di utilizzo sono:
+Per garantire previsioni accurate dei modelli, puoi definire le preferenze di unione dei dati. Questa funzionalità consente agli utenti di risolvere eventuali conflitti dopo l’unione di dati a livello di riepilogo e di evento.
+
+Puoi configurare una preferenza metrica predefinita da applicare in caso di aggiornamenti in conflitto. Questa metrica predefinita può essere una delle tre opzioni seguenti:
+
+* **[!UICONTROL Summary data]**
+* **[!UICONTROL Sum of summary and event data]**
+* **[!UICONTROL Event data]**
+
+Quando, durante l’armonizzazione, più origini di dati tentano di aggiornare un campo metrico per un dato canale, viene applicata la preferenza predefinita configurata dall’utente. Questa preferenza viene applicata a livello di sandbox, a meno che non venga bypassata per alcune preferenze basate su metriche configurate in aggiunta.
+
+In **[!UICONTROL Metric based preferences]**, l&#39;utente può configurare l&#39;origine specifica (**[!UICONTROL Summary]** o **[!UICONTROL Event]**) per una metrica specifica e il tipo di conversione corrispondente per tale metrica.
+
+I casi d’uso tipici sono:
 
 * la stessa metrica pubblicitaria è misurata e segnalata in più set di dati, oppure
 * la misurazione delle metriche può essere incompleta in alcuni set di dati, mentre un altro set di dati può essere un superset di una particolare metrica, con conseguente doppio conteggio.
 
-Per garantire previsioni accurate dei modelli, puoi definire le preferenze di unione dei dati:
+### Configura
+
+Per configurare le preferenze di unione dati:
+
 
 1. Seleziona ![Preferenze unione dati](/help/assets/icons/Merge.svg) [!BADGE beta].
 
