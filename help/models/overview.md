@@ -3,9 +3,9 @@ title: Modelli
 description: Scopri come configurare e utilizzare i modelli in Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: c02d2019346932baaf481e373569e29df3d97713
+source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Specifica l’intervallo di date. È possibile utilizzare il ![Calendario](/help
 1. Selezionare **[!UICONTROL Score]**. Quando si assegna un nuovo punteggio a un modello utilizzando un intervallo di dati specifico, viene visualizzata una finestra di dialogo **[!UICONTROL Existing model is replaced]** in cui viene richiesto di confermare la sostituzione del modello con nuovi punteggi per l’intervallo di date selezionato. Selezionare **[!UICONTROL Replace model]** per confermare.
 
 
-### Eliminare un modello
+### Elimina modelli
 
 Per eliminare un modello:
 
