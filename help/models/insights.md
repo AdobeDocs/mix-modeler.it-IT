@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, ad esempio panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
+source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -186,14 +186,17 @@ Per ogni percorso di conversione, vedi:
 * per ogni canale, la percentuale di contributo del modello di attribuzione e
 * la somma di queste percentuali di contributo del modello di attribuzione del canale.
 
-## **[!UICONTROL Factors]**
+## **[!UICONTROL Factors]** [!BADGE beta]
 
-La scheda Fattori mostra le informazioni relative ai fattori esterni.
+La scheda Fattori [!BADGE beta] mostra informazioni relative ai fattori esterni.
 
 ![Fattori](/help/assets/factors.png)
 
 Questa visualizzazione ti aiuta a comprendere l’effetto incrementale che vari fattori interni ed esterni hanno sulla linea di base delle conversioni. Ad esempio, condizioni economiche o attività promozionali.
 
+Utilizza il menu a discesa **[!UICONTROL Factors]** per selezionare i fattori da visualizzare.
+
+<!-- need to update the image when we do have a proper example -->
 
 Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets/icons/Download.svg).
 
@@ -205,7 +208,7 @@ La scheda Diagnostica mostra le visualizzazioni per:
 
 * Visualizzazione [!UICONTROL Model Assessment], che è possibile suddividere in Conversioni effettive rispetto a quelle previste o residue.
 
-  Per suddividere la visualizzazione, selezionare **[!UICONTROL Actual vs. Predicted]** o **[!UICONTROL Residuals]** dall&#39;elenco **[!UICONTROL Breakdown]**.
+Per suddividere la visualizzazione, selezionare **[!UICONTROL Actual vs. Predicted]** o **[!UICONTROL Residuals]** dall&#39;elenco **[!UICONTROL Breakdown]**.
 
 * Tabella [!UICONTROL Model fitting metrics], che mostra le seguenti colonne per ogni metrica di conversione:
 
@@ -223,11 +226,11 @@ La scheda Diagnostica mostra le visualizzazioni per:
 
       * RMSE (Root Mean Square Error): indica l’errore medio, ponderato in base al quadrato dell’errore.
 
-  Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets/icons/Download.svg).
+Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets/icons/Download.svg).
 
 * Tabella [!UICONTROL Touchpoint effectiveness], che rappresenta il risultato del modello algoritmico Attribution AI. I dati per questa tabella vengono generati solo per periodi di tempo specifici. Seleziona **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) per ulteriori dettagli.
 
-  La visualizzazione mostra, in ordine decrescente di [!UICONTROL Efficiency measure] ![Ordine decrescente](/help/assets/icons/SortOrderDown.svg), per ogni punto di contatto:
+La visualizzazione mostra, in ordine decrescente di [!UICONTROL Efficiency measure] ![Ordine decrescente](/help/assets/icons/SortOrderDown.svg), per ogni punto di contatto:
 
    * [!UICONTROL Paths touched]: visualizza la percentuale di percorsi che raggiungono la conversione e la percentuale di percorsi che non raggiungono la conversione. Per un punto di contatto, puoi vedere più conversioni attribuite quando il rapporto di conversione dell’attribuzione è elevato. Questo rapporto confronta la percentuale di percorsi che portano alla conversione rispetto alla percentuale di percorsi che portano alla conversione *not*.
    * [!UICONTROL Efficiency measure]: generato dal modello di attribuzione algoritmica, la misura di efficienza indica l&#39;importanza relativa di un punto di contatto verso la conversione, indipendentemente dal volume del punto di contatto. L&#39;efficienza è misurata su una scala da 1 a 5. Tieni presente che un volume di punti di contatto più elevato non garantisce una misura di efficienza più elevata.
@@ -246,11 +249,11 @@ La scheda Cronologia mostra le visualizzazioni per:
 
 * Spesa punto di contatto.
 
-  Puoi selezionare un canale alternativo basato sulla spesa da visualizzare per questa visualizzazione. Selezionare un canale da **[!UICONTROL Channels]**.
+Puoi selezionare un canale alternativo basato sulla spesa da visualizzare per questa visualizzazione. Selezionare un canale da **[!UICONTROL Channels]**.
 
 * Volume del punto di contatto.
 
-  Puoi selezionare un canale alternativo basato sul volume da visualizzare per questa visualizzazione. Selezionare un canale da **[!UICONTROL Channels]**.
+Puoi selezionare un canale alternativo basato sul volume da visualizzare per questa visualizzazione. Selezionare un canale da **[!UICONTROL Channels]**.
 
 ![Modello - Panoramica cronologica](/help/assets/model-insights-historical-overview.png)
 
