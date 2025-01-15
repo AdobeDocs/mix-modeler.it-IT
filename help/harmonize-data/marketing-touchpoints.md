@@ -3,7 +3,7 @@ title: Punti di contatto di marketing
 description: Scopri come creare punti di contatto di marketing da utilizzare nell’ambito dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -35,7 +35,6 @@ Le colonne della tabella specificano i dettagli del punto di contatto di marketi
 | Creato | Data e ora della creazione del punto di contatto di marketing. |
 | Ultima modifica | Data e ora dell’ultima modifica del punto di contatto marketing. |
 
-{style="table-layout:auto"}
 
 ## Aggiungere un punto di contatto di marketing
 
