@@ -3,9 +3,9 @@ title: Piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
+source-git-commit: 0475c584b3963d02d9dd72f0dccf692d558463db
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -97,16 +97,14 @@ Per confrontare i piani:
 
 ### Elimina piani
 
-Per eliminare i piani:
+Per eliminare un piano:
 
-1. Selezionare uno o più piani dalla tabella.
-1. Seleziona ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni.
+1. Seleziona ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** dalla barra a sinistra.
+1. Selezionare ![Altro](/help/assets/icons/More.svg) per un piano e dal menu di scelta rapida selezionare **[!UICONTROL Delete]**. In alternativa, selezionare ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni blu.
+1. Selezionare **[!UICONTROL Delete]** nella finestra di conferma **[!UICONTROL Delete moplandel]** per eliminare il piano. Selezionare **[!UICONTROL Cancel]** per annullare.
 
-In alternativa:
+Per eliminare più piani:
 
-1. Selezionare ![Altro](/help/assets/icons/More.svg) per un piano nella tabella.
-1. Selezionare **[!UICONTROL Delete]** dal menu di scelta rapida. Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**.
-
-   >[!WARNING]
-   >
-   >   I piani selezionati vengono eliminati immediatamente.
+1. Selezionare più piani.
+1. Dalla barra delle azioni blu, selezionare ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare i piani.
+1. Selezionare **[!UICONTROL Delete]** nella finestra di conferma **[!UICONTROL Delete *x *piani]**per eliminare i piani. Selezionare **[!UICONTROL Cancel]**per annullare.
