@@ -3,9 +3,9 @@ title: Creare un modello
 description: Scopri come creare un modello in Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: ab3b5b4177fff324d50463210724ef95db18e67f
+source-git-commit: 16aec67b3e0562ff766f81b8036c724fa03bba17
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ Il modello viene configurato nel passaggio **[!UICONTROL Configure]**. La config
 
    * Per rimuovere un contenitore del gruppo di dati idoneo, all&#39;interno del contenitore, selezionare ![Altro](/help/assets/icons/More.svg) e selezionare **[!UICONTROL Remove marketing touchpoint]** dal menu di scelta rapida.
 
+   * Seleziona **And** e **Or** tra contenitori per creare definizioni più complesse per la tua popolazione di dati idonea.
 
 
 1. Per aggiungere al modello set di dati contenenti fattori esterni, utilizzare uno o più contenitori nella sezione **[!UICONTROL External factors dataset]**. Un esempio di fattori esterni sono gli indici S&amp;P.
