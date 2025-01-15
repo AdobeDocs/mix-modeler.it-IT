@@ -3,9 +3,9 @@ title: Conversioni
 description: Scopri come creare conversioni da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '398'
 ht-degree: 1%
 
 ---
@@ -66,14 +66,28 @@ Per aggiungere una conversione, nell&#39;interfaccia ![DataSearch](/help/assets/
 1. Una volta creata, la conversione viene aggiunta alla tabella delle conversioni.
 
 
-## Visualizzare una conversione
+## Visualizza dettagli
 
-Per visualizzare una conversione:
+Per visualizzare i dettagli di una conversione:
 
 1. Selezionare ![Altro](/help/assets/icons/More.svg) quando si passa il mouse su un nome di conversione nella tabella.
 
-1. Selezionare ![Visualizza](/help/assets/icons/ViewDetail.svg) **Visualizza**. Una finestra di dialogo mostra i dettagli della conversione. Per ulteriori informazioni, vedere [Aggiungere una conversione](#add-a-conversion). Selezionare **[!UICONTROL Cancel]** per chiudere la finestra di dialogo.
+1. Selezionare ![Visualizza](/help/assets/icons/ViewDetail.svg) **Visualizza dettagli**. Una finestra di dialogo mostra i dettagli della conversione. Per ulteriori informazioni, vedere [Aggiungere una conversione](#add-a-conversion). Selezionare **[!UICONTROL Cancel]** per chiudere la finestra di dialogo.
 
+## Visualizza rapporto
+
+Per visualizzare un rapporto di una conversione:
+
+1. Selezionare ![Altro](/help/assets/icons/More.svg) quando si passa il mouse su un nome di conversione nella tabella.
+
+1. Selezionare ![GraphTrend](/help/assets/icons/GraphTrend.svg) **Visualizza report**. Una finestra di dialogo mostra un rapporto della conversione.
+
+   ![Rapporto vista conversione](../assets/conversion-view-report.png)
+
+   * Per modificare la granularità su cui generare il rapporto, selezionare un valore dal menu a discesa **[!UICONTROL Weekly]**.
+   * Per modificare il periodo su cui generare il rapporto, immettere una data di inizio e una data di fine oppure utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per definire un periodo nel popup del calendario.
+
+1. Selezionare **[!UICONTROL Close]** per chiudere la finestra di dialogo.
 
 ## Eliminare una conversione
 

@@ -3,9 +3,9 @@ title: Punti di contatto di marketing
 description: Scopri come creare punti di contatto di marketing da utilizzare nell’ambito dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,29 @@ Per aggiungere un punto di contatto di marketing, nell&#39;interfaccia ![DataSea
 1. Una volta creato, il punto di contatto viene aggiunto alla tabella dei punti di contatto di marketing.
 
 
-## Visualizzare un punto di contatto di marketing
+## Visualizza dettagli
 
-Per visualizzare un punto di contatto di marketing:
+Per visualizzare i dettagli di un punto di contatto di marketing:
 
 1. Seleziona ![Altro](/help/assets/icons/More.svg) quando passi il cursore su un nome di punto di contatto di marketing nella tabella.
 
 1. Selezionare ![Visualizza](/help/assets/icons/ViewDetail.svg) **Visualizza**. Una finestra di dialogo mostra i dettagli del punto di contatto di marketing. Per ulteriori informazioni, consulta [Aggiungere un punto di contatto di marketing](#add-a-marketing-touchpoint). Selezionare **[!UICONTROL Cancel]** per chiudere la finestra di dialogo.
 
+
+## Visualizza rapporto
+
+Per visualizzare un rapporto di un punto di contatto di marketing:
+
+1. Seleziona ![Altro](/help/assets/icons/More.svg) quando passi il cursore su un nome di punto di contatto di marketing nella tabella.
+
+1. Selezionare ![GraphTrend](/help/assets/icons/GraphTrend.svg) **Visualizza report**. Una finestra di dialogo mostra un rapporto del punto di contatto di marketing.
+
+   ![Rapporto visualizzazione punto di contatto marketing](../assets/marketingtouchpoint-view-report.png)
+
+   * Per modificare la granularità su cui generare il rapporto, selezionare un valore dal menu a discesa **[!UICONTROL Weekly]**.
+   * Per modificare il periodo su cui generare il rapporto, immettere una data di inizio e una data di fine oppure utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per definire un periodo nel popup del calendario.
+
+1. Selezionare **[!UICONTROL Close]** per chiudere la finestra di dialogo.
 
 ## Eliminare un punto di contatto di marketing
 
