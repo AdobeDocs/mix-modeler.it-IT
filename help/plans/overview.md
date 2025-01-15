@@ -3,9 +3,9 @@ title: Piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,13 @@ Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia Mix Modele
    | Budget | Budget totale per un piano. |
    | Rendimento previsto | Rendimento previsto per un piano |
    | ROI previsto | ROI previsto per un piano. |
+   | Conversione prevista | Conversione prevista per un piano |
+   | CPA previsto | CPA previsto per un piano |
    | Stato | Stato di un piano: <p><span style="color:red">●</span> non riuscito, <p>Elaborazione di <span style="color:blue">●</span> oppure <p><span style="color:green">●</span> completato. |
 
    {style="table-layout:auto"}
+
+   È possibile utilizzare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per selezionare ![Spunta](/help/assets/icons/Checkmark.svg) le colonne da visualizzare nella tabella.
 
 1. Utilizza ![Ricerca](/help/assets/icons/Search.svg) per cercare e filtrare la tabella per uno o più piani specifici.
 
