@@ -1,21 +1,21 @@
 ---
-title: Armonizzare i dati
+title: Panoramica dell’armonizzazione dei set di dati
 description: Scopri come armonizzare i dati in Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '895'
 ht-degree: 7%
 
 ---
 
-# Armonizzare i dati
+# Panoramica dell’armonizzazione dei set di dati
 
 I dati in Mix Modeler sono di natura diversa a seconda della fonte dei dati. I dati possono essere:
 
 * dati aggregati o riassuntivi, ad esempio raccolti da fonti di dati provenienti da giardini murati o dati pubblicitari offline raccolti (come spendere) dall’esecuzione di una campagna su cartelloni pubblicitari, un evento o una campagna pubblicitaria fisica,
-* dati evento, ad esempio da origini dati di prime parti. Questi dati dell’evento possono essere raccolti tramite il connettore di origine di Adobe Analytics da Adobe Analytics, oppure tramite l’SDK per web o mobile di Experience Platform o l’API di Edge Network, oppure possono essere acquisiti tramite i connettori di origine.
+* dati evento, ad esempio da origini dati di prime parti. Questi dati dell’evento possono essere raccolti tramite il connettore di origine di Adobe Analytics da Adobe Analytics, oppure tramite Experience Platform Web o Mobile SDK o Edge Network API, oppure possono essere acquisiti tramite i connettori di origine.
 
 Il servizio di armonizzazione di Mix Modeler assimila i dati aggregati e i dati evento in una visualizzazione dati coerente. Questa visualizzazione dati, combinata con dati di fattori interni ed esterni, è la sorgente dei modelli in Mix Modeler. Il servizio utilizza la granularità più elevata tra i diversi set di dati. Ad esempio, se un set di dati ha una granularità mensile e i set di dati rimanenti hanno granularità settimanale e giornaliera, il servizio di armonizzazione crea una visualizzazione dati con granularità mensile.
 
@@ -67,7 +67,7 @@ Un set di dati di conversione con granularità dell’insieme di dati aggregati 
 
 **Set di dati 4**
 
-Un set di dati di esempio per l’evento esperienza (eventi Web SDK) dal cliente.
+Un esempio di set di dati di evento esperienza (eventi Web SDK) dal cliente.
 
 | Timestamp | Spazio dei nomi identità | ID identità | Channel | Clic |
 |--- |--- |--- |--- |---:|

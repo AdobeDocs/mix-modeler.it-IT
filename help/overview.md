@@ -4,16 +4,16 @@ description: Scopri come misurare le campagne e ottimizzare le pianificazioni in
 short-description: Scopri come misurare le campagne e ottimizzare le pianificazioni in modo olistico su tutti i canali con Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '203'
+ht-degree: 18%
 
 ---
 
 # Guida Adobe Mix Modeler
 
-Questa guida alla documentazione tecnica fornisce supporto autonomo per l&#39;Adobe **Mix Modeler**. Mix Modeler è un’applicazione Adobe Experience Cloud che misura le campagne e ottimizza la pianificazione olistica su tutti i canali: a pagamento, guadagnato e di proprietà. Mix Modeler è basato su Adobe Experience Platform e su Adobe Sensei.
+Questa guida alla documentazione tecnica fornisce supporto autonomo per Adobe **Mix Modeler**. Mix Modeler è un’applicazione Adobe Experience Cloud che misura le campagne e ottimizza la pianificazione olistica su tutti i canali: a pagamento, guadagnato e di proprietà. Mix Modeler è basato su Adobe Experience Platform e su Adobe Sensei.
 
 ## Inizia con le nozioni di base
 
@@ -60,13 +60,13 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per l&#39;Ad
     </td>
     <td>
       <img src="assets/FileGear.svg" width="35px"><br/>
-      <strong>Modelli</strong><br/><a href="/help/models/overview.md">Panoramica</a> - <a href="/help/models/create.md">Crea un modello</a> - <a href="/help/models/insights.md">Informazioni sul modello</a> - <a href="/help/models/scoring-data.md">Dati punteggio</a>
+      <strong>Modelli</strong><br/><a href="/help/models/overview.md">Panoramica</a> - <a href="/help/models/build.md">Modelli di compilazione</a> - <a href="/help/models/insights.md">Informazioni sul modello</a> - <a href="/help/models/scoring-data.md">Utilizza dati di punteggio</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/FileChart.svg" width="35px"><br/>
-      <strong>Piani</strong><br/><a href="/help/plans/overview.md">Piani</a> - <a href="/help/plans/create.md">Crea un piano</a> - <a href="/help/plans/compare.md">Confronta piani</a> - <a href="/help/plans/edit.md">Modifica un piano</a>
+      <strong>Piani</strong><br/><a href="/help/plans/overview.md">Piani</a> - <a href="/help/plans/build.md">Piani di compilazione</a> - <a href="/help/plans/compare.md">Confronta piani</a> - <a href="/help/plans/build.md">Approfondimenti piano</a>
     </td>
     <td>
       <img src="assets/Dashboard.svg" width="35px"><br/>

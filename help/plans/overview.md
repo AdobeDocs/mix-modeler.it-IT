@@ -1,16 +1,16 @@
 ---
-title: Piani
+title: Panoramica dei piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 0%
+source-wordcount: '481'
+ht-degree: 1%
 
 ---
 
-# Piani
+# Panoramica dei piani
 
 I piani in Mix Modeler consentono di allocare budget per business unit e canale. La funzionalità di pianificazione è integrata con i risultati dei modelli formati in base ai dati armonizzati.
 
@@ -28,6 +28,10 @@ Un piano può facoltativamente includere:
 - più date di volo, ognuna con un budget prefissato,
 - vincoli di budget minimi e massimi per canale e data di volo.
 
+
+## Creare piani
+
+Per creare un piano, utilizzare la procedura guidata di creazione del piano Mix Modeler. Per ulteriori dettagli, consulta [Piani di compilazione](build.md).
 
 ## Gestisci piani
 
@@ -57,50 +61,39 @@ Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia Mix Modele
 
 1. Utilizza ![Ricerca](/help/assets/icons/Search.svg) per cercare e filtrare la tabella per uno o più piani specifici.
 
-## Creare un piano
+### Pianificare gli approfondimenti
 
-Per creare un piano, utilizzare la procedura guidata di creazione del piano Mix Modeler. Per ulteriori dettagli, vedere [Creare un piano](create.md).
+Per visualizzare gli approfondimenti di un piano e modificarne uno:
 
+1. Seleziona ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** dalla barra a sinistra.
 
-## Modificare un piano
+1. Selezionare il nome del piano.
 
-Per modificare un piano, selezionarne il nome dalla tabella. Per ulteriori informazioni, vedere [Modificare un piano](edit.md).
+Sei stato reindirizzato a [Informazioni sul piano](insights.md).
 
-
-## Selezione e azione sui piani
-
-È possibile selezionare uno o più piani e visualizzare la barra delle azioni Piani. La barra delle azioni consente di eliminare, confrontare o duplicare i piani.
-
-Per rimuovere tutte le selezioni nella tabella Piani, selezionare ![Chiudi](/help/assets/icons/Close.svg) nella barra delle azioni
-
-![Barra delle azioni dei piani](/help/assets/plans-action-bar.png)
 
 ### Duplicare un piano
 
 Per duplicare un piano:
 
-1. Selezionare un singolo piano dalla tabella.
-1. Seleziona ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni. Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**.
+- Seleziona ![Altro](/help/assets/icons/More.svg) per un piano. Dal menu di scelta rapida, selezionare **[!UICONTROL Duplicate]**.
+- In alternativa, selezionare un piano nella tabella ![SelectBox](/help/assets/icons/SelectBox.svg) e selezionare ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni blu.
 
-In alternativa:
-
-1. Selezionare ![Altro](/help/assets/icons/More.svg) per un piano nella tabella.
-1. Selezionare **[!UICONTROL Duplicate]** dal menu di scelta rapida. Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**.
+Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**.
 
 ### Confronta piani
 
 Per confrontare i piani:
 
 1. Selezionare due piani dalla tabella.
-1. Seleziona ![Confronta](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]** dalla barra delle azioni. Viene visualizzata l&#39;interfaccia utente di **[!UICONTROL Compare plans]**.
+1. Seleziona ![Confronta](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]** dalla barra delle azioni blu. Viene visualizzata l&#39;interfaccia utente di **[!UICONTROL Compare plans]**.
 
 
 ### Elimina piani
 
 Per eliminare un piano:
 
-1. Seleziona ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** dalla barra a sinistra.
-1. Selezionare ![Altro](/help/assets/icons/More.svg) per un piano e dal menu di scelta rapida selezionare **[!UICONTROL Delete]**. In alternativa, selezionare ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni blu.
+1. Seleziona ![Altro](/help/assets/icons/More.svg) per un piano. Dal menu di scelta rapida selezionare **[!UICONTROL Delete]**. <br/>In alternativa, selezionare un piano nella tabella ![SelectBox](/help/assets/icons/SelectBox.svg) e selezionare ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni blu.
 1. Selezionare **[!UICONTROL Delete]** nella finestra di conferma **[!UICONTROL Delete plan]** per eliminare il piano. Selezionare **[!UICONTROL Cancel]** per annullare.
 
 Per eliminare più piani:

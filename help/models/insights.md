@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, ad esempio panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Per scaricare il contenuto della tabella dei raggruppamenti dei punti di contatt
 >La scheda Attribuzione è disponibile solo per i modelli abilitati per MTA.
 
 
-Utilizzando la scheda [!UICONTROL Attribution], puoi comprendere l’efficacia dei punti di contatto e delle campagne di marketing con dati a livello di evento.  Vedi [Creare un modello](create.md).
+Utilizzando la scheda [!UICONTROL Attribution], puoi comprendere l’efficacia dei punti di contatto e delle campagne di marketing con dati a livello di evento.  Vedi [Genera modello](build.md).
 
 Sono supportati i seguenti modelli di attribuzione:
 

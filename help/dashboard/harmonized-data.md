@@ -1,18 +1,18 @@
 ---
-title: Dashboard di panoramica dei dati armonizzati
+title: Dashboard dati armonizzati
 description: Scopri come utilizzare la dashboard di panoramica dei dati armonizzata in Mix Modeler.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Panoramica dei dati armonizzati
+# Dati armonizzati
 
-La scheda Dati armonizzati nella panoramica di Mix Modeler fornisce informazioni approfondite sui dati armonizzati configurati per essere utilizzati come parte dei dati acquisiti e della configurazione dei dati armonizzati.
+La scheda **[!UICONTROL Harmonized data]** in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** fornisce informazioni approfondite sui dati armonizzati configurati per essere utilizzati come parte dei dati acquisiti e della configurazione dei dati armonizzati.
 
 La panoramica mostra quattro visualizzazioni della scheda di stato KPI (riga in alto) e altre sei visualizzazioni configurabili.
 

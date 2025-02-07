@@ -1,23 +1,23 @@
 ---
-title: Panoramica dei piani
+title: Piani
 description: Scopri come utilizzare la panoramica dei piani in Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 0bdb80fb19118ab4e15c36c1a43e2d4f0c528041
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
-# Panoramica dei piani
+# Piani
 
 >[!NOTE]
 >
->[!BADGE Alpha]{type=Informative}
+>[!BADGE Alpha]{type=Informative}La scheda **[!UICONTROL Plans]** in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** è una funzionalità alfa e la sua funzionalità è soggetta a modifiche. Questa funzione è disponibile per un numero limitato di clienti.
 
 
-La scheda Piani in Panoramica di Mix Modeler mostra le visualizzazioni per [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] e [!UICONTROL KPI].
+La scheda **[!UICONTROL Plans]** in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** mostra le visualizzazioni per [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] e [!UICONTROL KPI].
 
 I dati visualizzati per le visualizzazioni sono determinati da:
 
