@@ -1,9 +1,9 @@
 ---
-title: Dati punteggio USA
+title: Utilizzare i dati di punteggio
 description: Scopri come i dati di punteggio di un modello in Mix Modeler vengono mantenuti.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 5f6c35816a8850bf170cb73d9710e65809e5f372
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 6%
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 # Utilizzare i dati di punteggio
 
-Come parte del punteggio di un modello, i dati di punteggio vengono mantenuti all’interno di un set di dati in Experience Platform. Se hai abilitato l’attribuzione multi-touch durante la creazione del modello, i dati aggiuntivi del punteggio dell’evento vengono mantenuti all’interno di un set di dati in Experience Platform.
+Come parte del punteggio di un modello, i dati di punteggio vengono mantenuti all’interno di un set di dati in Experience Platform. Se hai abilitato l’attribuzione multi-touch durante la creazione del modello, i dati aggiuntivi del punteggio evento vengono mantenuti all’interno di un set di dati in Experience Platform.
 
 Ciascuno di questi set di dati è conforme a uno schema. Questo articolo documenta questi schemi.
 
