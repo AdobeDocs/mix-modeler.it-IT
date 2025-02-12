@@ -3,21 +3,31 @@ title: Panoramica dell’armonizzazione dei set di dati
 description: Scopri come armonizzare i dati in Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 7%
+source-wordcount: '966'
+ht-degree: 6%
 
 ---
 
 # Panoramica dell’armonizzazione dei set di dati
 
-I dati in Mix Modeler sono di natura diversa a seconda della fonte dei dati. I dati possono essere:
+I dati in Mix Modeler sono di natura diversa a seconda della fonte di dati. I dati possono essere:
 
 * dati aggregati o riassuntivi, ad esempio raccolti da fonti di dati provenienti da giardini murati o dati pubblicitari offline raccolti (come spendere) dall’esecuzione di una campagna su cartelloni pubblicitari, un evento o una campagna pubblicitaria fisica,
-* dati evento, ad esempio da origini dati di prime parti. Questi dati dell’evento possono essere raccolti tramite il connettore di origine di Adobe Analytics da Adobe Analytics, oppure tramite Experience Platform Web o Mobile SDK o Edge Network API, oppure possono essere acquisiti tramite i connettori di origine.
+* dati evento, ad esempio da origini dati di prime parti. Questi dati dell’evento possono essere raccolti tramite il connettore di origine di Adobe Analytics da Adobe Analytics, oppure tramite il SDK web o mobile di Experience Platform o l’API di Edge Network, oppure possono essere acquisiti tramite i connettori di origine.
 
-Il servizio di armonizzazione di Mix Modeler assimila i dati aggregati e i dati evento in una visualizzazione dati coerente. Questa visualizzazione dati, combinata con dati di fattori interni ed esterni, è la sorgente dei modelli in Mix Modeler. Il servizio utilizza la granularità più elevata tra i diversi set di dati. Ad esempio, se un set di dati ha una granularità mensile e i set di dati rimanenti hanno granularità settimanale e giornaliera, il servizio di armonizzazione crea una visualizzazione dati con granularità mensile.
+Il servizio di armonizzazione di Mix Modeler assimila i dati aggregati e di evento in una visualizzazione dati coerente. Questa visualizzazione dati, combinata con [dati relativi a fattori interni ed esterni](#factors), è l&#39;origine dei modelli in Mix Modeler. Il servizio utilizza la granularità più elevata tra i diversi set di dati. Ad esempio, se un set di dati ha una granularità mensile e i set di dati rimanenti hanno granularità settimanale e giornaliera, il servizio di armonizzazione crea una visualizzazione dati con granularità mensile.
+
+## Fattori
+
+I fattori sono fondamentali per la creazione di modelli e vuoi capire quale impatto ha sull’azienda in modo olistico. I fattori potrebbero non essere correlati ai dati di marketing.
+
+* I fattori interni sono specifici dell’organizzazione e possono influenzare le conversioni. Ad esempio, la stagione delle vendite, le promozioni e altro ancora.
+
+* I fattori esterni sono fattori che esulano dal controllo dell’organizzazione, ma che possono comunque influire sulle conversioni ottenute. Alcuni esempi sono CPI, S&amp;P 500 e altro ancora.
+
+
 
 ## Un esempio di dati armonizzati
 
@@ -39,7 +49,7 @@ Contiene il set di dati dell’attività di marketing di YouTube, con una granul
 
 **Set di dati 2**
 
-Contiene il set di dati dell’attività di marketing di Facebook, con una granularità del set di dati aggregati impostata su Settimanale.
+Contiene il set di dati dell’attività di marketing da Facebook, con una granularità dei dati aggregati impostata su settimanale.
 
 | Data | Tipo di data | Channel | Campaign | Geo | Clic | Spesa |
 |--- |:---:|--- |---|---|---:|---:|
@@ -114,7 +124,7 @@ Per creare un set di dati armonizzato, come nell&#39;[esempio](#an-example-of-ha
 
 ## Visualizza dati armonizzati
 
-Per visualizzare i dati armonizzati, nell’interfaccia Mix Modeler:
+Per visualizzare i dati armonizzati, nell’interfaccia di Mix Modeler:
 
 1. Seleziona ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** dalla barra a sinistra.
 

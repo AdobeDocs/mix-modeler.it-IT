@@ -3,9 +3,9 @@ title: Panoramica dei piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -28,14 +28,16 @@ Un piano può facoltativamente includere:
 - più date di volo, ognuna con un budget prefissato,
 - vincoli di budget minimi e massimi per canale e data di volo.
 
+Se un modello utilizzato per il piano viene valutato in base a nuovi dati, è necessario creare un nuovo piano per tenere conto dei dati ricalcolati.
+
 
 ## Creare piani
 
-Per creare un piano, utilizzare la procedura guidata di creazione del piano Mix Modeler. Per ulteriori dettagli, consulta [Piani di compilazione](build.md).
+Per creare un piano, utilizzare la procedura guidata di creazione del piano di Mix Modeler. Per ulteriori dettagli, consulta [Piani di compilazione](build.md).
 
 ## Gestisci piani
 
-Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia Mix Modeler:
+Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia di Mix Modeler:
 
 1. Seleziona ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** dalla barra a sinistra.
 
