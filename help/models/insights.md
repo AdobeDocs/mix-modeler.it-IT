@@ -1,11 +1,11 @@
 ---
 title: Approfondimenti modello
-description: Scopri come ottenere dettagli sul modello, ad esempio panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
+description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -82,12 +82,27 @@ Per selezionare un canale specifico o tutti i canali, selezionare dal menu a dis
 
 Per scaricare il contenuto della tabella dei raggruppamenti dei punti di contatto, seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
+## **[!UICONTROL Factors]** [!BADGE beta]
+
+La scheda Fattori [!BADGE beta] mostra informazioni relative ai fattori esterni.
+
+![Fattori](/help/assets/factors.png)
+
+Questa visualizzazione ti aiuta a comprendere l’effetto incrementale che vari fattori interni ed esterni hanno sulla linea di base delle conversioni. Ad esempio, condizioni economiche o attività promozionali.
+
+Utilizza il menu a discesa **[!UICONTROL Factors]** per selezionare i fattori da visualizzare.
+
+<!-- need to update the image when we do have a proper example -->
+
+Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets/icons/Download.svg).
+
+Se non sono disponibili dati, viene visualizzato un messaggio ![TabellaEGrafico](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Attribution]
 
 >[!NOTE]
 >
->La scheda Attribuzione è disponibile solo per i modelli abilitati per MTA.
+La scheda Attribuzione è disponibile solo per i modelli abilitati per MTA.
 
 
 Utilizzando la scheda [!UICONTROL Attribution], puoi comprendere l’efficacia dei punti di contatto e delle campagne di marketing con dati a livello di evento.  Vedi [Genera modello](build.md).
@@ -110,7 +125,7 @@ Selezionare uno o più modelli di attribuzione dal menu a discesa **[!UICONTROL 
 
 ![Attribuzione](/help/assets/model-insights-attribution.png)
 
-I punteggi dell’evento granulare di attribuzione multi-touch di Mix Modeler sono allineati ai punteggi e ai ROI complessivi di Mix Modeler. Questi punteggi sono resi disponibili anche come set di dati in Experience Platform.
+I punteggi dell’evento granulare di attribuzione multi-touch di Mix Modeler sono allineati ai punteggi e al ROI complessivi di Mix Modeler. Questi punteggi sono resi disponibili anche come set di dati in Experience Platform.
 
 La scheda Attribuzione è costituita dalle seguenti visualizzazioni:
 
@@ -132,15 +147,15 @@ Per visualizzare i dettagli, passa il cursore del mouse sulla riga di dati di un
 
 La visualizzazione [!UICONTROL Breakdown] è una suddivisione per canale o punto di contatto delle conversioni per ciascuno dei modelli di attribuzione selezionati. Questa visualizzazione può essere utile per prendere decisioni sull’efficacia di ciascun canale o punto di contatto.
 
-Per scegliere il tipo di suddivisione, selezionare **[!UICONTROL Breakdown by channel]** o **[!UICONTROL Breakdown by touchpoint]** da ![Altro](/help/assets/icons/More.svg).
+Per scegliere il tipo di suddivisione: select **[!UICONTROL Breakdown by channel]** o **[!UICONTROL Breakdown by touchpoint]** da ![Altro](/help/assets/icons/More.svg).
 
 Per visualizzare i dettagli, passa il cursore sopra uno degli elementi del grafico.
 
 ### [!UICONTROL Top campaigns]
 
-La visualizzazione Campagne principali mostra una tabella delle campagne principali con colonne per Nome campagna, Canale, Tipo di media e Conversioni incrementali. Questa visualizzazione può aiutare a informare il team dell’efficacia di una campagna specifica per un dato canale e fornire informazioni sulle campagne in cui investire ulteriormente.
+La visualizzazione Campagne principali mostra una tabella delle campagne principali con colonne per Nome campagna, Canale, Tipo di media and Conversioni incrementali. Questa visualizzazione può aiutare a informare il team dell’efficacia di una campagna specifica per un dato canale e fornire informazioni sulle campagne in cui investire ulteriormente.
 
-↑ Per ordinare la tabella in ordine crescente o decrescente ↓ per le conversioni Canale, Tipo di file multimediale o Incrementale, seleziona l’intestazione della colonna e attiva/disattiva l’ordinamento.
+↑ Per ordinare la tabella in ordine crescente o decrescente ↓ per Canale, tipo di file multimediale or Conversioni incrementali, seleziona l’intestazione della colonna e attiva/disattiva l’ordinamento.
 
 Per espandere la tabella in una finestra di dialogo separata, selezionare **[!UICONTROL Expand]** da ![Altro](/help/assets/icons/More.svg).
 
@@ -151,7 +166,7 @@ La finestra di dialogo espansa Prime campagne mostra la stessa tabella con colon
 * Conversioni al primo contatto
 * Conversioni ultimo contatto
 
-  Puoi selezionare ciascuna delle intestazioni di colonna aggiuntive per ordinare la tabella in ordine crescente o decrescente.
+Puoi selezionare ciascuna delle intestazioni di colonna aggiuntive per ordinare la tabella in ordine crescente o decrescente.
 
 Per chiudere la finestra di dialogo Inizio campagne espansa, selezionare **[!UICONTROL Close]**.
 
@@ -162,7 +177,7 @@ La visualizzazione [!UICONTROL Breakdown by touchpoint position] è una suddivis
 
 >[!NOTE]
 >
->La somma del contributo in percentuale per un modello di attribuzione in tutti i punti di contatto e le posizioni deve essere pari a 100.
+La somma del contributo in percentuale per un modello di attribuzione in tutti i punti di contatto e le posizioni deve essere pari a 100.
 
 
 Le posizioni [!UICONTROL Starter], [!UICONTROL Player] e [!UICONTROL Closer] sono definite come segue:
@@ -186,21 +201,6 @@ Per ogni percorso di conversione, vedi:
 * per ogni canale, la percentuale di contributo del modello di attribuzione e
 * la somma di queste percentuali di contributo del modello di attribuzione del canale.
 
-## **[!UICONTROL Factors]** [!BADGE beta]
-
-La scheda Fattori [!BADGE beta] mostra informazioni relative ai fattori esterni.
-
-![Fattori](/help/assets/factors.png)
-
-Questa visualizzazione ti aiuta a comprendere l’effetto incrementale che vari fattori interni ed esterni hanno sulla linea di base delle conversioni. Ad esempio, condizioni economiche o attività promozionali.
-
-Utilizza il menu a discesa **[!UICONTROL Factors]** per selezionare i fattori da visualizzare.
-
-<!-- need to update the image when we do have a proper example -->
-
-Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets/icons/Download.svg).
-
-Se non sono disponibili dati, viene visualizzato un messaggio ![TabellaEGrafico](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 
@@ -228,7 +228,7 @@ Per suddividere la visualizzazione, selezionare **[!UICONTROL Actual vs. Predict
 
 Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets/icons/Download.svg).
 
-* Tabella [!UICONTROL Touchpoint effectiveness], che rappresenta il risultato del modello algoritmico Attribution AI. I dati per questa tabella vengono generati solo per periodi di tempo specifici. Seleziona **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) per ulteriori dettagli.
+* Tabella [!UICONTROL Touchpoint effectiveness], che rappresenta il risultato del modello algoritmico di IA per l’attribuzione. I dati per questa tabella vengono generati solo per periodi di tempo specifici. Seleziona **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) per ulteriori dettagli.
 
 La visualizzazione mostra, in ordine decrescente di [!UICONTROL Efficiency measure] ![Ordine decrescente](/help/assets/icons/SortOrderDown.svg), per ogni punto di contatto:
 

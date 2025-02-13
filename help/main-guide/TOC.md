@@ -2,10 +2,10 @@
 user-guide-title: Guida di Mix Modeler
 breadcrumb-title: Guida di Mix Modeler
 user-guide-description: Scopri come utilizzare Mix Modeler.
-source-git-commit: 3d14f9d8d2675392d656857a5fb3b38edb7ecddf
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 45%
+source-wordcount: '84'
+ht-degree: 47%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 45%
 + [Guida di Mix Modeler](/help/overview.md)
 
 + Introduzione a {#get-started}
-   + [Che cos’è Mix Modeler?](/help/get-started/about.md)
+   + [Cos’è Mix Modeler?](/help/get-started/about.md)
    + [Flusso di lavoro dell&#39;applicazione](/help/get-started/workflow.md)
 
 + Home {#dashboard}
-   + [Panoramica sulla Home](/help/dashboard/overview.md)
+   + [Panoramica](/help/dashboard/overview.md)
    + [Dati armonizzati](/help/dashboard/harmonized-data.md)
    + [Piani](/help/dashboard/plans.md)
 
