@@ -3,16 +3,16 @@ title: Panoramica dei modelli
 description: Scopri come generare e utilizzare i modelli in Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 39ea5ed145678d6ac7e5263b38255e725e488f8d
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
 
 # Panoramica dei modelli
 
-La funzionalità dei modelli in Mix Modeler consente di configurare, addestrare e valutare modelli specifici per gli obiettivi aziendali. La formazione e il punteggio supportano l’apprendimento del trasferimento basato sull’intelligenza artificiale tra attribuzione multitouch e modellazione marketing mix.
+La funzionalità dei modelli di Mix Modeler consente di configurare, addestrare e valutare modelli specifici per gli obiettivi aziendali. La formazione e il punteggio supportano l’apprendimento del trasferimento basato sull’intelligenza artificiale tra attribuzione multitouch e modellazione marketing mix.
 
 I modelli si basano sui dati armonizzati creati come parte del flusso di lavoro dell’applicazione Mix Modeler.
 
@@ -35,11 +35,11 @@ Un modello può facoltativamente includere:
 
 ## Creare modelli
 
-Per generare un modello, utilizzare il flusso di configurazione guidato passo passo del modello Mix Modeler disponibile quando si seleziona **[!UICONTROL Open model canvas]**. Per ulteriori dettagli, vedi [Modelli di compilazione](build.md).
+Per creare un modello, utilizzare il flusso di configurazione guidato passo passo del modello di Mix Modeler disponibile quando si seleziona **[!UICONTROL Open model canvas]**. Per ulteriori dettagli, vedi [Modelli di compilazione](build.md).
 
 ## Gestisci modelli
 
-Per visualizzare una tabella dei modelli correnti, nell’interfaccia Mix Modeler:
+Per visualizzare una tabella dei modelli correnti, nell’interfaccia di Mix Modeler:
 
 1. Seleziona ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
@@ -54,9 +54,33 @@ Per visualizzare una tabella dei modelli correnti, nell’interfaccia Mix Modele
    | Evento di conversione | Conversione selezionata per il modello. |
    | Frequenza di esecuzione | Frequenza di esecuzione dell&#39;addestramento del modello. |
    | Ultima esecuzione | La data e l’ora dell’ultimo addestramento del modello. |
-   | Stato | Lo stato dell’ultima esecuzione dell’addestramento del modello. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) riuscito<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) problema di formazione<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) In attesa del corso di formazione <br/>![StatusRed](/help/assets/icons/StatusRed.svg) Non riuscito <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ (quando è in corso l&#39;ultima esecuzione) |
+   | Stato | Stato del modello. |
 
    {style="table-layout:auto"}
+
+   Lo stato segnalato del modello dipende dalla posizione in cui si trova un modello all&#39;interno del suo ciclo di vita. Ad esempio, se un modello viene creato, o riaddestrato con successo o meno, o ha ottenuto o ottenuto nuovamente un punteggio.
+
+   Nella tabella seguente:
+
+   * ![Segno di spunta](/help/assets/icons/Checkmark.svg): indica la corretta esecuzione di un passaggio del ciclo di vita del modello.
+   * ![Orologio](/help/assets/icons/Clock.svg): indica un&#39;esecuzione corrente continua di un passaggio del ciclo di vita del modello.
+   * ![Chiudi](/help/assets/icons/Close.svg) - indica una mancata esecuzione di un passaggio nel ciclo di vita del modello.
+
+   | Stato | Creare | Addestra | Punteggio | Riaddestramento | Punteggio di nuovo |
+   |---|:---:|:---:|:---:|:---:|:---:|
+   | In corso | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | | | | |
+   | In corso | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Orologio](/help/assets/icons/Clock.svg) | | | |
+   | In corso | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Orologio](/help/assets/icons/Clock.svg) | | |
+   | In corso | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Orologio](/help/assets/icons/Clock.svg) | |
+   | In corso | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Orologio](/help/assets/icons/Clock.svg) |
+   | Addestramento non riuscito | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Chiudi](/help/assets/icons/Close.svg) | | | |
+   | Addestramento non riuscito | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Chiudi](/help/assets/icons/Close.svg) | |
+   | Formazione completata | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | | | |
+   | Formazione completata | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | |
+   | Punteggio non riuscito | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Chiudi](/help/assets/icons/Close.svg) | | |
+   | Punteggio non riuscito | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Chiudi](/help/assets/icons/Close.svg) |
+   | Punteggio riuscito | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | | |
+   | Punteggio riuscito | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) |
 
 1. Per modificare le colonne visualizzate per l&#39;elenco, selezionare ![Impostazioni colonna](/help/assets/icons/ColumnSetting.svg) e attivare o disattivare le colonne in ![Controlla](/help/assets/icons/Checkmark.svg).
 
@@ -92,6 +116,7 @@ Potete duplicare rapidamente un modello.
 
 1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Duplicate]**.
 
+Sei stato reindirizzato ai passaggi per creare un nuovo modello, con un nome proposto composto dal nome del modello originale seguito da **[!UICONTROL (Copy)](_n_)**.
 
 ### Modifica
 

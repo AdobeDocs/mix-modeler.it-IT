@@ -3,9 +3,9 @@ title: Panoramica dei piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: 8e1c748f3e4e267038dcac5bce82f90157e88c32
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Per duplicare un piano:
 - Seleziona ![Altro](/help/assets/icons/More.svg) per un piano. Dal menu di scelta rapida, selezionare **[!UICONTROL Duplicate]**.
 - In alternativa, selezionare un piano nella tabella ![SelectBox](/help/assets/icons/SelectBox.svg) e selezionare ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni blu.
 
-Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)]**.
+Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)](_n_)**.
 
 ### Confronta piani
 
