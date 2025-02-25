@@ -3,9 +3,9 @@ title: Panoramica dei modelli
 description: Scopri come generare e utilizzare i modelli in Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 39ea5ed145678d6ac7e5263b38255e725e488f8d
+source-git-commit: 4a154ec4c81cb6b2361a05440c56b7946f748d8c
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Un modello può facoltativamente includere:
 * Fattori interni.
 * Conoscenza preventiva dei contributi di marketing da altre fonti, come la precedente esperienza delle parti interessate, test incrementali, altri modelli.
 * La condivisione di spesa, che utilizza come proxy la condivisione di spesa relativa quando i dati di marketing sono sparsi.
+
+La prima volta che viene creato un modello, la creazione avvia immediatamente il processo di formazione e punteggio. Una volta completata l’esecuzione iniziale dell’addestramento e del punteggio, gli approfondimenti del modello saranno disponibili per la revisione. Un modello può essere successivamente riaddestrato. Inoltre, i dati possono essere aggiunti al modello, il che richiede una nuova valutazione manuale. Il training e il re-scoring sono un processo iterativo, in quanto emergono nuovi risultati e informazioni e sono necessari adeguamenti per ottenere un adattamento del modello più appropriato per gli obiettivi aziendali.
 
 
 ## Creare modelli
