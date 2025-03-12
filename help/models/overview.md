@@ -3,9 +3,9 @@ title: Panoramica dei modelli
 description: Scopri come generare e utilizzare i modelli in Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 4a154ec4c81cb6b2361a05440c56b7946f748d8c
+source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Un modello può facoltativamente includere:
 * Conoscenza preventiva dei contributi di marketing da altre fonti, come la precedente esperienza delle parti interessate, test incrementali, altri modelli.
 * La condivisione di spesa, che utilizza come proxy la condivisione di spesa relativa quando i dati di marketing sono sparsi.
 
-La prima volta che viene creato un modello, la creazione avvia immediatamente il processo di formazione e punteggio. Una volta completata l’esecuzione iniziale dell’addestramento e del punteggio, gli approfondimenti del modello saranno disponibili per la revisione. Un modello può essere successivamente riaddestrato. Inoltre, i dati possono essere aggiunti al modello, il che richiede una nuova valutazione manuale. Il training e il re-scoring sono un processo iterativo, in quanto emergono nuovi risultati e informazioni e sono necessari adeguamenti per ottenere un adattamento del modello più appropriato per gli obiettivi aziendali.
+La prima volta che viene creato un modello, la creazione avvia immediatamente il processo di formazione e punteggio. Dopo il completamento dell’esecuzione iniziale dell’addestramento e del punteggio, gli approfondimenti del modello sono disponibili per la revisione. Un modello può essere successivamente riaddestrato. Inoltre, i dati possono essere aggiunti al modello, il che richiede una nuova valutazione manuale. Il training e il re-scoring sono un processo iterativo, in quanto emergono nuovi risultati e informazioni e sono necessari adeguamenti per ottenere un adattamento del modello più appropriato per gli obiettivi aziendali.
 
 
 ## Creare modelli
@@ -83,6 +83,8 @@ Per visualizzare una tabella dei modelli correnti, nell’interfaccia di Mix Mod
    | Punteggio non riuscito | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Chiudi](/help/assets/icons/Close.svg) |
    | Punteggio riuscito | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | | |
    | Punteggio riuscito | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Segno di spunta](/help/assets/icons/Checkmark.svg) |
+
+   {style="table-layout:fixed"}
 
 1. Per modificare le colonne visualizzate per l&#39;elenco, selezionare ![Impostazioni colonna](/help/assets/icons/ColumnSetting.svg) e attivare o disattivare le colonne in ![Controlla](/help/assets/icons/Checkmark.svg).
 
