@@ -3,10 +3,10 @@ title: Panoramica dei piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: df0faeb2682381ec8d13d594d52c0b7cf22a679d
+source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 0%
 
 ---
 
@@ -34,6 +34,7 @@ Se un modello utilizzato per il piano viene valutato in base a nuovi dati, è ne
 ## Creare piani
 
 Per creare un piano, utilizzare la procedura guidata di creazione del piano di Mix Modeler. Per ulteriori dettagli, consulta [Piani di compilazione](build.md).
+
 
 ## Gestisci piani
 
@@ -81,7 +82,15 @@ Per duplicare un piano:
 - Seleziona ![Altro](/help/assets/icons/More.svg) per un piano. Dal menu di scelta rapida, selezionare **[!UICONTROL Duplicate]**.
 - In alternativa, selezionare un piano nella tabella ![SelectBox](/help/assets/icons/SelectBox.svg) e selezionare ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni blu.
 
-Nella parte superiore della tabella viene aggiunto un nuovo piano con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)](_n_)**.
+Viene creato un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)](_n_)**. Viene automaticamente reindirizzato a [Creazione piano](build.md) per fornire dettagli aggiornati per il piano copiato.
+
+- I dettagli (come Descrizione, Budget e altro) del piano originale vengono copiati.
+- I vincoli di budget del piano originale vengono copiati nel piano appena creato.
+- È possibile selezionare un altro modello come base per il piano copiato.
+   - Per i punti di contatto o i canali che esistono nel piano copiato ma non nel modello appena selezionato, eventuali vincoli per tali punti di contatto o canali vengono rimossi dal piano.
+   - Per i punti di contatto o i canali che non esistono nel piano copiato ma esistono nel modello appena selezionato, i vincoli sono impostati su un valore minimo di `0` e un valore massimo in linea con il budget dell&#39;intervallo di volo del piano.
+
+
 
 ### Confronta piani
 

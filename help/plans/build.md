@@ -3,9 +3,9 @@ title: Creare piani
 description: Scopri come creare piani in Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ In Mix Modeler è possibile creare un piano utilizzando l&#39;area di lavoro del
 
 Per creare un piano, nell&#39;interfaccia ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** in Mix Modeler, selezionare **[!UICONTROL Create plan]**.
 
-1. Nella schermata di creazione del piano:
+1. Nella schermata **[!UICONTROL Plan creation]**:
 
-   1. Nella sezione **[!UICONTROL Setup]**
+   1. Nella sezione **[!UICONTROL Setup]**:
 
       1. Immettere un **[!UICONTROL Plan name]**, ad esempio `Demo plan`. Immettere un **[!UICONTROL Description]**, ad esempio `Demo plan for Luma company`.
-      1. Selezionare un **[!UICONTROL Model]** da **[!UICONTROL _Selezionare un&#39;opzione._.]**.
+      1. Selezionare un **[!UICONTROL Model]** da **[!UICONTROL _Selezionare un&#39;opzione._.]**
       1. È possibile selezionare ![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]** per creare un modello direttamente dalla creazione del piano. Verrà aperta una nuova scheda nel browser e verrà visualizzata l&#39;interfaccia [Models](../models/overview.md).
 
          ![Configurazione del piano](/help/assets/plan-setup.png)
