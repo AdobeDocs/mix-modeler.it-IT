@@ -3,14 +3,22 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: bc48dc564042890856072a07c3a9715ba9dcdb87
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
 
 # Approfondimenti modello
+
+Ogni visualizzazione nelle informazioni sul modello è progettata per aiutarti a:
+
+* Visualizza e quantifica l’impatto delle attività di marketing della tua organizzazione.
+* Identifica i canali con prestazioni elevate.
+* Identifica i canali che potrebbero necessitare di ottimizzazione.
+
+Queste informazioni aiutano a supportare la definizione delle priorità e l’allocazione delle risorse.
 
 Per visualizzare le informazioni sul modello, nell&#39;interfaccia ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** in Mix Modeler:
 
@@ -39,15 +47,21 @@ La scheda Approfondimenti modello mostra le visualizzazioni per [Contributo per 
 
 ### Contributo per data e media di base.
 
-Il grafico ad aree o barre sovrapposte è ordinato: Base in basso, Canali non spesi in mezzo e Canali spesi in alto.
+Questa visualizzazione con grafico in pila è ordinata come segue:
+
+* Base in basso.
+* Canali non spesi nel mezzo.
+* Trascorri i canali in alto.
+
+Questa visualizzazione rappresenta la proporzione di contributo ottenuta per base, per canali di spesa e per canali non di spesa in un intervallo di date. Questa visualizzazione è utile per mostrare l’incrementalità. La base rappresenta ciò che sarebbe successo senza alcun marketing e i canali non spesi più i canali spesi (oltre alla base) attribuiscono all’impatto del marketing. In breve, il valore non speso più spesa equivale all’impatto incrementale delle attività di marketing e la visualizzazione fornisce ad insight informazioni semplici sul valore generato dal marketing.
 
 ### Contributo per canale
 
-La visualizzazione ad anello mostra una distribuzione del contributo per canale.
+Una visualizzazione ad anello che mostra una distribuzione del contributo tra vari canali. Questa visualizzazione mostra l’incrementalità attraverso l’obiettivo dei primi tre canali con prestazioni (escluse le categorie base e *Tutte le altre*). La visualizzazione consente di supportare la definizione delle priorità e l’allocazione del budget.
 
 ### Riepilogo prestazioni marketing.
 
-Un grafico a barre orizzontale che mostra le prestazioni del ROI per canale.
+Visualizzazione con grafico a barre orizzontale che visualizza le prestazioni del ROI o CPA per ciascun canale. Questa visualizzazione evidenzia il ROI/CPA dei tuoi investimenti di marketing. I canali sono ordinati in ordine decrescente in base al ROI/CPA. La visualizzazione consente di identificare quali canali sono più efficaci e quali potrebbero necessitare di ottimizzazione.
 
 ### Curve di risposta marginale.
 
@@ -62,7 +76,7 @@ Per cambiare il canale:
 
 ### Suddivisione punto di contatto
 
-La tabella di suddivisione dei punti di contatto mostra i raggruppamenti dei punti di contatto per tutti i canali o per alcuni di essi su base settimanale.
+La tabella di suddivisione dei punti di contatto mostra i raggruppamenti settimanali per tutti i canali o per alcuni di essi su base settimanale, visualizzando le metriche chiave associate a ciascuno di essi. La tabella consente un confronto semplice, l’identificazione delle tendenze e il tracciamento delle prestazioni a un livello di canale più granulare. Questa tabella integra esplicitamente la visualizzazione [Contributo per data e supporto di base](#contribution-by-date-and-base-media) e la visualizzazione [Contributo per canale](#contribution-by-channel).
 
 ![Suddivisione punto di contatto](../assets/touchpoint-breakdown.png)
 
@@ -102,7 +116,7 @@ Se non sono disponibili dati, viene visualizzato un messaggio ![TabellaEGrafico]
 
 >[!NOTE]
 >
-La scheda Attribuzione è disponibile solo per i modelli abilitati per MTA.
+>La scheda Attribuzione è disponibile solo per i modelli abilitati per MTA.
 
 
 Utilizzando la scheda [!UICONTROL Attribution], puoi comprendere l’efficacia dei punti di contatto e delle campagne di marketing con dati a livello di evento.  Vedi [Genera modello](build.md).
@@ -147,15 +161,15 @@ Per visualizzare i dettagli, passa il cursore del mouse sulla riga di dati di un
 
 La visualizzazione [!UICONTROL Breakdown] è una suddivisione per canale o punto di contatto delle conversioni per ciascuno dei modelli di attribuzione selezionati. Questa visualizzazione può essere utile per prendere decisioni sull’efficacia di ciascun canale o punto di contatto.
 
-Per scegliere il tipo di suddivisione: select **[!UICONTROL Breakdown by channel]** o **[!UICONTROL Breakdown by touchpoint]** da ![Altro](/help/assets/icons/More.svg).
+Per scegliere il tipo di suddivisione, selezionare **[!UICONTROL Breakdown by channel]** o **[!UICONTROL Breakdown by touchpoint]** da ![Altro](/help/assets/icons/More.svg).
 
 Per visualizzare i dettagli, passa il cursore sopra uno degli elementi del grafico.
 
 ### [!UICONTROL Top campaigns]
 
-La visualizzazione Campagne principali mostra una tabella delle campagne principali con colonne per Nome campagna, Canale, Tipo di media and Conversioni incrementali. Questa visualizzazione può aiutare a informare il team dell’efficacia di una campagna specifica per un dato canale e fornire informazioni sulle campagne in cui investire ulteriormente.
+La visualizzazione Campagne principali mostra una tabella delle campagne principali con colonne per Nome campagna, Canale, Tipo di media e Conversioni incrementali. Questa visualizzazione può aiutare a informare il team dell’efficacia di una campagna specifica per un dato canale e fornire informazioni sulle campagne in cui investire ulteriormente.
 
-↑ Per ordinare la tabella in ordine crescente o decrescente ↓ per Canale, tipo di file multimediale or Conversioni incrementali, seleziona l’intestazione della colonna e attiva/disattiva l’ordinamento.
+↑ Per ordinare la tabella in ordine crescente o decrescente ↓ per le conversioni Canale, Tipo di file multimediale o Incrementale, seleziona l’intestazione della colonna e attiva/disattiva l’ordinamento.
 
 Per espandere la tabella in una finestra di dialogo separata, selezionare **[!UICONTROL Expand]** da ![Altro](/help/assets/icons/More.svg).
 
@@ -166,7 +180,7 @@ La finestra di dialogo espansa Prime campagne mostra la stessa tabella con colon
 * Conversioni al primo contatto
 * Conversioni ultimo contatto
 
-Puoi selezionare ciascuna delle intestazioni di colonna aggiuntive per ordinare la tabella in ordine crescente o decrescente.
+  Puoi selezionare ciascuna delle intestazioni di colonna aggiuntive per ordinare la tabella in ordine crescente o decrescente.
 
 Per chiudere la finestra di dialogo Inizio campagne espansa, selezionare **[!UICONTROL Close]**.
 
@@ -177,7 +191,7 @@ La visualizzazione [!UICONTROL Breakdown by touchpoint position] è una suddivis
 
 >[!NOTE]
 >
-La somma del contributo in percentuale per un modello di attribuzione in tutti i punti di contatto e le posizioni deve essere pari a 100.
+>La somma del contributo in percentuale per un modello di attribuzione in tutti i punti di contatto e le posizioni deve essere pari a 100.
 
 
 Le posizioni [!UICONTROL Starter], [!UICONTROL Player] e [!UICONTROL Closer] sono definite come segue:
@@ -208,7 +222,7 @@ La scheda Diagnostica mostra le visualizzazioni per:
 
 * Visualizzazione [!UICONTROL Model Assessment], che è possibile suddividere in Conversioni effettive rispetto a quelle previste o residue.
 
-Per suddividere la visualizzazione, selezionare **[!UICONTROL Actual vs. Predicted]** o **[!UICONTROL Residuals]** dall&#39;elenco **[!UICONTROL Breakdown]**.
+  Per suddividere la visualizzazione, selezionare **[!UICONTROL Actual vs. Predicted]** o **[!UICONTROL Residuals]** dall&#39;elenco **[!UICONTROL Breakdown]**.
 
 * Tabella [!UICONTROL Model fitting metrics], che mostra le seguenti colonne per ogni metrica di conversione:
 
@@ -226,11 +240,11 @@ Per suddividere la visualizzazione, selezionare **[!UICONTROL Actual vs. Predict
 
       * RMSE (Root Mean Square Error): indica l’errore medio, ponderato in base al quadrato dell’errore.
 
-Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets/icons/Download.svg).
+  Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets/icons/Download.svg).
 
 * Tabella [!UICONTROL Touchpoint effectiveness], che rappresenta il risultato del modello algoritmico di IA per l’attribuzione. I dati per questa tabella vengono generati solo per periodi di tempo specifici. Seleziona **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) per ulteriori dettagli.
 
-La visualizzazione mostra, in ordine decrescente di [!UICONTROL Efficiency measure] ![Ordine decrescente](/help/assets/icons/SortOrderDown.svg), per ogni punto di contatto:
+  La visualizzazione mostra, in ordine decrescente di [!UICONTROL Efficiency measure] ![Ordine decrescente](/help/assets/icons/SortOrderDown.svg), per ogni punto di contatto:
 
    * [!UICONTROL Paths touched]: visualizza la percentuale di percorsi che raggiungono la conversione e la percentuale di percorsi che non raggiungono la conversione. Per un punto di contatto, puoi vedere più conversioni attribuite quando il rapporto di conversione dell’attribuzione è elevato. Questo rapporto confronta la percentuale di percorsi che portano alla conversione rispetto alla percentuale di percorsi che portano alla conversione *not*.
    * [!UICONTROL Efficiency measure]: generato dal modello di attribuzione algoritmica, la misura di efficienza indica l&#39;importanza relativa di un punto di contatto verso la conversione, indipendentemente dal volume del punto di contatto. L&#39;efficienza è misurata su una scala da 1 a 5. Tieni presente che un volume di punti di contatto più elevato non garantisce una misura di efficienza più elevata.
@@ -243,19 +257,36 @@ La visualizzazione mostra, in ordine decrescente di [!UICONTROL Efficiency measu
 
 La scheda Cronologia mostra le visualizzazioni per:
 
-* Conversione e spesa per trimestre fiscale e prodotto.
-
-* Spesa per canale.
-
-* Spesa punto di contatto.
-
-Puoi selezionare un canale alternativo basato sulla spesa da visualizzare per questa visualizzazione. Selezionare un canale da **[!UICONTROL Channels]**.
-
-* Volume del punto di contatto.
-
-Puoi selezionare un canale alternativo basato sul volume da visualizzare per questa visualizzazione. Selezionare un canale da **[!UICONTROL Channels]**.
-
 ![Modello - Panoramica cronologica](/help/assets/model-insights-historical-overview.png)
+
+
+### Conversione e spesa per trimestre fiscale e prodotto
+
+Questa visualizzazione rappresenta la conversione e la distribuzione della spesa tra vari trimestri all’interno dell’intervallo di date specificato. La visualizzazione consente di identificare i trimestri con prestazioni elevate in cui la spesa sta guidando le conversioni.
+
+
+### Spesa per canale
+
+Questa visualizzazione rappresenta la distribuzione della spesa tra vari canali all’interno dell’intervallo di date specificato. La visualizzazione consente di identificare rapidamente quali canali ricevono più spese.
+
+
+### Spesa punto di contatto
+
+Questa visualizzazione rappresenta la distribuzione della spesa tra punti di contatto pagati per ogni trimestre all’interno dell’intervallo di date specificato. La visualizzazione consente di comprendere quali punti di contatto sono prioritari all’interno di canali e trimestri specifici. La visualizzazione consente di identificare i modelli e le tendenze di spesa dei canali, in particolare quelli con spesa bassa e non frequente nel tempo.
+
+Per selezionare un canale alternativo basato sulla spesa da visualizzare per questa visualizzazione:
+
+* Selezionare un canale da **[!UICONTROL Channels]**.
+
+
+### Volume punto di contatto
+
+Questa visualizzazione rappresenta la distribuzione del volume in tutti i punti di contatto per ogni trimestre all’interno dell’intervallo di date specificato.
+
+Per selezionare un canale alternativo basato sul volume da visualizzare per questa visualizzazione:
+
+* Selezionare un canale da **[!UICONTROL Channels]**.
+
 
 ## **[!UICONTROL Edit]**
 
