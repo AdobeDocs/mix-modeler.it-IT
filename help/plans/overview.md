@@ -3,9 +3,9 @@ title: Panoramica dei piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
+source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 I piani in Mix Modeler consentono di allocare budget per business unit e canale. La funzionalità di pianificazione è integrata con i risultati dei modelli formati in base ai dati armonizzati.
 
-Un piano delinea gli investimenti discrezionali (ad esempio i budget) che un’azienda intende spendere per progetti di marketing nel corso di un determinato arco temporale in servizio di KPI comuni (ad esempio ordini, ricavi). I piani possono includere le spese da canali come pubblicità a pagamento, contenuti web sponsorizzati, eventi.
+Un piano delinea gli investimenti discrezionali (ad esempio i budget) che un’azienda intende spendere per progetti di marketing in un determinato arco temporale. Questi investimenti servono i KPI comuni (ad esempio ordini, ricavi). I piani possono includere le spese da canali come pubblicità a pagamento, contenuti web sponsorizzati, eventi.
 
 Un piano richiede:
 
@@ -52,10 +52,10 @@ Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia di Mix Mod
    | Modello | Modello utilizzato come base per il piano. |
    | Intervallo date | Intervallo di date completo per un piano. |
    | Budget | Budget totale per un piano. |
-   | Rendimento previsto | Rendimento previsto per un piano |
-   | ROI previsto | ROI previsto per un piano. |
-   | Conversione prevista | Conversione prevista per un piano |
-   | CPA previsto | CPA previsto per un piano |
+   | Rendimento previsto | [rendimento previsto](/help/main-guide/glossary.md) per un piano |
+   | ROI previsto | [ROI previsto](/help/main-guide/glossary.md) per un piano. |
+   | Conversione prevista | [conversione prevista](/help/main-guide/glossary.md) per un piano |
+   | CPA previsto | Il [CPA previsto](/help/main-guide/glossary.md)per un piano |
    | Stato | Stato di un piano: <p><span style="color:red">●</span> non riuscito, <p>Elaborazione di <span style="color:blue">●</span> oppure <p><span style="color:green">●</span> completato. |
 
    {style="table-layout:auto"}
@@ -88,7 +88,9 @@ Viene creato un nuovo piano, con un nome composto dal nome del piano originale s
 - I vincoli di budget del piano originale vengono copiati nel piano appena creato.
 - È possibile selezionare un altro modello come base per il piano copiato.
    - Per i punti di contatto o i canali che esistono nel piano copiato ma non nel modello appena selezionato, eventuali vincoli per tali punti di contatto o canali vengono rimossi dal piano.
-   - Per i punti di contatto o i canali che non esistono nel piano copiato ma esistono nel modello appena selezionato, i vincoli sono impostati su un valore minimo di `0` e un valore massimo in linea con il budget dell&#39;intervallo di volo del piano.
+   - Per i punti di contatto o i canali che non esistono nel piano copiato ma esistono nel modello appena selezionato, i vincoli sono impostati su:
+      - un valore minimo di `0`,
+      - un valore massimo in linea con il budget intervallo di voli del piano.
 
 
 
@@ -104,7 +106,7 @@ Per confrontare i piani:
 
 Per eliminare un piano:
 
-1. Seleziona ![Altro](/help/assets/icons/More.svg) per un piano. Dal menu di scelta rapida selezionare **[!UICONTROL Delete]**. <br/>In alternativa, selezionare un piano nella tabella ![SelectBox](/help/assets/icons/SelectBox.svg) e selezionare ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni blu.
+1. Seleziona ![Altro](/help/assets/icons/More.svg) per un piano. Dal menu di scelta rapida, selezionare **[!UICONTROL Delete]**. <br/>In alternativa, selezionare un piano nella tabella ![SelectBox](/help/assets/icons/SelectBox.svg) e selezionare ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni blu.
 1. Selezionare **[!UICONTROL Delete]** nella finestra di conferma **[!UICONTROL Delete plan]** per eliminare il piano. Selezionare **[!UICONTROL Cancel]** per annullare.
 
 Per eliminare più piani:
