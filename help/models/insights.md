@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bc48dc564042890856072a07c3a9715ba9dcdb87
+source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,14 @@ Per visualizzare le informazioni sul modello, nell&#39;interfaccia ![Models](/he
 Puoi vedere quando il modello specificato viene aggiornato l&#39;ultima volta e le visualizzazioni vengono visualizzate utilizzando quattro schede: [Informazioni sul modello](#model-insights), [Attribuzione](#attribution), [Fattori](#factors), [Diagnostica](#diagnostics) e [Panoramica cronologica](#historical-overview).
 
 Puoi modificare il periodo di data su cui si basano le visualizzazioni in ciascuna scheda. Immettere un periodo di data o selezionare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare un periodo di data.
+
+## Deriva modello
+
+{{release-limited-testing-section}}
+
+Se nel modello viene rilevata una deriva del modello, verrà visualizzata una finestra di dialogo **[!UICONTROL Model drift detected]** con opzioni da ricordare in seguito o per [**[!UICONTROL Retrain]**](overview.md#retrain) immediatamente il modello. Se selezioni **[!UICONTROL Remind me later]**, riceverai un promemoria il giorno successivo o all&#39;accesso successivo.
+
+![Finestra di dialogo rilevata deviazione modello](/help/assets/model-drift-dialog.png)
 
 ## [!UICONTROL Model insights]
 
@@ -251,6 +259,19 @@ La scheda Diagnostica mostra le visualizzazioni per:
    * [!UICONTROL Total volume]: numero aggregato di volte in cui un utente tocca un punto di contatto. Il numero include i punti di contatto visualizzati in un percorso che raggiunge la conversione e i percorsi *non* che determinano la conversione.
 
 ![Diagnostica](/help/assets/model-insights-diagnostics.png)
+
+### Rilevamento della deriva del modello
+
+>[!AVAILABILITY]
+>
+>La funzionalità descritta in questa sezione si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa quando la funzionalità sarà generalmente disponibile. Per informazioni sulla procedura di rilascio di Mix Modeler, vedere [Versioni delle funzionalità di Mix Modeler](/help/releases/latest.md).
+>
+
+Se viene rilevata una deriva del modello, viene visualizzata una notifica **[!UICONTROL Model drift detected]** nella parte superiore.
+
+![Notifica di deviazione modello](/help/assets/model-drift-notification.png)
+
+Selezionare **[!UICONTROL Hide]** per nascondere la notifica. La notifica riapparirà il giorno successivo o al successivo accesso.
 
 
 ## [!UICONTROL Historical overview]

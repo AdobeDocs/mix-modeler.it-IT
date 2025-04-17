@@ -1,3630 +1,3645 @@
 ---
-source-git-commit: 182f3cf46fd4871f7b27d311af1673457677d361
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
-source-wordcount: '1811'
-ht-degree: 6%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 # Snippet
 
+## Fase di rilascio Test limitati {#release-limited-testing}
 
-## OneTwoThree {#onetwothree}
+>[!AVAILABILITY]
+>
+>La funzionalità descritta in questo articolo è nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa quando la funzionalità sarà generalmente disponibile. Per informazioni sulla procedura di rilascio di Mix Modeler, vedere [Versioni delle funzionalità di Mix Modeler](/help/releases/latest.md).
+>
+
+## Sezione Test limitati della fase di rilascio {#release-limited-testing-section}
+
+>[!AVAILABILITY]
+>
+>La funzionalità descritta in questa sezione si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa quando la funzionalità sarà generalmente disponibile. Per informazioni sulla procedura di rilascio di Mix Modeler, vedere [Versioni delle funzionalità di Mix Modeler](/help/releases/latest.md).
+>
+
+<!--
+## OneTwoThree {#onetwothree} 
 
 ![123](/help/assets/icons/123.svg)
 
-## ThreeDMaterial {#threedmaterial}
+## ThreeDMaterial {#threedmaterial} 
 
-![3DMateriale](/help/assets/icons/3DMaterial.svg)
+![3DMaterial](/help/assets/icons/3DMaterial.svg)
 
-## ABC {#abc}
+## ABC {#abc} 
 
 ![ABC](/help/assets/icons/ABC.svg)
 
-## AEMScreen {#aemscreen}
+## AEMScreen {#aemscreen} 
 
 ![AEMScreen](/help/assets/icons/AEMScreen.svg)
 
-## Azione {#action}
+## Action {#action} 
 
-![Azione](/help/assets/icons/Action.svg)
+![Action](/help/assets/icons/Action.svg)
 
-## AdDisplay {#addisplay}
+## AdDisplay {#addisplay} 
 
-![Visualizzazione annuncio](/help/assets/icons/AdDisplay.svg)
+![AdDisplay](/help/assets/icons/AdDisplay.svg)
 
-## AdPrint {#adprint}
+## AdPrint {#adprint} 
 
 ![AdPrint](/help/assets/icons/AdPrint.svg)
 
-## Add {#add}
+## Add {#add} 
 
-![Aggiungi](/help/assets/icons/Add.svg)
+![Add](/help/assets/icons/Add.svg)
 
-## AggiungiCerchio {#addcircle}
+## AddCircle {#addcircle} 
 
-![AggiungiCerchio](/help/assets/icons/AddCircle.svg)
+![AddCircle](/help/assets/icons/AddCircle.svg)
 
-## AddTo {#addto}
+## AddTo {#addto} 
 
-![AggiungiA](/help/assets/icons/AddTo.svg)
+![AddTo](/help/assets/icons/AddTo.svg)
 
-## AddToSelection {#addtoselection}
+## AddToSelection {#addtoselection} 
 
-![AggiungiASelezione](/help/assets/icons/AddToSelection.svg)
+![AddToSelection](/help/assets/icons/AddToSelection.svg)
 
-## AdobeLogo {#adobelogo}
+## AdobeLogo {#adobelogo} 
 
 ![AdobeLogo](/help/assets/icons/AdobeLogo.svg)
 
-## Aereo {#airplane}
+## Airplane {#airplane} 
 
-![Aereo](/help/assets/icons/Airplane.svg)
+![Airplane](/help/assets/icons/Airplane.svg)
 
-## Avviso {#alert}
+## Alert {#alert} 
 
-![Avviso](/help/assets/icons/Alert.svg)
+![Alert](/help/assets/icons/Alert.svg)
 
-## AlertAdd {#alertadd}
+## AlertAdd {#alertadd} 
 
-![AggiungiAvviso](/help/assets/icons/AlertAdd.svg)
+![AlertAdd](/help/assets/icons/AlertAdd.svg)
 
-## AlertCheck {#alertcheck}
+## AlertCheck {#alertcheck} 
 
-![ControlloAvviso](/help/assets/icons/AlertCheck.svg)
+![AlertCheck](/help/assets/icons/AlertCheck.svg)
 
-## AlertCircle {#alertcircle}
+## AlertCircle {#alertcircle} 
 
-![CerchioAvviso](/help/assets/icons/AlertCircle.svg)
+![AlertCircle](/help/assets/icons/AlertCircle.svg)
 
-## AlertCircleFilled {#alertcirclefilled}
+## AlertCircleFilled {#alertcirclefilled} 
 
 ![AlertCircleFilled](/help/assets/icons/AlertCircleFilled.svg)
 
-## Algoritmo {#algorithm}
+## Algorithm {#algorithm} 
 
-![Algoritmo](/help/assets/icons/Algorithm.svg)
+![Algorithm](/help/assets/icons/Algorithm.svg)
 
-## Alias {#alias}
+## Alias {#alias} 
 
 ![Alia](/help/assets/icons/Alias.svg)
 
-## Allinea in basso {#alignbottom}
+## AlignBottom {#alignbottom} 
 
-![AllineaInBasso](/help/assets/icons/AlignBottom.svg)
+![AlignBottom](/help/assets/icons/AlignBottom.svg)
 
-## AllineaAlCentro {#aligncenter}
+## AlignCenter {#aligncenter} 
 
-![AllineaCentro](/help/assets/icons/AlignCenter.svg)
+![AlignCenter](/help/assets/icons/AlignCenter.svg)
 
-## AllineaASinistra {#alignleft}
+## AlignLeft {#alignleft} 
 
-![AllineaASinistra](/help/assets/icons/AlignLeft.svg)
+![AlignLeft](/help/assets/icons/AlignLeft.svg)
 
-## AlignMiddle {#alignmiddle}
+## AlignMiddle {#alignmiddle} 
 
-![Allinea al centro](/help/assets/icons/AlignMiddle.svg)
+![AlignMiddle](/help/assets/icons/AlignMiddle.svg)
 
-## AllineaADestra {#alignright}
+## AlignRight {#alignright} 
 
-![AllineaADestra](/help/assets/icons/AlignRight.svg)
+![AlignRight](/help/assets/icons/AlignRight.svg)
 
-## AlignTop {#aligntop}
+## AlignTop {#aligntop} 
 
-![AllineaInAlto](/help/assets/icons/AlignTop.svg)
+![AlignTop](/help/assets/icons/AlignTop.svg)
 
-## Amusementpark {#amusementpark}
+## Amusementpark {#amusementpark} 
 
 ![Amusementpark](/help/assets/icons/Amusementpark.svg)
 
-## Ancoraggio {#anchor}
+## Anchor {#anchor} 
 
-![Ancoraggio](/help/assets/icons/Anchor.svg)
+![Anchor](/help/assets/icons/Anchor.svg)
 
-## AnchorSelect {#anchorselect}
+## AnchorSelect {#anchorselect} 
 
-![SelezioneAncoraggio](/help/assets/icons/AnchorSelect.svg)
+![AnchorSelect](/help/assets/icons/AnchorSelect.svg)
 
-## Annota {#annotate}
+## Annotate {#annotate} 
 
-![Annota](/help/assets/icons/Annotate.svg)
+![Annotate](/help/assets/icons/Annotate.svg)
 
-## AnnotatePen {#annotatepen}
+## AnnotatePen {#annotatepen} 
 
 ![AnnotatePen](/help/assets/icons/AnnotatePen.svg)
 
-## Risposta {#answer}
+## Answer {#answer} 
 
-![Risposta](/help/assets/icons/Answer.svg)
+![Answer](/help/assets/icons/Answer.svg)
 
-## Rispondi a Preferito {#answerfavorite}
+## AnswerFavorite {#answerfavorite} 
 
-![RispondiPreferito](/help/assets/icons/AnswerFavorite.svg)
+![AnswerFavorite](/help/assets/icons/AnswerFavorite.svg)
 
-## App {#app}
+## App {#app} 
 
 ![App](/help/assets/icons/App.svg)
 
-## Aggiornamento app {#apprefresh}
+## AppRefresh {#apprefresh} 
 
-![AggiornamentoApp](/help/assets/icons/AppRefresh.svg)
+![AppRefresh](/help/assets/icons/AppRefresh.svg)
 
-## FileApple {#applefile}
+## AppleFile {#applefile} 
 
-![FileApple](/help/assets/icons/AppleFile.svg)
+![AppleFile](/help/assets/icons/AppleFile.svg)
 
-## ApplicationDelivery {#applicationdelivery}
+## ApplicationDelivery {#applicationdelivery} 
 
-![ConsegnaApplicazioni](/help/assets/icons/ApplicationDelivery.svg)
+![ApplicationDelivery](/help/assets/icons/ApplicationDelivery.svg)
 
-## ApprovaRifiuta {#approvereject}
+## ApproveReject {#approvereject} 
 
-![ApprovaRifiuta](/help/assets/icons/ApproveReject.svg)
+![ApproveReject](/help/assets/icons/ApproveReject.svg)
 
-## Archivia {#archive}
+## Archive {#archive} 
 
-![Archivia](/help/assets/icons/Archive.svg)
+![Archive](/help/assets/icons/Archive.svg)
 
-## ArchiveRemove {#archiveremove}
+## ArchiveRemove {#archiveremove} 
 
-![RimozioneArchivio](/help/assets/icons/ArchiveRemove.svg)
+![ArchiveRemove](/help/assets/icons/ArchiveRemove.svg)
 
-## Freccia giù {#arrowdown}
+## ArrowDown {#arrowdown} 
 
-![FrecciaGiù](/help/assets/icons/ArrowDown.svg)
+![ArrowDown](/help/assets/icons/ArrowDown.svg)
 
-## FrecciaSinistra {#arrowleft}
+## ArrowLeft {#arrowleft} 
 
-![FrecciaSinistra](/help/assets/icons/ArrowLeft.svg)
+![ArrowLeft](/help/assets/icons/ArrowLeft.svg)
 
-## FrecciaDestra {#arrowright}
+## ArrowRight {#arrowright} 
 
-![FrecciaDestra](/help/assets/icons/ArrowRight.svg)
+![ArrowRight](/help/assets/icons/ArrowRight.svg)
 
-## FrecciaSu {#arrowup}
+## ArrowUp {#arrowup} 
 
-![FrecciaSu](/help/assets/icons/ArrowUp.svg)
+![ArrowUp](/help/assets/icons/ArrowUp.svg)
 
-## FrecciaSuDestra {#arrowupright}
+## ArrowUpRight {#arrowupright} 
 
-![FrecciaSuDestra](/help/assets/icons/ArrowUpRight.svg)
+![ArrowUpRight](/help/assets/icons/ArrowUpRight.svg)
 
-## Tavola da disegno {#artboard}
+## Artboard {#artboard} 
 
-![Tavola da disegno](/help/assets/icons/Artboard.svg)
+![Artboard](/help/assets/icons/Artboard.svg)
 
-## Articolo {#article}
+## Article {#article} 
 
-![Articolo](/help/assets/icons/Article.svg)
+![Article](/help/assets/icons/Article.svg)
 
-## Risorsa {#asset}
+## Asset {#asset} 
 
-![Risorsa](/help/assets/icons/Asset.svg)
+![Asset](/help/assets/icons/Asset.svg)
 
-## AssetCheck {#assetcheck}
+## AssetCheck {#assetcheck} 
 
 ![AssetCheck](/help/assets/icons/AssetCheck.svg)
 
-## Risorse aggiunte {#assetsadded}
+## AssetsAdded {#assetsadded} 
 
-![Risorse aggiunte](/help/assets/icons/AssetsAdded.svg)
+![AssetsAdded](/help/assets/icons/AssetsAdded.svg)
 
-## Risorse scaricate {#assetsdownloaded}
+## AssetsDownloaded {#assetsdownloaded} 
 
-![Risorse scaricate](/help/assets/icons/AssetsDownloaded.svg)
+![AssetsDownloaded](/help/assets/icons/AssetsDownloaded.svg)
 
-## Risorse scadute {#assetsexpired}
+## AssetsExpired {#assetsexpired} 
 
-![Risorse scadute](/help/assets/icons/AssetsExpired.svg)
+![AssetsExpired](/help/assets/icons/AssetsExpired.svg)
 
-## AssetsLinkedPublished {#assetslinkedpublished}
+## AssetsLinkedPublished {#assetslinkedpublished} 
 
-![Risorse collegatePubblicate](/help/assets/icons/AssetsLinkedPublished.svg)
+![AssetsLinkedPublished](/help/assets/icons/AssetsLinkedPublished.svg)
 
-## AssetsModified {#assetsmodified}
+## AssetsModified {#assetsmodified} 
 
-![Risorse modificate](/help/assets/icons/AssetsModified.svg)
+![AssetsModified](/help/assets/icons/AssetsModified.svg)
 
-## Risorse pubblicate {#assetspublished}
+## AssetsPublished {#assetspublished} 
 
-![RisorsePubblicate](/help/assets/icons/AssetsPublished.svg)
+![AssetsPublished](/help/assets/icons/AssetsPublished.svg)
 
-## Asterisco {#asterisk}
+## Asterisk {#asterisk} 
 
-![Asterisco](/help/assets/icons/Asterisk.svg)
+![Asterisk](/help/assets/icons/Asterisk.svg)
 
-## A {#at}
+## At {#at} 
 
-![Alle](/help/assets/icons/At.svg)
+![At](/help/assets/icons/At.svg)
 
-## Allega {#attach}
+## Attach {#attach} 
 
-![Allega](/help/assets/icons/Attach.svg)
+![Attach](/help/assets/icons/Attach.svg)
 
-## AttachmentExclude {#attachmentexclude}
+## AttachmentExclude {#attachmentexclude} 
 
-![EsclusioneAllegato](/help/assets/icons/AttachmentExclude.svg)
+![AttachmentExclude](/help/assets/icons/AttachmentExclude.svg)
 
-## Attributo {#attribute}
+## Attribute {#attribute} 
 
-![Attributo](/help/assets/icons/Attribute.svg)
+![Attribute](/help/assets/icons/Attribute.svg)
 
-## Audio {#audio}
+## Audio {#audio} 
 
 ![Audio](/help/assets/icons/Audio.svg)
 
-## Segmento automatizzato {#automatedsegment}
+## AutomatedSegment {#automatedsegment} 
 
-![SegmentoAutomatizzato](/help/assets/icons/AutomatedSegment.svg)
+![AutomatedSegment](/help/assets/icons/AutomatedSegment.svg)
 
-## Indietro {#back}
+## Back {#back} 
 
-![Indietro](/help/assets/icons/Back.svg)
+![Back](/help/assets/icons/Back.svg)
 
-## Back30Second {#back30second}
+## Back30Second {#back30second} 
 
-![Indietro30Secondi](/help/assets/icons/Back30Second.svg)
+![Back30Second](/help/assets/icons/Back30Second.svg)
 
-## BackAndroid {#backandroid}
+## BackAndroid {#backandroid} 
 
-![IndietroAndroid](/help/assets/icons/BackAndroid.svg)
+![BackAndroid](/help/assets/icons/BackAndroid.svg)
 
-## Becher {#beaker}
+## Beaker {#beaker} 
 
-![Becher](/help/assets/icons/Beaker.svg)
+![Beaker](/help/assets/icons/Beaker.svg)
 
-## BeakerCheck {#beakercheck}
+## BeakerCheck {#beakercheck} 
 
 ![BeakerCheck](/help/assets/icons/BeakerCheck.svg)
 
-## BeakerShare {#beakershare}
+## BeakerShare {#beakershare} 
 
 ![BeakerShare](/help/assets/icons/BeakerShare.svg)
 
-## Campana {#bell}
+## Bell {#bell} 
 
-![Campana](/help/assets/icons/Bell.svg)
+![Bell](/help/assets/icons/Bell.svg)
 
-## BidRule {#bidrule}
+## BidRule {#bidrule} 
 
-![RegolaOfferta](/help/assets/icons/BidRule.svg)
+![BidRule](/help/assets/icons/BidRule.svg)
 
-## BidRuleAdd {#bidruleadd}
+## BidRuleAdd {#bidruleadd} 
 
-![AggiungiRegolaOfferta](/help/assets/icons/BidRuleAdd.svg)
+![BidRuleAdd](/help/assets/icons/BidRuleAdd.svg)
 
-## Ventilatore {#blower}
+## Blower {#blower} 
 
 ![Blower](/help/assets/icons/Blower.svg)
 
-## Blur {#blur}
+## Blur {#blur} 
 
-![Sfocatura](/help/assets/icons/Blur.svg)
+![Blur](/help/assets/icons/Blur.svg)
 
-## Libro {#book}
+## Book {#book} 
 
-![Libro](/help/assets/icons/Book.svg)
+![Book](/help/assets/icons/Book.svg)
 
-## Segnalibro {#bookmark}
+## Bookmark {#bookmark} 
 
-![Segnalibro](/help/assets/icons/Bookmark.svg)
+![Bookmark](/help/assets/icons/Bookmark.svg)
 
-## BookmarkSingle {#bookmarksingle}
+## BookmarkSingle {#bookmarksingle} 
 
-![SegnalibroSingolo](/help/assets/icons/BookmarkSingle.svg)
+![BookmarkSingle](/help/assets/icons/BookmarkSingle.svg)
 
-## BookmarkSingleOutline {#bookmarksingleoutline}
+## BookmarkSingleOutline {#bookmarksingleoutline} 
 
 ![BookmarkSingleOutline](/help/assets/icons/BookmarkSingleOutline.svg)
 
-## Segnalibro piccolo {#bookmarksmall}
+## BookmarkSmall {#bookmarksmall} 
 
-![SegnalibroPiccolo](/help/assets/icons/BookmarkSmall.svg)
+![BookmarkSmall](/help/assets/icons/BookmarkSmall.svg)
 
-## BookmarkSmallOutline {#bookmarksmalloutline}
+## BookmarkSmallOutline {#bookmarksmalloutline} 
 
-![SegnalibroStrutturaPiccola](/help/assets/icons/BookmarkSmallOutline.svg)
+![BookmarkSmallOutline](/help/assets/icons/BookmarkSmallOutline.svg)
 
-## Booleano {#boolean}
+## Boolean {#boolean} 
 
-![Booleano](/help/assets/icons/Boolean.svg)
+![Boolean](/help/assets/icons/Boolean.svg)
 
-## Bordo {#border}
+## Border {#border} 
 
-![Bordo](/help/assets/icons/Border.svg)
+![Border](/help/assets/icons/Border.svg)
 
-## Casella {#box}
+## Box {#box} 
 
-![Casella](/help/assets/icons/Box.svg)
+![Box](/help/assets/icons/Box.svg)
 
-## BoxAdd {#boxadd}
+## BoxAdd {#boxadd} 
 
 ![BoxAdd](/help/assets/icons/BoxAdd.svg)
 
-## BoxExport {#boxexport}
+## BoxExport {#boxexport} 
 
-![EsportazioneBox](/help/assets/icons/BoxExport.svg)
+![BoxExport](/help/assets/icons/BoxExport.svg)
 
-## BoxImport {#boximport}
+## BoxImport {#boximport} 
 
-![ImportazioneBox](/help/assets/icons/BoxImport.svg)
+![BoxImport](/help/assets/icons/BoxImport.svg)
 
-## Parentesi {#bracket}
+## Bracket {#bracket} 
 
-![Parentesi](/help/assets/icons/Bracket.svg)
+![Bracket](/help/assets/icons/Bracket.svg)
 
-## Parentesi quadre {#bracketssquare}
+## BracketsSquare {#bracketssquare} 
 
-![Parentesi quadre](/help/assets/icons/BracketsSquare.svg)
+![BracketsSquare](/help/assets/icons/BracketsSquare.svg)
 
-## Ramo1 {#branch1}
+## Branch1 {#branch1} 
 
-![Ramo1](/help/assets/icons/Branch1.svg)
+![Branch1](/help/assets/icons/Branch1.svg)
 
-## Ramo2 {#branch2}
+## Branch2 {#branch2} 
 
-![Ramo2](/help/assets/icons/Branch2.svg)
+![Branch2](/help/assets/icons/Branch2.svg)
 
-## Ramo3 {#branch3}
+## Branch3 {#branch3} 
 
-![Ramo3](/help/assets/icons/Branch3.svg)
+![Branch3](/help/assets/icons/Branch3.svg)
 
-## BranchCircle {#branchcircle}
+## BranchCircle {#branchcircle} 
 
 ![BranchCircle](/help/assets/icons/BranchCircle.svg)
 
-## BreadcrumbNavigation {#breadcrumbnavigation}
+## BreadcrumbNavigation {#breadcrumbnavigation} 
 
-![NavigazioneBreadcrumb](/help/assets/icons/BreadcrumbNavigation.svg)
+![BreadcrumbNavigation](/help/assets/icons/BreadcrumbNavigation.svg)
 
-## Raggruppamento {#breakdown}
+## Breakdown {#breakdown} 
 
-![Raggruppamento](/help/assets/icons/Breakdown.svg)
+![Breakdown](/help/assets/icons/Breakdown.svg)
 
-## BreakdownAdd {#breakdownadd}
+## BreakdownAdd {#breakdownadd} 
 
-![AggiungiSuddivisione](/help/assets/icons/BreakdownAdd.svg)
+![BreakdownAdd](/help/assets/icons/BreakdownAdd.svg)
 
-## Sincronia file {#briefcase}
+## Briefcase {#briefcase} 
 
-![Sincronia file](/help/assets/icons/Briefcase.svg)
+![Briefcase](/help/assets/icons/Briefcase.svg)
 
-## Sfogliare {#browse}
+## Browse {#browse} 
 
-![Sfoglia](/help/assets/icons/Browse.svg)
+![Browse](/help/assets/icons/Browse.svg)
 
-## Pennello {#brush}
+## Brush {#brush} 
 
-![Pennello](/help/assets/icons/Brush.svg)
+![Brush](/help/assets/icons/Brush.svg)
 
-## Bug {#bug}
+## Bug {#bug} 
 
 ![Bug](/help/assets/icons/Bug.svg)
 
-## Generazione {#building}
+## Building {#building} 
 
-![Generazione](/help/assets/icons/Building.svg)
+![Building](/help/assets/icons/Building.svg)
 
-## BulkEditUser {#bulkedituser}
+## BulkEditUser {#bulkedituser} 
 
 ![BulkEditUser](/help/assets/icons/BulkEditUser.svg)
 
-## Pulsante {#button}
+## Button {#button} 
 
-![Pulsante](/help/assets/icons/Button.svg)
+![Button](/help/assets/icons/Button.svg)
 
-## Libreria CCL {#cclibrary}
+## CCLibrary {#cclibrary} 
 
-![Libreria CCL](/help/assets/icons/CCLibrary.svg)
+![CCLibrary](/help/assets/icons/CCLibrary.svg)
 
-## Calcolatrice {#calculator}
+## Calculator {#calculator} 
 
-![Calcolatore](/help/assets/icons/Calculator.svg)
+![Calculator](/help/assets/icons/Calculator.svg)
 
-## Calendario {#calendar}
+## Calendar {#calendar} 
 
-![Calendario](/help/assets/icons/Calendar.svg)
+![Calendar](/help/assets/icons/Calendar.svg)
 
-## CalendarAdd {#calendaradd}
+## CalendarAdd {#calendaradd} 
 
-![AggiuntaCalendario](/help/assets/icons/CalendarAdd.svg)
+![CalendarAdd](/help/assets/icons/CalendarAdd.svg)
 
-## CalendarLocked {#calendarlocked}
+## CalendarLocked {#calendarlocked} 
 
-![CalendarioBloccato](/help/assets/icons/CalendarLocked.svg)
+![CalendarLocked](/help/assets/icons/CalendarLocked.svg)
 
-## CalendarUnlocked {#calendarunlocked}
+## CalendarUnlocked {#calendarunlocked} 
 
-![CalendarioSbloccato](/help/assets/icons/CalendarUnlocked.svg)
+![CalendarUnlocked](/help/assets/icons/CalendarUnlocked.svg)
 
-## CallCenter {#callcenter}
+## CallCenter {#callcenter} 
 
 ![CallCenter](/help/assets/icons/CallCenter.svg)
 
-## Fotocamera {#camera}
+## Camera {#camera} 
 
-![Fotocamera](/help/assets/icons/Camera.svg)
+![Camera](/help/assets/icons/Camera.svg)
 
-## Inverti fotocamera {#cameraflip}
+## CameraFlip {#cameraflip} 
 
-![Inversione fotocamera](/help/assets/icons/CameraFlip.svg)
+![CameraFlip](/help/assets/icons/CameraFlip.svg)
 
-## AggiornaFotocamera {#camerarefresh}
+## CameraRefresh {#camerarefresh} 
 
-![AggiornaFotocamera](/help/assets/icons/CameraRefresh.svg)
+![CameraRefresh](/help/assets/icons/CameraRefresh.svg)
 
-## Campaign {#campaign}
+## Campaign {#campaign} 
 
 ![Campaign](/help/assets/icons/Campaign.svg)
 
-## CampaignAdd {#campaignadd}
+## CampaignAdd {#campaignadd} 
 
-![AggiungiCampagna](/help/assets/icons/CampaignAdd.svg)
+![CampaignAdd](/help/assets/icons/CampaignAdd.svg)
 
-## CampaignClose {#campaignclose}
+## CampaignClose {#campaignclose} 
 
-![ChiusuraCampagna](/help/assets/icons/CampaignClose.svg)
+![CampaignClose](/help/assets/icons/CampaignClose.svg)
 
-## CampaignDelete {#campaigndelete}
+## CampaignDelete {#campaigndelete} 
 
-![EliminaCampagna](/help/assets/icons/CampaignDelete.svg)
+![CampaignDelete](/help/assets/icons/CampaignDelete.svg)
 
-## CampaignEdit {#campaignedit}
+## CampaignEdit {#campaignedit} 
 
-![ModificaCampagna](/help/assets/icons/CampaignEdit.svg)
+![CampaignEdit](/help/assets/icons/CampaignEdit.svg)
 
-## Annulla {#cancel}
+## Cancel {#cancel} 
 
-![Annulla](/help/assets/icons/Cancel.svg)
+![Cancel](/help/assets/icons/Cancel.svg)
 
-## Capitale {#capital}
+## Capital {#capital} 
 
-![Capitale](/help/assets/icons/Capital.svg)
+![Capital](/help/assets/icons/Capital.svg)
 
-## Captcha {#captcha}
+## Captcha {#captcha} 
 
 ![Captcha](/help/assets/icons/Captcha.svg)
 
-## Auto {#car}
+## Car {#car} 
 
-![Auto](/help/assets/icons/Car.svg)
+![Car](/help/assets/icons/Car.svg)
 
-## Scheda {#card}
+## Card {#card} 
 
-![Scheda](/help/assets/icons/Card.svg)
+![Card](/help/assets/icons/Card.svg)
 
-## Channel {#channel}
+## Channel {#channel} 
 
-![Canale](/help/assets/icons/Channel.svg)
+![Channel](/help/assets/icons/Channel.svg)
 
-## Chat {#chat}
+## Chat {#chat} 
 
 ![Chat](/help/assets/icons/Chat.svg)
 
-## ChatAdd {#chatadd}
+## ChatAdd {#chatadd} 
 
 ![ChatAdd](/help/assets/icons/ChatAdd.svg)
 
-## CheckPause {#checkpause}
+## CheckPause {#checkpause} 
 
-![ControllaPausa](/help/assets/icons/CheckPause.svg)
+![CheckPause](/help/assets/icons/CheckPause.svg)
 
-## Segno Di Spunta {#checkmark}
+## Checkmark {#checkmark} 
 
-![Segno di spunta](/help/assets/icons/Checkmark.svg)
+![Checkmark](/help/assets/icons/Checkmark.svg)
 
-## Segno di spuntaCerchio {#checkmarkcircle}
+## CheckmarkCircle {#checkmarkcircle} 
 
-![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg)
+![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)
 
-## Segno di spuntaCircleOutline {#checkmarkcircleoutline}
+## CheckmarkCircleOutline {#checkmarkcircleoutline} 
 
-![SegnoDiSpuntaContorno](/help/assets/icons/CheckmarkCircleOutline.svg)
+![CheckmarkCircleOutline](/help/assets/icons/CheckmarkCircleOutline.svg)
 
-## ChevronDoubleLeft {#chevrondoubleleft}
+## ChevronDoubleLeft {#chevrondoubleleft} 
 
 ![ChevronDoubleLeft](/help/assets/icons/ChevronDoubleLeft.svg)
 
-## ChevronDoubleRight {#chevrondoubleright}
+## ChevronDoubleRight {#chevrondoubleright} 
 
 ![ChevronDoubleRight](/help/assets/icons/ChevronDoubleRight.svg)
 
-## ChevronDown {#chevrondown}
+## ChevronDown {#chevrondown} 
 
 ![ChevronDown](/help/assets/icons/ChevronDown.svg)
 
-## ChevronLeft {#chevronleft}
+## ChevronLeft {#chevronleft} 
 
 ![ChevronLeft](/help/assets/icons/ChevronLeft.svg)
 
-## ChevronRight {#chevronright}
+## ChevronRight {#chevronright} 
 
-![DirittoChevron](/help/assets/icons/ChevronRight.svg)
+![ChevronRight](/help/assets/icons/ChevronRight.svg)
 
-## ChevronUp {#chevronup}
+## ChevronUp {#chevronup} 
 
 ![ChevronUp](/help/assets/icons/ChevronUp.svg)
 
-## ChevronUpDown {#chevronupdown}
+## ChevronUpDown {#chevronupdown} 
 
 ![ChevronUpDown](/help/assets/icons/ChevronUpDown.svg)
 
-## Cerchio {#circle}
+## Circle {#circle} 
 
-![Cerchio](/help/assets/icons/Circle.svg)
+![Circle](/help/assets/icons/Circle.svg)
 
-## ClassicGridView {#classicgridview}
+## ClassicGridView {#classicgridview} 
 
-![VisualizzazioneGrigliaClassica](/help/assets/icons/ClassicGridView.svg)
+![ClassicGridView](/help/assets/icons/ClassicGridView.svg)
 
-## Orologio {#clock}
+## Clock {#clock} 
 
-![Orologio](/help/assets/icons/Clock.svg)
+![Clock](/help/assets/icons/Clock.svg)
 
-## ClockCheck {#clockcheck}
+## ClockCheck {#clockcheck} 
 
-![ControlloOrologio](/help/assets/icons/ClockCheck.svg)
+![ClockCheck](/help/assets/icons/ClockCheck.svg)
 
-## CloneStamp {#clonestamp}
+## CloneStamp {#clonestamp} 
 
-![TimbroClone](/help/assets/icons/CloneStamp.svg)
+![CloneStamp](/help/assets/icons/CloneStamp.svg)
 
-## Chiudi {#close}
+## Close {#close} 
 
-![Chiudi](/help/assets/icons/Close.svg)
+![Close](/help/assets/icons/Close.svg)
 
-## CloseCaption {#closecaption}
+## CloseCaption {#closecaption} 
 
-![Sottotitolo](/help/assets/icons/CloseCaption.svg)
+![CloseCaption](/help/assets/icons/CloseCaption.svg)
 
-## CloseCircle {#closecircle}
+## CloseCircle {#closecircle} 
 
-![ChiudiCerchio](/help/assets/icons/CloseCircle.svg)
+![CloseCircle](/help/assets/icons/CloseCircle.svg)
 
-## Cloud {#cloud}
+## Cloud {#cloud} 
 
 ![Cloud](/help/assets/icons/Cloud.svg)
 
-## CloudDisconnected {#clouddisconnected}
+## CloudDisconnected {#clouddisconnected} 
 
 ![CloudDisconnected](/help/assets/icons/CloudDisconnected.svg)
 
-## Errore cloud {#clouderror}
+## CloudError {#clouderror} 
 
-![ErroreCloud](/help/assets/icons/CloudError.svg)
+![CloudError](/help/assets/icons/CloudError.svg)
 
-## CloudOutline {#cloudoutline}
+## CloudOutline {#cloudoutline} 
 
-![StrutturaCloud](/help/assets/icons/CloudOutline.svg)
+![CloudOutline](/help/assets/icons/CloudOutline.svg)
 
-## Codice {#code}
+## Code {#code} 
 
-![Codice](/help/assets/icons/Code.svg)
+![Code](/help/assets/icons/Code.svg)
 
-## Raccolta {#collection}
+## Collection {#collection} 
 
-![Raccolta](/help/assets/icons/Collection.svg)
+![Collection](/help/assets/icons/Collection.svg)
 
-## CollectionAdd {#collectionadd}
+## CollectionAdd {#collectionadd} 
 
-![AggiungiRaccolta](/help/assets/icons/CollectionAdd.svg)
+![CollectionAdd](/help/assets/icons/CollectionAdd.svg)
 
-## CollectionAddTo {#collectionaddto}
+## CollectionAddTo {#collectionaddto} 
 
-![AggiungiRaccolta](/help/assets/icons/CollectionAddTo.svg)
+![CollectionAddTo](/help/assets/icons/CollectionAddTo.svg)
 
-## CollectionCheck {#collectioncheck}
+## CollectionCheck {#collectioncheck} 
 
-![ControlloRaccolta](/help/assets/icons/CollectionCheck.svg)
+![CollectionCheck](/help/assets/icons/CollectionCheck.svg)
 
-## CollectionEdit {#collectionedit}
+## CollectionEdit {#collectionedit} 
 
-![ModificaRaccolta](/help/assets/icons/CollectionEdit.svg)
+![CollectionEdit](/help/assets/icons/CollectionEdit.svg)
 
-## CollectionExclude {#collectionexclude}
+## CollectionExclude {#collectionexclude} 
 
-![EsclusioneRaccolta](/help/assets/icons/CollectionExclude.svg)
+![CollectionExclude](/help/assets/icons/CollectionExclude.svg)
 
-## CollectionLink {#collectionlink}
+## CollectionLink {#collectionlink} 
 
-![CollegamentoRaccolta](/help/assets/icons/CollectionLink.svg)
+![CollectionLink](/help/assets/icons/CollectionLink.svg)
 
-## ColorFill {#colorfill}
+## ColorFill {#colorfill} 
 
-![RiempimentoColore](/help/assets/icons/ColorFill.svg)
+![ColorFill](/help/assets/icons/ColorFill.svg)
 
-## TavolozzaColori {#colorpalette}
+## ColorPalette {#colorpalette} 
 
-![TavolozzaColori](/help/assets/icons/ColorPalette.svg)
+![ColorPalette](/help/assets/icons/ColorPalette.svg)
 
-## ColorWheel {#colorwheel}
+## ColorWheel {#colorwheel} 
 
-![RuotaColore](/help/assets/icons/ColorWheel.svg)
+![ColorWheel](/help/assets/icons/ColorWheel.svg)
 
-## ColumnSetting {#columnsetting}
+## ColumnSetting {#columnsetting} 
 
 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)
 
-## ColonnaDueA {#columntwoa}
+## ColumnTwoA {#columntwoa} 
 
-![ColonnaDueA](/help/assets/icons/ColumnTwoA.svg)
+![ColumnTwoA](/help/assets/icons/ColumnTwoA.svg)
 
-## ColonnaDueB {#columntwob}
+## ColumnTwoB {#columntwob} 
 
-![ColonnaDueB](/help/assets/icons/ColumnTwoB.svg)
+![ColumnTwoB](/help/assets/icons/ColumnTwoB.svg)
 
-## ColonnaDueC {#columntwoc}
+## ColumnTwoC {#columntwoc} 
 
-![ColonnaDueC](/help/assets/icons/ColumnTwoC.svg)
+![ColumnTwoC](/help/assets/icons/ColumnTwoC.svg)
 
-## Commento {#comment}
+## Comment {#comment} 
 
-![Commento](/help/assets/icons/Comment.svg)
+![Comment](/help/assets/icons/Comment.svg)
 
-## Confronta {#compare}
+## Compare {#compare} 
 
-![Confronta](/help/assets/icons/Compare.svg)
+![Compare](/help/assets/icons/Compare.svg)
 
-## Cumulative {#compas}
+## Compas {#compas} 
 
 ![Compas](/help/assets/icons/Compas.svg)
 
-## Condizione {#condition}
+## Condition {#condition} 
 
-![Condizione](/help/assets/icons/Condition.svg)
+![Condition](/help/assets/icons/Condition.svg)
 
-## AffidabilitàQuattro {#confidencefour}
+## ConfidenceFour {#confidencefour} 
 
-![AffidabilitàQuattro](/help/assets/icons/ConfidenceFour.svg)
+![ConfidenceFour](/help/assets/icons/ConfidenceFour.svg)
 
-## ConfidenceOne {#confidenceone}
+## ConfidenceOne {#confidenceone} 
 
 ![ConfidenceOne](/help/assets/icons/ConfidenceOne.svg)
 
-## Affidabilità tre {#confidencethree}
+## ConfidenceThree {#confidencethree} 
 
-![AffidabilitàTre](/help/assets/icons/ConfidenceThree.svg)
+![ConfidenceThree](/help/assets/icons/ConfidenceThree.svg)
 
-## ConfidenceTwo {#confidencetwo}
+## ConfidenceTwo {#confidencetwo} 
 
 ![ConfidenceTwo](/help/assets/icons/ConfidenceTwo.svg)
 
-## Contrasto {#contrast}
+## Contrast {#contrast} 
 
-![Contrasto](/help/assets/icons/Contrast.svg)
+![Contrast](/help/assets/icons/Contrast.svg)
 
-## ConversionFunnel {#conversionfunnel}
+## ConversionFunnel {#conversionfunnel} 
 
-![FunnelConversione](/help/assets/icons/ConversionFunnel.svg)
+![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)
 
-## Copia {#copy}
+## Copy {#copy} 
 
-![Copia](/help/assets/icons/Copy.svg)
+![Copy](/help/assets/icons/Copy.svg)
 
-## CoverImage {#coverimage}
+## CoverImage {#coverimage} 
 
 ![CoverImage](/help/assets/icons/CoverImage.svg)
 
-## Carta di credito {#creditcard}
+## CreditCard {#creditcard} 
 
-![Carta di credito](/help/assets/icons/CreditCard.svg)
+![CreditCard](/help/assets/icons/CreditCard.svg)
 
-## Ritaglio {#crop}
+## Crop {#crop} 
 
-![Ritaglio](/help/assets/icons/Crop.svg)
+![Crop](/help/assets/icons/Crop.svg)
 
-## CropLightning {#croplightning}
+## CropLightning {#croplightning} 
 
-![FulmineRitaglio](/help/assets/icons/CropLightning.svg)
+![CropLightning](/help/assets/icons/CropLightning.svg)
 
-## CropRotate {#croprotate}
+## CropRotate {#croprotate} 
 
-![RotazioneRitaglio](/help/assets/icons/CropRotate.svg)
+![CropRotate](/help/assets/icons/CropRotate.svg)
 
-## Crosshair {#crosshair}
+## Crosshair {#crosshair} 
 
 ![Crosshair](/help/assets/icons/Crosshair.svg)
 
-## Cura {#curate}
+## Curate {#curate} 
 
-![Cura](/help/assets/icons/Curate.svg)
+![Curate](/help/assets/icons/Curate.svg)
 
-## Taglia {#cut}
+## Cut {#cut} 
 
-![Taglia](/help/assets/icons/Cut.svg)
+![Cut](/help/assets/icons/Cut.svg)
 
-## Dashboard di {#dashboard}
+## Dashboard {#dashboard} 
 
 ![Dashboard](/help/assets/icons/Dashboard.svg)
 
-## Dati {#data}
+## Data {#data} 
 
-![Dati](/help/assets/icons/Data.svg)
+![Data](/help/assets/icons/Data.svg)
 
-## AggiungiDati {#dataadd}
+## DataAdd {#dataadd} 
 
-![AggiungiDati](/help/assets/icons/DataAdd.svg)
+![DataAdd](/help/assets/icons/DataAdd.svg)
 
-## DataBook {#databook}
+## DataBook {#databook} 
 
 ![DataBook](/help/assets/icons/DataBook.svg)
 
-## DataCheck {#datacheck}
+## DataCheck {#datacheck} 
 
-![ControlloDati](/help/assets/icons/DataCheck.svg)
+![DataCheck](/help/assets/icons/DataCheck.svg)
 
-## DataCorrelated {#datacorrelated}
+## DataCorrelated {#datacorrelated} 
 
-![Dati correlati](/help/assets/icons/DataCorrelated.svg)
+![DataCorrelated](/help/assets/icons/DataCorrelated.svg)
 
-## DataDownload {#datadownload}
+## DataDownload {#datadownload} 
 
-![Download dati](/help/assets/icons/DataDownload.svg)
+![DataDownload](/help/assets/icons/DataDownload.svg)
 
-## DataEdit {#dataedit}
+## DataEdit {#dataedit} 
 
-![ModificaDati](/help/assets/icons/DataEdit.svg)
+![DataEdit](/help/assets/icons/DataEdit.svg)
 
-## DataMapping {#datamapping}
+## DataMapping {#datamapping} 
 
-![MappingDati](/help/assets/icons/DataMapping.svg)
+![DataMapping](/help/assets/icons/DataMapping.svg)
 
-## Aggiornamento dati {#datarefresh}
+## DataRefresh {#datarefresh} 
 
-![AggiornamentoDati](/help/assets/icons/DataRefresh.svg)
+![DataRefresh](/help/assets/icons/DataRefresh.svg)
 
-## DataRemove {#dataremove}
+## DataRemove {#dataremove} 
 
-![Rimozione dati](/help/assets/icons/DataRemove.svg)
+![DataRemove](/help/assets/icons/DataRemove.svg)
 
-## ImpostazioneDati {#datasetting}
+## DataSetting {#datasetting} 
 
-![ImpostazioneDati](/help/assets/icons/DataSetting.svg)
+![DataSetting](/help/assets/icons/DataSetting.svg)
 
-## DataUnavailable {#dataunavailable}
+## DataUnavailable {#dataunavailable} 
 
-![Dati non disponibili](/help/assets/icons/DataUnavailable.svg)
+![DataUnavailable](/help/assets/icons/DataUnavailable.svg)
 
-## CaricamentoDati {#dataupload}
+## DataUpload {#dataupload} 
 
-![CaricamentoDati](/help/assets/icons/DataUpload.svg)
+![DataUpload](/help/assets/icons/DataUpload.svg)
 
-## DataUser {#datauser}
+## DataUser {#datauser} 
 
-![UtenteDati](/help/assets/icons/DataUser.svg)
+![DataUser](/help/assets/icons/DataUser.svg)
 
-## Data {#date}
+## Date {#date} 
 
-![Data](/help/assets/icons/Date.svg)
+![Date](/help/assets/icons/Date.svg)
 
-## DateInput {#dateinput}
+## DateInput {#dateinput} 
 
 ![DateInput](/help/assets/icons/DateInput.svg)
 
-## Deduplicazione {#deduplication}
+## Deduplication {#deduplication} 
 
-![Deduplicazione](/help/assets/icons/Deduplication.svg)
+![Deduplication](/help/assets/icons/Deduplication.svg)
 
-## Delega {#delegate}
+## Delegate {#delegate} 
 
-![Delega](/help/assets/icons/Delegate.svg)
+![Delegate](/help/assets/icons/Delegate.svg)
 
-## Elimina {#delete}
+## Delete {#delete} 
 
-![Elimina](/help/assets/icons/Delete.svg)
+![Delete](/help/assets/icons/Delete.svg)
 
-## DeleteOutline {#deleteoutline}
+## DeleteOutline {#deleteoutline} 
 
-![EliminaStruttura](/help/assets/icons/DeleteOutline.svg)
+![DeleteOutline](/help/assets/icons/DeleteOutline.svg)
 
-## Demografico {#demographic}
+## Demographic {#demographic} 
 
-![Demografico](/help/assets/icons/Demographic.svg)
+![Demographic](/help/assets/icons/Demographic.svg)
 
-## Deseleziona {#deselect}
+## Deselect {#deselect} 
 
-![Deseleziona](/help/assets/icons/Deselect.svg)
+![Deselect](/help/assets/icons/Deselect.svg)
 
-## Deseleziona circolare {#deselectcircular}
+## DeselectCircular {#deselectcircular} 
 
-![DeselezionaCircolare](/help/assets/icons/DeselectCircular.svg)
+![DeselectCircular](/help/assets/icons/DeselectCircular.svg)
 
-## DesktopAndMobile {#desktopandmobile}
+## DesktopAndMobile {#desktopandmobile} 
 
 ![DesktopAndMobile](/help/assets/icons/DesktopAndMobile.svg)
 
-## Dispositivo {#device}
+## Device {#device} 
 
-![Dispositivo](/help/assets/icons/Device.svg)
+![Device](/help/assets/icons/Device.svg)
 
-## DeviceDesktop {#devicedesktop}
+## DeviceDesktop {#devicedesktop} 
 
 ![DeviceDesktop](/help/assets/icons/DeviceDesktop.svg)
 
-## DeviceLaptop {#devicelaptop}
+## DeviceLaptop {#devicelaptop} 
 
 ![DeviceLaptop](/help/assets/icons/DeviceLaptop.svg)
 
-## DevicePhone {#devicephone}
+## DevicePhone {#devicephone} 
 
 ![DevicePhone](/help/assets/icons/DevicePhone.svg)
 
-## DevicePhoneRefresh {#devicephonerefresh}
+## DevicePhoneRefresh {#devicephonerefresh} 
 
 ![DevicePhoneRefresh](/help/assets/icons/DevicePhoneRefresh.svg)
 
-## DevicePreview {#devicepreview}
+## DevicePreview {#devicepreview} 
 
-![AnteprimaDispositivo](/help/assets/icons/DevicePreview.svg)
+![DevicePreview](/help/assets/icons/DevicePreview.svg)
 
-## DeviceRotateLandscape {#devicerotatelandscape}
+## DeviceRotateLandscape {#devicerotatelandscape} 
 
-![OrizzontaleRotazioneDispositivo](/help/assets/icons/DeviceRotateLandscape.svg)
+![DeviceRotateLandscape](/help/assets/icons/DeviceRotateLandscape.svg)
 
-## DeviceRotatePortrait {#devicerotateportrait}
+## DeviceRotatePortrait {#devicerotateportrait} 
 
 ![DeviceRotatePortrait](/help/assets/icons/DeviceRotatePortrait.svg)
 
-## DeviceTV {#devicetv}
+## DeviceTV {#devicetv} 
 
 ![DeviceTV](/help/assets/icons/DeviceTV.svg)
 
-## DeviceTablet {#devicetablet}
+## DeviceTablet {#devicetablet} 
 
 ![DeviceTablet](/help/assets/icons/DeviceTablet.svg)
 
-## Scoprire {#discover}
+## Discover {#discover} 
 
-![Individua](/help/assets/icons/Discover.svg)
+![Discover](/help/assets/icons/Discover.svg)
 
-## DiscoverOutline {#discoveroutline}
+## DiscoverOutline {#discoveroutline} 
 
 ![DiscoverOutline](/help/assets/icons/DiscoverOutline.svg)
 
-## DistributeBottomEdge {#distributebottomedge}
+## DistributeBottomEdge {#distributebottomedge} 
 
-![DistribuisciBordoInferiore](/help/assets/icons/DistributeBottomEdge.svg)
+![DistributeBottomEdge](/help/assets/icons/DistributeBottomEdge.svg)
 
-## DistribuisciOrizzontaleCentro {#distributehorizontalcenter}
+## DistributeHorizontalCenter {#distributehorizontalcenter} 
 
-![DistribuisciCentroOrizzontale](/help/assets/icons/DistributeHorizontalCenter.svg)
+![DistributeHorizontalCenter](/help/assets/icons/DistributeHorizontalCenter.svg)
 
-## DistribuisciOrizzontalmente {#distributehorizontally}
+## DistributeHorizontally {#distributehorizontally} 
 
-![DistribuisciOrizzontalmente](/help/assets/icons/DistributeHorizontally.svg)
+![DistributeHorizontally](/help/assets/icons/DistributeHorizontally.svg)
 
-## DistributeLeftEdge {#distributeleftedge}
+## DistributeLeftEdge {#distributeleftedge} 
 
-![DistribuisciBordoSinistro](/help/assets/icons/DistributeLeftEdge.svg)
+![DistributeLeftEdge](/help/assets/icons/DistributeLeftEdge.svg)
 
-## DistributeRightEdge {#distributerightedge}
+## DistributeRightEdge {#distributerightedge} 
 
-![DistribuisciBordoDestro](/help/assets/icons/DistributeRightEdge.svg)
+![DistributeRightEdge](/help/assets/icons/DistributeRightEdge.svg)
 
-## DistributeSpaceHoriz {#distributespacehoriz}
+## DistributeSpaceHoriz {#distributespacehoriz} 
 
-![DistribuisciSpazioOriz](/help/assets/icons/DistributeSpaceHoriz.svg)
+![DistributeSpaceHoriz](/help/assets/icons/DistributeSpaceHoriz.svg)
 
-## DistribuisciSpazioVert {#distributespacevert}
+## DistributeSpaceVert {#distributespacevert} 
 
-![DistribuisciSpazioVert](/help/assets/icons/DistributeSpaceVert.svg)
+![DistributeSpaceVert](/help/assets/icons/DistributeSpaceVert.svg)
 
-## DistributeTopEdge {#distributetopedge}
+## DistributeTopEdge {#distributetopedge} 
 
-![DistribuisciBordoSuperiore](/help/assets/icons/DistributeTopEdge.svg)
+![DistributeTopEdge](/help/assets/icons/DistributeTopEdge.svg)
 
-## DistribuisciCentroVerticale {#distributeverticalcenter}
+## DistributeVerticalCenter {#distributeverticalcenter} 
 
-![DistribuisciCentroVerticale](/help/assets/icons/DistributeVerticalCenter.svg)
+![DistributeVerticalCenter](/help/assets/icons/DistributeVerticalCenter.svg)
 
-## DistribuisciVerticalmente {#distributevertically}
+## DistributeVertically {#distributevertically} 
 
-![DistribuisciVerticalmente](/help/assets/icons/DistributeVertically.svg)
+![DistributeVertically](/help/assets/icons/DistributeVertically.svg)
 
-## Dividi {#divide}
+## Divide {#divide} 
 
-![Dividi](/help/assets/icons/Divide.svg)
+![Divide](/help/assets/icons/Divide.svg)
 
-## DividePath {#dividepath}
+## DividePath {#dividepath} 
 
 ![DividePath](/help/assets/icons/DividePath.svg)
 
-## Documento {#document}
+## Document {#document} 
 
-![Documento](/help/assets/icons/Document.svg)
+![Document](/help/assets/icons/Document.svg)
 
-## FrammentoDocumento {#documentfragment}
+## DocumentFragment {#documentfragment} 
 
-![FrammentoDocumento](/help/assets/icons/DocumentFragment.svg)
+![DocumentFragment](/help/assets/icons/DocumentFragment.svg)
 
-## GruppoFrammentiDocumento {#documentfragmentgroup}
+## DocumentFragmentGroup {#documentfragmentgroup} 
 
-![GruppoFrammentiDocumenti](/help/assets/icons/DocumentFragmentGroup.svg)
+![DocumentFragmentGroup](/help/assets/icons/DocumentFragmentGroup.svg)
 
-## DocumentOutline {#documentoutline}
+## DocumentOutline {#documentoutline} 
 
-![StrutturaDocumento](/help/assets/icons/DocumentOutline.svg)
+![DocumentOutline](/help/assets/icons/DocumentOutline.svg)
 
-## DocumentRefresh {#documentrefresh}
+## DocumentRefresh {#documentrefresh} 
 
-![AggiornaDocumento](/help/assets/icons/DocumentRefresh.svg)
+![DocumentRefresh](/help/assets/icons/DocumentRefresh.svg)
 
-## Dolly {#dolly}
+## Dolly {#dolly} 
 
 ![Dolly](/help/assets/icons/Dolly.svg)
 
-## Scarica {#download}
+## Download {#download} 
 
-![Scarica](/help/assets/icons/Download.svg)
+![Download](/help/assets/icons/Download.svg)
 
-## DownloadFromCloud {#downloadfromcloud}
+## DownloadFromCloud {#downloadfromcloud} 
 
-![Scarica da cloud](/help/assets/icons/DownloadFromCloud.svg)
+![DownloadFromCloud](/help/assets/icons/DownloadFromCloud.svg)
 
-## DownloadFromCloudOutline {#downloadfromcloudoutline}
+## DownloadFromCloudOutline {#downloadfromcloudoutline} 
 
-![ScaricaDaCloudOutline](/help/assets/icons/DownloadFromCloudOutline.svg)
+![DownloadFromCloudOutline](/help/assets/icons/DownloadFromCloudOutline.svg)
 
-## Bozza {#draft}
+## Draft {#draft} 
 
-![Bozza](/help/assets/icons/Draft.svg)
+![Draft](/help/assets/icons/Draft.svg)
 
-## DragHandle {#draghandle}
+## DragHandle {#draghandle} 
 
-![TrascinaHandle](/help/assets/icons/DragHandle.svg)
+![DragHandle](/help/assets/icons/DragHandle.svg)
 
-## Disegno {#draw}
+## Draw {#draw} 
 
-![Disegno](/help/assets/icons/Draw.svg)
+![Draw](/help/assets/icons/Draw.svg)
 
-## A discesa {#dropdown}
+## Dropdown {#dropdown} 
 
-![Elenco a discesa](/help/assets/icons/Dropdown.svg)
+![Dropdown](/help/assets/icons/Dropdown.svg)
 
-## Duplica {#duplicate}
+## Duplicate {#duplicate} 
 
-![Duplicato](/help/assets/icons/Duplicate.svg)
+![Duplicate](/help/assets/icons/Duplicate.svg)
 
-## Modifica {#edit}
+## Edit {#edit} 
 
-![Modifica](/help/assets/icons/Edit.svg)
+![Edit](/help/assets/icons/Edit.svg)
 
-## ModificaCerchio {#editcircle}
+## EditCircle {#editcircle} 
 
-![ModificaCerchio](/help/assets/icons/EditCircle.svg)
+![EditCircle](/help/assets/icons/EditCircle.svg)
 
-## ModificaEscludi {#editexclude}
+## EditExclude {#editexclude} 
 
-![ModificaEscludi](/help/assets/icons/EditExclude.svg)
+![EditExclude](/help/assets/icons/EditExclude.svg)
 
-## ModificaIn {#editin}
+## EditIn {#editin} 
 
-![ModificaIn](/help/assets/icons/EditIn.svg)
+![EditIn](/help/assets/icons/EditIn.svg)
 
-## ModificaInLuce {#editinlight}
+## EditInLight {#editinlight} 
 
-![ModificaInLight](/help/assets/icons/EditInLight.svg)
+![EditInLight](/help/assets/icons/EditInLight.svg)
 
-## Istruzione {#education}
+## Education {#education} 
 
-![Istruzione](/help/assets/icons/Education.svg)
+![Education](/help/assets/icons/Education.svg)
 
-## Effetto {#effect}
+## Effect {#effect} 
 
-![Effetto](/help/assets/icons/Effect.svg)
+![Effect](/help/assets/icons/Effect.svg)
 
-## Efficiente {#efficient}
+## Efficient {#efficient} 
 
-![Efficiente](/help/assets/icons/Efficient.svg)
+![Efficient](/help/assets/icons/Efficient.svg)
 
-## Ellisse {#ellipse}
+## Ellipse {#ellipse} 
 
-![Ellisse](/help/assets/icons/Ellipse.svg)
+![Ellipse](/help/assets/icons/Ellipse.svg)
 
-## E-mail {#email}
+## Email {#email} 
 
-![E-mail](/help/assets/icons/Email.svg)
+![Email](/help/assets/icons/Email.svg)
 
-## E-mailAnnulla {#emailcancel}
+## EmailCancel {#emailcancel} 
 
-![AnnullamentoE-mail](/help/assets/icons/EmailCancel.svg)
+![EmailCancel](/help/assets/icons/EmailCancel.svg)
 
-## EmailCheck {#emailcheck}
+## EmailCheck {#emailcheck} 
 
-![ControlloPostaElettronica](/help/assets/icons/EmailCheck.svg)
+![EmailCheck](/help/assets/icons/EmailCheck.svg)
 
-## EmailExclude {#emailexclude}
+## EmailExclude {#emailexclude} 
 
 ![EmailExclude](/help/assets/icons/EmailExclude.svg)
 
-## EmailExcludeOutline {#emailexcludeoutline}
+## EmailExcludeOutline {#emailexcludeoutline} 
 
 ![EmailExcludeOutline](/help/assets/icons/EmailExcludeOutline.svg)
 
-## EmailGear {#emailgear}
+## EmailGear {#emailgear} 
 
 ![EmailGear](/help/assets/icons/EmailGear.svg)
 
-## EmailGearOutline {#emailgearoutline}
+## EmailGearOutline {#emailgearoutline} 
 
 ![EmailGearOutline](/help/assets/icons/EmailGearOutline.svg)
 
-## EmailKey {#emailkey}
+## EmailKey {#emailkey} 
 
-![ChiavePostaElettronica](/help/assets/icons/EmailKey.svg)
+![EmailKey](/help/assets/icons/EmailKey.svg)
 
-## EmailKeyOutline {#emailkeyoutline}
+## EmailKeyOutline {#emailkeyoutline} 
 
 ![EmailKeyOutline](/help/assets/icons/EmailKeyOutline.svg)
 
-## EmailLightning {#emaillightning}
+## EmailLightning {#emaillightning} 
 
 ![EmailLightning](/help/assets/icons/EmailLightning.svg)
 
-## NotificaE-mail {#emailnotification}
+## EmailNotification {#emailnotification} 
 
-![NotificaE-Mail](/help/assets/icons/EmailNotification.svg)
+![EmailNotification](/help/assets/icons/EmailNotification.svg)
 
-## EmailOutline {#emailoutline}
+## EmailOutline {#emailoutline} 
 
 ![EmailOutline](/help/assets/icons/EmailOutline.svg)
 
-## EmailRefresh {#emailrefresh}
+## EmailRefresh {#emailrefresh} 
 
-![AggiornamentoPostaElettronica](/help/assets/icons/EmailRefresh.svg)
+![EmailRefresh](/help/assets/icons/EmailRefresh.svg)
 
-## EmailSchedule {#emailschedule}
+## EmailSchedule {#emailschedule} 
 
 ![EmailSchedule](/help/assets/icons/EmailSchedule.svg)
 
-## Coinvolgimento {#engagement}
+## Engagement {#engagement} 
 
-![Coinvolgimento](/help/assets/icons/Engagement.svg)
+![Engagement](/help/assets/icons/Engagement.svg)
 
-## Enterprise {#enterprise}
+## Enterprise {#enterprise} 
 
-![Organizzazione](/help/assets/icons/Enterprise.svg)
+![Enterprise](/help/assets/icons/Enterprise.svg)
 
-## Cancella {#erase}
+## Erase {#erase} 
 
-![Cancella](/help/assets/icons/Erase.svg)
+![Erase](/help/assets/icons/Erase.svg)
 
-## Eventi {#events}
+## Events {#events} 
 
-![Eventi](/help/assets/icons/Events.svg)
+![Events](/help/assets/icons/Events.svg)
 
-## Evento {#event}
+## Event {#event} 
 
-![Evento](/help/assets/icons/Event.svg)
+![Event](/help/assets/icons/Event.svg)
 
-## EventExclude {#eventexclude}
+## EventExclude {#eventexclude} 
 
-![EscludiEvento](/help/assets/icons/EventExclude.svg)
+![EventExclude](/help/assets/icons/EventExclude.svg)
 
-## EventShare {#eventshare}
+## EventShare {#eventshare} 
 
-![CondivisioneEventi](/help/assets/icons/EventShare.svg)
+![EventShare](/help/assets/icons/EventShare.svg)
 
-## ExcludeOverlap {#excludeoverlap}
+## ExcludeOverlap {#excludeoverlap} 
 
 ![ExcludeOverlap](/help/assets/icons/ExcludeOverlap.svg)
 
-## Esperienza {#experience}
+## Experience {#experience} 
 
-![Esperienza](/help/assets/icons/Experience.svg)
+![Experience](/help/assets/icons/Experience.svg)
 
-## ExperienceAdd {#experienceadd}
+## ExperienceAdd {#experienceadd} 
 
-![AggiungiEsperienza](/help/assets/icons/ExperienceAdd.svg)
+![ExperienceAdd](/help/assets/icons/ExperienceAdd.svg)
 
-## ExperienceAddTo {#experienceaddto}
+## ExperienceAddTo {#experienceaddto} 
 
-![AggiungiA](/help/assets/icons/ExperienceAddTo.svg)
+![ExperienceAddTo](/help/assets/icons/ExperienceAddTo.svg)
 
-## ExperienceExport {#experienceexport}
+## ExperienceExport {#experienceexport} 
 
-![EsportazioneEsperienza](/help/assets/icons/ExperienceExport.svg)
+![ExperienceExport](/help/assets/icons/ExperienceExport.svg)
 
-## ExperienceImport {#experienceimport}
+## ExperienceImport {#experienceimport} 
 
-![ImportazioneEsperienza](/help/assets/icons/ExperienceImport.svg)
+![ExperienceImport](/help/assets/icons/ExperienceImport.svg)
 
-## Esporta {#export}
+## Export {#export} 
 
-![Esporta](/help/assets/icons/Export.svg)
+![Export](/help/assets/icons/Export.svg)
 
-## ExportOriginal {#exportoriginal}
+## ExportOriginal {#exportoriginal} 
 
-![EsportaOriginale](/help/assets/icons/ExportOriginal.svg)
+![ExportOriginal](/help/assets/icons/ExportOriginal.svg)
 
-## Esposizione {#exposure}
+## Exposure {#exposure} 
 
-![Esposizione](/help/assets/icons/Exposure.svg)
+![Exposure](/help/assets/icons/Exposure.svg)
 
-## Estensione {#extension}
+## Extension {#extension} 
 
-![Estensione](/help/assets/icons/Extension.svg)
+![Extension](/help/assets/icons/Extension.svg)
 
-## Veloce {#fast}
+## Fast {#fast} 
 
-![Veloce](/help/assets/icons/Fast.svg)
+![Fast](/help/assets/icons/Fast.svg)
 
-## FastForward {#fastforward}
+## FastForward {#fastforward} 
 
-![AvantiVeloce](/help/assets/icons/FastForward.svg)
+![FastForward](/help/assets/icons/FastForward.svg)
 
-## CerchioAvantiVeloce {#fastforwardcircle}
+## FastForwardCircle {#fastforwardcircle} 
 
-![CerchioAvantiVeloce](/help/assets/icons/FastForwardCircle.svg)
+![FastForwardCircle](/help/assets/icons/FastForwardCircle.svg)
 
-## Funzione {#feature}
+## Feature {#feature} 
 
-![Funzionalità](/help/assets/icons/Feature.svg)
+![Feature](/help/assets/icons/Feature.svg)
 
-## Feed {#feed}
+## Feed {#feed} 
 
 ![Feed](/help/assets/icons/Feed.svg)
 
-## FeedAdd {#feedadd}
+## FeedAdd {#feedadd} 
 
-![AggiungiFeed](/help/assets/icons/FeedAdd.svg)
+![FeedAdd](/help/assets/icons/FeedAdd.svg)
 
-## Gestione feed {#feedmanagement}
+## FeedManagement {#feedmanagement} 
 
-![Gestione feed](/help/assets/icons/FeedManagement.svg)
+![FeedManagement](/help/assets/icons/FeedManagement.svg)
 
-## Feedback {#feedback}
+## Feedback {#feedback} 
 
 ![Feedback](/help/assets/icons/Feedback.svg)
 
-## FileAggiungi {#fileadd}
+## FileAdd {#fileadd} 
 
-![FileAggiungi](/help/assets/icons/FileAdd.svg)
+![FileAdd](/help/assets/icons/FileAdd.svg)
 
-## FileCSV {#filecsv}
+## FileCSV {#filecsv} 
 
 ![FileCSV](/help/assets/icons/FileCSV.svg)
 
-## FileCampaign {#filecampaign}
+## FileCampaign {#filecampaign} 
 
 ![FileCampaign](/help/assets/icons/FileCampaign.svg)
 
-## FileChart {#filechart}
+## FileChart {#filechart} 
 
 ![FileChart](/help/assets/icons/FileChart.svg)
 
-## FileEstratto {#filecheckedout}
+## FileCheckedOut {#filecheckedout} 
 
-![FileEstratto](/help/assets/icons/FileCheckedOut.svg)
+![FileCheckedOut](/help/assets/icons/FileCheckedOut.svg)
 
-## FileCode {#filecode}
+## FileCode {#filecode} 
 
-![CodiceFile](/help/assets/icons/FileCode.svg)
+![FileCode](/help/assets/icons/FileCode.svg)
 
-## FileData {#filedata}
+## FileData {#filedata} 
 
-![DatiFile](/help/assets/icons/FileData.svg)
+![FileData](/help/assets/icons/FileData.svg)
 
-## FileE-mail {#fileemail}
+## FileEmail {#fileemail} 
 
 ![FileEmail](/help/assets/icons/FileEmail.svg)
 
-## FileCartella {#filefolder}
+## FileFolder {#filefolder} 
 
-![CartellaFile](/help/assets/icons/FileFolder.svg)
+![FileFolder](/help/assets/icons/FileFolder.svg)
 
-## FileGear {#filegear}
+## FileGear {#filegear} 
 
 ![FileGear](/help/assets/icons/FileGear.svg)
 
-## FileGlobe {#fileglobe}
+## FileGlobe {#fileglobe} 
 
 ![FileGlobe](/help/assets/icons/FileGlobe.svg)
 
-## FileHTML {#filehtml}
+## FileHTML {#filehtml} 
 
 ![FileHTML](/help/assets/icons/FileHTML.svg)
 
-## FileImportante {#fileimportant}
+## FileImportant {#fileimportant} 
 
-![ImportanteFile](/help/assets/icons/FileImportant.svg)
+![FileImportant](/help/assets/icons/FileImportant.svg)
 
-## FileJson {#filejson}
+## FileJson {#filejson} 
 
 ![FileJson](/help/assets/icons/FileJson.svg)
 
-## FileKey {#filekey}
+## FileKey {#filekey} 
 
-![ChiaveFile](/help/assets/icons/FileKey.svg)
+![FileKey](/help/assets/icons/FileKey.svg)
 
-## FileMobile {#filemobile}
+## FileMobile {#filemobile} 
 
 ![FileMobile](/help/assets/icons/FileMobile.svg)
 
-## Condivisione file {#fileshare}
+## FileShare {#fileshare} 
 
-![Condivisione file](/help/assets/icons/FileShare.svg)
+![FileShare](/help/assets/icons/FileShare.svg)
 
-## FilePaginaWebSingola {#filesinglewebpage}
+## FileSingleWebPage {#filesinglewebpage} 
 
 ![FileSingleWebPage](/help/assets/icons/FileSingleWebPage.svg)
 
-## FileSpace {#filespace}
+## FileSpace {#filespace} 
 
-![SpazioFile](/help/assets/icons/FileSpace.svg)
+![FileSpace](/help/assets/icons/FileSpace.svg)
 
-## FileTemplate {#filetemplate}
+## FileTemplate {#filetemplate} 
 
 ![FileTemplate](/help/assets/icons/FileTemplate.svg)
 
-## FileTesto {#filetxt}
+## FileTxt {#filetxt} 
 
 ![FileTxt](/help/assets/icons/FileTxt.svg)
 
-## FileUtente {#fileuser}
+## FileUser {#fileuser} 
 
 ![FileUser](/help/assets/icons/FileUser.svg)
 
-## FlussoLavoroFile {#fileworkflow}
+## FileWorkflow {#fileworkflow} 
 
-![FlussoDiFile](/help/assets/icons/FileWorkflow.svg)
+![FileWorkflow](/help/assets/icons/FileWorkflow.svg)
 
-## FileXML {#filexml}
+## FileXML {#filexml} 
 
 ![FileXML](/help/assets/icons/FileXML.svg)
 
-## FileZip {#filezip}
+## FileZip {#filezip} 
 
 ![FileZip](/help/assets/icons/FileZip.svg)
 
-## ArchivioArchivio {#filingcabinet}
+## FilingCabinet {#filingcabinet} 
 
-![ArchivioFile](/help/assets/icons/FilingCabinet.svg)
+![FilingCabinet](/help/assets/icons/FilingCabinet.svg)
 
-## Filmroll {#filmroll}
+## Filmroll {#filmroll} 
 
 ![Filmroll](/help/assets/icons/Filmroll.svg)
 
-## FilmrollAutoAdd {#filmrollautoadd}
+## FilmrollAutoAdd {#filmrollautoadd} 
 
 ![FilmrollAutoAdd](/help/assets/icons/FilmrollAutoAdd.svg)
 
-## Filtro {#filter}
+## Filter {#filter} 
 
-![Filtro](/help/assets/icons/Filter.svg)
+![Filter](/help/assets/icons/Filter.svg)
 
-## FilterAdd {#filteradd}
+## FilterAdd {#filteradd} 
 
-![AggiungiFiltro](/help/assets/icons/FilterAdd.svg)
+![FilterAdd](/help/assets/icons/FilterAdd.svg)
 
-## FilterCheck {#filtercheck}
+## FilterCheck {#filtercheck} 
 
-![ControlloFiltro](/help/assets/icons/FilterCheck.svg)
+![FilterCheck](/help/assets/icons/FilterCheck.svg)
 
-## FilterDelete {#filterdelete}
+## FilterDelete {#filterdelete} 
 
-![EliminazioneFiltro](/help/assets/icons/FilterDelete.svg)
+![FilterDelete](/help/assets/icons/FilterDelete.svg)
 
-## FilterEdit {#filteredit}
+## FilterEdit {#filteredit} 
 
-![ModificaFiltro](/help/assets/icons/FilterEdit.svg)
+![FilterEdit](/help/assets/icons/FilterEdit.svg)
 
-## FilterHeart {#filterheart}
+## FilterHeart {#filterheart} 
 
-![CuoreFiltro](/help/assets/icons/FilterHeart.svg)
+![FilterHeart](/help/assets/icons/FilterHeart.svg)
 
-## FiltraRimuovi {#filterremove}
+## FilterRemove {#filterremove} 
 
-![RimozioneFiltro](/help/assets/icons/FilterRemove.svg)
+![FilterRemove](/help/assets/icons/FilterRemove.svg)
 
-## FiltraStella {#filterstar}
+## FilterStar {#filterstar} 
 
-![StellaFiltro](/help/assets/icons/FilterStar.svg)
+![FilterStar](/help/assets/icons/FilterStar.svg)
 
-## FindAndReplace {#findandreplace}
+## FindAndReplace {#findandreplace} 
 
-![TrovaSostituisci](/help/assets/icons/FindAndReplace.svg)
+![FindAndReplace](/help/assets/icons/FindAndReplace.svg)
 
-## Contrassegno {#flag}
+## Flag {#flag} 
 
-![Contrassegno](/help/assets/icons/Flag.svg)
+![Flag](/help/assets/icons/Flag.svg)
 
-## FlagExclude {#flagexclude}
+## FlagExclude {#flagexclude} 
 
-![EscludiContrassegno](/help/assets/icons/FlagExclude.svg)
+![FlagExclude](/help/assets/icons/FlagExclude.svg)
 
-## FlashAuto {#flashauto}
+## FlashAuto {#flashauto} 
 
 ![FlashAuto](/help/assets/icons/FlashAuto.svg)
 
-## FlashOff {#flashoff}
+## FlashOff {#flashoff} 
 
 ![FlashOff](/help/assets/icons/FlashOff.svg)
 
-## FlashOn {#flashon}
+## FlashOn {#flashon} 
 
 ![FlashOn](/help/assets/icons/FlashOn.svg)
 
-## Torcia elettrica {#flashlight}
+## Flashlight {#flashlight} 
 
-![Torcia elettrica](/help/assets/icons/Flashlight.svg)
+![Flashlight](/help/assets/icons/Flashlight.svg)
 
-## FlashlightOff {#flashlightoff}
+## FlashlightOff {#flashlightoff} 
 
 ![FlashlightOff](/help/assets/icons/FlashlightOff.svg)
 
-## FlashlightOn {#flashlighton}
+## FlashlightOn {#flashlighton} 
 
 ![FlashlightOn](/help/assets/icons/FlashlightOn.svg)
 
-## Riflessione orizzontale {#fliphorizontal}
+## FlipHorizontal {#fliphorizontal} 
 
-![InvertiOrizzontalmente](/help/assets/icons/FlipHorizontal.svg)
+![FlipHorizontal](/help/assets/icons/FlipHorizontal.svg)
 
-## Riflessione verticale {#flipvertical}
+## FlipVertical {#flipvertical} 
 
-![RiflessioneVerticale](/help/assets/icons/FlipVertical.svg)
+![FlipVertical](/help/assets/icons/FlipVertical.svg)
 
-## Cartella {#folder}
+## Folder {#folder} 
 
-![Cartella](/help/assets/icons/Folder.svg)
+![Folder](/help/assets/icons/Folder.svg)
 
-## Folder2Color {#folder2color}
+## Folder2Color {#folder2color} 
 
 ![Folder2Color](/help/assets/icons/Folder2Color.svg)
 
-## FolderAdd {#folderadd}
+## FolderAdd {#folderadd} 
 
-![AggiungiCartella](/help/assets/icons/FolderAdd.svg)
+![FolderAdd](/help/assets/icons/FolderAdd.svg)
 
-## FolderAddTo {#folderaddto}
+## FolderAddTo {#folderaddto} 
 
-![AggiungiCartella](/help/assets/icons/FolderAddTo.svg)
+![FolderAddTo](/help/assets/icons/FolderAddTo.svg)
 
-## FolderArchive {#folderarchive}
+## FolderArchive {#folderarchive} 
 
-![ArchivioCartelle](/help/assets/icons/FolderArchive.svg)
+![FolderArchive](/help/assets/icons/FolderArchive.svg)
 
-## FolderDelete {#folderdelete}
+## FolderDelete {#folderdelete} 
 
-![Eliminazione cartella](/help/assets/icons/FolderDelete.svg)
+![FolderDelete](/help/assets/icons/FolderDelete.svg)
 
-## FolderGear {#foldergear}
+## FolderGear {#foldergear} 
 
 ![FolderGear](/help/assets/icons/FolderGear.svg)
 
-## FolderLocked {#folderlocked}
+## FolderLocked {#folderlocked} 
 
-![BloccatoCartella](/help/assets/icons/FolderLocked.svg)
+![FolderLocked](/help/assets/icons/FolderLocked.svg)
 
-## FolderOpen {#folderopen}
+## FolderOpen {#folderopen} 
 
-![CartellaAperta](/help/assets/icons/FolderOpen.svg)
+![FolderOpen](/help/assets/icons/FolderOpen.svg)
 
-## FolderOpenOutline {#folderopenoutline}
+## FolderOpenOutline {#folderopenoutline} 
 
 ![FolderOpenOutline](/help/assets/icons/FolderOpenOutline.svg)
 
-## FolderOutline {#folderoutline}
+## FolderOutline {#folderoutline} 
 
-![StrutturaCartella](/help/assets/icons/FolderOutline.svg)
+![FolderOutline](/help/assets/icons/FolderOutline.svg)
 
-## FolderRemove {#folderremove}
+## FolderRemove {#folderremove} 
 
-![Rimozione cartella](/help/assets/icons/FolderRemove.svg)
+![FolderRemove](/help/assets/icons/FolderRemove.svg)
 
-## FolderSearch {#foldersearch}
+## FolderSearch {#foldersearch} 
 
-![RicercaCartelle](/help/assets/icons/FolderSearch.svg)
+![FolderSearch](/help/assets/icons/FolderSearch.svg)
 
-## FolderUser {#folderuser}
+## FolderUser {#folderuser} 
 
-![UtenteCartella](/help/assets/icons/FolderUser.svg)
+![FolderUser](/help/assets/icons/FolderUser.svg)
 
-## Segui {#follow}
+## Follow {#follow} 
 
-![Segui](/help/assets/icons/Follow.svg)
+![Follow](/help/assets/icons/Follow.svg)
 
-## FollowOff {#followoff}
+## FollowOff {#followoff} 
 
-![Fine](/help/assets/icons/FollowOff.svg)
+![FollowOff](/help/assets/icons/FollowOff.svg)
 
-## ForPlacementOnly {#forplacementonly}
+## ForPlacementOnly {#forplacementonly} 
 
 ![ForPlacementOnly](/help/assets/icons/ForPlacementOnly.svg)
 
-## Previsione {#forecast}
+## Forecast {#forecast} 
 
-![Previsione](/help/assets/icons/Forecast.svg)
+![Forecast](/help/assets/icons/Forecast.svg)
 
-## Modulo {#form}
+## Form {#form} 
 
-![Modulo](/help/assets/icons/Form.svg)
+![Form](/help/assets/icons/Form.svg)
 
-## Inoltra {#forward}
+## Forward {#forward} 
 
-![Avanti](/help/assets/icons/Forward.svg)
+![Forward](/help/assets/icons/Forward.svg)
 
-## Schermo intero {#fullscreen}
+## FullScreen {#fullscreen} 
 
-![Schermo intero](/help/assets/icons/FullScreen.svg)
+![FullScreen](/help/assets/icons/FullScreen.svg)
 
-## UscitaSchermoCompleto {#fullscreenexit}
+## FullScreenExit {#fullscreenexit} 
 
-![UscitaSchermoCompleto](/help/assets/icons/FullScreenExit.svg)
+![FullScreenExit](/help/assets/icons/FullScreenExit.svg)
 
-## Funzione {#function}
+## Function {#function} 
 
-![Funzione](/help/assets/icons/Function.svg)
+![Function](/help/assets/icons/Function.svg)
 
-## Gioco {#game}
+## Game {#game} 
 
-![Gioco](/help/assets/icons/Game.svg)
+![Game](/help/assets/icons/Game.svg)
 
-## Misuratore 1 {#gauge1}
+## Gauge1 {#gauge1} 
 
-![Misuratore1](/help/assets/icons/Gauge1.svg)
+![Gauge1](/help/assets/icons/Gauge1.svg)
 
-## Misuratore2 {#gauge2}
+## Gauge2 {#gauge2} 
 
-![Misuratore2](/help/assets/icons/Gauge2.svg)
+![Gauge2](/help/assets/icons/Gauge2.svg)
 
-## Misuratore3 {#gauge3}
+## Gauge3 {#gauge3} 
 
-![Misuratore3](/help/assets/icons/Gauge3.svg)
+![Gauge3](/help/assets/icons/Gauge3.svg)
 
-## Misuratore4 {#gauge4}
+## Gauge4 {#gauge4} 
 
-![Misuratore4](/help/assets/icons/Gauge4.svg)
+![Gauge4](/help/assets/icons/Gauge4.svg)
 
-## Misuratore5 {#gauge5}
+## Gauge5 {#gauge5} 
 
-![Misuratore5](/help/assets/icons/Gauge5.svg)
+![Gauge5](/help/assets/icons/Gauge5.svg)
 
-## Ingranaggio {#gear}
+## Gear {#gear} 
 
-![Ingranaggio](/help/assets/icons/Gear.svg)
+![Gear](/help/assets/icons/Gear.svg)
 
-## GearsAdd {#gearsadd}
+## GearsAdd {#gearsadd} 
 
 ![GearsAdd](/help/assets/icons/GearsAdd.svg)
 
-## GearsDelete {#gearsdelete}
+## GearsDelete {#gearsdelete} 
 
-![EliminaIngranaggi](/help/assets/icons/GearsDelete.svg)
+![GearsDelete](/help/assets/icons/GearsDelete.svg)
 
-## GearsEdit {#gearsedit}
+## GearsEdit {#gearsedit} 
 
-![Modifica ingranaggi](/help/assets/icons/GearsEdit.svg)
+![GearsEdit](/help/assets/icons/GearsEdit.svg)
 
-## GenderFemale {#genderfemale}
+## GenderFemale {#genderfemale} 
 
-![GenderFemmina](/help/assets/icons/GenderFemale.svg)
+![GenderFemale](/help/assets/icons/GenderFemale.svg)
 
-## GenderMale {#gendermale}
+## GenderMale {#gendermale} 
 
 ![GenderMale](/help/assets/icons/GenderMale.svg)
 
-## Regalo {#gift}
+## Gift {#gift} 
 
-![Regalo](/help/assets/icons/Gift.svg)
+![Gift](/help/assets/icons/Gift.svg)
 
-## Globo {#globe}
+## Globe {#globe} 
 
-![Globo](/help/assets/icons/Globe.svg)
+![Globe](/help/assets/icons/Globe.svg)
 
-## GlobeCheck {#globecheck}
+## GlobeCheck {#globecheck} 
 
-![ControlloGlobale](/help/assets/icons/GlobeCheck.svg)
+![GlobeCheck](/help/assets/icons/GlobeCheck.svg)
 
-## GlobeClock {#globeclock}
+## GlobeClock {#globeclock} 
 
-![Orologio globale](/help/assets/icons/GlobeClock.svg)
+![GlobeClock](/help/assets/icons/GlobeClock.svg)
 
-## GlobeEnter {#globeenter}
+## GlobeEnter {#globeenter} 
 
 ![GlobeEnter](/help/assets/icons/GlobeEnter.svg)
 
-## GlobeExit {#globeexit}
+## GlobeExit {#globeexit} 
 
-![UscitaGlobale](/help/assets/icons/GlobeExit.svg)
+![GlobeExit](/help/assets/icons/GlobeExit.svg)
 
-## GlobeGrid {#globegrid}
+## GlobeGrid {#globegrid} 
 
 ![GlobeGrid](/help/assets/icons/GlobeGrid.svg)
 
-## GlobeOutline {#globeoutline}
+## GlobeOutline {#globeoutline} 
 
-![StrutturaGlobale](/help/assets/icons/GlobeOutline.svg)
+![GlobeOutline](/help/assets/icons/GlobeOutline.svg)
 
-## GlobeRemove {#globeremove}
+## GlobeRemove {#globeremove} 
 
-![Rimozione globi](/help/assets/icons/GlobeRemove.svg)
+![GlobeRemove](/help/assets/icons/GlobeRemove.svg)
 
-## GlobeSearch {#globesearch}
+## GlobeSearch {#globesearch} 
 
-![RicercaGlobale](/help/assets/icons/GlobeSearch.svg)
+![GlobeSearch](/help/assets/icons/GlobeSearch.svg)
 
-## GlobeStrike {#globestrike}
+## GlobeStrike {#globestrike} 
 
 ![GlobeStrike](/help/assets/icons/GlobeStrike.svg)
 
-## GlobeStrikeClock {#globestrikeclock}
+## GlobeStrikeClock {#globestrikeclock} 
 
-![OrologioGlobeStrike](/help/assets/icons/GlobeStrikeClock.svg)
+![GlobeStrikeClock](/help/assets/icons/GlobeStrikeClock.svg)
 
-## Pubblica amministrazione {#government}
+## Government {#government} 
 
-![Pubblica amministrazione](/help/assets/icons/Government.svg)
+![Government](/help/assets/icons/Government.svg)
 
-## Sfumatura {#gradient}
+## Gradient {#gradient} 
 
-![Sfumatura](/help/assets/icons/Gradient.svg)
+![Gradient](/help/assets/icons/Gradient.svg)
 
-## GraphArea {#grapharea}
+## GraphArea {#grapharea} 
 
-![AreaGrafica](/help/assets/icons/GraphArea.svg)
+![GraphArea](/help/assets/icons/GraphArea.svg)
 
-## GraphAreaStacked {#graphareastacked}
+## GraphAreaStacked {#graphareastacked} 
 
-![AreaGraficaSovrapposta](/help/assets/icons/GraphAreaStacked.svg)
+![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg)
 
-## GraphBarHorizontal {#graphbarhorizontal}
+## GraphBarHorizontal {#graphbarhorizontal} 
 
 ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg)
 
-## GraphBarHorizontalAdd {#graphbarhorizontaladd}
+## GraphBarHorizontalAdd {#graphbarhorizontaladd} 
 
-![AggiungiBarraGrafica](/help/assets/icons/GraphBarHorizontalAdd.svg)
+![GraphBarHorizontalAdd](/help/assets/icons/GraphBarHorizontalAdd.svg)
 
-## GraphBarHorizontalStacked {#graphbarhorizontalstacked}
+## GraphBarHorizontalStacked {#graphbarhorizontalstacked} 
 
-![BarraGraficaOrizzontaleSovrapposta](/help/assets/icons/GraphBarHorizontalStacked.svg)
+![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg)
 
-## GraphBarVertical {#graphbarvertical}
+## GraphBarVertical {#graphbarvertical} 
 
 ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)
 
-## GraphBarVerticalAdd {#graphbarverticaladd}
+## GraphBarVerticalAdd {#graphbarverticaladd} 
 
 ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg)
 
-## GraphBarVerticalStacked {#graphbarverticalstacked}
+## GraphBarVerticalStacked {#graphbarverticalstacked} 
 
-![BarraGraficaVerticaleSovrapposta](/help/assets/icons/GraphBarVerticalStacked.svg)
+![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg)
 
-## GraphBubble {#graphbubble}
+## GraphBubble {#graphbubble} 
 
 ![GraphBubble](/help/assets/icons/GraphBubble.svg)
 
-## GraphBullet {#graphbullet}
+## GraphBullet {#graphbullet} 
 
-![BulletGrafico](/help/assets/icons/GraphBullet.svg)
+![GraphBullet](/help/assets/icons/GraphBullet.svg)
 
-## GraphConfidenceBand {#graphconfidenceband}
+## GraphConfidenceBand {#graphconfidenceband} 
 
 ![GraphConfidenceBand](/help/assets/icons/GraphConfidenceBand.svg)
 
-## GraphDonut {#graphdonut}
+## GraphDonut {#graphdonut} 
 
 ![GraphDonut](/help/assets/icons/GraphDonut.svg)
 
-## GraphDonutAdd {#graphdonutadd}
+## GraphDonutAdd {#graphdonutadd} 
 
 ![GraphDonutAdd](/help/assets/icons/GraphDonutAdd.svg)
 
-## GraphGantt {#graphgantt}
+## GraphGantt {#graphgantt} 
 
 ![GraphGantt](/help/assets/icons/GraphGantt.svg)
 
-## GraphHistogram {#graphhistogram}
+## GraphHistogram {#graphhistogram} 
 
-![Istogramma](/help/assets/icons/GraphHistogram.svg)
+![GraphHistogram](/help/assets/icons/GraphHistogram.svg)
 
-## GraphPathing {#graphpathing}
+## GraphPathing {#graphpathing} 
 
-![PercorsiGrafici](/help/assets/icons/GraphPathing.svg)
+![GraphPathing](/help/assets/icons/GraphPathing.svg)
 
-## GraphPie {#graphpie}
+## GraphPie {#graphpie} 
 
 ![GraphPie](/help/assets/icons/GraphPie.svg)
 
-## GraphProfitCurve {#graphprofitcurve}
+## GraphProfitCurve {#graphprofitcurve} 
 
 ![GraphProfitCurve](/help/assets/icons/GraphProfitCurve.svg)
 
-## GraphScatter {#graphscatter}
+## GraphScatter {#graphscatter} 
 
-![Dispersione grafico](/help/assets/icons/GraphScatter.svg)
+![GraphScatter](/help/assets/icons/GraphScatter.svg)
 
-## GraphStream {#graphstream}
+## GraphStream {#graphstream} 
 
 ![GraphStream](/help/assets/icons/GraphStream.svg)
 
-## GraphStreamRanked {#graphstreamranked}
+## GraphStreamRanked {#graphstreamranked} 
 
 ![GraphStreamRanked](/help/assets/icons/GraphStreamRanked.svg)
 
-## GraphStreamRankedAdd {#graphstreamrankedadd}
+## GraphStreamRankedAdd {#graphstreamrankedadd} 
 
 ![GraphStreamRankedAdd](/help/assets/icons/GraphStreamRankedAdd.svg)
 
-## GraphSunburst {#graphsunburst}
+## GraphSunburst {#graphsunburst} 
 
 ![GraphSunburst](/help/assets/icons/GraphSunburst.svg)
 
-## GraphTree {#graphtree}
+## GraphTree {#graphtree} 
 
 ![GraphTree](/help/assets/icons/GraphTree.svg)
 
-## GraphTrend {#graphtrend}
+## GraphTrend {#graphtrend} 
 
 ![GraphTrend](/help/assets/icons/GraphTrend.svg)
 
-## GraphTrendAdd {#graphtrendadd}
+## GraphTrendAdd {#graphtrendadd} 
 
 ![GraphTrendAdd](/help/assets/icons/GraphTrendAdd.svg)
 
-## GraphTrendAlert {#graphtrendalert}
+## GraphTrendAlert {#graphtrendalert} 
 
 ![GraphTrendAlert](/help/assets/icons/GraphTrendAlert.svg)
 
-## Grafico {#graphic}
+## Graphic {#graphic} 
 
-![Immagine](/help/assets/icons/Graphic.svg)
+![Graphic](/help/assets/icons/Graphic.svg)
 
-## Gruppo {#group}
+## Group {#group} 
 
-![Gruppo](/help/assets/icons/Group.svg)
+![Group](/help/assets/icons/Group.svg)
 
-## Martello {#hammer}
+## Hammer {#hammer} 
 
-![Martello](/help/assets/icons/Hammer.svg)
+![Hammer](/help/assets/icons/Hammer.svg)
 
-## Mano {#hand}
+## Hand {#hand} 
 
-![Mano](/help/assets/icons/Hand.svg)
+![Hand](/help/assets/icons/Hand.svg)
 
-## Mano0 {#hand0}
+## Hand0 {#hand0} 
 
-![Mano0](/help/assets/icons/Hand0.svg)
+![Hand0](/help/assets/icons/Hand0.svg)
 
-## Mano 1 {#hand1}
+## Hand1 {#hand1} 
 
-![Mano1](/help/assets/icons/Hand1.svg)
+![Hand1](/help/assets/icons/Hand1.svg)
 
-## Mano 2 {#hand2}
+## Hand2 {#hand2} 
 
-![Mano2](/help/assets/icons/Hand2.svg)
+![Hand2](/help/assets/icons/Hand2.svg)
 
-## Mano 3 {#hand3}
+## Hand3 {#hand3} 
 
-![Mano3](/help/assets/icons/Hand3.svg)
+![Hand3](/help/assets/icons/Hand3.svg)
 
-## Mano4 {#hand4}
+## Hand4 {#hand4} 
 
-![Mano4](/help/assets/icons/Hand4.svg)
+![Hand4](/help/assets/icons/Hand4.svg)
 
-## Guarire {#heal}
+## Heal {#heal} 
 
-![Guarisci](/help/assets/icons/Heal.svg)
+![Heal](/help/assets/icons/Heal.svg)
 
-## Cuore {#heart}
+## Heart {#heart} 
 
-![Cuore](/help/assets/icons/Heart.svg)
+![Heart](/help/assets/icons/Heart.svg)
 
-## Aiuto {#help}
+## Help {#help} 
 
-![Guida](/help/assets/icons/Help.svg)
+![Help](/help/assets/icons/Help.svg)
 
-## GuidaStruttura {#helpoutline}
+## HelpOutline {#helpoutline} 
 
-![Guida](/help/assets/icons/HelpOutline.svg)
+![HelpOutline](/help/assets/icons/HelpOutline.svg)
 
-## Istogramma {#histogram}
+## Histogram {#histogram} 
 
-![Istogramma](/help/assets/icons/Histogram.svg)
+![Histogram](/help/assets/icons/Histogram.svg)
 
-## Cronologia {#history}
+## History {#history} 
 
-![Cronologia](/help/assets/icons/History.svg)
+![History](/help/assets/icons/History.svg)
 
-## Home {#home}
+## Home {#home} 
 
 ![Home](/help/assets/icons/Home.svg)
 
-## Homepage {#homepage}
+## Homepage {#homepage} 
 
-![Home page](/help/assets/icons/Homepage.svg)
+![Homepage](/help/assets/icons/Homepage.svg)
 
-## Hotfix {#hotfixe}
+## HotFixe {#hotfixe} 
 
-![Hotfix](/help/assets/icons/HotFixe.svg)
+![HotFixe](/help/assets/icons/HotFixe.svg)
 
-## HotelBed {#hotelbed}
+## HotelBed {#hotelbed} 
 
-![LettoHotel](/help/assets/icons/HotelBed.svg)
+![HotelBed](/help/assets/icons/HotelBed.svg)
 
-## Identity Service {#identityservice}
+## IdentityService {#identityservice} 
 
 ![IdentityService](/help/assets/icons/IdentityService.svg)
 
-## Immagini {#images}
+## Images {#images} 
 
-![Immagine 2](/help/assets/icons/Images.svg)
+![Image 2](/help/assets/icons/Images.svg)
 
-## Immagine {#image}
+## Image {#image} 
 
-![Immagine](/help/assets/icons/Image.svg)
+![Image](/help/assets/icons/Image.svg)
 
-## ImageAdd {#imageadd}
+## ImageAdd {#imageadd} 
 
-![AggiungiImmagine](/help/assets/icons/ImageAdd.svg)
+![ImageAdd](/help/assets/icons/ImageAdd.svg)
 
-## ImageAlbum {#imagealbum}
+## ImageAlbum {#imagealbum} 
 
-![AlbumImmagine](/help/assets/icons/ImageAlbum.svg)
+![ImageAlbum](/help/assets/icons/ImageAlbum.svg)
 
-## ImageAutoMode {#imageautomode}
+## ImageAutoMode {#imageautomode} 
 
-![ModalitàAutomaticaImmagine](/help/assets/icons/ImageAutoMode.svg)
+![ImageAutoMode](/help/assets/icons/ImageAutoMode.svg)
 
-## ImageCarousel {#imagecarousel}
+## ImageCarousel {#imagecarousel} 
 
-![CaroselloImmagine](/help/assets/icons/ImageCarousel.svg)
+![ImageCarousel](/help/assets/icons/ImageCarousel.svg)
 
-## ImageCheck {#imagecheck}
+## ImageCheck {#imagecheck} 
 
 ![ImageCheck](/help/assets/icons/ImageCheck.svg)
 
-## ImageCheckedOut {#imagecheckedout}
+## ImageCheckedOut {#imagecheckedout} 
 
-![ImmagineEstratta](/help/assets/icons/ImageCheckedOut.svg)
+![ImageCheckedOut](/help/assets/icons/ImageCheckedOut.svg)
 
-## ImageMapCircle {#imagemapcircle}
+## ImageMapCircle {#imagemapcircle} 
 
 ![ImageMapCircle](/help/assets/icons/ImageMapCircle.svg)
 
-## ImageMapPolygon {#imagemappolygon}
+## ImageMapPolygon {#imagemappolygon} 
 
 ![ImageMapPolygon](/help/assets/icons/ImageMapPolygon.svg)
 
-## ImageMapRectangle {#imagemaprectangle}
+## ImageMapRectangle {#imagemaprectangle} 
 
 ![ImageMapRectangle](/help/assets/icons/ImageMapRectangle.svg)
 
-## ImageNext {#imagenext}
+## ImageNext {#imagenext} 
 
-![ImmagineSuccessiva](/help/assets/icons/ImageNext.svg)
+![ImageNext](/help/assets/icons/ImageNext.svg)
 
-## ImageProfile {#imageprofile}
+## ImageProfile {#imageprofile} 
 
-![ProfiloImmagine](/help/assets/icons/ImageProfile.svg)
+![ImageProfile](/help/assets/icons/ImageProfile.svg)
 
-## ImageSearch {#imagesearch}
+## ImageSearch {#imagesearch} 
 
-![RicercaImmagine](/help/assets/icons/ImageSearch.svg)
+![ImageSearch](/help/assets/icons/ImageSearch.svg)
 
-## TestoImmagine {#imagetext}
+## ImageText {#imagetext} 
 
-![TestoImmagine](/help/assets/icons/ImageText.svg)
+![ImageText](/help/assets/icons/ImageText.svg)
 
-## Importa {#import}
+## Import {#import} 
 
-![Importa](/help/assets/icons/Import.svg)
+![Import](/help/assets/icons/Import.svg)
 
-## Casella in entrata {#inbox}
+## Inbox {#inbox} 
 
-![Posta in arrivo](/help/assets/icons/Inbox.svg)
+![Inbox](/help/assets/icons/Inbox.svg)
 
-## Individuale {#individual}
+## Individual {#individual} 
 
-![Singolo](/help/assets/icons/Individual.svg)
+![Individual](/help/assets/icons/Individual.svg)
 
-## Info {#info}
+## Info {#info} 
 
 ![Info](/help/assets/icons/Info.svg)
 
-## InfoStruttura {#infooutline}
+## InfoOutline {#infooutline} 
 
-![InfoStruttura](/help/assets/icons/InfoOutline.svg)
+![InfoOutline](/help/assets/icons/InfoOutline.svg)
 
-## IntersectOverlap {#intersectoverlap}
+## IntersectOverlap {#intersectoverlap} 
 
 ![IntersectOverlap](/help/assets/icons/IntersectOverlap.svg)
 
-## InvertiAdj {#invertadj}
+## InvertAdj {#invertadj} 
 
-![InvertiAdj](/help/assets/icons/InvertAdj.svg)
+![InvertAdj](/help/assets/icons/InvertAdj.svg)
 
-## Invita {#invite}
+## Invite {#invite} 
 
-![Invita](/help/assets/icons/Invite.svg)
+![Invite](/help/assets/icons/Invite.svg)
 
-## Percorso {#journey}
+## Journey {#journey} 
 
-![Percorso](/help/assets/icons/Journey.svg)
+![Journey](/help/assets/icons/Journey.svg)
 
-## JourneyAction {#journeyaction}
+## JourneyAction {#journeyaction} 
 
-![AzionePercorso](/help/assets/icons/JourneyAction.svg)
+![JourneyAction](/help/assets/icons/JourneyAction.svg)
 
-## JourneyData {#journeydata}
+## JourneyData {#journeydata} 
 
-![DatiPercorso](/help/assets/icons/JourneyData.svg)
+![JourneyData](/help/assets/icons/JourneyData.svg)
 
-## JourneyEvent {#journeyevent}
+## JourneyEvent {#journeyevent} 
 
-![EventoPercorso](/help/assets/icons/JourneyEvent.svg)
+![JourneyEvent](/help/assets/icons/JourneyEvent.svg)
 
-## JourneyEvent2 {#journeyevent2}
+## JourneyEvent2 {#journeyevent2} 
 
-![EventoPercorso2](/help/assets/icons/JourneyEvent2.svg)
+![JourneyEvent2](/help/assets/icons/JourneyEvent2.svg)
 
-## JourneyReport {#journeyreport}
+## JourneyReport {#journeyreport} 
 
-![ReportPercorso](/help/assets/icons/JourneyReport.svg)
+![JourneyReport](/help/assets/icons/JourneyReport.svg)
 
-## JourneyVoyager {#journeyvoyager}
+## JourneyVoyager {#journeyvoyager} 
 
 ![JourneyVoyager](/help/assets/icons/JourneyVoyager.svg)
 
-## JumpToTop {#jumptotop}
+## JumpToTop {#jumptotop} 
 
 ![JumpToTop](/help/assets/icons/JumpToTop.svg)
 
-## Chiave {#key}
+## Key {#key} 
 
-![Chiave](/help/assets/icons/Key.svg)
+![Key](/help/assets/icons/Key.svg)
 
-## KeyClock {#keyclock}
+## KeyClock {#keyclock} 
 
 ![KeyClock](/help/assets/icons/KeyClock.svg)
 
-## KeyExclude {#keyexclude}
+## KeyExclude {#keyexclude} 
 
-![EsclusioneChiavi](/help/assets/icons/KeyExclude.svg)
+![KeyExclude](/help/assets/icons/KeyExclude.svg)
 
-## Tastiera {#keyboard}
+## Keyboard {#keyboard} 
 
-![Tastiera](/help/assets/icons/Keyboard.svg)
+![Keyboard](/help/assets/icons/Keyboard.svg)
 
-## Etichette {#labels}
+## Labels {#labels} 
 
-![Etichette](/help/assets/icons/Labels.svg)
+![Labels](/help/assets/icons/Labels.svg)
 
-## Etichetta {#label}
+## Label {#label} 
 
-![Etichetta](/help/assets/icons/Label.svg)
+![Label](/help/assets/icons/Label.svg)
 
-## LabelExclude {#labelexclude}
+## LabelExclude {#labelexclude} 
 
-![EtichettaEscludi](/help/assets/icons/LabelExclude.svg)
+![LabelExclude](/help/assets/icons/LabelExclude.svg)
 
-## Orizzontale {#landscape}
+## Landscape {#landscape} 
 
-![Orizzontale](/help/assets/icons/Landscape.svg)
+![Landscape](/help/assets/icons/Landscape.svg)
 
-## Launch {#launch}
+## Launch {#launch} 
 
 ![Launch](/help/assets/icons/Launch.svg)
 
-## Layer {#layer}
+## Layer {#layer} 
 
-![Livello](/help/assets/icons/Layer.svg)
+![Layer](/help/assets/icons/Layer.svg)
 
-## LayersBackward {#layersbackward}
+## LayersBackward {#layersbackward} 
 
-![LivelliPrecedenti](/help/assets/icons/LayersBackward.svg)
+![LayersBackward](/help/assets/icons/LayersBackward.svg)
 
-## LayersBringToFront {#layersbringtofront}
+## LayersBringToFront {#layersbringtofront} 
 
-![LivelliPortaInPrimo piano](/help/assets/icons/LayersBringToFront.svg)
+![LayersBringToFront](/help/assets/icons/LayersBringToFront.svg)
 
-## LayersForward {#layersforward}
+## LayersForward {#layersforward} 
 
-![LivelliAvanti](/help/assets/icons/LayersForward.svg)
+![LayersForward](/help/assets/icons/LayersForward.svg)
 
-## LayersSendToBack {#layerssendtoback}
+## LayersSendToBack {#layerssendtoback} 
 
-![LivelliPortaInSecondo](/help/assets/icons/LayersSendToBack.svg)
+![LayersSendToBack](/help/assets/icons/LayersSendToBack.svg)
 
-## Scopri {#learn}
+## Learn {#learn} 
 
-![Informazioni](/help/assets/icons/Learn.svg)
+![Learn](/help/assets/icons/Learn.svg)
 
-## LeftRight {#leftright}
+## LeftRight {#leftright} 
 
-![SinistraDestra](/help/assets/icons/LeftRight.svg)
+![LeftRight](/help/assets/icons/LeftRight.svg)
 
-## Chiaro {#light}
+## Light {#light} 
 
-![Chiaro](/help/assets/icons/Light.svg)
+![Light](/help/assets/icons/Light.svg)
 
-## Linea {#line}
+## Line {#line} 
 
-![Riga](/help/assets/icons/Line.svg)
+![Line](/help/assets/icons/Line.svg)
 
-## LineHeight {#lineheight}
+## LineHeight {#lineheight} 
 
-![AltezzaRiga](/help/assets/icons/LineHeight.svg)
+![LineHeight](/help/assets/icons/LineHeight.svg)
 
-## LinearGradient {#lineargradient}
+## LinearGradient {#lineargradient} 
 
-![SfumaturaLineare](/help/assets/icons/LinearGradient.svg)
+![LinearGradient](/help/assets/icons/LinearGradient.svg)
 
-## Collegamento {#link}
+## Link {#link} 
 
-![Collegamento](/help/assets/icons/Link.svg)
+![Link](/help/assets/icons/Link.svg)
 
-## LinkCheck {#linkcheck}
+## LinkCheck {#linkcheck} 
 
-![VerificaCollegamento](/help/assets/icons/LinkCheck.svg)
+![LinkCheck](/help/assets/icons/LinkCheck.svg)
 
-## LinkGlobe {#linkglobe}
+## LinkGlobe {#linkglobe} 
 
-![GloboCollegamento](/help/assets/icons/LinkGlobe.svg)
+![LinkGlobe](/help/assets/icons/LinkGlobe.svg)
 
-## LinkNav {#linknav}
+## LinkNav {#linknav} 
 
 ![LinkNav](/help/assets/icons/LinkNav.svg)
 
-## LinkOff {#linkoff}
+## LinkOff {#linkoff} 
 
-![CollegamentoDisattivato](/help/assets/icons/LinkOff.svg)
+![LinkOff](/help/assets/icons/LinkOff.svg)
 
-## LinkOut {#linkout}
+## LinkOut {#linkout} 
 
-![CollegaOut](/help/assets/icons/LinkOut.svg)
+![LinkOut](/help/assets/icons/LinkOut.svg)
 
-## LinkOutLight {#linkoutlight}
+## LinkOutLight {#linkoutlight} 
 
-![LuceCollegamento](/help/assets/icons/LinkOutLight.svg)
+![LinkOutLight](/help/assets/icons/LinkOutLight.svg)
 
-## LinkPage {#linkpage}
+## LinkPage {#linkpage} 
 
-![PaginaCollegamento](/help/assets/icons/LinkPage.svg)
+![LinkPage](/help/assets/icons/LinkPage.svg)
 
-## LinkUser {#linkuser}
+## LinkUser {#linkuser} 
 
-![UtenteCollegamento](/help/assets/icons/LinkUser.svg)
+![LinkUser](/help/assets/icons/LinkUser.svg)
 
-## Posizione {#location}
+## Location {#location} 
 
-![Posizione](/help/assets/icons/Location.svg)
+![Location](/help/assets/icons/Location.svg)
 
-## LocationBasedDate {#locationbaseddate}
+## LocationBasedDate {#locationbaseddate} 
 
-![DataBasataSullaPosizione](/help/assets/icons/LocationBasedDate.svg)
+![LocationBasedDate](/help/assets/icons/LocationBasedDate.svg)
 
-## LocationBasedEvent {#locationbasedevent}
+## LocationBasedEvent {#locationbasedevent} 
 
 ![LocationBasedEvent](/help/assets/icons/LocationBasedEvent.svg)
 
-## Contributo posizione {#locationcontribution}
+## LocationContribution {#locationcontribution} 
 
-![Contributo posizione](/help/assets/icons/LocationContribution.svg)
+![LocationContribution](/help/assets/icons/LocationContribution.svg)
 
-## LockClosed {#lockclosed}
+## LockClosed {#lockclosed} 
 
-![BloccaChiuso](/help/assets/icons/LockClosed.svg)
+![LockClosed](/help/assets/icons/LockClosed.svg)
 
-## Blocca apertura {#lockopen}
+## LockOpen {#lockopen} 
 
-![BloccaApri](/help/assets/icons/LockOpen.svg)
+![LockOpen](/help/assets/icons/LockOpen.svg)
 
-## Disconnetti {#logout}
+## LogOut {#logout} 
 
-![Disconnetti](/help/assets/icons/LogOut.svg)
+![LogOut](/help/assets/icons/LogOut.svg)
 
-## Login {#login}
+## Login {#login} 
 
-![Accesso](/help/assets/icons/Login.svg)
+![Login](/help/assets/icons/Login.svg)
 
-## Aspetto {#look}
+## Look {#look} 
 
-![Aspetto](/help/assets/icons/Look.svg)
+![Look](/help/assets/icons/Look.svg)
 
-## LoupeView {#loupeview}
+## LoupeView {#loupeview} 
 
 ![LoupeView](/help/assets/icons/LoupeView.svg)
 
-## MBox {#mbox}
+## MBox {#mbox} 
 
 ![MBox](/help/assets/icons/MBox.svg)
 
-## Bacchetta magica {#magicwand}
+## MagicWand {#magicwand} 
 
-![Bacchetta magica](/help/assets/icons/MagicWand.svg)
+![MagicWand](/help/assets/icons/MagicWand.svg)
 
-## Ingrandimento {#magnify}
+## Magnify {#magnify} 
 
-![Ingrandisci](/help/assets/icons/Magnify.svg)
+![Magnify](/help/assets/icons/Magnify.svg)
 
-## Cassetta postale {#mailbox}
+## Mailbox {#mailbox} 
 
-![Cassetta postale](/help/assets/icons/Mailbox.svg)
+![Mailbox](/help/assets/icons/Mailbox.svg)
 
-## MapView {#mapview}
+## MapView {#mapview} 
 
 ![MapView](/help/assets/icons/MapView.svg)
 
-## MarginBottom {#marginbottom}
+## MarginBottom {#marginbottom} 
 
 ![MarginBottom](/help/assets/icons/MarginBottom.svg)
 
-## MarginLeft {#marginleft}
+## MarginLeft {#marginleft} 
 
 ![MarginLeft](/help/assets/icons/MarginLeft.svg)
 
-## MarginRight {#marginright}
+## MarginRight {#marginright} 
 
 ![MarginRight](/help/assets/icons/MarginRight.svg)
 
-## MarginTop {#margintop}
+## MarginTop {#margintop} 
 
 ![MarginTop](/help/assets/icons/MarginTop.svg)
 
-## MarketingActivities {#marketingactivitie}
+## MarketingActivitie {#marketingactivitie} 
 
-![AttivitàMarketing](/help/assets/icons/MarketingActivitie.svg)
+![MarketingActivitie](/help/assets/icons/MarketingActivitie.svg)
 
-## Ingrandisci {#maximize}
+## Maximize {#maximize} 
 
-![Ingrandisci](/help/assets/icons/Maximize.svg)
+![Maximize](/help/assets/icons/Maximize.svg)
 
-## Misura {#measure}
+## Measure {#measure} 
 
-![Misura](/help/assets/icons/Measure.svg)
+![Measure](/help/assets/icons/Measure.svg)
 
-## Menu {#menu}
+## Menu {#menu} 
 
 ![Menu](/help/assets/icons/Menu.svg)
 
-## Unisci {#merge}
+## Merge {#merge} 
 
-![Unisci](/help/assets/icons/Merge.svg)
+![Merge](/help/assets/icons/Merge.svg)
 
-## MergeLayer {#mergelayer}
+## MergeLayer {#mergelayer} 
 
-![LivelloUnione](/help/assets/icons/MergeLayer.svg)
+![MergeLayer](/help/assets/icons/MergeLayer.svg)
 
-## Messenger {#messenger}
+## Messenger {#messenger} 
 
 ![Messenger](/help/assets/icons/Messenger.svg)
 
-## Riduci a icona {#minimize}
+## Minimize {#minimize} 
 
-![Riduci a icona](/help/assets/icons/Minimize.svg)
+![Minimize](/help/assets/icons/Minimize.svg)
 
-## MobileService {#mobileservice}
+## MobileService {#mobileservice} 
 
 ![MobileService](/help/assets/icons/MobileService.svg)
 
-## ModernGridView {#moderngridview}
+## ModernGridView {#moderngridview} 
 
 ![ModernGridView](/help/assets/icons/ModernGridView.svg)
 
-## Denaro {#money}
+## Money {#money} 
 
-![Soldi](/help/assets/icons/Money.svg)
+![Money](/help/assets/icons/Money.svg)
 
-## Monitoraggio {#monitoring}
+## Monitoring {#monitoring} 
 
-![Monitoraggio](/help/assets/icons/Monitoring.svg)
+![Monitoring](/help/assets/icons/Monitoring.svg)
 
-## Luna {#moon}
+## Moon {#moon} 
 
-![Luna](/help/assets/icons/Moon.svg)
+![Moon](/help/assets/icons/Moon.svg)
 
-## Altro {#more}
+## More {#more} 
 
-![Altro](/help/assets/icons/More.svg)
+![More](/help/assets/icons/More.svg)
 
-## AltroCerchio {#morecircle}
+## MoreCircle {#morecircle} 
 
-![AltroCerchio](/help/assets/icons/MoreCircle.svg)
+![MoreCircle](/help/assets/icons/MoreCircle.svg)
 
-## AltroPiccolo {#moresmall}
+## MoreSmall {#moresmall} 
 
-![AltroPiccolo](/help/assets/icons/MoreSmall.svg)
+![MoreSmall](/help/assets/icons/MoreSmall.svg)
 
-## MoreSmallList {#moresmalllist}
+## MoreSmallList {#moresmalllist} 
 
-![AltroElencoPiccolo](/help/assets/icons/MoreSmallList.svg)
+![MoreSmallList](/help/assets/icons/MoreSmallList.svg)
 
-## MoreSmallListVert {#moresmalllistvert}
+## MoreSmallListVert {#moresmalllistvert} 
 
-![AltroSmallListVert](/help/assets/icons/MoreSmallListVert.svg)
+![MoreSmallListVert](/help/assets/icons/MoreSmallListVert.svg)
 
-## AltroVerticale {#morevertical}
+## MoreVertical {#morevertical} 
 
-![AltroVerticale](/help/assets/icons/MoreVertical.svg)
+![MoreVertical](/help/assets/icons/MoreVertical.svg)
 
-## Sposta {#move}
+## Move {#move} 
 
-![Sposta](/help/assets/icons/Move.svg)
+![Move](/help/assets/icons/Move.svg)
 
-## SpostaASinistraDestra {#moveleftright}
+## MoveLeftRight {#moveleftright} 
 
-![SpostaASinistra](/help/assets/icons/MoveLeftRight.svg)
+![MoveLeftRight](/help/assets/icons/MoveLeftRight.svg)
 
-## SpostaIn {#moveto}
+## MoveTo {#moveto} 
 
-![SpostaIn](/help/assets/icons/MoveTo.svg)
+![MoveTo](/help/assets/icons/MoveTo.svg)
 
-## SpostaSuGiù {#moveupdown}
+## MoveUpDown {#moveupdown} 
 
-![SpostaSuGiù](/help/assets/icons/MoveUpDown.svg)
+![MoveUpDown](/help/assets/icons/MoveUpDown.svg)
 
-## VideocameraFilmato {#moviecamera}
+## MovieCamera {#moviecamera} 
 
-![Videocamera](/help/assets/icons/MovieCamera.svg)
+![MovieCamera](/help/assets/icons/MovieCamera.svg)
 
-## Multiplo {#multiple}
+## Multiple {#multiple} 
 
-![Più](/help/assets/icons/Multiple.svg)
+![Multiple](/help/assets/icons/Multiple.svg)
 
-## MultipleAdd {#multipleadd}
+## MultipleAdd {#multipleadd} 
 
-![AggiungiMultipli](/help/assets/icons/MultipleAdd.svg)
+![MultipleAdd](/help/assets/icons/MultipleAdd.svg)
 
-## MultipleCheck {#multiplecheck}
+## MultipleCheck {#multiplecheck} 
 
-![ControlloMultiplo](/help/assets/icons/MultipleCheck.svg)
+![MultipleCheck](/help/assets/icons/MultipleCheck.svg)
 
-## MultipleExclude {#multipleexclude}
+## MultipleExclude {#multipleexclude} 
 
-![MultiplaEscludi](/help/assets/icons/MultipleExclude.svg)
+![MultipleExclude](/help/assets/icons/MultipleExclude.svg)
 
-## NamingOrder {#namingorder}
+## NamingOrder {#namingorder} 
 
-![Ordine di denominazione](/help/assets/icons/NamingOrder.svg)
+![NamingOrder](/help/assets/icons/NamingOrder.svg)
 
-## Nuova {#new}
+## New {#new} 
 
-![Novità](/help/assets/icons/New.svg)
+![New](/help/assets/icons/New.svg)
 
-## NewItem {#newitem}
+## NewItem {#newitem} 
 
-![NuovoElemento](/help/assets/icons/NewItem.svg)
+![NewItem](/help/assets/icons/NewItem.svg)
 
-## NuovoPiano {#newplan}
+## NewPlan {#newplan} 
 
-![NuovoPiano](/help/assets/icons/NewPlan.svg)
+![NewPlan](/help/assets/icons/NewPlan.svg)
 
-## NewsAdd {#newsadd}
+## NewsAdd {#newsadd} 
 
-![AggiungiNotizie](/help/assets/icons/NewsAdd.svg)
+![NewsAdd](/help/assets/icons/NewsAdd.svg)
 
-## NoEdit {#noedit}
+## NoEdit {#noedit} 
 
-![NessunModifica](/help/assets/icons/NoEdit.svg)
+![NoEdit](/help/assets/icons/NoEdit.svg)
 
-## Nota {#note}
+## Note {#note} 
 
-![Nota](/help/assets/icons/Note.svg)
+![Note](/help/assets/icons/Note.svg)
 
-## NotaAggiungi {#noteadd}
+## NoteAdd {#noteadd} 
 
-![AggiungiNota](/help/assets/icons/NoteAdd.svg)
+![NoteAdd](/help/assets/icons/NoteAdd.svg)
 
-## O {#o}
+## O {#o} 
 
 ![O](/help/assets/icons/O.svg)
 
-## Nome {#offer}
+## Offer {#offer} 
 
-![Offerta](/help/assets/icons/Offer.svg)
+![Offer](/help/assets/icons/Offer.svg)
 
-## OfferActivities {#offeractivities}
+## OfferActivities {#offeractivities} 
 
-![AttivitàOfferta](/help/assets/icons/OfferActivities.svg)
+![OfferActivities](/help/assets/icons/OfferActivities.svg)
 
-## OfferDelete {#offerdelete}
+## OfferDelete {#offerdelete} 
 
-![EliminaOfferta](/help/assets/icons/OfferDelete.svg)
+![OfferDelete](/help/assets/icons/OfferDelete.svg)
 
-## Offerte {#offers}
+## Offers {#offers} 
 
-![Offerte](/help/assets/icons/Offers.svg)
+![Offers](/help/assets/icons/Offers.svg)
 
-## OnAir {#onair}
+## OnAir {#onair} 
 
 ![OnAir](/help/assets/icons/OnAir.svg)
 
-## OpenIn {#openin}
+## OpenIn {#openin} 
 
-![ApriIn](/help/assets/icons/OpenIn.svg)
+![OpenIn](/help/assets/icons/OpenIn.svg)
 
-## OpenInLight {#openinlight}
+## OpenInLight {#openinlight} 
 
-![ApriInLight](/help/assets/icons/OpenInLight.svg)
+![OpenInLight](/help/assets/icons/OpenInLight.svg)
 
-## OpenRecent {#openrecent}
+## OpenRecent {#openrecent} 
 
-![ApriRecente](/help/assets/icons/OpenRecent.svg)
+![OpenRecent](/help/assets/icons/OpenRecent.svg)
 
-## OpenRecentOutline {#openrecentoutline}
+## OpenRecentOutline {#openrecentoutline} 
 
 ![OpenRecentOutline](/help/assets/icons/OpenRecentOutline.svg)
 
-## Orbita {#orbit}
+## Orbit {#orbit} 
 
-![Orbita](/help/assets/icons/Orbit.svg)
+![Orbit](/help/assets/icons/Orbit.svg)
 
-## Organizzazione {#organisation}
+## Organisation {#organisation} 
 
-![Organizzazione](/help/assets/icons/Organisation.svg)
+![Organisation](/help/assets/icons/Organisation.svg)
 
-## Organizza {#organize}
+## Organize {#organize} 
 
-![Organizza](/help/assets/icons/Organize.svg)
+![Organize](/help/assets/icons/Organize.svg)
 
-## OutlinePath {#outlinepath}
+## OutlinePath {#outlinepath} 
 
-![PercorsoStruttura](/help/assets/icons/OutlinePath.svg)
+![OutlinePath](/help/assets/icons/OutlinePath.svg)
 
-## PaddingBottom {#paddingbottom}
+## PaddingBottom {#paddingbottom} 
 
 ![PaddingBottom](/help/assets/icons/PaddingBottom.svg)
 
-## PaddingLeft {#paddingleft}
+## PaddingLeft {#paddingleft} 
 
 ![PaddingLeft](/help/assets/icons/PaddingLeft.svg)
 
-## Spaziatura a destra {#paddingright}
+## PaddingRight {#paddingright} 
 
-![Spaziatura a destra](/help/assets/icons/PaddingRight.svg)
+![PaddingRight](/help/assets/icons/PaddingRight.svg)
 
-## PaddingTop {#paddingtop}
+## PaddingTop {#paddingtop} 
 
 ![PaddingTop](/help/assets/icons/PaddingTop.svg)
 
-## PageBreak {#pagebreak}
+## PageBreak {#pagebreak} 
 
-![InterruzionePagina](/help/assets/icons/PageBreak.svg)
+![PageBreak](/help/assets/icons/PageBreak.svg)
 
-## PageExclude {#pageexclude}
+## PageExclude {#pageexclude} 
 
-![EscludiPagina](/help/assets/icons/PageExclude.svg)
+![PageExclude](/help/assets/icons/PageExclude.svg)
 
-## PageGear {#pagegear}
+## PageGear {#pagegear} 
 
 ![PageGear](/help/assets/icons/PageGear.svg)
 
-## PageRule {#pagerule}
+## PageRule {#pagerule} 
 
-![RegolaPagina](/help/assets/icons/PageRule.svg)
+![PageRule](/help/assets/icons/PageRule.svg)
 
-## CondivisionePagina {#pageshare}
+## PageShare {#pageshare} 
 
-![CondivisionePagina](/help/assets/icons/PageShare.svg)
+![PageShare](/help/assets/icons/PageShare.svg)
 
-## TagPagina {#pagetag}
+## PageTag {#pagetag} 
 
-![TagPagina](/help/assets/icons/PageTag.svg)
+![PageTag](/help/assets/icons/PageTag.svg)
 
-## PagesExclude {#pagesexclude}
+## PagesExclude {#pagesexclude} 
 
-![PagineEscludi](/help/assets/icons/PagesExclude.svg)
+![PagesExclude](/help/assets/icons/PagesExclude.svg)
 
-## Panoramica {#pan}
+## Pan {#pan} 
 
-![Panning](/help/assets/icons/Pan.svg)
+![Pan](/help/assets/icons/Pan.svg)
 
-## Pannello {#panel}
+## Panel {#panel} 
 
-![Pannello](/help/assets/icons/Panel.svg)
+![Panel](/help/assets/icons/Panel.svg)
 
-## Incolla {#paste}
+## Paste {#paste} 
 
-![Incolla](/help/assets/icons/Paste.svg)
+![Paste](/help/assets/icons/Paste.svg)
 
-## Incolla HTML {#pastehtml}
+## PasteHTML {#pastehtml} 
 
-![IncollaHTML](/help/assets/icons/PasteHTML.svg)
+![PasteHTML](/help/assets/icons/PasteHTML.svg)
 
-## IncollaElenco {#pastelist}
+## PasteList {#pastelist} 
 
-![IncollaElenco](/help/assets/icons/PasteList.svg)
+![PasteList](/help/assets/icons/PasteList.svg)
 
-## IncollaTesto {#pastetext}
+## PasteText {#pastetext} 
 
-![IncollaTesto](/help/assets/icons/PasteText.svg)
+![PasteText](/help/assets/icons/PasteText.svg)
 
-## Pattern {#pattern}
+## Pattern {#pattern} 
 
 ![Pattern](/help/assets/icons/Pattern.svg)
 
-## Pausa {#pause}
+## Pause {#pause} 
 
-![Pausa](/help/assets/icons/Pause.svg)
+![Pause](/help/assets/icons/Pause.svg)
 
-## PausaCerchio {#pausecircle}
+## PauseCircle {#pausecircle} 
 
-![PausaCerchio](/help/assets/icons/PauseCircle.svg)
+![PauseCircle](/help/assets/icons/PauseCircle.svg)
 
-## Asta {#pawn}
+## Pawn {#pawn} 
 
-![Alba](/help/assets/icons/Pawn.svg)
+![Pawn](/help/assets/icons/Pawn.svg)
 
-## In sospeso {#pending}
+## Pending {#pending} 
 
-![In sospeso](/help/assets/icons/Pending.svg)
+![Pending](/help/assets/icons/Pending.svg)
 
-## GruppoPersone {#peoplegroup}
+## PeopleGroup {#peoplegroup} 
 
-![GruppoPersone](/help/assets/icons/PeopleGroup.svg)
+![PeopleGroup](/help/assets/icons/PeopleGroup.svg)
 
-## PersonalizationField {#personalizationfield}
+## PersonalizationField {#personalizationfield} 
 
-![CampoPersonalizzazione](/help/assets/icons/PersonalizationField.svg)
+![PersonalizationField](/help/assets/icons/PersonalizationField.svg)
 
-## Prospettiva {#perspective}
+## Perspective {#perspective} 
 
-![Prospettiva](/help/assets/icons/Perspective.svg)
+![Perspective](/help/assets/icons/Perspective.svg)
 
-## Spegnimento {#pinoff}
+## PinOff {#pinoff} 
 
-![Spegnimento](/help/assets/icons/PinOff.svg)
+![PinOff](/help/assets/icons/PinOff.svg)
 
-## PinOn {#pinon}
+## PinOn {#pinon} 
 
 ![PinOn](/help/assets/icons/PinOn.svg)
 
-## Pivot {#pivot}
+## Pivot {#pivot} 
 
 ![Pivot](/help/assets/icons/Pivot.svg)
 
-## Segnaposto {#placeholder}
+## Placeholder {#placeholder} 
 
-![Segnaposto](/help/assets/icons/Placeholder.svg)
+![Placeholder](/help/assets/icons/Placeholder.svg)
 
-## PlatformDataMapping {#platformdatamapping}
+## PlatformDataMapping {#platformdatamapping} 
 
-![MappingDatiPiattaforma](/help/assets/icons/PlatformDataMapping.svg)
+![PlatformDataMapping](/help/assets/icons/PlatformDataMapping.svg)
 
-## Play {#play}
+## Play {#play} 
 
-![Riproduci](/help/assets/icons/Play.svg)
+![Play](/help/assets/icons/Play.svg)
 
-## PlayCircle {#playcircle}
+## PlayCircle {#playcircle} 
 
 ![PlayCircle](/help/assets/icons/PlayCircle.svg)
 
-## Spina {#plug}
+## Plug {#plug} 
 
 ![Plug](/help/assets/icons/Plug.svg)
 
-## Poligono {#polygon}
+## Polygon {#polygon} 
 
-![Poligono](/help/assets/icons/Polygon.svg)
+![Polygon](/help/assets/icons/Polygon.svg)
 
-## PolygonSelect {#polygonselect}
+## PolygonSelect {#polygonselect} 
 
-![SelezionePoligono](/help/assets/icons/PolygonSelect.svg)
+![PolygonSelect](/help/assets/icons/PolygonSelect.svg)
 
-## Popup {#popin}
+## PopIn {#popin} 
 
 ![PopIn](/help/assets/icons/PopIn.svg)
 
-## Verticale {#portrait}
+## Portrait {#portrait} 
 
-![Verticale](/help/assets/icons/Portrait.svg)
+![Portrait](/help/assets/icons/Portrait.svg)
 
-## Predefinito {#preset}
+## Preset {#preset} 
 
-![Predefinito](/help/assets/icons/Preset.svg)
+![Preset](/help/assets/icons/Preset.svg)
 
-## Anteprima {#preview}
+## Preview {#preview} 
 
-![Anteprima](/help/assets/icons/Preview.svg)
+![Preview](/help/assets/icons/Preview.svg)
 
-## Stampa {#print}
+## Print {#print} 
 
-![Stampa](/help/assets/icons/Print.svg)
+![Print](/help/assets/icons/Print.svg)
 
-## AnteprimaStampa {#printpreview}
+## PrintPreview {#printpreview} 
 
-![AnteprimaStampa](/help/assets/icons/PrintPreview.svg)
+![PrintPreview](/help/assets/icons/PrintPreview.svg)
 
-## Progetto {#project}
+## Project {#project} 
 
-![Progetto](/help/assets/icons/Project.svg)
+![Project](/help/assets/icons/Project.svg)
 
-## AggiungiProgetto {#projectadd}
+## ProjectAdd {#projectadd} 
 
-![AggiungiProgetto](/help/assets/icons/ProjectAdd.svg)
+![ProjectAdd](/help/assets/icons/ProjectAdd.svg)
 
-## ModificaProgetto {#projectedit}
+## ProjectEdit {#projectedit} 
 
-![ModificaProgetto](/help/assets/icons/ProjectEdit.svg)
+![ProjectEdit](/help/assets/icons/ProjectEdit.svg)
 
-## ModificaNomeProgetto {#projectnameedit}
+## ProjectNameEdit {#projectnameedit} 
 
-![ModificaNomeProgetto](/help/assets/icons/ProjectNameEdit.svg)
+![ProjectNameEdit](/help/assets/icons/ProjectNameEdit.svg)
 
-## Promuovi {#promote}
+## Promote {#promote} 
 
-![Promuovi](/help/assets/icons/Promote.svg)
+![Promote](/help/assets/icons/Promote.svg)
 
-## Proprietà {#propertie}
+## Propertie {#propertie} 
 
-![Proprietà](/help/assets/icons/Propertie.svg)
+![Propertie](/help/assets/icons/Propertie.svg)
 
-## PropertiesCopy {#propertiescopy}
+## PropertiesCopy {#propertiescopy} 
 
-![ProprietàCopia](/help/assets/icons/PropertiesCopy.svg)
+![PropertiesCopy](/help/assets/icons/PropertiesCopy.svg)
 
-## PublishCheck {#publishcheck}
+## PublishCheck {#publishcheck} 
 
 ![PublishCheck](/help/assets/icons/PublishCheck.svg)
 
-## PublishPending {#publishpending}
+## PublishPending {#publishpending} 
 
 ![PublishPending](/help/assets/icons/PublishPending.svg)
 
-## PublishReject {#publishreject}
+## PublishReject {#publishreject} 
 
-![RifiutaPubblicazione](/help/assets/icons/PublishReject.svg)
+![PublishReject](/help/assets/icons/PublishReject.svg)
 
-## PublishRemove {#publishremove}
+## PublishRemove {#publishremove} 
 
-![RimuoviPubblicazione](/help/assets/icons/PublishRemove.svg)
+![PublishRemove](/help/assets/icons/PublishRemove.svg)
 
-## PublishSchedule {#publishschedule}
+## PublishSchedule {#publishschedule} 
 
 ![PublishSchedule](/help/assets/icons/PublishSchedule.svg)
 
-## NotificaPush {#pushnotification}
+## PushNotification {#pushnotification} 
 
-![NotificaPush](/help/assets/icons/PushNotification.svg)
+![PushNotification](/help/assets/icons/PushNotification.svg)
 
-## Domanda {#question}
+## Question {#question} 
 
-![Domanda](/help/assets/icons/Question.svg)
+![Question](/help/assets/icons/Question.svg)
 
-## Selezione rapida {#quickselect}
+## QuickSelect {#quickselect} 
 
-![SelezioneRapida](/help/assets/icons/QuickSelect.svg)
+![QuickSelect](/help/assets/icons/QuickSelect.svg)
 
-## RSS {#rss}
+## RSS {#rss} 
 
 ![RSS](/help/assets/icons/RSS.svg)
 
-## RadialGradient {#radialgradient}
+## RadialGradient {#radialgradient} 
 
-![GradienteRadiale](/help/assets/icons/RadialGradient.svg)
+![RadialGradient](/help/assets/icons/RadialGradient.svg)
 
-## Barra {#rail}
+## Rail {#rail} 
 
-![Barra](/help/assets/icons/Rail.svg)
+![Rail](/help/assets/icons/Rail.svg)
 
-## RailBottom {#railbottom}
+## RailBottom {#railbottom} 
 
 ![RailBottom](/help/assets/icons/RailBottom.svg)
 
-## RailLeft {#railleft}
+## RailLeft {#railleft} 
 
 ![RailLeft](/help/assets/icons/RailLeft.svg)
 
-## RailRight {#railright}
+## RailRight {#railright} 
 
 ![RailRight](/help/assets/icons/RailRight.svg)
 
-## ChiusuraBarraADestra {#railrightclose}
+## RailRightClose {#railrightclose} 
 
-![ChiusuraRailRight](/help/assets/icons/RailRightClose.svg)
+![RailRightClose](/help/assets/icons/RailRightClose.svg)
 
-## RailRightOpen {#railrightopen}
+## RailRightOpen {#railrightopen} 
 
 ![RailRightOpen](/help/assets/icons/RailRightOpen.svg)
 
-## RailTop {#railtop}
+## RailTop {#railtop} 
 
 ![RailTop](/help/assets/icons/RailTop.svg)
 
-## RangeMask {#rangemask}
+## RangeMask {#rangemask} 
 
-![MascheraIntervallo](/help/assets/icons/RangeMask.svg)
+![RangeMask](/help/assets/icons/RangeMask.svg)
 
-## RealTimeCustomerProfile {#realtimecustomerprofile}
+## RealTimeCustomerProfile {#realtimecustomerprofile} 
 
-![ProfiloClienteInTempoReale](/help/assets/icons/RealTimeCustomerProfile.svg)
+![RealTimeCustomerProfile](/help/assets/icons/RealTimeCustomerProfile.svg)
 
-## RectSelect {#rectselect}
+## RectSelect {#rectselect} 
 
 ![RectSelect](/help/assets/icons/RectSelect.svg)
 
-## Rettangolo {#rectangle}
+## Rectangle {#rectangle} 
 
-![Rettangolo](/help/assets/icons/Rectangle.svg)
+![Rectangle](/help/assets/icons/Rectangle.svg)
 
-## Ripeti {#redo}
+## Redo {#redo} 
 
-![Ripristina](/help/assets/icons/Redo.svg)
+![Redo](/help/assets/icons/Redo.svg)
 
-## Aggiorna {#refresh}
+## Refresh {#refresh} 
 
-![Aggiorna](/help/assets/icons/Refresh.svg)
+![Refresh](/help/assets/icons/Refresh.svg)
 
-## SelezioneArea {#regionselect}
+## RegionSelect {#regionselect} 
 
-![Selezione area geografica](/help/assets/icons/RegionSelect.svg)
+![RegionSelect](/help/assets/icons/RegionSelect.svg)
 
-## Rilevanza {#relevance}
+## Relevance {#relevance} 
 
-![Rilevanza](/help/assets/icons/Relevance.svg)
+![Relevance](/help/assets/icons/Relevance.svg)
 
-## Rimuovi {#remove}
+## Remove {#remove} 
 
-![Rimuovi](/help/assets/icons/Remove.svg)
+![Remove](/help/assets/icons/Remove.svg)
 
-## RimuoviCerchio {#removecircle}
+## RemoveCircle {#removecircle} 
 
-![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg)
+![RemoveCircle](/help/assets/icons/RemoveCircle.svg)
 
-## Rinomina {#rename}
+## Rename {#rename} 
 
-![Rinomina](/help/assets/icons/Rename.svg)
+![Rename](/help/assets/icons/Rename.svg)
 
-## Riordina {#reorder}
+## Reorder {#reorder} 
 
-![Riordina](/help/assets/icons/Reorder.svg)
+![Reorder](/help/assets/icons/Reorder.svg)
 
-## Riproduci {#replay}
+## Replay {#replay} 
 
-![Riproduci](/help/assets/icons/Replay.svg)
+![Replay](/help/assets/icons/Replay.svg)
 
-## Rispondi {#replie}
+## Replie {#replie} 
 
-![Rispondi](/help/assets/icons/Replie.svg)
+![Replie](/help/assets/icons/Replie.svg)
 
-## Rispondi {#reply}
+## Reply {#reply} 
 
-![Risposta](/help/assets/icons/Reply.svg)
+![Reply](/help/assets/icons/Reply.svg)
 
-## ReplyAll {#replyall}
+## ReplyAll {#replyall} 
 
-![Rispondi a tutti](/help/assets/icons/ReplyAll.svg)
+![ReplyAll](/help/assets/icons/ReplyAll.svg)
 
-## Rapporto {#report}
+## Report {#report} 
 
-![Rapporto](/help/assets/icons/Report.svg)
+![Report](/help/assets/icons/Report.svg)
 
-## ReportAdd {#reportadd}
+## ReportAdd {#reportadd} 
 
-![AggiungiReport](/help/assets/icons/ReportAdd.svg)
+![ReportAdd](/help/assets/icons/ReportAdd.svg)
 
-## Ridimensiona {#resize}
+## Resize {#resize} 
 
-![Ridimensiona](/help/assets/icons/Resize.svg)
+![Resize](/help/assets/icons/Resize.svg)
 
-## ResolvedComment {#resolvedcomment}
+## ResolvedComment {#resolvedcomment} 
 
-![CommentoRisolto](/help/assets/icons/ResolvedComment.svg)
+![ResolvedComment](/help/assets/icons/ResolvedComment.svg)
 
-## Retweet {#retweet}
+## Retweet {#retweet} 
 
 ![Retweet](/help/assets/icons/Retweet.svg)
 
-## Riutilizza {#reuse}
+## Reuse {#reuse} 
 
-![Riutilizza](/help/assets/icons/Reuse.svg)
+![Reuse](/help/assets/icons/Reuse.svg)
 
-## Ricavi {#revenue}
+## Revenue {#revenue} 
 
-![Ricavi](/help/assets/icons/Revenue.svg)
+![Revenue](/help/assets/icons/Revenue.svg)
 
-## Ripristina {#revert}
+## Revert {#revert} 
 
-![Ripristina](/help/assets/icons/Revert.svg)
+![Revert](/help/assets/icons/Revert.svg)
 
-## Riavvolgi {#rewind}
+## Rewind {#rewind} 
 
-![Riavvolgi](/help/assets/icons/Rewind.svg)
+![Rewind](/help/assets/icons/Rewind.svg)
 
-## RiavvolgiCerchio {#rewindcircle}
+## RewindCircle {#rewindcircle} 
 
-![RiavvolgiCerchio](/help/assets/icons/RewindCircle.svg)
+![RewindCircle](/help/assets/icons/RewindCircle.svg)
 
-## Barra multifunzione {#ribbon}
+## Ribbon {#ribbon} 
 
-![Barra multifunzione](/help/assets/icons/Ribbon.svg)
+![Ribbon](/help/assets/icons/Ribbon.svg)
 
-## RotateCCW {#rotateccw}
+## RotateCCW {#rotateccw} 
 
-![RuotaCCW](/help/assets/icons/RotateCCW.svg)
+![RotateCCW](/help/assets/icons/RotateCCW.svg)
 
-## RotateCCWBold {#rotateccwbold}
+## RotateCCWBold {#rotateccwbold} 
 
 ![RotateCCWBold](/help/assets/icons/RotateCCWBold.svg)
 
-## RuotaPeso variabile {#rotatecw}
+## RotateCW {#rotatecw} 
 
-![RuotaPeso variabile](/help/assets/icons/RotateCW.svg)
+![RotateCW](/help/assets/icons/RotateCW.svg)
 
-## RotateCWBold {#rotatecwbold}
+## RotateCWBold {#rotatecwbold} 
 
 ![RotateCWBold](/help/assets/icons/RotateCWBold.svg)
 
-## RotateLeft {#rotateleft}
+## RotateLeft {#rotateleft} 
 
-![RuotaASinistra](/help/assets/icons/RotateLeft.svg)
+![RotateLeft](/help/assets/icons/RotateLeft.svg)
 
-## RotateLeftOutline {#rotateleftoutline}
+## RotateLeftOutline {#rotateleftoutline} 
 
 ![RotateLeftOutline](/help/assets/icons/RotateLeftOutline.svg)
 
-## Ruota a destra {#rotateright}
+## RotateRight {#rotateright} 
 
-![RuotaADestra](/help/assets/icons/RotateRight.svg)
+![RotateRight](/help/assets/icons/RotateRight.svg)
 
-## RotateRightOutline {#rotaterightoutline}
+## RotateRightOutline {#rotaterightoutline} 
 
 ![RotateRightOutline](/help/assets/icons/RotateRightOutline.svg)
 
-## SM {#sm}
+## SM {#sm} 
 
 ![SM](/help/assets/icons/SM.svg)
 
-## SMSKey {#smskey}
+## SMSKey {#smskey} 
 
 ![SMSKey](/help/assets/icons/SMSKey.svg)
 
-## SMSLightning {#smslightning}
+## SMSLightning {#smslightning} 
 
-![Collegamento SMSL](/help/assets/icons/SMSLightning.svg)
+![SMSLightning](/help/assets/icons/SMSLightning.svg)
 
-## SMSRefresh {#smsrefresh}
+## SMSRefresh {#smsrefresh} 
 
 ![SMSRefresh](/help/assets/icons/SMSRefresh.svg)
 
-## Query SQLQ {#sqlquery}
+## SQLQuery {#sqlquery} 
 
-![Query SQLQ](/help/assets/icons/SQLQuery.svg)
+![SQLQuery](/help/assets/icons/SQLQuery.svg)
 
-## Sampler {#sampler}
+## Sampler {#sampler} 
 
 ![Sampler](/help/assets/icons/Sampler.svg)
 
-## Sandbox {#sandbox}
+## Sandbox {#sandbox} 
 
 ![Sandbox](/help/assets/icons/Sandbox.svg)
 
-## SaveAsFloppy {#saveasfloppy}
+## SaveAsFloppy {#saveasfloppy} 
 
-![SalvaComeDiscoFloppy](/help/assets/icons/SaveAsFloppy.svg)
+![SaveAsFloppy](/help/assets/icons/SaveAsFloppy.svg)
 
-## SaveFloppy {#savefloppy}
+## SaveFloppy {#savefloppy} 
 
-![SalvaDiscoFloppy](/help/assets/icons/SaveFloppy.svg)
+![SaveFloppy](/help/assets/icons/SaveFloppy.svg)
 
-## SalvaIn {#saveto}
+## SaveTo {#saveto} 
 
-![SalvaIn](/help/assets/icons/SaveTo.svg)
+![SaveTo](/help/assets/icons/SaveTo.svg)
 
-## SaveToLight {#savetolight}
+## SaveToLight {#savetolight} 
 
-![SalvaInLuce](/help/assets/icons/SaveToLight.svg)
+![SaveToLight](/help/assets/icons/SaveToLight.svg)
 
-## Schemi {#schemas}
+## Schemas {#schemas} 
 
-![Schemi](/help/assets/icons/Schemas.svg)
+![Schemas](/help/assets/icons/Schemas.svg)
 
-## A mano {#scribble}
+## Scribble {#scribble} 
 
-![A mano](/help/assets/icons/Scribble.svg)
+![Scribble](/help/assets/icons/Scribble.svg)
 
-## Ricerca {#search}
+## Search {#search} 
 
-![Ricerca](/help/assets/icons/Search.svg)
+![Search](/help/assets/icons/Search.svg)
 
-## Postazione {#seat}
+## Seat {#seat} 
 
-![Postazione](/help/assets/icons/Seat.svg)
+![Seat](/help/assets/icons/Seat.svg)
 
-## SeatAdd {#seatadd}
+## SeatAdd {#seatadd} 
 
-![AggiungiPostazione](/help/assets/icons/SeatAdd.svg)
+![SeatAdd](/help/assets/icons/SeatAdd.svg)
 
-## Segmento {#segment}
+## Segment {#segment} 
 
-![Segmento](/help/assets/icons/Segment.svg)
+![Segment](/help/assets/icons/Segment.svg)
 
-## Segmentazione {#segmentation}
+## Segmentation {#segmentation} 
 
-![Segmentazione](/help/assets/icons/Segmentation.svg)
+![Segmentation](/help/assets/icons/Segmentation.svg)
 
-## Seleziona {#select}
+## Select {#select} 
 
-![Seleziona](/help/assets/icons/Select.svg)
+![Select](/help/assets/icons/Select.svg)
 
-## SelezionaAggiungi {#selectadd}
+## SelectAdd {#selectadd} 
 
-![Aggiungi](/help/assets/icons/SelectAdd.svg)
+![SelectAdd](/help/assets/icons/SelectAdd.svg)
 
-## SelectBox {#selectbox}
+## SelectBox {#selectbox} 
 
-![CasellaSelezione](/help/assets/icons/SelectBox.svg)
+![SelectBox](/help/assets/icons/SelectBox.svg)
 
-## SelectBoxAll {#selectboxall}
+## SelectBoxAll {#selectboxall} 
 
-![SelezionaCasellaTutto](/help/assets/icons/SelectBoxAll.svg)
+![SelectBoxAll](/help/assets/icons/SelectBoxAll.svg)
 
-## SelectCircular {#selectcircular}
+## SelectCircular {#selectcircular} 
 
-![SelezionaCircolare](/help/assets/icons/SelectCircular.svg)
+![SelectCircular](/help/assets/icons/SelectCircular.svg)
 
-## SelectContainer {#selectcontainer}
+## SelectContainer {#selectcontainer} 
 
-![SelezionaContenitore](/help/assets/icons/SelectContainer.svg)
+![SelectContainer](/help/assets/icons/SelectContainer.svg)
 
-## SelectGear {#selectgear}
+## SelectGear {#selectgear} 
 
-![SelezionaIngranaggio](/help/assets/icons/SelectGear.svg)
+![SelectGear](/help/assets/icons/SelectGear.svg)
 
-## SelectIntersect {#selectintersect}
+## SelectIntersect {#selectintersect} 
 
-![SelezionaIntersezione](/help/assets/icons/SelectIntersect.svg)
+![SelectIntersect](/help/assets/icons/SelectIntersect.svg)
 
-## SelectSubtract {#selectsubtract}
+## SelectSubtract {#selectsubtract} 
 
-![SelezionaSottrai](/help/assets/icons/SelectSubtract.svg)
+![SelectSubtract](/help/assets/icons/SelectSubtract.svg)
 
-## Selezione {#selection}
+## Selection {#selection} 
 
-![Selezione](/help/assets/icons/Selection.svg)
+![Selection](/help/assets/icons/Selection.svg)
 
-## SelectionChecked {#selectionchecked}
+## SelectionChecked {#selectionchecked} 
 
-![SelezioneSelezionata](/help/assets/icons/SelectionChecked.svg)
+![SelectionChecked](/help/assets/icons/SelectionChecked.svg)
 
-## SelectionMove {#selectionmove}
+## SelectionMove {#selectionmove} 
 
-![SpostaSelezione](/help/assets/icons/SelectionMove.svg)
+![SelectionMove](/help/assets/icons/SelectionMove.svg)
 
-## Invia {#send}
+## Send {#send} 
 
-![Invia](/help/assets/icons/Send.svg)
+![Send](/help/assets/icons/Send.svg)
 
-## SentimentNegative {#sentimentnegative}
+## SentimentNegative {#sentimentnegative} 
 
 ![SentimentNegative](/help/assets/icons/SentimentNegative.svg)
 
-## SentimentNeutral {#sentimentneutral}
+## SentimentNeutral {#sentimentneutral} 
 
 ![SentimentNeutral](/help/assets/icons/SentimentNeutral.svg)
 
-## SentimentPositive {#sentimentpositive}
+## SentimentPositive {#sentimentpositive} 
 
 ![SentimentPositive](/help/assets/icons/SentimentPositive.svg)
 
-## Separatore {#separator}
+## Separator {#separator} 
 
-![Separatore](/help/assets/icons/Separator.svg)
+![Separator](/help/assets/icons/Separator.svg)
 
-## Server {#server}
+## Server {#server} 
 
 ![Server](/help/assets/icons/Server.svg)
 
-## Impostazione {#setting}
+## Setting {#setting} 
 
-![Impostazione](/help/assets/icons/Setting.svg)
+![Setting](/help/assets/icons/Setting.svg)
 
-## Forma {#shape}
+## Shape {#shape} 
 
-![Forma](/help/assets/icons/Shape.svg)
+![Shape](/help/assets/icons/Shape.svg)
 
-## Condividi {#share}
+## Share {#share} 
 
-![Condividi](/help/assets/icons/Share.svg)
+![Share](/help/assets/icons/Share.svg)
 
-## ShareAndroid {#shareandroid}
+## ShareAndroid {#shareandroid} 
 
-![CondividiAndroid](/help/assets/icons/ShareAndroid.svg)
+![ShareAndroid](/help/assets/icons/ShareAndroid.svg)
 
-## ShareCheck {#sharecheck}
+## ShareCheck {#sharecheck} 
 
-![ControlloCondivisione](/help/assets/icons/ShareCheck.svg)
+![ShareCheck](/help/assets/icons/ShareCheck.svg)
 
-## ShareLight {#sharelight}
+## ShareLight {#sharelight} 
 
 ![ShareLight](/help/assets/icons/ShareLight.svg)
 
-## ShareWindow {#sharewindow}
+## ShareWindow {#sharewindow} 
 
 ![ShareWindow](/help/assets/icons/ShareWindow.svg)
 
-## Nitidezza {#sharpen}
+## Sharpen {#sharpen} 
 
-![Contrasta](/help/assets/icons/Sharpen.svg)
+![Sharpen](/help/assets/icons/Sharpen.svg)
 
-## Scudo {#shield}
+## Shield {#shield} 
 
-![Scudo](/help/assets/icons/Shield.svg)
+![Shield](/help/assets/icons/Shield.svg)
 
-## Spedisci {#ship}
+## Ship {#ship} 
 
-![Spedisci](/help/assets/icons/Ship.svg)
+![Ship](/help/assets/icons/Ship.svg)
 
-## Acquista {#shop}
+## Shop {#shop} 
 
-![Acquista](/help/assets/icons/Shop.svg)
+![Shop](/help/assets/icons/Shop.svg)
 
-## ShoppingCart {#shoppingcart}
+## ShoppingCart {#shoppingcart} 
 
-![Carrello acquisti](/help/assets/icons/ShoppingCart.svg)
+![ShoppingCart](/help/assets/icons/ShoppingCart.svg)
 
-## MostraTuttoLayer {#showalllayer}
+## ShowAllLayer {#showalllayer} 
 
-![MostraTuttoLayer](/help/assets/icons/ShowAllLayer.svg)
+![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg)
 
-## MostraMenu {#showmenu}
+## ShowMenu {#showmenu} 
 
-![MostraMenu](/help/assets/icons/ShowMenu.svg)
+![ShowMenu](/help/assets/icons/ShowMenu.svg)
 
-## ShowOneLayer {#showonelayer}
+## ShowOneLayer {#showonelayer} 
 
-![MostraOneLayer](/help/assets/icons/ShowOneLayer.svg)
+![ShowOneLayer](/help/assets/icons/ShowOneLayer.svg)
 
-## Riproduzione casuale {#shuffle}
+## Shuffle {#shuffle} 
 
-![Riproduzione casuale](/help/assets/icons/Shuffle.svg)
+![Shuffle](/help/assets/icons/Shuffle.svg)
 
-## Sezione {#slice}
+## Slice {#slice} 
 
-![Sezione](/help/assets/icons/Slice.svg)
+![Slice](/help/assets/icons/Slice.svg)
 
-## Lento {#slow}
+## Slow {#slow} 
 
-![Lento](/help/assets/icons/Slow.svg)
+![Slow](/help/assets/icons/Slow.svg)
 
-## SmallCap {#smallcap}
+## SmallCap {#smallcap} 
 
 ![SmallCap](/help/assets/icons/SmallCap.svg)
 
-## Snapshot {#snapshot}
+## Snapshot {#snapshot} 
 
 ![Snapshot](/help/assets/icons/Snapshot.svg)
 
-## Social network {#socialnetwork}
+## SocialNetwork {#socialnetwork} 
 
 ![SocialNetwork](/help/assets/icons/SocialNetwork.svg)
 
-## SortOrderDown {#sortorderdown}
+## SortOrderDown {#sortorderdown} 
 
-![OrdineDecrescente](/help/assets/icons/SortOrderDown.svg)
+![SortOrderDown](/help/assets/icons/SortOrderDown.svg)
 
-## SortOrderUp {#sortorderup}
+## SortOrderUp {#sortorderup} 
 
-![OrdinamentoSuperiore](/help/assets/icons/SortOrderUp.svg)
+![SortOrderUp](/help/assets/icons/SortOrderUp.svg)
 
-## Spam {#spam}
+## Spam {#spam} 
 
 ![Spam](/help/assets/icons/Spam.svg)
 
-## Controllo ortografia {#spellcheck}
+## Spellcheck {#spellcheck} 
 
-![Controllo ortografia](/help/assets/icons/Spellcheck.svg)
+![Spellcheck](/help/assets/icons/Spellcheck.svg)
 
-## Rotazione {#spin}
+## Spin {#spin} 
 
-![Rotazione](/help/assets/icons/Spin.svg)
+![Spin](/help/assets/icons/Spin.svg)
 
-## SplitView {#splitview}
+## SplitView {#splitview} 
 
 ![SplitView](/help/assets/icons/SplitView.svg)
 
-## SpotHeal {#spotheal}
+## SpotHeal {#spotheal} 
 
-![CorrezionePunta](/help/assets/icons/SpotHeal.svg)
+![SpotHeal](/help/assets/icons/SpotHeal.svg)
 
-## Stadio {#stadium}
+## Stadium {#stadium} 
 
-![Stadio](/help/assets/icons/Stadium.svg)
+![Stadium](/help/assets/icons/Stadium.svg)
 
-## Fase {#stage}
+## Stage {#stage} 
 
-![Fase](/help/assets/icons/Stage.svg)
+![Stage](/help/assets/icons/Stage.svg)
 
-## Timbro {#stamp}
+## Stamp {#stamp} 
 
-![Timbro](/help/assets/icons/Stamp.svg)
+![Stamp](/help/assets/icons/Stamp.svg)
 
-## Stella {#star}
+## Star {#star} 
 
-![Stella](/help/assets/icons/Star.svg)
+![Star](/help/assets/icons/Star.svg)
 
-## StarOutline {#staroutline}
+## StarOutline {#staroutline} 
 
-![ContornoStella](/help/assets/icons/StarOutline.svg)
+![StarOutline](/help/assets/icons/StarOutline.svg)
 
-## Starburst {#starburst}
+## Starburst {#starburst} 
 
-![Esplosione](/help/assets/icons/Starburst.svg)
+![Starburst](/help/assets/icons/Starburst.svg)
 
-## Passo indietro {#stepbackward}
+## StepBackward {#stepbackward} 
 
-![Indietro](/help/assets/icons/StepBackward.svg)
+![StepBackward](/help/assets/icons/StepBackward.svg)
 
-## StepBackwardCircle {#stepbackwardcircle}
+## StepBackwardCircle {#stepbackwardcircle} 
 
-![CerchioIndietroPassaggio](/help/assets/icons/StepBackwardCircle.svg)
+![StepBackwardCircle](/help/assets/icons/StepBackwardCircle.svg)
 
-## AvantiPasso {#stepforward}
+## StepForward {#stepforward} 
 
-![Avanti](/help/assets/icons/StepForward.svg)
+![StepForward](/help/assets/icons/StepForward.svg)
 
-## StepForwardCircle {#stepforwardcircle}
+## StepForwardCircle {#stepforwardcircle} 
 
-![CerchioAvantiPassaggio](/help/assets/icons/StepForwardCircle.svg)
+![StepForwardCircle](/help/assets/icons/StepForwardCircle.svg)
 
-## Interrompi {#stop}
+## Stop {#stop} 
 
-![Interrompi](/help/assets/icons/Stop.svg)
+![Stop](/help/assets/icons/Stop.svg)
 
-## StopCircle {#stopcircle}
+## StopCircle {#stopcircle} 
 
-![InterrompiCerchio](/help/assets/icons/StopCircle.svg)
+![StopCircle](/help/assets/icons/StopCircle.svg)
 
-## Cronometro {#stopwatch}
+## Stopwatch {#stopwatch} 
 
-![Cronometro](/help/assets/icons/Stopwatch.svg)
+![Stopwatch](/help/assets/icons/Stopwatch.svg)
 
-## Raddrizza {#straighten}
+## Straighten {#straighten} 
 
-![Raddrizza](/help/assets/icons/Straighten.svg)
+![Straighten](/help/assets/icons/Straighten.svg)
 
-## RaddrizzaStruttura {#straightenoutline}
+## StraightenOutline {#straightenoutline} 
 
-![RettilineaStruttura](/help/assets/icons/StraightenOutline.svg)
+![StraightenOutline](/help/assets/icons/StraightenOutline.svg)
 
-## StrokeWidth {#strokewidth}
+## StrokeWidth {#strokewidth} 
 
-![LarghezzaTratto](/help/assets/icons/StrokeWidth.svg)
+![StrokeWidth](/help/assets/icons/StrokeWidth.svg)
 
-## Abbonati {#subscribe}
+## Subscribe {#subscribe} 
 
-![Abbonati](/help/assets/icons/Subscribe.svg)
+![Subscribe](/help/assets/icons/Subscribe.svg)
 
-## SubtractBackPath {#subtractbackpath}
+## SubtractBackPath {#subtractbackpath} 
 
-![PercorsoIndietroSottrazione](/help/assets/icons/SubtractBackPath.svg)
+![SubtractBackPath](/help/assets/icons/SubtractBackPath.svg)
 
-## SottraiDaSelezione {#subtractfromselection}
+## SubtractFromSelection {#subtractfromselection} 
 
-![SottraiDaSelezione](/help/assets/icons/SubtractFromSelection.svg)
+![SubtractFromSelection](/help/assets/icons/SubtractFromSelection.svg)
 
-## SubtractFrontPath {#subtractfrontpath}
+## SubtractFrontPath {#subtractfrontpath} 
 
-![SottraiFrontPath](/help/assets/icons/SubtractFrontPath.svg)
+![SubtractFrontPath](/help/assets/icons/SubtractFrontPath.svg)
 
-## SuccessMetric {#successmetric}
+## SuccessMetric {#successmetric} 
 
-![MetricaDiSuccesso](/help/assets/icons/SuccessMetric.svg)
+![SuccessMetric](/help/assets/icons/SuccessMetric.svg)
 
-## Riepiloga {#summarize}
+## Summarize {#summarize} 
 
-![Riepiloga](/help/assets/icons/Summarize.svg)
+![Summarize](/help/assets/icons/Summarize.svg)
 
-## Sondaggio {#survey}
+## Survey {#survey} 
 
-![Sondaggio](/help/assets/icons/Survey.svg)
+![Survey](/help/assets/icons/Survey.svg)
 
-## Switch {#switch}
+## Switch {#switch} 
 
-![Opzione](/help/assets/icons/Switch.svg)
+![Switch](/help/assets/icons/Switch.svg)
 
-## Sincronizza {#sync}
+## Sync {#sync} 
 
-![Sincronizza](/help/assets/icons/Sync.svg)
+![Sync](/help/assets/icons/Sync.svg)
 
-## SyncRemove {#syncremove}
+## SyncRemove {#syncremove} 
 
-![RimuoviSincronizzazione](/help/assets/icons/SyncRemove.svg)
+![SyncRemove](/help/assets/icons/SyncRemove.svg)
 
-## Tabella {#table}
+## Table {#table} 
 
-![Tabella](/help/assets/icons/Table.svg)
+![Table](/help/assets/icons/Table.svg)
 
-## TableAdd {#tableadd}
+## TableAdd {#tableadd} 
 
-![AggiungiTabella](/help/assets/icons/TableAdd.svg)
+![TableAdd](/help/assets/icons/TableAdd.svg)
 
-## TabellaEGrafico {#tableandchart}
+## TableAndChart {#tableandchart} 
 
-![TabellaGrafico](/help/assets/icons/TableAndChart.svg)
+![TableAndChart](/help/assets/icons/TableAndChart.svg)
 
-## TableColumnAddLeft {#tablecolumnaddleft}
+## TableColumnAddLeft {#tablecolumnaddleft} 
 
 ![TableColumnAddLeft](/help/assets/icons/TableColumnAddLeft.svg)
 
-## TableColumnAddRight {#tablecolumnaddright}
+## TableColumnAddRight {#tablecolumnaddright} 
 
 ![TableColumnAddRight](/help/assets/icons/TableColumnAddRight.svg)
 
-## UnioneColonneTabella {#tablecolumnmerge}
+## TableColumnMerge {#tablecolumnmerge} 
 
-![UnioneColonneTabella](/help/assets/icons/TableColumnMerge.svg)
+![TableColumnMerge](/help/assets/icons/TableColumnMerge.svg)
 
-## TableColumnRemoveCenter {#tablecolumnremovecenter}
+## TableColumnRemoveCenter {#tablecolumnremovecenter} 
 
 ![TableColumnRemoveCenter](/help/assets/icons/TableColumnRemoveCenter.svg)
 
-## TableColumnSplit {#tablecolumnsplit}
+## TableColumnSplit {#tablecolumnsplit} 
 
 ![TableColumnSplit](/help/assets/icons/TableColumnSplit.svg)
 
-## ModificaTabella {#tableedit}
+## TableEdit {#tableedit} 
 
-![ModificaTabella](/help/assets/icons/TableEdit.svg)
+![TableEdit](/help/assets/icons/TableEdit.svg)
 
-## IstogrammaTabella {#tablehistogram}
+## TableHistogram {#tablehistogram} 
 
-![IstogrammaTabella](/help/assets/icons/TableHistogram.svg)
+![TableHistogram](/help/assets/icons/TableHistogram.svg)
 
-## TableMergeCell {#tablemergecell}
+## TableMergeCell {#tablemergecell} 
 
-![TabellaUnioneCella](/help/assets/icons/TableMergeCell.svg)
+![TableMergeCell](/help/assets/icons/TableMergeCell.svg)
 
-## TableRowAddBottom {#tablerowaddbottom}
+## TableRowAddBottom {#tablerowaddbottom} 
 
 ![TableRowAddBottom](/help/assets/icons/TableRowAddBottom.svg)
 
-## TableRowAddTop {#tablerowaddtop}
+## TableRowAddTop {#tablerowaddtop} 
 
 ![TableRowAddTop](/help/assets/icons/TableRowAddTop.svg)
 
-## TableRowMerge {#tablerowmerge}
+## TableRowMerge {#tablerowmerge} 
 
-![UnioneRigheTabella](/help/assets/icons/TableRowMerge.svg)
+![TableRowMerge](/help/assets/icons/TableRowMerge.svg)
 
-## TableRowRemoveCenter {#tablerowremovecenter}
+## TableRowRemoveCenter {#tablerowremovecenter} 
 
 ![TableRowRemoveCenter](/help/assets/icons/TableRowRemoveCenter.svg)
 
-## TableRowSplit {#tablerowsplit}
+## TableRowSplit {#tablerowsplit} 
 
-![DivisioneRigaTabella](/help/assets/icons/TableRowSplit.svg)
+![TableRowSplit](/help/assets/icons/TableRowSplit.svg)
 
-## TabellaSelezionaColonna {#tableselectcolumn}
+## TableSelectColumn {#tableselectcolumn} 
 
-![ColonnaSelezioneTabella](/help/assets/icons/TableSelectColumn.svg)
+![TableSelectColumn](/help/assets/icons/TableSelectColumn.svg)
 
-## TabellaSelezionaRiga {#tableselectrow}
+## TableSelectRow {#tableselectrow} 
 
-![RigaSelezioneTabella](/help/assets/icons/TableSelectRow.svg)
+![TableSelectRow](/help/assets/icons/TableSelectRow.svg)
 
-## Tableau {#tableau}
+## Tableau {#tableau} 
 
 ![Tableau](/help/assets/icons/Tableau.svg)
 
-## TagBold {#tagbold}
+## TagBold {#tagbold} 
 
 ![TagBold](/help/assets/icons/TagBold.svg)
 
-## TagItalic {#tagitalic}
+## TagItalic {#tagitalic} 
 
 ![TagItalic](/help/assets/icons/TagItalic.svg)
 
-## TagUnderline {#tagunderline}
+## TagUnderline {#tagunderline} 
 
 ![TagUnderline](/help/assets/icons/TagUnderline.svg)
 
-## Target {#target}
+## Target {#target} 
 
 ![Target](/help/assets/icons/Target.svg)
 
-## Target {#targeted}
+## Targeted {#targeted} 
 
-![Destinato](/help/assets/icons/Targeted.svg)
+![Targeted](/help/assets/icons/Targeted.svg)
 
-## ElencoAttività {#tasklist}
+## TaskList {#tasklist} 
 
-![Elenco attività](/help/assets/icons/TaskList.svg)
+![TaskList](/help/assets/icons/TaskList.svg)
 
-## Teiera {#teapot}
+## Teapot {#teapot} 
 
-![Teiera](/help/assets/icons/Teapot.svg)
+![Teapot](/help/assets/icons/Teapot.svg)
 
-## Temperatura {#temperature}
+## Temperature {#temperature} 
 
-![Temperatura](/help/assets/icons/Temperature.svg)
+![Temperature](/help/assets/icons/Temperature.svg)
 
-## TestAB {#testab}
+## TestAB {#testab} 
 
 ![TestAB](/help/assets/icons/TestAB.svg)
 
-## TestABEdit {#testabedit}
+## TestABEdit {#testabedit} 
 
 ![TestABEdit](/help/assets/icons/TestABEdit.svg)
 
-## TestABGear {#testabgear}
+## TestABGear {#testabgear} 
 
 ![TestABGear](/help/assets/icons/TestABGear.svg)
 
-## TestABRemove {#testabremove}
+## TestABRemove {#testabremove} 
 
 ![TestABRemove](/help/assets/icons/TestABRemove.svg)
 
-## TestProfile {#testprofile}
+## TestProfile {#testprofile} 
 
-![ProfiloTest](/help/assets/icons/TestProfile.svg)
+![TestProfile](/help/assets/icons/TestProfile.svg)
 
-## Testo {#text}
+## Text {#text} 
 
-![Testo](/help/assets/icons/Text.svg)
+![Text](/help/assets/icons/Text.svg)
 
-## TextAdd {#textadd}
+## TextAdd {#textadd} 
 
-![AggiungiTesto](/help/assets/icons/TextAdd.svg)
+![TextAdd](/help/assets/icons/TextAdd.svg)
 
-## TestoAllineaAlCentro {#textaligncenter}
+## TextAlignCenter {#textaligncenter} 
 
-![AllineamentoTestoCentro](/help/assets/icons/TextAlignCenter.svg)
+![TextAlignCenter](/help/assets/icons/TextAlignCenter.svg)
 
-## TestoAllineaGiustifica {#textalignjustify}
+## TextAlignJustify {#textalignjustify} 
 
-![AllineamentoTestoGiustificato](/help/assets/icons/TextAlignJustify.svg)
+![TextAlignJustify](/help/assets/icons/TextAlignJustify.svg)
 
-## TestoAllineaASinistra {#textalignleft}
+## TextAlignLeft {#textalignleft} 
 
-![AllineatoASinistra](/help/assets/icons/TextAlignLeft.svg)
+![TextAlignLeft](/help/assets/icons/TextAlignLeft.svg)
 
-## TestoAllineaADestra {#textalignright}
+## TextAlignRight {#textalignright} 
 
-![AllineamentoADestra](/help/assets/icons/TextAlignRight.svg)
+![TextAlignRight](/help/assets/icons/TextAlignRight.svg)
 
-## TextBaselineShift {#textbaselineshift}
+## TextBaselineShift {#textbaselineshift} 
 
-![SpostamentoPrevisioneTesto](/help/assets/icons/TextBaselineShift.svg)
+![TextBaselineShift](/help/assets/icons/TextBaselineShift.svg)
 
-## TextBold {#textbold}
+## TextBold {#textbold} 
 
-![GrassettoTesto](/help/assets/icons/TextBold.svg)
+![TextBold](/help/assets/icons/TextBold.svg)
 
-## TextBulleted {#textbulleted}
+## TextBulleted {#textbulleted} 
 
-![BollettinoTesto](/help/assets/icons/TextBulleted.svg)
+![TextBulleted](/help/assets/icons/TextBulleted.svg)
 
-## TextBulletedAttach {#textbulletedattach}
+## TextBulletedAttach {#textbulletedattach} 
 
-![AllegaBulletedTesto](/help/assets/icons/TextBulletedAttach.svg)
+![TextBulletedAttach](/help/assets/icons/TextBulletedAttach.svg)
 
-## GerarchiaPuntiElencoTesto {#textbulletedhierarchy}
+## TextBulletedHierarchy {#textbulletedhierarchy} 
 
-![GerarchiaBollettataTesto](/help/assets/icons/TextBulletedHierarchy.svg)
+![TextBulletedHierarchy](/help/assets/icons/TextBulletedHierarchy.svg)
 
-## TextBulletedHierarchyExclude {#textbulletedhierarchyexclude}
+## TextBulletedHierarchyExclude {#textbulletedhierarchyexclude} 
 
 ![TextBulletedHierarchyExclude](/help/assets/icons/TextBulletedHierarchyExclude.svg)
 
-## TextColor {#textcolor}
+## TextColor {#textcolor} 
 
-![ColoreTesto](/help/assets/icons/TextColor.svg)
+![TextColor](/help/assets/icons/TextColor.svg)
 
-## RiduciTesto {#textdecrease}
+## TextDecrease {#textdecrease} 
 
-![Diminuzione testo](/help/assets/icons/TextDecrease.svg)
+![TextDecrease](/help/assets/icons/TextDecrease.svg)
 
-## TextEdit {#textedit}
+## TextEdit {#textedit} 
 
-![ModificaTesto](/help/assets/icons/TextEdit.svg)
+![TextEdit](/help/assets/icons/TextEdit.svg)
 
-## TextExclude {#textexclude}
+## TextExclude {#textexclude} 
 
-![EscludiTesto](/help/assets/icons/TextExclude.svg)
+![TextExclude](/help/assets/icons/TextExclude.svg)
 
-## TextIncrease {#textincrease}
+## TextIncrease {#textincrease} 
 
-![AumentoTesto](/help/assets/icons/TextIncrease.svg)
+![TextIncrease](/help/assets/icons/TextIncrease.svg)
 
-## RiduciRientroTesto {#textindentdecrease}
+## TextIndentDecrease {#textindentdecrease} 
 
-![RiduzioneRientroTesto](/help/assets/icons/TextIndentDecrease.svg)
+![TextIndentDecrease](/help/assets/icons/TextIndentDecrease.svg)
 
-## TestoRientroAumenta {#textindentincrease}
+## TextIndentIncrease {#textindentincrease} 
 
-![AumentoRientroTesto](/help/assets/icons/TextIndentIncrease.svg)
+![TextIndentIncrease](/help/assets/icons/TextIndentIncrease.svg)
 
-## TestoCorsivo {#textitalic}
+## TextItalic {#textitalic} 
 
-![TestoCorsivo](/help/assets/icons/TextItalic.svg)
+![TextItalic](/help/assets/icons/TextItalic.svg)
 
-## Crenatura testo {#textkerning}
+## TextKerning {#textkerning} 
 
-![CrenaturaTesto](/help/assets/icons/TextKerning.svg)
+![TextKerning](/help/assets/icons/TextKerning.svg)
 
-## TextLetteredLowerCase {#textletteredlowercase}
+## TextLetteredLowerCase {#textletteredlowercase} 
 
-![TestoLetteratoMinuscolo](/help/assets/icons/TextLetteredLowerCase.svg)
+![TextLetteredLowerCase](/help/assets/icons/TextLetteredLowerCase.svg)
 
-## TextLetteredUpperCase {#textlettereduppercase}
+## TextLetteredUpperCase {#textlettereduppercase} 
 
-![MaiuscoloLetteratoTesto](/help/assets/icons/TextLetteredUpperCase.svg)
+![TextLetteredUpperCase](/help/assets/icons/TextLetteredUpperCase.svg)
 
-## TextNumbered {#textnumbered}
+## TextNumbered {#textnumbered} 
 
-![NumeroTesto](/help/assets/icons/TextNumbered.svg)
+![TextNumbered](/help/assets/icons/TextNumbered.svg)
 
-## TextParagraph {#textparagraph}
+## TextParagraph {#textparagraph} 
 
-![ParagrafoTesto](/help/assets/icons/TextParagraph.svg)
+![TextParagraph](/help/assets/icons/TextParagraph.svg)
 
-## TestoRomanMinuscolo {#textromanlowercase}
+## TextRomanLowercase {#textromanlowercase} 
 
-![TestoRomanMinuscolo](/help/assets/icons/TextRomanLowercase.svg)
+![TextRomanLowercase](/help/assets/icons/TextRomanLowercase.svg)
 
-## TestoRomanMaiuscolo {#textromanuppercase}
+## TextRomanUppercase {#textromanuppercase} 
 
-![TestoRomanMaiuscolo](/help/assets/icons/TextRomanUppercase.svg)
+![TextRomanUppercase](/help/assets/icons/TextRomanUppercase.svg)
 
-## TextSize {#textsize}
+## TextSize {#textsize} 
 
-![DimensioneTesto](/help/assets/icons/TextSize.svg)
+![TextSize](/help/assets/icons/TextSize.svg)
 
-## TextSizeAdd {#textsizeadd}
+## TextSizeAdd {#textsizeadd} 
 
-![DimensioneTestoAggiungi](/help/assets/icons/TextSizeAdd.svg)
+![TextSizeAdd](/help/assets/icons/TextSizeAdd.svg)
 
-## TextSpaceAfter {#textspaceafter}
+## TextSpaceAfter {#textspaceafter} 
 
-![SpazioTestoDopo](/help/assets/icons/TextSpaceAfter.svg)
+![TextSpaceAfter](/help/assets/icons/TextSpaceAfter.svg)
 
-## TextSpaceBefore {#textspacebefore}
+## TextSpaceBefore {#textspacebefore} 
 
-![SpazioTestoPrima](/help/assets/icons/TextSpaceBefore.svg)
+![TextSpaceBefore](/help/assets/icons/TextSpaceBefore.svg)
 
-## TextStrikethrough {#textstrikethrough}
+## TextStrikethrough {#textstrikethrough} 
 
-![Testo barrato](/help/assets/icons/TextStrikethrough.svg)
+![TextStrikethrough](/help/assets/icons/TextStrikethrough.svg)
 
-## TextStroke {#textstroke}
+## TextStroke {#textstroke} 
 
-![TracciaTesto](/help/assets/icons/TextStroke.svg)
+![TextStroke](/help/assets/icons/TextStroke.svg)
 
-## TextStyle {#textstyle}
+## TextStyle {#textstyle} 
 
-![StileTesto](/help/assets/icons/TextStyle.svg)
+![TextStyle](/help/assets/icons/TextStyle.svg)
 
-## TestoPedice {#textsubscript}
+## TextSubscript {#textsubscript} 
 
-![TestoPedice](/help/assets/icons/TextSubscript.svg)
+![TextSubscript](/help/assets/icons/TextSubscript.svg)
 
-## ApiceTesto {#textsuperscript}
+## TextSuperscript {#textsuperscript} 
 
-![ApiceTesto](/help/assets/icons/TextSuperscript.svg)
+![TextSuperscript](/help/assets/icons/TextSuperscript.svg)
 
-## TextTracking {#texttracking}
+## TextTracking {#texttracking} 
 
-![Tracciamento testo](/help/assets/icons/TextTracking.svg)
+![TextTracking](/help/assets/icons/TextTracking.svg)
 
-## TestoSottolineato {#textunderline}
+## TextUnderline {#textunderline} 
 
-![SottolineatoTesto](/help/assets/icons/TextUnderline.svg)
+![TextUnderline](/help/assets/icons/TextUnderline.svg)
 
-## ThumbDown {#thumbdown}
+## ThumbDown {#thumbdown} 
 
-![Miniatura](/help/assets/icons/ThumbDown.svg)
+![ThumbDown](/help/assets/icons/ThumbDown.svg)
 
-## ThumbDownOutline {#thumbdownoutline}
+## ThumbDownOutline {#thumbdownoutline} 
 
 ![ThumbDownOutline](/help/assets/icons/ThumbDownOutline.svg)
 
-## ThumbUp {#thumbup}
+## ThumbUp {#thumbup} 
 
 ![ThumbUp](/help/assets/icons/ThumbUp.svg)
 
-## ThumbUpOutline {#thumbupoutline}
+## ThumbUpOutline {#thumbupoutline} 
 
 ![ThumbUpOutline](/help/assets/icons/ThumbUpOutline.svg)
 
-## Addestra {#train}
+## Train {#train} 
 
-![Addestra](/help/assets/icons/Train.svg)
+![Train](/help/assets/icons/Train.svg)
 
-## TransferToPlatform {#transfertoplatform}
+## TransferToPlatform {#transfertoplatform} 
 
-![TrasferisciAPlatform](/help/assets/icons/TransferToPlatform.svg)
+![TransferToPlatform](/help/assets/icons/TransferToPlatform.svg)
 
-## Trasparenza {#transparency}
+## Transparency {#transparency} 
 
-![Trasparenza](/help/assets/icons/Transparency.svg)
+![Transparency](/help/assets/icons/Transparency.svg)
 
-## Abbondanza {#trap}
+## Trap {#trap} 
 
-![Abbondanza](/help/assets/icons/Trap.svg)
+![Trap](/help/assets/icons/Trap.svg)
 
-## ComprimiAlbero {#treecollapse}
+## TreeCollapse {#treecollapse} 
 
-![ComprimiAlbero](/help/assets/icons/TreeCollapse.svg)
+![TreeCollapse](/help/assets/icons/TreeCollapse.svg)
 
-## TreeCollapseAll {#treecollapseall}
+## TreeCollapseAll {#treecollapseall} 
 
-![ComprimiTutto](/help/assets/icons/TreeCollapseAll.svg)
+![TreeCollapseAll](/help/assets/icons/TreeCollapseAll.svg)
 
-## TreeExpand {#treeexpand}
+## TreeExpand {#treeexpand} 
 
-![EspansioneAlbero](/help/assets/icons/TreeExpand.svg)
+![TreeExpand](/help/assets/icons/TreeExpand.svg)
 
-## TreeExpandAll {#treeexpandall}
+## TreeExpandAll {#treeexpandall} 
 
-![EspansioneStruttura](/help/assets/icons/TreeExpandAll.svg)
+![TreeExpandAll](/help/assets/icons/TreeExpandAll.svg)
 
-## VisualizzazioneStruttura {#treeview}
+## TreeView {#treeview} 
 
-![Visualizzazione albero](/help/assets/icons/TreeView.svg)
+![TreeView](/help/assets/icons/TreeView.svg)
 
-## TrendInspect {#trendinspect}
+## TrendInspect {#trendinspect} 
 
 ![TrendInspect](/help/assets/icons/TrendInspect.svg)
 
-## TrimPath {#trimpath}
+## TrimPath {#trimpath} 
 
-![PercorsoTrim](/help/assets/icons/TrimPath.svg)
+![TrimPath](/help/assets/icons/TrimPath.svg)
 
-## Trofeo {#trophy}
+## Trophy {#trophy} 
 
-![Trofeo](/help/assets/icons/Trophy.svg)
+![Trophy](/help/assets/icons/Trophy.svg)
 
-## Tipo {#type}
+## Type {#type} 
 
-![Tipo](/help/assets/icons/Type.svg)
+![Type](/help/assets/icons/Type.svg)
 
-## Stati Uniti {#usa}
+## USA {#usa} 
 
-![STATI UNITI](/help/assets/icons/USA.svg)
+![USA](/help/assets/icons/USA.svg)
 
-## Sottolinea {#underline}
+## Underline {#underline} 
 
-![Sottolineato](/help/assets/icons/Underline.svg)
+![Underline](/help/assets/icons/Underline.svg)
 
-## Annulla {#undo}
+## Undo {#undo} 
 
-![Annulla](/help/assets/icons/Undo.svg)
+![Undo](/help/assets/icons/Undo.svg)
 
-## Separa {#ungroup}
+## Ungroup {#ungroup} 
 
-![Separa](/help/assets/icons/Ungroup.svg)
+![Ungroup](/help/assets/icons/Ungroup.svg)
 
-## Scollega {#unlink}
+## Unlink {#unlink} 
 
-![Scollega](/help/assets/icons/Unlink.svg)
+![Unlink](/help/assets/icons/Unlink.svg)
 
-## Separa {#unmerge}
+## Unmerge {#unmerge} 
 
-![Separa](/help/assets/icons/Unmerge.svg)
+![Unmerge](/help/assets/icons/Unmerge.svg)
 
-## UnresolvedComment {#unresolvedcomment}
+## UnresolvedComment {#unresolvedcomment} 
 
-![CommentoNonRisolto](/help/assets/icons/UnresolvedComment.svg)
+![UnresolvedComment](/help/assets/icons/UnresolvedComment.svg)
 
-## UploadToCloud {#uploadtocloud}
+## UploadToCloud {#uploadtocloud} 
 
-![Carica in cloud](/help/assets/icons/UploadToCloud.svg)
+![UploadToCloud](/help/assets/icons/UploadToCloud.svg)
 
-## UploadToCloudOutline {#uploadtocloudoutline}
+## UploadToCloudOutline {#uploadtocloudoutline} 
 
-![CaricaInCloudOutline](/help/assets/icons/UploadToCloudOutline.svg)
+![UploadToCloudOutline](/help/assets/icons/UploadToCloudOutline.svg)
 
-## Utente {#user}
+## User {#user} 
 
 <img src="./assets/icons/../../../assets/icons/User.svg">
 
-## Attività utente {#useractivity}
+## UserActivity {#useractivity} 
 
-![AttivitàUtente](/help/assets/icons/UserActivity.svg)
+![UserActivity](/help/assets/icons/UserActivity.svg)
 
-## UserAdd {#useradd}
+## UserAdd {#useradd} 
 
-![AggiungiUtente](/help/assets/icons/UserAdd.svg)
+![UserAdd](/help/assets/icons/UserAdd.svg)
 
-## UserAdmin {#useradmin}
+## UserAdmin {#useradmin} 
 
 ![UserAdmin](/help/assets/icons/UserAdmin.svg)
 
-## FrecciaUtente {#userarrow}
+## UserArrow {#userarrow} 
 
-![FrecciaUtente](/help/assets/icons/UserArrow.svg)
+![UserArrow](/help/assets/icons/UserArrow.svg)
 
-## UtenteEstratto {#usercheckedout}
+## UserCheckedOut {#usercheckedout} 
 
-![UtenteEstratto](/help/assets/icons/UserCheckedOut.svg)
+![UserCheckedOut](/help/assets/icons/UserCheckedOut.svg)
 
-## UserDeveloper {#userdeveloper}
+## UserDeveloper {#userdeveloper} 
 
-![SviluppatoreUtente](/help/assets/icons/UserDeveloper.svg)
+![UserDeveloper](/help/assets/icons/UserDeveloper.svg)
 
-## UserEdit {#useredit}
+## UserEdit {#useredit} 
 
-![ModificaUtente](/help/assets/icons/UserEdit.svg)
+![UserEdit](/help/assets/icons/UserEdit.svg)
 
-## UserExclude {#userexclude}
+## UserExclude {#userexclude} 
 
-![EsclusioneUtente](/help/assets/icons/UserExclude.svg)
+![UserExclude](/help/assets/icons/UserExclude.svg)
 
-## GruppoUtenti {#usergroup}
+## UserGroup {#usergroup} 
 
-![GruppoUtenti](/help/assets/icons/UserGroup.svg)
+![UserGroup](/help/assets/icons/UserGroup.svg)
 
-## BloccoUtente {#userlock}
+## UserLock {#userlock} 
 
-![BloccoUtente](/help/assets/icons/UserLock.svg)
+![UserLock](/help/assets/icons/UserLock.svg)
 
-## Condivisione utente {#usershare}
+## UserShare {#usershare} 
 
-![CondivisioneUtente](/help/assets/icons/UserShare.svg)
+![UserShare](/help/assets/icons/UserShare.svg)
 
-## UsersAdd {#usersadd}
+## UsersAdd {#usersadd} 
 
-![UtentiAggiungi](/help/assets/icons/UsersAdd.svg)
+![UsersAdd](/help/assets/icons/UsersAdd.svg)
 
-## UsersExclude {#usersexclude}
+## UsersExclude {#usersexclude} 
 
-![UtentiEscludi](/help/assets/icons/UsersExclude.svg)
+![UsersExclude](/help/assets/icons/UsersExclude.svg)
 
-## UsersLock {#userslock}
+## UsersLock {#userslock} 
 
-![Blocco utenti](/help/assets/icons/UsersLock.svg)
+![UsersLock](/help/assets/icons/UsersLock.svg)
 
-## UsersShare {#usersshare}
+## UsersShare {#usersshare} 
 
-![UtentiCondividi](/help/assets/icons/UsersShare.svg)
+![UsersShare](/help/assets/icons/UsersShare.svg)
 
-## Variable {#variable}
+## Variable {#variable} 
 
-![Variabile](/help/assets/icons/Variable.svg)
+![Variable](/help/assets/icons/Variable.svg)
 
-## DisegnoVettoriale {#vectordraw}
+## VectorDraw {#vectordraw} 
 
-![DisegnoVettoriale](/help/assets/icons/VectorDraw.svg)
+![VectorDraw](/help/assets/icons/VectorDraw.svg)
 
-## VerticalMasonryGridView {#verticalmasonrygridview}
+## VerticalMasonryGridView {#verticalmasonrygridview} 
 
-![VisualizzazioneMascheraVerticale](/help/assets/icons/VerticalMasonryGridView.svg)
+![VerticalMasonryGridView](/help/assets/icons/VerticalMasonryGridView.svg)
 
-## VideoCheckedOut {#videocheckedout}
+## VideoCheckedOut {#videocheckedout} 
 
 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)
 
-## VideoFilled {#videofilled}
+## VideoFilled {#videofilled} 
 
 ![VideoFilled](/help/assets/icons/VideoFilled.svg)
 
-## VideoOutline {#videooutline}
+## VideoOutline {#videooutline} 
 
-![StrutturaVideo](/help/assets/icons/VideoOutline.svg)
+![VideoOutline](/help/assets/icons/VideoOutline.svg)
 
-## VisualizzaTuttoTag {#viewalltag}
+## ViewAllTag {#viewalltag} 
 
-![VisualizzaTuttoTag](/help/assets/icons/ViewAllTag.svg)
+![ViewAllTag](/help/assets/icons/ViewAllTag.svg)
 
-## ViewBiWeek {#viewbiweek}
+## ViewBiWeek {#viewbiweek} 
 
-![VisualizzaSettimanaBianca](/help/assets/icons/ViewBiWeek.svg)
+![ViewBiWeek](/help/assets/icons/ViewBiWeek.svg)
 
-## VisualizzaScheda {#viewcard}
+## ViewCard {#viewcard} 
 
-![VisualizzaScheda](/help/assets/icons/ViewCard.svg)
+![ViewCard](/help/assets/icons/ViewCard.svg)
 
-## ViewCardOneCol {#viewcardonecol}
+## ViewCardOneCol {#viewcardonecol} 
 
-![VisualizzaCardOneCol](/help/assets/icons/ViewCardOneCol.svg)
+![ViewCardOneCol](/help/assets/icons/ViewCardOneCol.svg)
 
-## VisualizzaColonna {#viewcolumn}
+## ViewColumn {#viewcolumn} 
 
-![VisualizzaColonna](/help/assets/icons/ViewColumn.svg)
+![ViewColumn](/help/assets/icons/ViewColumn.svg)
 
-## ViewDay {#viewday}
+## ViewDay {#viewday} 
 
-![VisualizzaGiorno](/help/assets/icons/ViewDay.svg)
+![ViewDay](/help/assets/icons/ViewDay.svg)
 
-## VisualizzaDettagli {#viewdetail}
+## ViewDetail {#viewdetail} 
 
-![VisualizzaDettagli](/help/assets/icons/ViewDetail.svg)
+![ViewDetail](/help/assets/icons/ViewDetail.svg)
 
-## VisualizzaGriglia {#viewgrid}
+## ViewGrid {#viewgrid} 
 
-![VisualizzaGriglia](/help/assets/icons/ViewGrid.svg)
+![ViewGrid](/help/assets/icons/ViewGrid.svg)
 
-## VisualizzaElenco {#viewlist}
+## ViewList {#viewlist} 
 
-![ElencoVisualizzazioni](/help/assets/icons/ViewList.svg)
+![ViewList](/help/assets/icons/ViewList.svg)
 
-## VisualizzaRiga {#viewrow}
+## ViewRow {#viewrow} 
 
-![VisualizzaRiga](/help/assets/icons/ViewRow.svg)
+![ViewRow](/help/assets/icons/ViewRow.svg)
 
-## VisualizzaSingolo {#viewsingle}
+## ViewSingle {#viewsingle} 
 
-![VisualizzaSingolo](/help/assets/icons/ViewSingle.svg)
+![ViewSingle](/help/assets/icons/ViewSingle.svg)
 
-## VisualizzaStack {#viewstack}
+## ViewStack {#viewstack} 
 
-![VisualizzaStack](/help/assets/icons/ViewStack.svg)
+![ViewStack](/help/assets/icons/ViewStack.svg)
 
-## VisualizzaTabella {#viewtable}
+## ViewTable {#viewtable} 
 
-![VisualizzaTabella](/help/assets/icons/ViewTable.svg)
+![ViewTable](/help/assets/icons/ViewTable.svg)
 
-## ViewWeek {#viewweek}
+## ViewWeek {#viewweek} 
 
-![VisualizzaSettimana](/help/assets/icons/ViewWeek.svg)
+![ViewWeek](/help/assets/icons/ViewWeek.svg)
 
-## ViewedMarkA {#viewedmarka}
+## ViewedMarkA {#viewedmarka} 
 
-![ContrassegnoVisualizzatoA](/help/assets/icons/ViewedMarkA.svg)
+![ViewedMarkA](/help/assets/icons/ViewedMarkA.svg)
 
-## Vignettatura {#vignette}
+## Vignette {#vignette} 
 
-![Vignettatura](/help/assets/icons/Vignette.svg)
+![Vignette](/help/assets/icons/Vignette.svg)
 
-## Visibilità {#visibility}
+## Visibility {#visibility} 
 
-![Visibilità](/help/assets/icons/Visibility.svg)
+![Visibility](/help/assets/icons/Visibility.svg)
 
-## VisibilityOff {#visibilityoff}
+## VisibilityOff {#visibilityoff} 
 
-![VisibilitàDisattivata](/help/assets/icons/VisibilityOff.svg)
+![VisibilityOff](/help/assets/icons/VisibilityOff.svg)
 
-## Visita {#visit}
+## Visit {#visit} 
 
-![Visita](/help/assets/icons/Visit.svg)
+![Visit](/help/assets/icons/Visit.svg)
 
-## VisitShare {#visitshare}
+## VisitShare {#visitshare} 
 
-![CondivisioneVisite](/help/assets/icons/VisitShare.svg)
+![VisitShare](/help/assets/icons/VisitShare.svg)
 
-## VoiceOver {#voiceover}
+## VoiceOver {#voiceover} 
 
-![VoceSopra](/help/assets/icons/VoiceOver.svg)
+![VoiceOver](/help/assets/icons/VoiceOver.svg)
 
-## DisattivaVolume {#volumemute}
+## VolumeMute {#volumemute} 
 
-![DisattivaVolume](/help/assets/icons/VolumeMute.svg)
+![VolumeMute](/help/assets/icons/VolumeMute.svg)
 
-## VolumeOne {#volumeone}
+## VolumeOne {#volumeone} 
 
 ![VolumeOne](/help/assets/icons/VolumeOne.svg)
 
-## VolumeTre {#volumethree}
+## VolumeThree {#volumethree} 
 
-![VolumeTre](/help/assets/icons/VolumeThree.svg)
+![VolumeThree](/help/assets/icons/VolumeThree.svg)
 
-## VolumeDue {#volumetwo}
+## VolumeTwo {#volumetwo} 
 
-![VolumeDue](/help/assets/icons/VolumeTwo.svg)
+![VolumeTwo](/help/assets/icons/VolumeTwo.svg)
 
-## Osserva {#watch}
+## Watch {#watch} 
 
-![Osserva](/help/assets/icons/Watch.svg)
+![Watch](/help/assets/icons/Watch.svg)
 
-## Pagine Web {#webpages}
+## WebPages {#webpages} 
 
-![Pagine Web](/help/assets/icons/WebPages.svg)
+![WebPages](/help/assets/icons/WebPages.svg)
 
-## PaginaWeb {#webpage}
+## WebPage {#webpage} 
 
-![PaginaWeb](/help/assets/icons/WebPage.svg)
+![WebPage](/help/assets/icons/WebPage.svg)
 
-## Flusso di lavoro {#workflow}
+## Workflow {#workflow} 
 
-![Flusso di lavoro](/help/assets/icons/Workflow.svg)
+![Workflow](/help/assets/icons/Workflow.svg)
 
-## WorkflowAdd {#workflowadd}
+## WorkflowAdd {#workflowadd} 
 
-![AggiungiFlussoLavoro](/help/assets/icons/WorkflowAdd.svg)
+![WorkflowAdd](/help/assets/icons/WorkflowAdd.svg)
 
-## Chiave {#wrench}
+## Wrench {#wrench} 
 
-![Chiave](/help/assets/icons/Wrench.svg)
+![Wrench](/help/assets/icons/Wrench.svg)
 
-## Zoom avanti {#zoomin}
+## ZoomIn {#zoomin} 
 
 ![ZoomIn](/help/assets/icons/ZoomIn.svg)
 
-## Zoom indietro {#zoomout}
+## ZoomOut {#zoomout} 
 
-![Zoom indietro](/help/assets/icons/ZoomOut.svg)
+![ZoomOut](/help/assets/icons/ZoomOut.svg)
 
+-->

@@ -3,7 +3,7 @@ title: Registri di audit
 description: Scopri come accedere ai registri di audit da Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 77a338ae568c854b99069b849a18661d413c501c
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Registri di audit
 
-Per aumentare la trasparenza e la visibilità delle attività eseguite nel Mix Modeler, l’attività dell’utente all’interno del flusso di lavoro viene acquisita nei registri di audit di Experience Platform per comprendere eventuali modifiche alle categorie Mix Modeler guidate dall’utente. Questi registri costituiscono un audit trail che può essere utile per la risoluzione dei problemi e può aiutare la tua azienda a rispettare in modo efficace le politiche aziendali di gestione dei dati e i requisiti normativi.
+Per aumentare la trasparenza e la visibilità delle attività eseguite nel sistema, l’attività dell’utente all’interno del flusso di lavoro di Mix Modeler viene acquisita nei registri di audit di Experience Platform per comprendere eventuali modifiche guidate dall’utente alle categorie Mix Modeler. Questi registri costituiscono un audit trail che può essere utile per la risoluzione dei problemi e può aiutare la tua azienda a rispettare in modo efficace le politiche aziendali di gestione dei dati e i requisiti normativi.
 
 <!-- DO WE HAVE TO ADD THIS
 If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
@@ -20,11 +20,11 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 Un registro di audit informa chi ha eseguito quale azione e quando. Ogni azione registrata contiene metadati che indicano il tipo di azione, la data e l’ora, l’ID e-mail dell’utente che l’ha eseguita e altri attributi relativi al tipo di azione. Tiene traccia delle azioni di creazione, aggiornamento ed eliminazione eseguite dagli utenti in Mix Modeler.
 
-Per esaminare il registro di controllo, nell’interfaccia Mix Modeler:
+Per esaminare il registro di controllo, nell’interfaccia di Mix Modeler:
 
 1. Selezionare ![Elenco attività](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** da **[!UICONTROL PRIVACY]**.
 
-1. In **[!UICONTROL Audits]**, è possibile trovare **[!UICONTROL Activity log]**. Il registro attività mostra le voci per le seguenti categorie, azioni e stato di Mix Modeler.
+1. In **[!UICONTROL Audits]**, è possibile trovare **[!UICONTROL Activity log]**. Il registro attività mostra le voci per le categorie, le azioni e lo stato di Mix Modeler seguenti.
 
    | Categoria | Azione | Stato |
    |---|---|---|
@@ -43,9 +43,9 @@ Per esaminare il registro di controllo, nell’interfaccia Mix Modeler:
    | Modello Mix Modeler | Creare | Consenti o nega |
    | Modello Mix Modeler | Aggiornamento | Consenti o nega |
    | Modello Mix Modeler | Elimina | Consenti o nega |
-   | Modello Mix Modeler | Punteggio di nuovo | Consenti o nega |
+   | Modello Mix Modeler | Riscore | Consenti o nega |
    | Modello Mix Modeler | Clona | Consenti o nega |
-   | Modello Mix Modeler | Addestra/Riallena | Consenti o nega |
+   | Modello Mix Modeler | Addestra/Ritira | Consenti o nega |
    | Modello Mix Modeler | Download/salvataggio dei metadati | Consenti o nega |
    | Piano Mix Modeler | Creare | Consenti o nega |
    | Piano Mix Modeler | Aggiornamento | Consenti o nega |

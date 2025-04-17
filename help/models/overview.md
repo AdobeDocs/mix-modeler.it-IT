@@ -3,7 +3,7 @@ title: Panoramica dei modelli
 description: Scopri come generare e utilizzare i modelli in Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Un modello può facoltativamente includere:
 * Conoscenza preventiva dei contributi di marketing da altre fonti, come la precedente esperienza delle parti interessate, test incrementali, altri modelli.
 * La condivisione di spesa, che utilizza come proxy la condivisione di spesa relativa quando i dati di marketing sono sparsi.
 
-La prima volta che viene creato un modello, la creazione avvia immediatamente il processo di formazione e punteggio. Dopo il completamento dell’esecuzione iniziale dell’addestramento e del punteggio, gli approfondimenti del modello sono disponibili per la revisione. Un modello può essere successivamente riaddestrato. Inoltre, i dati possono essere aggiunti al modello, il che richiede una nuova valutazione manuale. Il training e il re-scoring sono un processo iterativo, in quanto emergono nuovi risultati e informazioni e sono necessari adeguamenti per ottenere un adattamento del modello più appropriato per gli obiettivi aziendali.
+La prima volta che viene creato un modello, la creazione avvia immediatamente il processo di formazione e punteggio. Dopo il completamento dell’esecuzione iniziale dell’addestramento e del punteggio, gli approfondimenti del modello sono disponibili per la revisione. Un modello può essere successivamente riaddestrato. Inoltre, i dati possono essere aggiunti al modello che richiede il ripristino manuale del modello. Il training e il re-scoring sono un processo iterativo, in quanto emergono nuovi risultati e informazioni e sono necessari adeguamenti per ottenere un adattamento del modello più appropriato per gli obiettivi aziendali.
 
 
 ## Creare modelli
@@ -68,7 +68,7 @@ Per visualizzare una tabella dei modelli correnti, nell’interfaccia di Mix Mod
    * ![Orologio](/help/assets/icons/Clock.svg): indica un&#39;esecuzione corrente continua di un passaggio del ciclo di vita del modello.
    * ![Chiudi](/help/assets/icons/Close.svg) - indica una mancata esecuzione di un passaggio nel ciclo di vita del modello.
 
-   | Stato | Creare | Addestra | Punteggio | Riaddestramento | Punteggio di nuovo |
+   | Stato | Creare | Addestra | Punteggio | Ritiro | Riscore |
    |---|:---:|:---:|:---:|:---:|:---:|
    | In corso | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | | | | |
    | In corso | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | ![Orologio](/help/assets/icons/Clock.svg) | | | |
@@ -150,10 +150,9 @@ Puoi modificare il nome, la descrizione e la pianificazione dell’apprendimento
 
 
 
-### Riaddestramento
+### Ritiro
 
-
-La riformazione di un modello è disponibile solo su modelli con formazione corretta.
+L’opzione Conserva modello è disponibile solo per i modelli che hanno superato il training.
 
 Considera di riaddestrare un modello quando desideri:
 
@@ -171,22 +170,22 @@ Per riaddestrare un modello:
    * **[!UICONTROL Train model using specific date range of data]**.
 Specifica l’intervallo di date. È possibile utilizzare il ![Calendario](/help/assets/icons/Calendar.svg) per selezionare un intervallo di date. Devi selezionare un intervallo di dati con un minimo di un anno.
 
-   ![Riaddestramento di un modello](../assets/re-train-model.png)
+   ![Conserva modello](../assets/retrain-model.png)
 
 1. Selezionare **[!UICONTROL Train]** per riaddestrare il modello.
 
 
-### Punteggio o nuovo punteggio
+### Punteggio o ripristino
 
 
-Puoi assegnare un punteggio incrementale a un modello in base a nuovi dati di marketing o assegnare un nuovo punteggio a un modello per un intervallo di date specifico.
+Puoi assegnare un punteggio incrementale a un modello in base a nuovi dati di marketing o ripristinare un modello per un intervallo di date specifico.
 
-Valuta di valutare nuovamente un modello quando desideri:
+Considera il ripristino di un modello quando desideri:
 
 * Correggere i dati di marketing errati. Ad esempio, i dati recenti relativi alla ricerca a pagamento inclusi nell’addestramento e nel punteggio del modello non hanno riportato una settimana di dati.
 * Utilizza i nuovi dati di marketing incrementali resi disponibili tramite aggiornamenti nei set di dati configurati come parte dei dati armonizzati.
 
-Per assegnare un punteggio o un nuovo punteggio a un modello:
+Per assegnare un punteggio o ripristinare un modello:
 
 1. Seleziona ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
@@ -195,10 +194,10 @@ Per assegnare un punteggio o un nuovo punteggio a un modello:
    Nella finestra di dialogo **[!UICONTROL Score marketing data]**, seleziona l&#39;opzione per:
 
    * **[!UICONTROL Score new marketing data from *mm/gg/aaaa *]**, per valutare il modello in modo incrementale utilizzando nuovi dati di marketing, oppure
-   * **[!UICONTROL Score specific date range of marketing data]** per ripetere il punteggio per un intervallo di date specifico.
+   * **[!UICONTROL Score specific date range of marketing data]** per ripristinare per un intervallo di date specifico.
 Specifica l’intervallo di date. È possibile utilizzare il ![Calendario](/help/assets/icons/Calendar.svg) per selezionare un intervallo di date.
 
-   ![Riaddestramento di un modello](../assets/re-score-model.png)
+   ![Reimpostare un modello](../assets/rescore-model.png)
 
 1. Selezionare **[!UICONTROL Score]**. Quando si assegna un nuovo punteggio a un modello utilizzando un intervallo di dati specifico, viene visualizzata una finestra di dialogo **[!UICONTROL Existing model is replaced]** in cui viene richiesto di confermare la sostituzione del modello con nuovi punteggi per l’intervallo di date selezionato. Selezionare **[!UICONTROL Replace model]** per confermare.
 
