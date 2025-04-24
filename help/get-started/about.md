@@ -4,24 +4,20 @@ description: Panoramica sulle funzionalità chiave di Mix Modeler.
 short-description: Panoramica sulle funzionalità chiave di Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '745'
 ht-degree: 3%
 
 ---
 
 # Panoramica di Mix Modeler
 
-Guarda questo video per una rapida panoramica delle funzionalità di Mix Modeler.
-
->[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
-
 Mix Modeler, con tecnologia Adobe Sensei, consente agli esperti di marketing di misurare le campagne e ottimizzare la pianificazione in modo olistico su tutti i canali: a pagamento, guadagnato e di proprietà. La metodologia unificata misura in modo incrementale sia i punti di contatto di marketing che i livelli aggregati, garantendo al contempo risultati pienamente coerenti.
 
-Mix Modeler fornisce l’impatto incrementale di tutte le attività di marketing sui risultati di business e campagne attraverso un’applicazione di misurazione olistica (end-to-end) per il marketing digitale e offline.
+Mix Modeler fornisce l’impatto incrementale di tutte le attività di marketing sui risultati aziendali e delle campagne tramite un’applicazione di misurazione olistica (end-to-end) per il marketing digitale e offline.
 
-Mix Modeler fornisce i seguenti tipi di informazioni ottimizzate e actionable a livello strategico e tattico, in modo da comprendere meglio:
+Mix Modeler fornisce i seguenti tipi di informazioni ottimizzate e fruibili a livello strategico e tattico, in modo da comprendere meglio:
 
 * le spese di marketing e le prestazioni risultanti su vari canali,
 * livelli di investimento consigliati per raggiungere gli obiettivi aziendali futuri.
@@ -66,7 +62,7 @@ La modellazione del marketing mix in Mix Modeler è un’analisi di apprendiment
 
 Questa analisi completa consente alle aziende di allocare i budget di marketing in modo strategico tra varie linee di business, aree geografiche, canali e campagne, fornendo al contempo informazioni predittive sull’impatto aziendale di eventi futuri.
 
-Le funzionalità di modellazione del marketing mix di Mix Modeler sono fondamentali per risolvere i seguenti casi d’uso:
+Le funzionalità di modellazione di marketing mix di Mix Modeler sono fondamentali per risolvere i seguenti casi d’uso:
 
 * Reporting per dirigenti: consente ai dirigenti di comprendere il vero impatto incrementale del marketing, sia complessivamente che per canale, regione, SKU, ecc.
 * Pianificazione strategica: informa le strategie di marketing a lungo termine e imposta obiettivi e benchmark realistici per le campagne future
@@ -78,7 +74,7 @@ Le funzionalità di modellazione del marketing mix di Mix Modeler sono fondament
 
 L’attribuzione multi-touch in Mix Modeler è un’analisi opzionale di apprendimento automatico che puoi sfruttare per attribuire crediti a punti di contatto a livello di evento che portano a eventi di conversione. Questa attribuzione viene utilizzata dagli esperti di marketing per quantificare l’impatto di ogni punto di contatto di marketing nei diversi percorsi di clienti tracciabili. Questi punti di contatto per le campagne di marketing digitale sono in genere clic sugli annunci di visualizzazione, invii di e-mail, aperture delle e-mail e clic di ricerca a pagamento. L’attribuzione multi-touch non può misurare la maggior parte dei punti di contatto offline, ad esempio annunci pubblicitari, cartelloni pubblicitari o spot televisivi e fattori di business. Questi punti di contatto hanno solo dati di livello riepilogo che non possono essere uniti ai percorsi di clienti.
 
-L’attribuzione multi-touch Mix Modeler supporta due categorie di punteggi:
+L’attribuzione multi-touch di Mix Modeler supporta due categorie di punteggi:
 
 * Punteggi algoritmici, che includono punteggi incrementali e influenzati:
    * Il punteggio influenzato è la frazione della conversione di cui è responsabile ogni punto di contatto di marketing.
@@ -93,6 +89,6 @@ Puoi utilizzare la funzionalità di attribuzione multi-touch di Mix Modeler nei 
 * Attribuzione a livello di evento full funnel: scopri l’impatto del marketing sull’intero percorso di clienti. Ad esempio, l’iscrizione gratuita all’account per la conversione a pagamento e oltre.
 * Valutazioni dei partner: valutare l’efficacia delle agenzie e dei partner in base ai risultati di attribuzione.
 
-Consulta [Approfondimenti modello - Attribuzione](../models/insights.md#attribution) su come accedere agli approfondimenti sull&#39;attribuzione multi-touch in Mix Modeler.
+Consulta [Informazioni modello - Attribuzione](../models/insights.md#attribution) su come accedere agli approfondimenti sull&#39;attribuzione multi-touch in Mix Modeler.
 
 
