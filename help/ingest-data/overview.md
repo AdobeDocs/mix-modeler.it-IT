@@ -3,27 +3,27 @@ title: Panoramica dell’acquisizione dei dati
 description: Scopri come acquisire dati in Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 8%
+source-wordcount: '520'
+ht-degree: 7%
 
 ---
 
 # Panoramica dell’acquisizione dei dati
 
-Mix Modeler funziona con i dati a livello di evento, aggrega o riassume i dati delle attività di marketing provenienti da vari giardini murati, e aggrega o riepiloga i dati provenienti da qualsiasi altra origine, come pubblicità offline, fattori interni o fattori esterni.
+Mix Modeler utilizza dati a livello di evento, aggrega o riassume i dati delle attività di marketing provenienti da vari giardini murati, e aggrega o riassume i dati provenienti da qualsiasi altra origine, ad esempio pubblicità offline, fattori interni o esterni.
 
 I clienti possono utilizzare qualsiasi tipo di dati acquisito in Experience Platform come set di dati e basato su schemi che utilizzano ExperienceEvent XDM o Metriche di riepilogo XDM come classe base.
 
 Ad esempio:
 
 * dati raccolti utilizzando il connettore di origine di Adobe Analytics e trasformati in set di dati conformi all’impostazione predefinita o a una versione personalizzata dello schema di Adobe Analytics, oppure in alternativa,
-* dati raccolti utilizzando Experience Platform Web SDK, Mobile SDK o Edge Network Server API per la raccolta delle interazioni dei clienti su web, dispositivi mobili o qualsiasi altro tipo di dispositivo,
+* dati raccolti utilizzando Experience Platform Web SDK, Mobile SDK o Edge Network Server API per raccogliere le interazioni dei clienti su web, dispositivi mobili o qualsiasi altro tipo di dispositivo,
 * dati aggregati o riassuntivi provenienti da giardini murati (come Facebook, YouTube), da fonti di traffico o da dati pubblicitari offline,
 * dati aggregati o di riepilogo non di marketing contenenti fattori interni o esterni utili per la creazione di modelli.
 
-Puoi utilizzare qualsiasi tipo di meccanismo, supportato da Experience Platform, per acquisire a livello di evento l’esperienza, aggregare i dati relativi alle attività di marketing e i dati provenienti da altre origini. Ad esempio gli SDK di Experience Platform, le API, i connettori di origine e l’acquisizione in streaming e batch.
+Puoi utilizzare qualsiasi tipo di meccanismo supportato da Experience Platform per acquisire a livello di evento l’esperienza, aggregare i dati relativi alle attività di marketing e i dati provenienti da altre origini. Ad esempio gli SDK di Experience Platform, le API, i connettori di origine e l’acquisizione in streaming e batch.
 
 
 ## Linee guida
@@ -80,7 +80,17 @@ Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre
 
 +++
 
-Per lavorare con i dati in Mix Modeler, è necessario che i dati vengano raccolti in set di dati e modellati secondo gli schemi di Experience Platform. L’interfaccia Mix Modeler consente di accedere facilmente sia agli schemi Experience Platform che all’interfaccia utente dei set di dati.
+Per lavorare con i dati in Mix Modeler, è necessario che siano raccolti in set di dati e modellati secondo gli schemi in Experience Platform. L’interfaccia di Mix Modeler consente di accedere facilmente sia agli schemi di Experience Platform che all’interfaccia utente dei set di dati.
+
+
+## Convalida
+
+Per verificare se i dati sono disponibili correttamente in Mix Modeler, puoi effettuare le seguenti operazioni:
+
+* Utilizza le visualizzazioni in [Panoramica](/help/overview.md).
+* Scarica e controlla i dati da [Dati armonizzati](/help/harmonize-data/overview.md) nei set di dati armonizzati.
+
+Per verificare se i dati vengono acquisiti correttamente in Experience Platform, è possibile [scrivere ed eseguire query SQL utilizzando Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

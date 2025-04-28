@@ -3,9 +3,9 @@ title: Schemi
 description: Scopri come gestire gli schemi necessari per acquisire i dati in Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: b0306ad6fad8966822ed14c67f159a4aefb4e3f8
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '378'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 Per gestire gli schemi, supportare i dati che desideri acquisire in Experience Platform e utilizzare in Mix Modeler:
 
-1. Passa all’interfaccia Mix Modeler.
+1. Passa all’interfaccia di Mix Modeler.
 
 1. Seleziona ![Schemi](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, sotto **[!UICONTROL SETUP]**.
 
@@ -72,7 +72,7 @@ Data la natura asincrona dell’acquisizione del profilo, durante la raccolta di
 
 ## Tipi di dati supportati
 
-Attualmente, Mix Modeler supporta un sottoinsieme di tipi di dati Experience Platform. Sono supportati i seguenti tipi di dati di base (campi), menzionati in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type):
+Attualmente, Mix Modeler supporta un sottoinsieme di tipi di dati di Experience Platform. Sono supportati i seguenti tipi di dati di base (campi), menzionati in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type):
 
 - Stringa
 - Intero
@@ -83,3 +83,8 @@ Attualmente, Mix Modeler supporta un sottoinsieme di tipi di dati Experience Pla
 - Byte
 - Data
 - Data-ora
+
+
+>[!MORELIKETHIS]
+>
+>- [Schemi](schemas.md)
