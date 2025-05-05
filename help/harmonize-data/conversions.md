@@ -52,7 +52,7 @@ Per aggiungere una conversione, nell&#39;interfaccia ![DataSearch](/help/assets/
 
       1. Selezionare un valore per l&#39;operatore ![Chevron](/help/assets/icons/ChevronDown.svg), ad esempio **[!UICONTROL is]**.
 
-      1. Selezionare un valore da **[!UICONTROL *Selezionare un valore *]**o immettere un valore, ad esempio **[!UICONTROL Store]**.
+      1. Selezionare un valore da **[!UICONTROL *Selezionare un valore *]**&#x200B;o immettere un valore, ad esempio **[!UICONTROL Store]**.
 
    1. Selezionare un campo armonizzato da **[!UICONTROL Conversion metric for analysis]**, ad esempio **[!UICONTROL Orders]**.
 

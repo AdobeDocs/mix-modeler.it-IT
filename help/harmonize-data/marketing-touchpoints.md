@@ -52,7 +52,7 @@ Per aggiungere un punto di contatto di marketing, nell&#39;interfaccia ![DataSea
 
       1. Selezionare un valore per l&#39;operatore ![Chevron](/help/assets/icons/ChevronDown.svg), ad esempio **[!UICONTROL is]**.
 
-      1. Selezionare un valore da **[!UICONTROL *Selezionare un valore *]**o immettere un valore, ad esempio **[!DNL Luma]**.
+      1. Selezionare un valore da **[!UICONTROL *Selezionare un valore *]**&#x200B;o immettere un valore, ad esempio **[!DNL Luma]**.
 
    1. Selezionare un campo armonizzato da **[!UICONTROL Touchpoint volume]**, ad esempio **[!UICONTROL Impressions]**.
 
