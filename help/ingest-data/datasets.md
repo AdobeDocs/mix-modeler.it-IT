@@ -18,9 +18,9 @@ Per gestire i set di dati, contenenti i dati che desideri acquisire in Experienc
 
 1. Seleziona ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**, sotto **[!UICONTROL SETUP]**.
 
-Per ulteriori informazioni, consulta la [Guida dell&#39;interfaccia utente dei set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en).
+Per ulteriori informazioni, consulta la [Guida dell&#39;interfaccia utente dei set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it).
 
 >[!MORELIKETHIS]
 >
->* [Acquisire dati](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
+>* [Acquisire dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home)
 >* [Schemi](schemas.md)

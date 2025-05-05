@@ -90,7 +90,7 @@ Per verificare se i dati sono disponibili correttamente in Mix Modeler, puoi eff
 * Utilizza le visualizzazioni in [Panoramica](/help/overview.md).
 * Scarica e controlla i dati da [Dati armonizzati](/help/harmonize-data/overview.md) nei set di dati armonizzati.
 
-Per verificare se i dati vengono acquisiti correttamente in Experience Platform, è possibile [scrivere ed eseguire query SQL utilizzando Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
+Per verificare se i dati vengono acquisiti correttamente in Experience Platform, è possibile [scrivere ed eseguire query SQL utilizzando Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]
