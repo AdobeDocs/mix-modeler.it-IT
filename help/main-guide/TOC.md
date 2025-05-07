@@ -2,10 +2,10 @@
 user-guide-title: Guida di Mix Modeler
 breadcrumb-title: Guida di Mix Modeler
 user-guide-description: Scopri come utilizzare Mix Modeler.
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: 1e2a6d1bc32060d6de02b7ac7c879da3046f69e7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 47%
+source-wordcount: '88'
+ht-degree: 51%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 47%
 
 + [Guida di Mix Modeler](/help/overview.md)
 
-+ Introduzione a {#get-started}
++ Introduzione {#get-started}
    + [Cos’è Mix Modeler?](/help/get-started/about.md)
    + [Flusso di lavoro dell&#39;applicazione](/help/get-started/workflow.md)
 
@@ -25,6 +25,7 @@ ht-degree: 47%
 + Modelli {#models}
    + [Panoramica](/help/models/overview.md)
    + [Creare modelli](/help/models/build.md)
+   + [Formazione e valutazione dei modelli](/help/models/train-score.md)
    + [Approfondimenti modello](/help/models/insights.md)
    + [Utilizzare i dati di punteggio](/help/models/scoring-data.md)
 
@@ -34,7 +35,7 @@ ht-degree: 47%
    + [Pianificare gli approfondimenti](/help/plans/insights.md)
    + [Confronta piani](/help/plans/compare.md)
 
-+ Armonizza set di dati {#harmonize-data}
++ Armonizzare i set di dati {#harmonize-data}
    + [Panoramica](/help/harmonize-data/overview.md)
    + [Campi](/help/harmonize-data/fields.md)
    + [Regole del set di dati](/help/harmonize-data/dataset-rules.md)
@@ -42,7 +43,7 @@ ht-degree: 47%
    + [Conversioni](/help/harmonize-data/conversions.md)
    + [Rapporto utilizzo](/help/harmonize-data/usage-report.md)
 
-+ Acquisisci dati {#ingest-data}
++ Acquisire dati {#ingest-data}
    + [Panoramica](/help/ingest-data/overview.md)
    + [Schemi](/help/ingest-data/schemas.md)
    + [Set di dati](/help/ingest-data/datasets.md)
