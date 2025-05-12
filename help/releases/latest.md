@@ -4,10 +4,10 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 4%
+source-wordcount: '365'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,8 @@ Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rila
 
 | Funzione | Descrizione | [Inizio rollout](#release-strategy) | [Disponibilità generale](#release-strategy) |
 |---|---|---|---|
-| **Rilevamento deriva modello** | All&#39;apertura di un modello, viene [richiesto di riaddestrare il modello quando viene rilevata la deriva del modello](/help/models/insights.md#model-drift). | venerdì 3 aprile 2025 | t.b.d. |
+| **Rilevamento deriva modello** | Quando apri un modello, viene [richiesto di riaddestrare il modello quando viene rilevata la deriva del modello](/help/models/insights.md#model-drift). | 3 aprile 2025 | 7 maggio 2025 |
+| **Restituzione canale marginale in approfondimenti piano** | Una visualizzazione [ritorno al canale marginale](/help/plans/insights.md#marginal-channel-return) è stata aggiunta al piano approfondimenti, che mostra il punto di pareggio marginale e il ritorno al piano per tutti i canali selezionati. | 3 aprile 2025 | 24 aprile 2025 |
 
 
 ## Gennaio - Febbraio 2025
