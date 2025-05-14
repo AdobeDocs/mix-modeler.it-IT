@@ -84,6 +84,7 @@ Per creare un piano, nell&#39;interfaccia ![PLan](/help/assets/icons/FileChart.s
    1. Per passare dalla valuta all&#39;input percentuale, selezionare **[!UICONTROL $]** o **[!UICONTROL %]** per **[!UICONTROL View spend by]**.
 
    1. Al termine, selezionare **[!UICONTROL Create]**.
+
       ![Selezione spese](/help/assets/plan-spend-selection.png)
 
    1. Seleziona **[!UICONTROL Next]**.

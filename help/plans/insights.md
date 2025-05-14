@@ -32,7 +32,7 @@ Al termine del recupero, viene visualizzata una panoramica del piano, costituita
 
 Per chiudere l&#39;interfaccia, selezionare **[!UICONTROL Close]**.
 
-Per modificare la modalità di visualizzazione del ROI del piano, selezionare **[!UICONTROL X]** o **[!UICONTROL  %]** in **[!UICONTROL View ROI]**.
+Per modificare la modalità di visualizzazione del ROI del piano, selezionare **[!UICONTROL X]** o **[!UICONTROL &#x200B; %]** in **[!UICONTROL View ROI]**.
 
 ## Spesa canale a pagamento e ROI previsti
 
