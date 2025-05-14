@@ -3,9 +3,9 @@ title: Pianificare gli approfondimenti
 description: Scopri come visualizzare informazioni approfondite sul piano e modificarlo in Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Al termine del recupero, viene visualizzata una panoramica del piano, costituita
 
 Per chiudere l&#39;interfaccia, selezionare **[!UICONTROL Close]**.
 
-Per modificare la modalità di visualizzazione del ROI del piano, selezionare **[!UICONTROL X]** o **[!UICONTROL &#x200B; %]** in **[!UICONTROL View ROI]**.
+Per modificare la modalità di visualizzazione del ROI del piano, selezionare **[!UICONTROL X]** o **[!UICONTROL  %]** in **[!UICONTROL View ROI]**.
 
 ## Spesa canale a pagamento e ROI previsti
 
@@ -114,6 +114,39 @@ La tabella [!UICONTROL Date range breakdown] mostra dati granulari dettagliati p
       1. Selezionare **[!UICONTROL Next]** per tornare alla sezione **[!UICONTROL Spend]**. Seleziona **[!UICONTROL Cancel]** per tornare alla panoramica dei tuoi piani.
 
          ![Dettagli piano](/help/assets/plan-details.png)
+
+   1. Se sono state definite configurazioni avanzate per il piano, selezionare **[!UICONTROL Next]**.
+
+      ![Modifica configurazione avanzata](../assets/edit-plan-advanced-configuration.png)
+
+      - Vengono riepilogati il nome del piano, il modello, l&#39;intervallo di date e il budget totale.
+
+      - Per impostazione predefinita, Mix Modeler calcola automaticamente i ricavi medi per conversione utilizzando i dati stagionali storici più recenti. In **[!UICONTROL Average Revenue per conversion]** puoi definire ricavi medi specifici per conversione.
+
+         1. Per ogni intervallo di date nel budget:
+            1. Selezionare un intervallo di date dal menu a discesa **[!UICONTROL Date range]**.
+            1. Immettere un valore **[!UICONTROL Average revenue]**.
+
+         1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) Aggiungi ricavi medi personalizzati per unità di conversione per aggiungere un intervallo di date.
+         1. Selezionare ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) per rimuovere un intervallo di date.
+
+        >[!NOTE]
+        >
+        >Se il modello non include dati storici sui ricavi, è necessario definire un ricavo medio per conversione per ogni intervallo di date specificato per il budget.
+        >
+
+      - Per impostazione predefinita, Mix Modeler calcola automaticamente i costi del canale utilizzando i dati stagionali più recenti. In **[!UICONTROL Channel costs]** è possibile definire i costi del canale personalizzati.
+
+         1. Per ogni canale nel modello, definisci il costo del canale personalizzato.
+            1. Selezionare un canale dal menu a discesa **[!UICONTROL Channel]**.
+            1. Per ogni intervallo di date nel budget:
+               1. Selezionare un intervallo di date dal menu a discesa **[!UICONTROL Date range]**.
+               1. Immettere un valore **[!UICONTROL Average revenue]**.
+            1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** per aggiungere un intervallo di date.
+            1. Selezionare ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) per rimuovere un intervallo di date.
+
+         1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** per aggiungere un canale.
+         1. Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per rimuovere un canale personalizzato.
 
 
 1. Al termine della modifica del piano, selezionare **[!UICONTROL Edit]**.

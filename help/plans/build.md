@@ -3,9 +3,9 @@ title: Creare piani
 description: Scopri come creare piani in Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 0%
 In Mix Modeler è possibile creare un piano utilizzando l&#39;area di lavoro del piano. Nell&#39;area di lavoro del piano è possibile impostare i dettagli e i budget del piano e del modello sottostante da utilizzare per il piano. Una volta specificati i dettagli, il budget e il modello, puoi procedere con un piano consigliato dall’intelligenza artificiale o modificare la spesa per canale.
 
 Per creare un piano, nell&#39;interfaccia ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** in Mix Modeler, selezionare **[!UICONTROL Create plan]**.
+
 
 1. Nella schermata **[!UICONTROL Plan creation]**:
 
@@ -49,12 +50,12 @@ Per creare un piano, nell&#39;interfaccia ![PLan](/help/assets/icons/FileChart.s
 
    ![Piano completato](/help/assets/plan-done-required-fields.png)
 
-   * Seleziona <img src="/help/assets/icons/NewPlan.svg" width="25" /> **[!UICONTROL Create plan now]** se si desidera generare un piano consigliato di IA con ROI previsto.
+   * Selezionare ![NuovoPiano](../assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]** se si desidera generare un piano consigliato di IA con ROI previsto.
 
      Selezionare **[!UICONTROL OK]**. Il piano è stato creato.
 
 
-   * Selezionare ![TableEdit](/help/assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]** se si desidera modificare il budget dei canali prima di creare un piano con ROI previsto.
+   * Selezionare ![TableEdit](/help/assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]** se si desidera modificare il budget dei canali e definire configurazioni avanzate prima della creazione di un piano con ROI previsto.
 
      Seleziona **[!UICONTROL OK]** per definire la spesa del tuo canale in **[!UICONTROL Spend selection]** nel passaggio successivo.
 
@@ -68,6 +69,46 @@ Per creare un piano, nell&#39;interfaccia ![PLan](/help/assets/icons/FileChart.s
 
       ![Selezione spese](/help/assets/plan-spend-selection.png)
 
+   1. Seleziona **[!UICONTROL Next]**.
+
+
+1. Nella sezione **[!UICONTROL Advanced configurations]** è possibile immettere configurazioni avanzate facoltative.
+
+   ![Riepilogo piano](../assets/plan-advanced-configurations.png)
+
+   * Vengono riepilogati il nome del piano, il modello, l&#39;intervallo di date e il budget totale.
+
+   * Per impostazione predefinita, Mix Modeler calcola automaticamente i ricavi medi per conversione utilizzando i dati stagionali storici più recenti. In **[!UICONTROL Average Revenue per conversion]** puoi definire ricavi medi specifici per conversione.
+
+      1. Per ogni intervallo di date nel budget:
+
+         1. Selezionare un intervallo di date dal menu a discesa **[!UICONTROL Date range]**.
+         1. Immettere un valore **[!UICONTROL Average revenue]**.
+
+      1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) Aggiungi ricavi medi personalizzati per unità di conversione per aggiungere un intervallo di date.
+      1. Selezionare ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) per rimuovere un intervallo di date.
+
+     >[!NOTE]
+     >
+     >Se il modello non include dati storici sui ricavi, è necessario definire un ricavo medio per conversione per ogni intervallo di date specificato per il budget.
+     >
+
+   * Per impostazione predefinita, Mix Modeler calcola automaticamente i costi del canale utilizzando i dati stagionali più recenti. In **[!UICONTROL Channel costs]** è possibile definire i costi del canale personalizzati.
+
+      1. Per ogni canale nel modello, definisci il costo del canale personalizzato.
+
+         1. Selezionare un canale dal menu a discesa **[!UICONTROL Channel]**.
+         1. Per ogni intervallo di date nel budget:
+            1. Selezionare un intervallo di date dal menu a discesa **[!UICONTROL Date range]**.
+            1. Immettere un valore **[!UICONTROL Average revenue]**.
+         1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** per aggiungere un intervallo di date.
+         1. Selezionare ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) per rimuovere un intervallo di date.
+
+      1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** per aggiungere un canale.
+      1. Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per rimuovere un canale personalizzato.
+
+
    1. Al termine, selezionare **[!UICONTROL Create]**.
 
    1. Nella finestra di dialogo **[!UICONTROL Create plan]**, seleziona **[!UICONTROL Create plan]** per creare il piano. Selezionare **[!UICONTROL Cancel]** per annullare la creazione del piano. Viene visualizzata una finestra di dialogo **[!UICONTROL No work is saved]** per confermare.
+
