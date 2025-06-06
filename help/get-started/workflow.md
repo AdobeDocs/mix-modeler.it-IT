@@ -1,12 +1,12 @@
 ---
 title: Flusso di lavoro di Mix Modeler
-description: Scopri il flusso di lavoro tipico di Mix Modeler.
+description: Comprendere il flusso di lavoro tipico di Mix Modeler.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: bdb5992ba1e6a4e5aa546b6ffb8e9673ed69be22
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 1%
+source-wordcount: '236'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Guarda questo video per un’introduzione al flusso di lavoro degli utenti in Mix Modeler.
 
->[!VIDEO](https://video.tv.adobe.com/v/3440211/?learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
 
 
 Un flusso di lavoro tipico in Mix Modeler è costituito dalle seguenti attività:
@@ -27,11 +27,14 @@ Un flusso di lavoro tipico in Mix Modeler è costituito dalle seguenti attività
 | ![ControlloDati](/help/assets/icons/DataCheck.svg){width="100"} | [**Armonizzare i dati**](../harmonize-data/overview.md) | Configura le regole di mappatura e di risoluzione dei conflitti per unire i vari set di dati di marketing necessari per misurare e pianificare le prestazioni della campagna in Mix Modeler. |
 | ![FileConfig](/help/assets/icons/FileGear.svg){width="100"} | [**Modelli di compilazione**](../models/overview.md) | Crea istanze di modello con punti di contatto di marketing (ad esempio canali), definizioni di conversione e fattori interni ed esterni. |
 | ![DatiFile](/help/assets/icons/FileData.svg){width="100"} | [**Formazione e valutazione dei modelli**](../models/overview.md) | Crea punteggi aggregati e a livello di evento utilizzando l’apprendimento automatico e il punteggio. |
-| ![FileChart](/help/assets/icons/FileChart.svg){width="100"} | [**Piani di compilazione**](../plans/overview.md) | Creare e creare piani. Determinare la migliore allocazione di fondi di marketing per raggiungere un obiettivo aziendale utilizzando l’output dei modelli Mix Modeler. |
+| ![FileChart](/help/assets/icons/FileChart.svg){width="100"} | [**Piani di compilazione**](../plans/overview.md) | Creare e creare piani. Determinare la migliore allocazione di fondi di marketing per raggiungere un obiettivo aziendale utilizzando i risultati dei modelli di Mix Modeler. |
 | ![Dashboard](/help/assets/icons/Dashboard.svg){width="100"} | [**Dashboard panoramica**](../dashboard/overview.md) | Ottieni informazioni su dati, modelli e piani armonizzati utilizzando varie visualizzazioni configurabili. |
 
 {style="table-layout:auto"}
 
+Di seguito è illustrata una panoramica del modo in cui i dati di input possono fluire in Mix Modeler e di come Mix Modeler può produrre dati di output per la propria interfaccia ma anche per altre soluzioni, come Customer Journey Analytics.
+
+![Flusso dati output input Mix Modeler](../assets/mm-input-output.png)
 <!---
 The detailed data-oriented flowchart below illustrates how:
 
