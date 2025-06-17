@@ -3,10 +3,10 @@ title: Panoramica dell’armonizzazione dei set di dati
 description: Scopri come armonizzare i dati in Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 6%
+source-wordcount: '1192'
+ht-degree: 5%
 
 ---
 
@@ -154,4 +154,28 @@ Per visualizzare i dati armonizzati, nell’interfaccia di Mix Modeler:
    1. Selezionare ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**.
 
    Un report CSV con un titolo basato sul nome del report fornito e la data e l&#39;ora correnti (ad esempio `Test Report_2025_04_23_9-5-18.csv`) viene scaricato nella cartella di download predefinita.
+
+
+## Best practice
+
+Quando crei il set di dati armonizzato, applica le seguenti best practice.
+
+### Schema
+
+* Evita le mancate corrispondenze dei tipi di dati. Le mancate corrispondenze si verificano quando il tipo di dati di un campo nei record dei set di dati acquisiti non è conforme al tipo di dati configurato per tale campo nello schema sottostante.
+* Evita tipi di schema errati. Tipi di schema non corretti si verificano quando si tenta di acquisire tipi specifici di dati utilizzando un set di dati che non corrisponde allo schema per tali dati. Ad esempio, prova ad acquisire i dati di riepilogo utilizzando un set di dati di fattore esterno.
+
+### Mappatura dei dati
+
+* Assicurati di aver impostato correttamente le identità per ciascuno dei set di dati dell’evento.
+
+### Qualità dei dati
+
+* Assicurati di utilizzare in modo coerente il formato della data e dell’ora per tutti i record nei set di dati che richiedono dati con marca temporale.
+* Assicurati di utilizzare la stessa granularità (giorno o settimana) per i record in set di dati aggregati o di riepilogo.
+
+### Calcolo dei dati
+
+* Evita righe duplicate in un set di dati.
+* Assicurati che ogni set di dati caricato sia specifico per un canale e un tipo di conversione univoci. I punti di contatto o le conversioni duplicati su più set di dati influiscono sull’output e sulla qualità del modello.
 
