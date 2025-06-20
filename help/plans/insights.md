@@ -3,9 +3,9 @@ title: Pianificare gli approfondimenti
 description: Scopri come visualizzare informazioni approfondite sul piano e modificarlo in Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -13,15 +13,24 @@ ht-degree: 0%
 # Pianificare gli approfondimenti
 
 
-In [!UICONTROL Plan insights], vengono create le informazioni del piano, mostrando [!UICONTROL Model], [!UICONTROL Data range] e [!UICONTROL Total budget] su cui è basato il piano.
+In [!UICONTROL Plan insights] vengono create le informazioni del piano, con [!UICONTROL Model], [!UICONTROL Data range] e [!UICONTROL Plan target] su cui è basato il piano.
 
-Al termine del recupero, viene visualizzata una panoramica del piano, costituita da:
 
-- Visualizzazione [!UICONTROL Forecasted paid channel ROI]
-- Visualizzazione [!UICONTROL Forecasted revenue]
-- Visualizzazione [!UICONTROL Forecasted conversion]
-- Visualizzazione [!UICONTROL Marginal channel return]
-- [!UICONTROL Data range breakdown] tabella del piano, con colonne per
+Quando crei gli approfondimenti, visualizzi una panoramica del piano, costituita da:
+
+- Intestazione che visualizza [!UICONTROL Model], [!UICONTROL Data range] e [!UICONTROL Plan target] su cui si basa il piano.
+   - Se hai definito un piano basato sull’obiettivo, un badge indica lo stato del target. Le opzioni possibili sono:
+
+      - [!BADGE Destinazione raggiungibile]{type=Positive}
+      - [!BADGE Destinazione non raggiungibile]{type=Negative}
+
+   - Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]** per visualizzare ulteriori dettagli.
+
+- [Visualizzazione [!UICONTROL Forecasted paid channel ROI]](#forecasted-paid-channel-spend-and-roi)
+- [Visualizzazione [!UICONTROL Forecasted revenue]](#forecasted-revenue)
+- [Visualizzazione [!UICONTROL Forecasted conversion]](#forecasted-conversions)
+- [Visualizzazione [!UICONTROL Marginal channel return]](#marginal-channel-return)
+- [[!UICONTROL Data range breakdown] tabella del piano](#date-range-breakdown), con colonne per
 
    - Channel
    - ROI
@@ -32,7 +41,7 @@ Al termine del recupero, viene visualizzata una panoramica del piano, costituita
 
 Per chiudere l&#39;interfaccia, selezionare **[!UICONTROL Close]**.
 
-Per modificare la modalità di visualizzazione del ROI del piano, selezionare **[!UICONTROL X]** o **[!UICONTROL &#x200B; %]** in **[!UICONTROL View ROI]**.
+Per modificare la modalità di visualizzazione del ROI del piano, selezionare **[!UICONTROL X]** o **[!UICONTROL  %]** in **[!UICONTROL View ROI]**.
 
 ## Spesa canale a pagamento e ROI previsti
 
@@ -57,7 +66,7 @@ Questa visualizzazione con grafico a barre mostra le conversioni previste per i 
 
 ## Ritorno canale marginale
 
-Questa visualizzazione del grafico a linee mostra una curva di ritorno marginale per il canale selezionato con indicatori per **[!UICONTROL Marginal break-even]** e **[!UICONTROL Return point]**. Questa visualizzazione ti aiuta a capire come la spesa per un canale viene dal raggiungimento di un punto di pareggio marginale e se hai spazio per aumentare la spesa in un canale o se dovresti spendere meno su un canale per migliorare l’efficienza della spesa del canale.
+Questa visualizzazione del grafico a linee mostra una curva di ritorno marginale per il canale selezionato con indicatori per **[!UICONTROL Marginal break-even]** e **[!UICONTROL Return point]**. Questa visualizzazione ti aiuta a capire come la spesa per un canale viene dal raggiungimento di un punto di pareggio marginale. E se si dispone di spazio per aumentare la spesa in un canale o se si dovrebbe spendere meno su un canale per migliorare l&#39;efficienza della spesa del canale.
 
 ![Visualizzazione ritorno canale marginale](../assets/overview-plan-marginal-channel-return.png)
 
@@ -82,11 +91,11 @@ La tabella [!UICONTROL Date range breakdown] mostra dati granulari dettagliati p
 
 ## Modifica piano
 
-1. Per modificare il piano, seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**:
+Per modificare il piano, selezionare ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**.
 
-   Nella sezione **[!UICONTROL Spend selection]**, per ogni intervallo di date del budget, utilizzare la ![freccia](/help/assets/icons/ChevronRight.svg) per aprire la visualizzazione di distribuzione del canale per tale intervallo di dati.
+1. Nella sezione **[!UICONTROL Spend selection]**, per ogni intervallo di date del budget, utilizzare la ![freccia](/help/assets/icons/ChevronRight.svg) per aprire la visualizzazione di distribuzione del canale per tale intervallo di dati.
 
-   Puoi utilizzare i dati di riferimento storici se desideri utilizzare dati e informazioni sulle spese di marketing passate. Considera i dati storici di riferimento per:
+   Puoi utilizzare i dati di riferimento storici se desideri utilizzare dati e informazioni sulle spese di marketing passate. Considera i dati di riferimento storici per:
 
    - Migliorare l&#39;allocazione del budget evidenziando i canali con prestazioni elevate e quelli con prestazioni insoddisfacenti.
    - Supporta l’analisi delle tendenze.
@@ -98,7 +107,7 @@ La tabella [!UICONTROL Date range breakdown] mostra dati granulari dettagliati p
 
    1. Seleziona **[!UICONTROL Spend pattern]**.
 
-      - Per impostazione predefinita è **[!UICONTROL Automatic]**.
+      - L&#39;opzione predefinita è **[!UICONTROL Automatic]**.
       - Selezionare **[!UICONTROL Historical reference]** e immettere **[!UICONTROL Start date]** per fare riferimento ai dati relativi alle spese di marketing precedenti già disponibili per Mix Modeler. **[!UICONTROL End date]** viene determinato automaticamente in base all&#39;intervallo di dati selezionato. La data di inizio proposta è il primo dato disponibile sulla spesa di marketing passata. Per indicare che hai selezionato un periodo di riferimento storico non esistente, viene visualizzato un ![AlertRed](/help/assets/icons/AlertRed.svg).
 
 
@@ -108,65 +117,87 @@ La tabella [!UICONTROL Date range breakdown] mostra dati granulari dettagliati p
 
    1. Per modificare i dettagli del piano, selezionare **[!UICONTROL Edit details]**:
 
-      1. Nella sezione **[!UICONTROL Setup]**, se applicabile, modificare **[!UICONTROL Plan name]** e **[!UICONTROL Description]**.
+      1. Nella sezione **[!UICONTROL Setup]**:
 
-      1. Nella sezione **[!UICONTROL Budget]**:
+         1. Immettere un **[!UICONTROL Plan name]**, ad esempio `Demo plan`. Immettere un **[!UICONTROL Description]**, ad esempio `Demo plan for Luma company`.
+         1. Selezionare un **[!UICONTROL Model]** da **[!UICONTROL _Selezionare un&#39;opzione._.]**
 
-         1. Modificare **[!UICONTROL Date range]** per uno o più intervalli di date del piano digitando le date o selezionando un intervallo di date utilizzando ![Calendario](/help/assets/icons/Calendar.svg).
+            ![Configurazione del piano](/help/assets/plan-setup.png)
 
-         1. Modifica **[!UICONTROL Budget]** per uno o più intervalli di date del piano.
+      1. Nella sezione **[!UICONTROL Goal]** selezionare l&#39;obiettivo per il quale si desidera ottimizzare il piano. Puoi scegliere tra
+         - **[!UICONTROL I have a budget to spend]**
 
-         Per aggiungere altri intervalli di date, ciascuno con il proprio budget, selezionare ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+           ![Budget del piano](../assets/plan-budget.png)
 
-         Per eliminare un intervallo di date e il budget associato, selezionare ![Chiudi](/help/assets/icons/Close.svg).
+           Questa opzione consente di inserire budget per uno o più intervalli di date.
 
-         Per definire un budget massimo:
+            1. Nel contenitore **[!UICONTROL Optimize]**:
+               1. Selezionare una conversione dal menu a discesa **[!UICONTROL Select conversion]**.
+               1. Selezionare un modello dal menu a discesa **[!UICONTROL Select model]**.
+            1. Specificare **[!UICONTROL Date range]** digitando le date o selezionando un intervallo di date utilizzando ![Calendario](/help/assets/icons/Calendar.svg).
+            1. Immetti **[!UICONTROL Budget]**.
+Per aggiungere altri intervalli di date, ciascuno con il proprio budget, selezionare ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+Per eliminare un intervallo di date e il budget associato, selezionare ![Chiudi](/help/assets/icons/Close.svg).
+            1. Per definire un budget massimo facoltativo entro il quale si desidera vincolare il piano:
+               1. Attiva **[!UICONTROL Maximize budget]**.
+               1. Specifica l&#39;importo del budget massimo. L’importo deve essere uguale o superiore all’importo totale dei budget specificati per gli intervalli di date.
 
-         1. Attiva **[!UICONTROL Maximize budget]**.
-         1. Specifica l&#39;importo del budget massimo. L’importo deve essere uguale o superiore all’importo totale dei budget specificato per gli intervalli di date.
 
-      1. Selezionare **[!UICONTROL Next]** per tornare alla sezione **[!UICONTROL Spend]**. Seleziona **[!UICONTROL Cancel]** per tornare alla panoramica dei tuoi piani.
+         - **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
 
-         ![Dettagli piano](/help/assets/plan-details.png)
+           ![Destinazione piano](../assets/plan-target.png)
 
-   1. Se sono state definite configurazioni avanzate per il piano, selezionare **[!UICONTROL Next]**.
+            1. Nel contenitore **[!UICONTROL Optimize]**
+               1. Selezionare una conversione dal menu a discesa **[!UICONTROL Select conversion]**.
+               1. Selezionare una metrica di destinazione dal menu a discesa **[!UICONTROL Select target metric]**. È possibile selezionare tra **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** o **[!UICONTROL ROI]**.
+               1. Selezionare un modello dal menu a discesa **[!UICONTROL Select model]**.
+            1. Specificare un intervallo di date digitando le date o selezionando un intervallo di date utilizzando ![Calendario](/help/assets/icons/Calendar.svg).
+            1. Immetti un valore per la metrica di destinazione selezionata. Ad esempio, un numero per **[!UICONTROL Conversion]**, una percentuale per **[!UICONTROL ROI]** o valori di valuta per **[!UICONTROL CPA]** e **[!UICONTROL Revenue]**.
+Per aggiungere altri intervalli di date, ciascuno con la propria metrica di destinazione, selezionare ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+Per eliminare un intervallo di date e la metrica di destinazione associata, selezionare ![Chiudi](/help/assets/icons/Close.svg).
+            1. Per definire un budget massimo facoltativo entro il quale si desidera vincolare il piano:
+               1. Attiva **[!UICONTROL Maximize budget]**.
+               1. Specifica l&#39;importo del budget massimo.
 
-      ![Modifica configurazione avanzata](../assets/edit-plan-advanced-configuration.png)
+         1. Selezionare **[!UICONTROL Next]** per tornare alla sezione **[!UICONTROL Spend selection]**.
 
-      - Vengono riepilogati il nome del piano, il modello, l&#39;intervallo di date e il budget totale.
+1. Nella sezione **[!UICONTROL Advanced configuration]**:
 
-      - Per impostazione predefinita, Mix Modeler calcola automaticamente i ricavi medi per conversione utilizzando i dati stagionali storici più recenti. In **[!UICONTROL Average Revenue per conversion]** puoi definire ricavi medi specifici per conversione.
+   ![Modifica configurazione avanzata](../assets/edit-plan-advanced-configuration.png)
 
-         1. Per ogni intervallo di date nel budget:
-            1. Selezionare un intervallo di date dal menu a discesa **[!UICONTROL Date range]**.
-            1. Immettere un valore **[!UICONTROL Average revenue]**.
+   - Vengono riepilogati il nome del piano, il modello, l&#39;intervallo di date e il budget totale.
 
-         1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) Aggiungi ricavi medi personalizzati per unità di conversione per aggiungere un intervallo di date.
-         1. Selezionare ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) per rimuovere un intervallo di date.
+   - Per impostazione predefinita, Mix Modeler calcola automaticamente i ricavi medi per conversione utilizzando i dati stagionali storici più recenti. In **[!UICONTROL Average Revenue per conversion]** puoi definire ricavi medi specifici per conversione.
 
-        >[!NOTE]
-        >
-        >Se il modello non include dati storici sui ricavi, è necessario definire un ricavo medio per conversione per ogni intervallo di date specificato per il budget.
-        >
+   1. Per ogni intervallo di date nel budget:
+      1. Selezionare un intervallo di date dal menu a discesa **[!UICONTROL Date range]**.
+      1. Immettere un valore **[!UICONTROL Average revenue]**.
+   1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) Aggiungi ricavi medi personalizzati per unità di conversione per aggiungere un intervallo di date.
+   1. Selezionare ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) per rimuovere un intervallo di date.
 
-      - Per impostazione predefinita, Mix Modeler calcola automaticamente i costi del canale utilizzando i dati stagionali più recenti. In **[!UICONTROL Channel costs]** è possibile definire i costi del canale personalizzati.
+   >[!NOTE]
+   >
+   >Se il modello non include dati storici sui ricavi, è necessario definire un ricavo medio per conversione per ogni intervallo di date specificato per il budget.
+   >
 
-         1. Per ogni canale nel modello, definisci il costo del canale personalizzato.
-            1. Selezionare un canale dal menu a discesa **[!UICONTROL Channel]**.
-            1. Per ogni intervallo di date nel budget:
-               1. Selezionare un intervallo di date dal menu a discesa **[!UICONTROL Date range]**.
-               1. Immettere un valore **[!UICONTROL Average revenue]**.
-            1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** per aggiungere un intervallo di date.
-            1. Selezionare ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) per rimuovere un intervallo di date.
+   - Per impostazione predefinita, Mix Modeler calcola automaticamente i costi del canale utilizzando i dati stagionali più recenti. In **[!UICONTROL Channel costs]** è possibile definire i costi del canale personalizzati.
 
-         1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** per aggiungere un canale.
-         1. Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per rimuovere un canale personalizzato.
+   1. Per ogni canale nel modello, definisci il costo del canale personalizzato.
+      1. Selezionare un canale dal menu a discesa **[!UICONTROL Channel]**.
+      1. Per ogni intervallo di date nel budget:
+         1. Selezionare un intervallo di date dal menu a discesa **[!UICONTROL Date range]**.
+         1. Immettere un valore **[!UICONTROL Average revenue]**.
+      1. Seleziona ![AggiungiCerchio](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** per aggiungere un intervallo di date.
+      1. Selezionare ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) per rimuovere un intervallo di date.
+
+   1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** per aggiungere un canale.
+   1. Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per rimuovere un canale personalizzato.
 
 
 1. Al termine della modifica del piano, selezionare **[!UICONTROL Edit]**.
 
    Nella finestra di dialogo **[!UICONTROL All changes are final]**, selezionare **[!UICONTROL OK]** per aggiornare l&#39;allocazione di spesa corrente del piano e le previsioni di ROI e ricavi. Selezionare **[!UICONTROL Cancel]** per annullare l&#39;aggiornamento del piano.
 
-1. Per annullare gli aggiornamenti del piano, selezionare **[!UICONTROL Cancel]**.
 
-   Nella finestra di dialogo **[!UICONTROL No work will be saved]**, seleziona **[!UICONTROL Cancel]** per continuare a lavorare sul tuo piano oppure seleziona **[!UICONTROL OK]** per tornare all&#39;interfaccia Piani.
+- Per annullare gli aggiornamenti del piano in qualsiasi momento, selezionare **[!UICONTROL Cancel]**. Nella finestra di dialogo **[!UICONTROL No work will be saved]**, seleziona **[!UICONTROL Cancel]** per continuare a lavorare sul piano oppure seleziona **[!UICONTROL OK]** per tornare all&#39;interfaccia Piani.
+- Per tornare alla procedura guidata, selezionare **[!UICONTROL Back]**.

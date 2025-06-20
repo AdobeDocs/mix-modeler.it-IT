@@ -3,9 +3,9 @@ title: Panoramica dei piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,7 @@ Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia di Mix Mod
    | Modello | Modello utilizzato come base per il piano. |
    | Intervallo date | Intervallo di date completo per un piano. |
    | Budget | Budget totale per un piano. |
+   | Destinazione piano | La metrica di destinazione definita per un piano basato su destinazione. |
    | Rendimento previsto | [rendimento previsto](/help/main-guide/glossary.md) per un piano |
    | ROI previsto | [ROI previsto](/help/main-guide/glossary.md) per un piano. |
    | Conversione prevista | [conversione prevista](/help/main-guide/glossary.md) per un piano |
@@ -82,7 +83,7 @@ Per duplicare un piano:
 - Seleziona ![Altro](/help/assets/icons/More.svg) per un piano. Dal menu di scelta rapida, selezionare **[!UICONTROL Duplicate]**.
 - In alternativa, selezionare un piano nella tabella ![SelectBox](/help/assets/icons/SelectBox.svg) e selezionare ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni blu.
 
-Viene creato un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)] (_n_)**. Viene automaticamente reindirizzato a [Creazione piano](build.md) per fornire dettagli aggiornati per il piano copiato.
+Viene creato un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)](_n_)**. Viene automaticamente reindirizzato a [Creazione piano](build.md) per fornire dettagli aggiornati per il piano copiato.
 
 - I dettagli (come Descrizione, Budget e altro) del piano originale vengono copiati.
 - I vincoli di budget del piano originale vengono copiati nel piano appena creato.
@@ -113,6 +114,6 @@ Per eliminare più piani:
 
 1. Selezionare più piani.
 1. Dalla barra delle azioni blu, selezionare ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare i piani.
-1. Selezionare **[!UICONTROL Delete]** nella finestra di conferma **[!UICONTROL Delete *x *piani]**&#x200B;per eliminare i piani. Selezionare **[!UICONTROL Cancel]**&#x200B;per annullare.
+1. Selezionare **[!UICONTROL Delete]** nella finestra di conferma **[!UICONTROL Delete *x *piani]**per eliminare i piani. Selezionare **[!UICONTROL Cancel]**per annullare.
 
 

@@ -3,7 +3,7 @@ title: Dashboard dati armonizzati
 description: Scopri come utilizzare la dashboard di panoramica dei dati armonizzata in Mix Modeler.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 9776b79cfc4a8eaebecd4bce85cfc9d85329c910
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Per modificare il periodo di data per i dati da visualizzare nelle visualizzazio
 
 Puoi filtrare i dati visualizzati per tutte le visualizzazioni utilizzando il riquadro ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Category Filters]**.
 
-Selezionare uno o più filtri per ogni categoria (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** e **[!UICONTROL Traffic Source]**).
+Selezionare uno o più filtri per ogni categoria (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Channels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** e **[!UICONTROL Traffic Source]**).
 
 I filtri selezionati vengono visualizzati sopra le visualizzazioni in **[!UICONTROL FILTERING BY:]**.
 
