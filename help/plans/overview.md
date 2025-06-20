@@ -83,7 +83,7 @@ Per duplicare un piano:
 - Seleziona ![Altro](/help/assets/icons/More.svg) per un piano. Dal menu di scelta rapida, selezionare **[!UICONTROL Duplicate]**.
 - In alternativa, selezionare un piano nella tabella ![SelectBox](/help/assets/icons/SelectBox.svg) e selezionare ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni blu.
 
-Viene creato un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)](_n_)**. Viene automaticamente reindirizzato a [Creazione piano](build.md) per fornire dettagli aggiornati per il piano copiato.
+Viene creato un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)] (_n_)**. Viene automaticamente reindirizzato a [Creazione piano](build.md) per fornire dettagli aggiornati per il piano copiato.
 
 - I dettagli (come Descrizione, Budget e altro) del piano originale vengono copiati.
 - I vincoli di budget del piano originale vengono copiati nel piano appena creato.
@@ -114,6 +114,6 @@ Per eliminare più piani:
 
 1. Selezionare più piani.
 1. Dalla barra delle azioni blu, selezionare ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare i piani.
-1. Selezionare **[!UICONTROL Delete]** nella finestra di conferma **[!UICONTROL Delete *x *piani]**per eliminare i piani. Selezionare **[!UICONTROL Cancel]**per annullare.
+1. Selezionare **[!UICONTROL Delete]** nella finestra di conferma **[!UICONTROL Delete *x *piani]**&#x200B;per eliminare i piani. Selezionare **[!UICONTROL Cancel]**&#x200B;per annullare.
 
 

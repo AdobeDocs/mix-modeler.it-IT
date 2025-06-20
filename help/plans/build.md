@@ -108,6 +108,7 @@ Per eliminare un intervallo di date e la metrica di destinazione associata, sele
    1. Per passare dalla valuta all&#39;input percentuale, selezionare **[!UICONTROL $]** o **[!UICONTROL %]** per **[!UICONTROL View spend by]**. Questa opzione è disabilitata se hai selezionato metriche di destinazione non basate sulla valuta.
 
    1. Al termine, selezionare **[!UICONTROL Create]**.
+
       ![Selezione spese](/help/assets/plan-spend-selection.png)
 
    1. Seleziona **[!UICONTROL Next]**.
