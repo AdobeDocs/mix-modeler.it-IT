@@ -2,10 +2,8 @@
 title: Rapporto utilizzo
 description: Scopri come i dati armonizzati vengono utilizzati nei modelli (per l’apprendimento e il punteggio) e nelle conversioni.
 feature: Harmonized Data
-hide: true
-hidefromtoc: true
 exl-id: 6c32f978-8a3e-4878-bb6b-550f1750d6b7
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: bb13f96f35cb496449dc0880190d429e2f504684
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
