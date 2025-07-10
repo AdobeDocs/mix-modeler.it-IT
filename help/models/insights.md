@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
+source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,15 @@ Per visualizzare le informazioni sul modello, nell&#39;interfaccia ![Models](/he
 
 1. Dal menu di scelta rapida, selezionare **[!UICONTROL Model Insights]**.
 
-![Barra della scheda Informazioni modello](/help/assets/model-insights-tabbar.png)
 
-Puoi vedere quando il modello specificato viene aggiornato l&#39;ultima volta e le visualizzazioni vengono visualizzate utilizzando quattro schede: [Informazioni sul modello](#model-insights), [Attribuzione](#attribution), [Fattori](#factors), [Diagnostica](#diagnostics) e [Panoramica cronologica](#historical-overview).
+
+Sono disponibili le seguenti schede:
+
+* [Approfondimenti modello](#model-insights)
+* [Fattori](#factors-beta) [!BADGE beta]
+* [Attribuzione](#attribution) (solo per modelli abilitati per MTA)
+* [Diagnostica](#diagnostics)
+* [Panoramica cronologica](#historical-overview).
 
 Puoi modificare il periodo di data su cui si basano le visualizzazioni in ciascuna scheda. Immettere un periodo di data o selezionare ![Calendario](/help/assets/icons/Calendar.svg) per selezionare un periodo di data.
 
@@ -36,7 +42,7 @@ Puoi modificare il periodo di data su cui si basano le visualizzazioni in ciascu
 
 {{release-limited-testing-section}}
 
-Se nel modello viene rilevata una deriva del modello, verrà visualizzata una finestra di dialogo **[!UICONTROL Model drift detected]** con opzioni da ricordare in seguito o per [**[!UICONTROL Retrain]**](overview.md#retrain) immediatamente il modello. Se selezioni **[!UICONTROL Remind me later]**, riceverai un promemoria il giorno successivo o all&#39;accesso successivo.
+Se nel modello viene rilevata una deriva del modello, viene visualizzata una finestra di dialogo **[!UICONTROL Model drift detected]** con opzioni da ricordare in seguito o per [**[!UICONTROL Retrain]**](overview.md#retrain) immediatamente il modello. Se selezioni **[!UICONTROL Remind me later]**, riceverai un promemoria il giorno successivo o all&#39;accesso successivo.
 
 ![Finestra di dialogo rilevata deviazione modello](/help/assets/model-drift-dialog.png)
 
@@ -57,9 +63,9 @@ La scheda Approfondimenti modello mostra le visualizzazioni per [Contributo per 
 
 Questa visualizzazione con grafico in pila è ordinata come segue:
 
-* Base in basso.
-* Canali non spesi nel mezzo.
-* Trascorri i canali in alto.
+* La base viene visualizzata nella parte inferiore.
+* I canali non spesi vengono visualizzati al centro.
+* I canali di spesa sono visualizzati in alto.
 
 Questa visualizzazione rappresenta la proporzione di contributo ottenuta per base, per canali di spesa e per canali non di spesa in un intervallo di date. Questa visualizzazione è utile per mostrare l’incrementalità. La base rappresenta ciò che sarebbe successo senza alcun marketing e i canali non spesi più i canali spesi (oltre alla base) attribuiscono all’impatto del marketing. In breve, il valore non speso più spesa equivale all’impatto incrementale delle attività di marketing e la visualizzazione fornisce ad insight informazioni semplici sul valore generato dal marketing.
 
@@ -84,7 +90,7 @@ Per cambiare il canale:
 
 ### Suddivisione punto di contatto
 
-La tabella di suddivisione dei punti di contatto mostra i raggruppamenti settimanali per tutti i canali o per alcuni di essi su base settimanale, visualizzando le metriche chiave associate a ciascuno di essi. La tabella consente un confronto semplice, l’identificazione delle tendenze e il tracciamento delle prestazioni a un livello di canale più granulare. Questa tabella integra esplicitamente la visualizzazione [Contributo per data e supporto di base](#contribution-by-date-and-base-media) e la visualizzazione [Contributo per canale](#contribution-by-channel).
+La tabella di suddivisione dei punti di contatto mostra i raggruppamenti settimanali dei punti di contatto per tutti i canali o per alcuni di essi, su base settimanale, visualizzando le metriche chiave associate a ciascuno di essi. La tabella consente un confronto semplice, l’identificazione delle tendenze e il tracciamento delle prestazioni a un livello di canale più granulare. Questa tabella integra esplicitamente la visualizzazione [Contributo per data e supporto di base](#contribution-by-date-and-base-media) e la visualizzazione [Contributo per canale](#contribution-by-channel).
 
 ![Suddivisione punto di contatto](../assets/touchpoint-breakdown.png)
 
@@ -228,37 +234,51 @@ Per ogni percorso di conversione, vedi:
 
 La scheda Diagnostica mostra le visualizzazioni per:
 
-* Visualizzazione [!UICONTROL Model Assessment], che è possibile suddividere in Conversioni effettive rispetto a quelle previste o residue.
+* **[!UICONTROL Model Assessment]** visualizzazioni, costituite da:
 
-  Per suddividere la visualizzazione, selezionare **[!UICONTROL Actual vs. Predicted]** o **[!UICONTROL Residuals]** dall&#39;elenco **[!UICONTROL Breakdown]**.
+  ![Valutazione modello](../assets/model-assessment.png)
 
-* Tabella [!UICONTROL Model fitting metrics], che mostra le seguenti colonne per ogni metrica di conversione:
+   * Un grafico che puoi scomporre per conversioni effettive rispetto a quelle previste o residue.
+Per suddividere la visualizzazione, selezionare una delle opzioni seguenti dall&#39;elenco **[!UICONTROL Breakdown]**.
 
-   * Conversione effettiva
+      * **[!UICONTROL Actual vs Predicted]**: questa opzione confronta i valori reali con le previsioni del modello. Idealmente, i valori previsti dovrebbero allinearsi strettamente con i valori effettivi, anche se ci si aspetta una certa deviazione. Deviazioni o pattern ampi o sistematici possono indicare relazioni e dati mancanti o potenziali distorsioni.
 
-   * Conversione modellata
+      * **[!UICONTROL Residuals]**: questa opzione mostra la differenza tra i valori effettivi e quelli previsti. Un modello dalle prestazioni soddisfacenti presenta residui distribuiti in modo casuale, senza pattern chiari o diffusione crescente. Le tendenze strutturate o l&#39;ampliamento dei residui possono segnalare l&#39;assenza di relazioni e dati o problemi di varianza.
 
-   * Conversione residua (differenza tra conversione effettiva e modellata)
+   * Una tabella che mostra le seguenti colonne per ogni metrica di conversione:
 
-   * Valori punteggio qualità modello:
-
-      * R2 (R al quadrato), che indica se i dati si adattano al modello di regressione (bontà di adattamento).
-
-      * MAPE (errore percentuale assoluto medio), uno dei KPI più comunemente utilizzati per misurare la precisione della previsione ed esprime l&#39;errore di previsione come percentuale del valore effettivo.
-
-      * RMSE (Root Mean Square Error): indica l’errore medio, ponderato in base al quadrato dell’errore.
+      * **[!UICONTROL Actual Conversion]**
+      * **[!UICONTROL Predicted Conversion]**
+      * **[!UICONTROL Residual Conversion]**
+      * **[!UICONTROL R<sup>2</sup>]**, un punteggio che indica se i dati si adattano al modello di regressione (bontà di adattamento).
+      * **[!UICONTROL MAPE]** (errore percentuale assoluto medio), uno dei KPI più comunemente utilizzati per misurare la precisione della previsione ed esprime l&#39;errore di previsione come percentuale del valore effettivo.
+      * **[!UICONTROL RMSE]** (errore quadrato medio radice): indica l&#39;errore medio, ponderato in base al quadrato dell&#39;errore.
 
   Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets/icons/Download.svg).
 
-* Tabella [!UICONTROL Touchpoint effectiveness], che rappresenta il risultato del modello algoritmico di IA per l’attribuzione. I dati per questa tabella vengono generati solo per periodi di tempo specifici. Seleziona **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) per ulteriori dettagli.
+* Tabella **[!UICONTROL Model training fit metrics]**, che visualizza per ogni metrica di conversione:
+
+  ![Tabella delle metriche Adattamento al modello](../assets/model-training-fit-metrics.png)
+
+   * **[!UICONTROL Training R<sup>2</sup>]**: indica la proporzione di varianza nei valori effettivi spiegata dalle previsioni del modello, compresa tra 0 e 1.
+   * **[!UICONTROL Training sMAPE]** (errore percentuale assoluto medio simmetrico): misura l’errore percentuale medio nei dati di apprendimento. Valori più bassi indicano una maggiore precisione.
+   * **[!UICONTROL Training RMSE]** (errore radice quadrata media): misura l’errore percentuale medio nei dati di apprendimento. Penalizza gli errori più grandi rispetto a MAPE. Una RMSE più bassa suggerisce una maggiore precisione predittiva, ma è sensibile ai valori anomali.
+   * **[!UICONTROL Out-of-sample sMAPE]**: valuta la percentuale di errore sui dati non visualizzati, bilanciando le previsioni eccessive e insufficienti. Aiuta a valutare la generalizzazione. Attualmente, Mix Modeler valuta la percentuale di errore utilizzando l’ultimo trimestre dei dati di formazione come set di dati di sospensione.
+   * **[!UICONTROL Out-of-sample RMSE]**: valuta la percentuale di errore sui dati non visualizzati, bilanciando le previsioni eccessive e insufficienti. Aiuta a valutare la generalizzazione. Attualmente, Mix Modeler valuta la percentuale di errore utilizzando l’ultimo trimestre dei dati di formazione come set di dati di sospensione. RMSE penalizza gli errori più grandi rispetto a MAPE.
+
+
+* Tabella **[!UICONTROL Touchpoint effectiveness]**, che rappresenta il risultato del modello algoritmico di IA per l’attribuzione.
+
+  ![Tabella dell&#39;efficacia dei punti di contatto](../assets/touchpoint-effectiveness.png)
+
+  I dati per questa tabella vengono generati solo per periodi di tempo specifici. Seleziona **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) per ulteriori dettagli.
 
   La visualizzazione mostra, in ordine decrescente di [!UICONTROL Efficiency measure] ![Ordine decrescente](/help/assets/icons/SortOrderDown.svg), per ogni punto di contatto:
 
-   * [!UICONTROL Paths touched]: visualizza la percentuale di percorsi che raggiungono la conversione e la percentuale di percorsi che non raggiungono la conversione. Per un punto di contatto, puoi vedere più conversioni attribuite quando il rapporto di conversione dell’attribuzione è elevato. Questo rapporto confronta la percentuale di percorsi che portano alla conversione rispetto alla percentuale di percorsi che portano alla conversione *not*.
-   * [!UICONTROL Efficiency measure]: generato dal modello di attribuzione algoritmica, la misura di efficienza indica l&#39;importanza relativa di un punto di contatto verso la conversione, indipendentemente dal volume del punto di contatto. L&#39;efficienza è misurata su una scala da 1 a 5. Tieni presente che un volume di punti di contatto più elevato non garantisce una misura di efficienza più elevata.
-   * [!UICONTROL Total volume]: numero aggregato di volte in cui un utente tocca un punto di contatto. Il numero include i punti di contatto visualizzati in un percorso che raggiunge la conversione e i percorsi *non* che determinano la conversione.
+   * **[!UICONTROL Paths touched]**: visualizza la percentuale di percorsi che raggiungono la conversione e la percentuale di percorsi che non raggiungono la conversione. Per un punto di contatto, puoi vedere più conversioni attribuite quando il rapporto di conversione dell’attribuzione è elevato. Questo rapporto confronta la percentuale di percorsi che portano alla conversione rispetto alla percentuale di percorsi che portano alla conversione *not*.
+   * **[!UICONTROL Efficiency measure]**: generato dal modello di attribuzione algoritmica, la misura di efficienza indica l&#39;importanza relativa di un punto di contatto verso la conversione, indipendentemente dal volume del punto di contatto. L&#39;efficienza è misurata su una scala da 1 a 5. Tieni presente che un volume di punti di contatto più elevato non garantisce una misura di efficienza più elevata.
+   * **[!UICONTROL Total volume]**: numero aggregato di volte in cui un utente tocca un punto di contatto. Il numero include i punti di contatto visualizzati in un percorso che raggiunge la conversione e i percorsi *non* che determinano la conversione.
 
-![Diagnostica](/help/assets/model-insights-diagnostics.png)
 
 ### Rilevamento della deriva del modello
 
