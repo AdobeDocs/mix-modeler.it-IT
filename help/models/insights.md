@@ -238,7 +238,7 @@ Per ogni percorso di conversione, vedi:
 >title="Modelli di grafici di valutazione"
 >abstract="Le visualizzazioni di valutazione dei modelli si suddividono in conversioni effettive rispetto a quelle previste o residue."
 >additional-url="https://experienceleague.adobe.com/it/docs/mix-modeler/using/overview" text="Panoramica di Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Demo Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440802/?learn=on&amp;enablevpops&captions=ita" text="Demo Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
