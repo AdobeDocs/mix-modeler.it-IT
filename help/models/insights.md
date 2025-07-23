@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -230,9 +230,30 @@ Per ogni percorso di conversione, vedi:
 * la somma di queste percentuali di contributo del modello di attribuzione del canale.
 
 
-## [!UICONTROL Diagnostics]
+## [!UICONTROL Diagnostics] {#diagnostics}
 
-La scheda Diagnostica mostra le visualizzazioni per:
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modelassessment"
+>title="Modelli di grafici di valutazione"
+>abstract="Le visualizzazioni di valutazione dei modelli si suddividono in conversioni effettive rispetto a quelle previste o residue."
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Panoramica di Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Demo Mix Modeler"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_pathstouched"
+>title="Percorsi toccati"
+>abstract="Percorsi toccati è la percentuale di percorsi che raggiungono la conversione e la percentuale di percorsi che non raggiungono la conversione per ciascun punto di contatto."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeldateinfo"
+>title="Data modello al"
+>abstract="I dati per questa tabella vengono generati solo per periodi di tempo specifici.  La data **[!UICONTROL As of]** indica quando i dati sono stati generati e si basa sui dati da startDate a endDate."
+
+
+La scheda **[!UICONTROL Diagnostics]** mostra le visualizzazioni per:
 
 * **[!UICONTROL Model Assessment]** visualizzazioni, costituite da:
 
