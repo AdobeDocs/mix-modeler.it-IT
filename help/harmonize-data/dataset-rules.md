@@ -3,9 +3,9 @@ title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
+source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Le regole del set di dati ti aiutano a mappare i campi armonizzati con i campi d
 
 ## Gestire le regole dei set di dati
 
-Per visualizzare una tabella delle regole dei set di dati disponibili, nell’interfaccia Mix Modeler:
+Per visualizzare una tabella delle regole dei set di dati disponibili, nell’interfaccia di Mix Modeler:
 
 1. Seleziona ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
@@ -52,19 +52,7 @@ Nella schermata **[!UICONTROL Create]**,
 
 1. Selezionare **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** per **[!UICONTROL Granularity]**.
 
-1. Dopo aver selezionato un set di dati della categoria **[!UICONTROL Summary]**:
-
-   1. Per definire se i dati per il set di dati aggregano o sostituiscono i dati esistenti, selezionare **[!UICONTROL Aggregation]** o **[!UICONTROL Replacement]** per **[!UICONTROL Data restatement is by]**.
-
-   1. Mappare ciascuno dei **[!UICONTROL Available dataset fields]** ai **[!UICONTROL Standard harmonized fields]** corrispondenti in **[!UICONTROL Map to harmonized fields]**. Se non desideri mappare un campo set di dati a un campo armonizzato, seleziona esplicitamente **[!UICONTROL -- None --]**.
-
-   1. Se è necessario un nuovo campo armonizzato, non disponibile nell&#39;elenco, selezionare **[!UICONTROL Create New]** per creare un nuovo campo armonizzato. La finestra di dialogo viene visualizzata come descritto in [Aggiungi un nuovo campo armonizzato](fields.md#add-a-harmonized-field).
-
-   1. Una volta completata la mappatura per tutti i campi della regola, selezionare **[!UICONTROL Save as draft]** per salvare una bozza della regola o **[!UICONTROL Save]** per salvare e attivare la regola. Selezionare **[!UICONTROL Cancel]** per annullare la configurazione della regola.
-
-      ![Crea regole set di dati](/help/assets/dataset-create-summary.png)
-
-1. Dopo aver selezionato un set di dati categoria eventi (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), nella casella sottostante **[!UICONTROL Map to harmonized fields]**:
+1. Nella sezione **[!UICONTROL Map to harmonized fields]**:
 
    1. Selezionare un campo armonizzato da **[!UICONTROL Standard harmonized field]**.
 
@@ -72,17 +60,17 @@ Nella schermata **[!UICONTROL Create]**,
 
       1. Selezionare **[!UICONTROL Count]** o **[!UICONTROL Sum]** da **[!UICONTROL Mapping type]**.
 
-      1. Selezionare un **[!UICONTROL *campo set di dati AEP *]**&#x200B;a cui si desidera mappare il campo armonizzato per impostazione predefinita.
+      1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**a cui vuoi mappare il campo armonizzato per impostazione predefinita.
 
    1. Quando il campo selezionato è di tipo dimensione:
 
       1. Selezionare **[!UICONTROL Map Into]** o **[!UICONTROL Case]** da **[!UICONTROL Mapping type]**.
 
-      1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+      1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-      1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+      1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-         1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ogni condizione può verificare la presenza di un campo del set di dati **[!UICONTROL *AEP *]**&#x200B;specifico, che si tratti di **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**&#x200B;oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**, un valore immesso in&#x200B;**[!UICONTROL * Immettere il valore di input *]**.
+         1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**specifico, che si tratti di **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**o **[!UICONTROL Ends With]**un valore immesso in**[!UICONTROL * Immettere il valore di input *]**.
 
          1. Per aggiungere un altro caso, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, per aggiungere un&#39;altra condizione, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -103,9 +91,24 @@ Nella schermata **[!UICONTROL Create]**,
 
         ![Evento regola set di dati](/help/assets/dataset-create-event.png)
 
+      Quando mappi un campo armonizzato standard da un set di dati di riepilogo, Mix Modeler tenta di dedurre il campo set di dati Experience Platform corrispondente. In caso di esito positivo:
+
+      * Se il campo è di tipo dimensione, **[!UICONTROL Map into]** viene selezionato come **[!UICONTROL Mapping type]**.
+      * Se il campo è di tipo metrica, **[!UICONTROL Sum]** viene selezionato come **[!UICONTROL Mapping type]**.
+      * **[!UICONTROL Field]** è selezionato come tipo di mappatura **[!UICONTROL Default]**.
+      * Il campo del set di dati Experience Platform corrispondente viene inserito automaticamente per *AEP Dataset Field*.
+
+      Puoi modificare qualsiasi valore proposto se questi non sono corretti o se non supportano il tuo caso d’uso specifico.
+
 1. Seleziona ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** per definire campi aggiuntivi.
 
 Al termine, selezionare **[!UICONTROL Save as draft]** per salvare una bozza della regola o **[!UICONTROL Save]** per salvare e attivare la regola. Selezionare **[!UICONTROL Cancel]** per annullare la configurazione della regola.
+
+>[!NOTE]
+>
+>L&#39;esperienza dedicata **[!UICONTROL Map to harmonized fields]** per le regole dei set di dati di riepilogo è obsoleta. Tutti i set di dati ora utilizzano la stessa esperienza generica di **[!UICONTROL Map to harmonized fields]**. Per i set di dati di riepilogo per i quali sono state definite regole utilizzando l&#39;esperienza **[!UICONTROL Map to harmonized fields]** obsoleta, è possibile verificare queste regole rispetto all&#39;esperienza **[!UICONTROL Map to harmonized field]** generica.
+>
+
 
 
 ### Modificare una regola del set di dati
@@ -122,6 +125,7 @@ Per eliminare una regola del set di dati, nell&#39;interfaccia ![DataSearch](/he
 
 1. Seleziona ![Altro](/help/assets/icons/More.svg) nella colonna **[!UICONTROL Dataset]** per la regola del set di dati da eliminare.
 1. Dal menu di scelta rapida, selezionare ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare la regola del set di dati. Viene richiesta una conferma. Selezionare **[!UICONTROL Delete]** per eliminare definitivamente la regola del set di dati selezionato.
+
 
 
 ## Sincronizza dati
@@ -144,7 +148,7 @@ Per sincronizzare i dati tra i dati armonizzati e i set di dati di riepilogo e/o
 
 >[!NOTE]
 >
->[!BADGE beta]{type=Informative}
+>[!BADGE beta]{type=Informative} Le preferenze di unione dati sono una funzionalità beta e la relativa funzionalità è soggetta a modifiche.
 
 Per garantire previsioni accurate dei modelli, puoi definire le preferenze di unione dei dati. Questa funzionalità consente agli utenti di risolvere eventuali conflitti dopo l’unione di dati a livello di riepilogo e di evento.
 
@@ -170,7 +174,7 @@ Per configurare le preferenze di unione dati:
 
 1. Seleziona ![Preferenze unione dati](/help/assets/icons/Merge.svg) [!BADGE beta].
 
-1. In **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative}
+1. Nella finestra di dialogo **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative}:
 
    ![Preferenze di unione dati](/help/assets/data-merge-preferences.png)
 
