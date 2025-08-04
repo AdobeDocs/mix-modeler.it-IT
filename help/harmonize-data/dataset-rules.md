@@ -3,9 +3,9 @@ title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
+source-git-commit: 6862d9a49718fe9d1ee1d5bec75b0dc83e14a090
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,14 @@ Nella schermata **[!UICONTROL Create]**,
 
 1. Selezionare **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** per **[!UICONTROL Granularity]**.
 
+1. Dopo aver selezionato un set di dati della categoria **[!UICONTROL Summary]**, selezionare **[!UICONTROL Aggregation]** o **[!UICONTROL Replacement]** per **[!UICONTROL Data restatement is by]**.
+
+   La segnalazione dei dati da parte degli editori è molto importante per gli analisti di marketing, in quanto lavorare con gli editori spesso implica una spesa significativa e le modifiche nei dati di segnalazione possono comportare informazioni e piani di investimento molto diversi. Inoltre, gli analisti di marketing hanno bisogno di dati accurati per ricavare le informazioni giuste e presentare proposte convincenti per conquistare la fiducia delle parti interessate. Tuttavia, questi editori, come Google e Facebook, spesso aggiornano o eliminano i dati di reporting mentre riconciliano i loro dati. L’intervallo di tempo per la maggior parte delle modifiche è entro 7 giorni dalle prestazioni multimediali riportate. Ulteriori modifiche nei dati sono possibili entro 30 giorni. In generale, dopo 30 giorni, i libri sono considerati chiusi e i dati completi.
+
+   Mix Modeler supporta la rigenerazione dei dati. Per garantire che i dati utilizzati per il reporting, la modellazione e la pianificazione siano accurati. E che i dati siano in grado di supportare le aspettative e le esigenze del brand e degli analisti di marketing.
+
+   Puoi inviare righe aggiornate di dati di riepilogo come righe incrementali in un set di dati Experience Platform e il servizio di armonizzazione aggiorna il set di dati armonizzato con tali dati aggiornati. Allo stesso modo, puoi anche rimuovere le righe di dati di riepilogo che devono essere riflesse nel servizio di armonizzazione.
+
 1. Nella sezione **[!UICONTROL Map to harmonized fields]**:
 
    1. Selezionare un campo armonizzato da **[!UICONTROL Standard harmonized field]**.
@@ -60,17 +68,17 @@ Nella schermata **[!UICONTROL Create]**,
 
       1. Selezionare **[!UICONTROL Count]** o **[!UICONTROL Sum]** da **[!UICONTROL Mapping type]**.
 
-      1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**&#x200B;a cui vuoi mappare il campo armonizzato per impostazione predefinita.
+      1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**a cui vuoi mappare il campo armonizzato per impostazione predefinita.
 
    1. Quando il campo selezionato è di tipo dimensione:
 
       1. Selezionare **[!UICONTROL Map Into]** o **[!UICONTROL Case]** da **[!UICONTROL Mapping type]**.
 
-      1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+      1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-      1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+      1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-         1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**&#x200B;specifico, che si tratti di **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**&#x200B;oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**&#x200B;un valore immesso in&#x200B;**[!UICONTROL * Immettere il valore di input *]**.
+         1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**specifico, che si tratti di **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**o **[!UICONTROL Ends With]**un valore immesso in**[!UICONTROL * Immettere il valore di input *]**.
 
          1. Per aggiungere un altro caso, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, per aggiungere un&#39;altra condizione, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
