@@ -4,27 +4,35 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
+source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '518'
 ht-degree: 5%
 
 ---
 
 # Note sulla versione corrente di Mix Modeler
 
-**Ultimo aggiornamento**: 14 maggio 2025.
+**Ultimo aggiornamento**: 6 agosto 2025.
 
 Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rilasci di Mix Modeler funzionano su un modello di consegna continua, che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
+
+
+
+## Luglio - Agosto 2025
+
+| Funzione | Descrizione | [Inizio rollout](#release-strategy) | [Disponibilità generale](#release-strategy) |
+|---|---|---|---|
+| **Aggiornamenti per l&#39;armonizzazione** | Tutte le regole dei set di dati ora utilizzano una mappa [generica simile all&#39;esperienza dei campi armonizzati](/help/harmonize-data/dataset-rules.md), indipendentemente dal tipo di set di dati. Quando mappi un campo armonizzato standard da un set di dati di riepilogo, Mix Modeler tenta di dedurre automaticamente il campo set di dati Experience Platform corrispondente. | mercoledì 29 luglio 2025 | mercoledì 29 luglio 2025 |
 
 
 ## Maggio - giugno 2025
 
 | Funzione | Descrizione | [Inizio rollout](#release-strategy) | [Disponibilità generale](#release-strategy) |
 |---|---|---|---|
-| **Piani basati sugli obiettivi** | Accanto ai budget, puoi definire un obiettivo (target) quando [crei](/help/plans/build.md) o [modifichi](/help/plans/insights.md#edit-plan) un piano. Esempi di metriche target sono i ricavi, la conversione, il CPA o il ROI. | giovedì 18 giugno 2025 | mercoledì 8 luglio 2025 |
-| **Configurazione pattern di spesa** | Quando crei un piano, ora puoi utilizzare [dati di riferimento cronologico](/help/plans/build.md) (come dati e approfondimenti sulle spese di marketing passate) durante la definizione del modello di spesa per ogni intervallo di date di budget. | giovedì 14 maggio 2025 | giovedì 14 maggio 2025 |
-| **Configurazioni avanzate del piano** | Puoi definire [configurazioni avanzate](/help/plans/build.md) per il piano, come ricavi medi per conversione e costi di canale. | giovedì 14 maggio 2025 | giovedì 14 maggio 2025 |
+| **Piani basati sugli obiettivi** | Accanto ai budget, puoi definire un obiettivo (target) quando [crei](/help/plans/build.md) o [modifichi](/help/plans/insights.md#edit-plan) un piano. Esempi di metriche target sono i ricavi, la conversione, il CPA o il ROI. | 18 giugno 2025 | mercoledì 8 luglio 2025 |
+| **Configurazione pattern di spesa** | Quando crei un piano, ora puoi utilizzare [dati di riferimento cronologico](/help/plans/build.md) (come dati e approfondimenti sulle spese di marketing passate) durante la definizione del modello di spesa per ogni intervallo di date di budget. | 14 maggio 2025 | 14 maggio 2025 |
+| **Configurazioni avanzate del piano** | Puoi definire [configurazioni avanzate](/help/plans/build.md) per il piano, come ricavi medi per conversione e costi di canale. | 14 maggio 2025 | 14 maggio 2025 |
 
 ## Marzo - aprile 2025
 
