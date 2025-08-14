@@ -4,7 +4,7 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
+source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 5%
@@ -56,7 +56,7 @@ Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rila
 
 ## Strategia di rilascio
 
-[!UICONTROL Mixx Modeler] utilizza i flag di funzionalità (noti anche come &quot;interruttori&quot;) per controllare la visibilità delle nuove funzionalità, consentendo test su scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
+[!UICONTROL Mix Modeler] utilizza i flag di funzionalità (noti anche come &quot;interruttori&quot;) per controllare la visibilità delle nuove funzionalità, consentendo test su scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
 
 * **Test limitati**: un rilascio graduale inizia con il test da parte degli utenti interni di Adobe. Viene quindi reso disponibile a un piccolo gruppo di clienti per garantire che la funzione soddisfi le esigenze e le aspettative dei clienti.
 
