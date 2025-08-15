@@ -18,7 +18,7 @@ La governance dei dati di Experience Platform consente di controllare e comprend
 
 Etichette di utilizzo dei dati e criteri creati sui set di dati utilizzati dalla superficie Experience Platform in Mix Modeler, se appropriato. Ad esempio, queste etichette interrompono o avvisano gli utenti quando si eliminano set di dati che fanno parte di una regola di set di dati nei dati armonizzati. Oppure nascondi i campi dello schema limitati agli utenti durante la creazione di una regola per un set di dati.
 
-L’integrazione della governance dei dati consente di gestire la conformità in modo più efficiente. Gli amministratori dei dati della tua organizzazione possono impostare criteri per limitare l’utilizzo. Di conseguenza, puoi utilizzare dati conformi ai criteri definiti dagli amministratori dei dati. Per ulteriori informazioni, consulta la documentazione su [Etichette e criteri](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance).
+L’integrazione della governance dei dati consente di gestire la conformità in modo più efficiente. Gli amministratori dei dati della tua organizzazione possono impostare criteri per limitare l’utilizzo. Di conseguenza, puoi utilizzare dati conformi ai criteri definiti dagli amministratori dei dati. Per ulteriori informazioni, consulta la documentazione su [Etichette e criteri](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/data-governance).
 
 Sono disponibili le seguenti funzioni di governance dei dati:
 
