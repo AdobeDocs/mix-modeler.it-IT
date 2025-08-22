@@ -4,16 +4,16 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
+source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '536'
 ht-degree: 5%
 
 ---
 
 # Note sulla versione corrente di Mix Modeler
 
-**Ultimo aggiornamento**: 6 agosto 2025.
+**Ultimo aggiornamento**: 20 agosto 2025.
 
 Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rilasci di Mix Modeler funzionano su un modello di consegna continua, che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
 
@@ -23,6 +23,7 @@ Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rila
 
 | Funzione | Descrizione | [Inizio rollout](#release-strategy) | [Disponibilità generale](#release-strategy) |
 |---|---|---|---|
+| **[!UICONTROL Compare plans update]** | Nell&#39;interfaccia utente [Confronta piani](/help/plans/compare.md) sono ora visualizzati ulteriori dettagli per il marketing a pagamento: ROI o CPA e ricavi. | 20 agosto 2025 | 20 agosto 2025 |
 | **Aggiornamenti per l&#39;armonizzazione** | Tutte le regole dei set di dati ora utilizzano una mappa [generica simile all&#39;esperienza dei campi armonizzati](/help/harmonize-data/dataset-rules.md), indipendentemente dal tipo di set di dati. Quando mappi un campo armonizzato standard da un set di dati di riepilogo, Mix Modeler tenta di dedurre automaticamente il campo set di dati Experience Platform corrispondente. | mercoledì 29 luglio 2025 | mercoledì 29 luglio 2025 |
 
 

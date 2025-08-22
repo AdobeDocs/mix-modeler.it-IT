@@ -3,9 +3,9 @@ title: Confronta piani
 description: Scopri come confrontare i piani in Mix Modeler.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 4564c35bd8be69a586dc5a6c91ecd0db1e3298d6
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ L’interfaccia Confronta piani mostra informazioni e visualizzazioni su:
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** o **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]** (ritorno sull&#39;investimento) o **[!UICONTROL CPA]** (costo per azione)
-* Suddivisione di **[!UICONTROL ROI]** (ritorno sull&#39;investimento) o **[!UICONTROL CPA]** (costo per azione)
+* **[!UICONTROL Paid marketing ROI]** (ritorno sull&#39;investimento) o **[!UICONTROL CPA]** (costo per azione)
+* **[!UICONTROL ROI]** (ritorno sull&#39;investimento) o **[!UICONTROL CPA]** (costo per azione) **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted return]**
+* **[!UICONTROL Paid marketing revenue]**
 
 Dove:
 
