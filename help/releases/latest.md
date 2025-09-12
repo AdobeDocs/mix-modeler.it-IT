@@ -4,19 +4,27 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
+source-git-commit: 9ac6acec2faa57a771386fc9df9cce655d711f3a
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '669'
 ht-degree: 5%
 
 ---
 
 # Note sulla versione corrente di Mix Modeler
 
-**Ultimo aggiornamento**: 20 agosto 2025.
+**Ultimo aggiornamento**: 12 settembre 2025.
 
 Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rilasci di Mix Modeler funzionano su un modello di consegna continua, che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
 
+
+## 2025 settembre
+
+| Funzione | Descrizione | [Inizio rollout](#release-strategy) | [Disponibilità generale](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Dataset mapping validations]** | Sono state aggiunte convalide alle mappature dei set di dati di Experience Platform per i campi armonizzati. | 9 settembre 2025 | 9 settembre 2025 |
+| **[!UICONTROL Context menu on links to model and plans]** | Abilitazione del menu di scelta rapida del browser sui collegamenti a modelli e piani. È ora possibile utilizzare il menu di scelta rapida del browser per aprire un piano o un modello specifico in una nuova scheda o finestra. | 9 settembre 2025 | 9 settembre 2025 |
+| **Correzioni** | Correzioni per i seguenti biglietti: <ul><li>AMM-3101: è stata corretta la creazione di mapping non corretta per le regole: `event_date` è stato passato come nome di campo invece di `timestamp`.</li><li>AMM-3092: Corretto impossibile modificare il valore del vincolo massimo del canale su un piano basato su budget duplicato.</li><li>AM3130: sono state corrette le informazioni **[!UICONTROL Run frequency]** errate in una finestra popup di dettaglio di un modello.</li><li>AMM3158: etichette aggiornate per le opzioni **[!UICONTROL Select target metric]** come parte del riquadro **[!UICONTROL Optimize]** nell&#39;interfaccia [Plans create](/help/plans/build.md).</li><li>AMM 3176: è stato corretto un errore che impediva la visualizzazione di [Suddivisione per canale](/help/models/insights.md#breakdown) nella scheda **[!UICONTROL Attribution]** in **[!UICONTROL Model Insights]**.</li></ul> | 9 settembre 2025 | 9 settembre 2025 |
 
 
 ## Luglio - Agosto 2025

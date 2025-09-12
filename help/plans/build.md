@@ -3,7 +3,7 @@ title: Creare piani
 description: Scopri come creare piani in Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
+source-git-commit: 20985d0f9e9d2990b881ab448f6475e4bb8244d1
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Per eliminare un intervallo di date e il budget associato, selezionare ![Chiudi]
             1. Selezionare una metrica di destinazione dal menu a discesa **[!UICONTROL Select target metric]**. È possibile selezionare tra **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** o **[!UICONTROL ROI]**.
             1. Selezionare un modello dal menu a discesa **[!UICONTROL Select model]**.
          1. Specificare un intervallo di date digitando le date o selezionando un intervallo di date utilizzando ![Calendario](/help/assets/icons/Calendar.svg).
-         1. Immetti un valore per la metrica di destinazione selezionata. Ad esempio, un numero per **[!UICONTROL Conversion]**, una percentuale per **[!UICONTROL ROI]** o valori di valuta per **[!UICONTROL CPA]** e **[!UICONTROL Revenue]**.
+         1. Immetti un valore per la metrica di destinazione selezionata. Ad esempio, un numero per **[!UICONTROL Total Conversions]**, una percentuale per **[!UICONTROL Paid Marketing ROI]** o valori di valuta per **[!UICONTROL Paid Marketing CPA]** e **[!UICONTROL Total Revenue]**.
 Per aggiungere altri intervalli di date, ciascuno con la propria metrica di destinazione, selezionare ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 Per eliminare un intervallo di date e la metrica di destinazione associata, selezionare ![Chiudi](/help/assets/icons/Close.svg).
          1. Per definire un budget massimo facoltativo entro il quale si desidera vincolare il piano:
@@ -108,7 +108,6 @@ Per eliminare un intervallo di date e la metrica di destinazione associata, sele
    1. Per passare dalla valuta all&#39;input percentuale, selezionare **[!UICONTROL $]** o **[!UICONTROL %]** per **[!UICONTROL View spend by]**. Questa opzione è disabilitata se hai selezionato metriche di destinazione non basate sulla valuta.
 
    1. Al termine, selezionare **[!UICONTROL Create]**.
-
       ![Selezione spese](/help/assets/plan-spend-selection.png)
 
    1. Seleziona **[!UICONTROL Next]**.
