@@ -3,9 +3,9 @@ title: Confronta piani
 description: Scopri come confrontare i piani in Mix Modeler.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: c66d4bd23aa6cf8e0be5bac179072ae562a97770
+source-git-commit: d6cf7e75b91ca3c3a50b95c0909e2d250af07317
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -20,26 +20,22 @@ Per confrontare i piani nell&#39;interfaccia Piani di Mix Modeler:
 
 L’interfaccia Confronta piani mostra informazioni e visualizzazioni su:
 
-* **[!UICONTROL Plan]**. Se il piano è basato su target, viene visualizzato un contrassegno che visualizza lo stato del target.
+* **[!UICONTROL Plan]**. Se il piano è basato su un target (ad esempio, ROI o CPA), viene visualizzato un badge che mostra lo stato del target (ad esempio, Target raggiungibile).
 * **[!UICONTROL Date range]**
 * **[!UICONTROL Model]**
 * **[!UICONTROL Total budget]**
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** o **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
-* **[!UICONTROL Forecasted ROI]** (ritorno sull&#39;investimento) o **[!UICONTROL CPA]** (costo per azione)
-   * Il ROI previsto è il ROI complessivo del piano (inclusi i ricavi incrementali dai canali di base e non di spesa).
-   * Il CPA previsto è il CPA complessivo del piano.
-* **[!UICONTROL Paid marketing ROI]** (ritorno sull&#39;investimento) o **[!UICONTROL CPA]** (costo per azione)
-   * Il ROI del marketing a pagamento è il ROI dei soli canali a pagamento nel piano.
-   * La CPA di marketing a pagamento è la CPA dei soli canali a pagamento del piano.
-* **[!UICONTROL ROI]** (ritorno sull&#39;investimento) o **[!UICONTROL CPA]** (costo per azione) **[!UICONTROL breakdown]**
-* **[!UICONTROL Forecasted return]**
-* **[!UICONTROL Paid marketing revenue]**
+* **[!UICONTROL Forecasted ROI]** o **[!UICONTROL CPA]**
+   * Il ROI previsto è il ROI complessivo previsto del piano (inclusi i ricavi incrementali dai canali di base e non di spesa).
+   * Il CPA previsto è il CPA complessivo previsto del piano (compresi i ricavi incrementali dai canali di base e non di spesa).
+* **[!UICONTROL Paid marketing ROI]** o **[!UICONTROL CPA]**
+   * Il ROI del marketing a pagamento è un sottoinsieme del ROI previsto. Il ROI del marketing a pagamento è il ROI solo per i canali a pagamento nel piano.
+   * La CPA di marketing a pagamento è un sottoinsieme della CPA prevista. La CPA di marketing a pagamento è la CPA solo per i canali a pagamento nel piano.
+* **[!UICONTROL ROI]** o **[!UICONTROL CPA]** **[!UICONTROL breakdown]**
+* **[!UICONTROL Forecasted revenue]** o **[!UICONTROL conversion]**.
+* **[!UICONTROL Paid marketing revenue]** o **[!UICONTROL conversion]**
 
-Dove:
-
-* Il ROI è definito come (Incremental Revenue - Spend) / Spesa.
-* Il CPA è definito come Spesa/Conversione incrementale.
 
 
 ![Confronta piani](/help/assets/compare-plans.png)
