@@ -3,27 +3,27 @@ title: Panoramica dell’acquisizione dei dati
 description: Scopri come acquisire dati in Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: bb05cee1d4e2245cf665e5dcea17a30c5c0cf203
+source-git-commit: f86454dd262a0a11a20d58e380b5d2b7c90fd2b9
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 7%
 
 ---
 
 # Panoramica dell’acquisizione dei dati
 
-Mix Modeler utilizza dati a livello di evento, aggrega o riassume i dati delle attività di marketing provenienti da vari giardini murati, e aggrega o riassume i dati provenienti da qualsiasi altra origine, ad esempio pubblicità offline, fattori interni o esterni.
+Mix Modeler utilizza dati a livello di evento, aggregati o riepilogativi sulle attività di marketing provenienti da vari giardini murati. E con dati aggregati o riepilogativi provenienti da qualsiasi altra origine, come pubblicità offline, fattori interni o esterni.
 
 I clienti possono utilizzare qualsiasi tipo di dati acquisito in Experience Platform come set di dati e basato su schemi che utilizzano ExperienceEvent XDM o Metriche di riepilogo XDM come classe base.
 
 Ad esempio:
 
-* dati raccolti utilizzando il connettore di origine di Adobe Analytics e trasformati in set di dati conformi all’impostazione predefinita o a una versione personalizzata dello schema di Adobe Analytics, oppure in alternativa,
-* dati raccolti utilizzando Experience Platform Web SDK, Mobile SDK o Edge Network Server API per raccogliere le interazioni dei clienti su web, dispositivi mobili o qualsiasi altro tipo di dispositivo,
-* dati aggregati o riassuntivi provenienti da giardini murati (come Facebook, YouTube), da fonti di traffico o da dati pubblicitari offline,
-* dati aggregati o di riepilogo non di marketing contenenti fattori interni o esterni utili per la creazione di modelli.
+* Dati raccolti utilizzando il connettore di origine di Adobe Analytics. E trasformati in set di dati conformi all’impostazione predefinita o a una versione personalizzata dello schema Adobe Analytics.
+* Dati raccolti utilizzando Experience Platform Web SDK, Mobile SDK o Edge Network Server API per la raccolta delle interazioni dei clienti su web, dispositivi mobili o qualsiasi altro tipo di dispositivo.
+* Aggregare o riepilogare dati provenienti da giardini murati (come Facebook, YouTube), da origini del traffico o da dati pubblicitari offline.
+* Dati aggregati o di riepilogo non di marketing contenenti fattori interni o esterni utili per la creazione di modelli.
 
-Puoi utilizzare qualsiasi tipo di meccanismo supportato da Experience Platform per acquisire a livello di evento l’esperienza, aggregare i dati relativi alle attività di marketing e i dati provenienti da altre origini. I meccanismi di acquisizione includono gli SDK di Experience Platform, le API, i connettori di origine, lo streaming e l’acquisizione batch. Per ulteriori informazioni sull&#39;acquisizione dei dati in Experience Platform per l&#39;utilizzo in Adobe Mix Modeler, consulta [Panoramica sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home).
+Puoi utilizzare qualsiasi tipo di meccanismo supportato da Experience Platform per acquisire a livello di evento l’esperienza, aggregare i dati relativi alle attività di marketing e i dati provenienti da altre origini. Ad esempio gli SDK di Experience Platform, le API, i connettori di origine e l’acquisizione in streaming e batch. Per ulteriori informazioni sull&#39;acquisizione dei dati in Experience Platform per l&#39;utilizzo in Adobe Mix Modeler, consulta la [Panoramica sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
 
 ## Linee guida
 
@@ -41,7 +41,7 @@ Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre
 
 +++ Aggregazione dei dati relativi allo sforzo di marketing
 
-| Geo | Data | Tipo di data | Channel | Campaign | Clic | Guadagnato | Coinvolgimento | Impression | Open | Di proprietà | Inviato | Spesa |
+| Geo | Data | Tipo di data | Canale | Campaign | Clic | Guadagnato | Coinvolgimento | Impression | Open | Di proprietà | Inviato | Spesa |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
 | AMER | 31/10/2021 | giorno | EMAIL | | 12752 | | | | | | 1132945 | |
 | AMER | 31/10/2021 | giorno | FB | | 148844 | | | | | | | 42111 |
@@ -89,7 +89,7 @@ Per verificare se i dati sono disponibili correttamente in Mix Modeler, puoi eff
 * Utilizza le visualizzazioni in [Panoramica](/help/overview.md).
 * Scarica e controlla i dati da [Dati armonizzati](/help/harmonize-data/overview.md) nei set di dati armonizzati.
 
-Per verificare se i dati vengono acquisiti correttamente in Experience Platform, è possibile [scrivere ed eseguire query SQL utilizzando Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home).
+Per verificare se i dati vengono acquisiti correttamente in Experience Platform, è possibile [scrivere ed eseguire query SQL utilizzando Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]
