@@ -3,7 +3,7 @@ title: Punti di contatto di marketing
 description: Scopri come creare punti di contatto di marketing da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 11%
@@ -58,7 +58,7 @@ Per aggiungere un punto di contatto di marketing, nell&#39;interfaccia ![DataSea
 
       1. Selezionare un valore per l&#39;operatore ![Chevron](/help/assets/icons/ChevronDown.svg), ad esempio **[!UICONTROL is]**.
 
-      1. Selezionare un valore da **[!UICONTROL *Selezionare un valore *]**&#x200B;o immettere un valore, ad esempio **[!DNL Luma]**.
+      1. Selezionare un valore da **[!UICONTROL *Selezionare un valore *]**o immettere un valore, ad esempio **[!DNL Luma]**.
 
    1. Selezionare un campo armonizzato da **[!UICONTROL Touchpoint volume]**, ad esempio **[!UICONTROL Impressions]**.
 

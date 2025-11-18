@@ -1,17 +1,17 @@
 ---
-title: Panoramica di Mix Modeler
+title: Panoramica su Mix Modeler
 description: Panoramica sulle funzionalità chiave di Mix Modeler.
 short-description: Panoramica sulle funzionalità chiave di Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Panoramica di Mix Modeler
+# Panoramica su Mix Modeler
 
 Mix Modeler, con tecnologia Adobe Sensei, consente agli esperti di marketing di misurare le campagne e ottimizzare la pianificazione in modo olistico su tutti i canali: a pagamento, guadagnato e di proprietà. La metodologia unificata misura in modo incrementale sia i punti di contatto di marketing che i livelli aggregati, garantendo al contempo risultati pienamente coerenti.
 
@@ -86,7 +86,7 @@ Puoi utilizzare la funzionalità di attribuzione multi-touch di Mix Modeler nei 
 
 * Allocazione budget campagna: informa le decisioni di allocazione del budget tra i canali di marketing.
 * Ottimizzazione delle campagne: all’interno di ogni canale, scopri quali campagne, creativi e parole chiave funzionano meglio per quali SKU o geos. Questa conoscenza ti consente di esaminare ogni canale in modo che il team di marketing possa ottimizzare le loro tattiche.
-* Attribuzione a livello di evento full funnel: scopri l’impatto del marketing sull’intero percorso di clienti. Ad esempio, l’iscrizione gratuita all’account per la conversione a pagamento e oltre.
+* Attribuzione a livello di evento Full-funnel: scopri l’impatto del marketing sull’intero percorso di clienti. Ad esempio, l’iscrizione gratuita all’account per la conversione a pagamento e oltre.
 * Valutazioni dei partner: valutare l’efficacia delle agenzie e dei partner in base ai risultati di attribuzione.
 
 Consulta [Informazioni modello - Attribuzione](../models/insights.md#attribution) su come accedere agli approfondimenti sull&#39;attribuzione multi-touch in Mix Modeler.
