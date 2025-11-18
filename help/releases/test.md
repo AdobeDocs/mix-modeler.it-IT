@@ -30,7 +30,7 @@ Sembra che non supportiamo correttamente i file SVG in una casella ombreggiata. 
 
 >[!BEGINSHADEBOX]
 
-Questo articolo documenta il pannello Attribuzione in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Consulta [Pannello di attribuzione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) per la ![versione di CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** di questo articolo.
+Questo articolo documenta il pannello Attribuzione in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Consulta [Pannello di attribuzione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/attribution) per la ![versione di CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** di questo articolo.
 
 >[!ENDSHADEBOX]
 
