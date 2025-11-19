@@ -3,9 +3,9 @@ title: Pianificare gli approfondimenti
 description: Scopri come visualizzare informazioni approfondite sul piano e modificarlo in Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 86b58717c3c8be183c70d1ceccf6f7c757303518
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Quando crei gli approfondimenti, visualizzi una panoramica del piano, costituita
 - [Visualizzazione [!UICONTROL Marginal channel return]](#marginal-channel-return)
 - [[!UICONTROL Data range breakdown] tabella del piano](#date-range-breakdown), con colonne per
 
-   - Channel
+   - Canale
    - ROI
    - CPA
    - Ricavi
@@ -41,7 +41,7 @@ Quando crei gli approfondimenti, visualizzi una panoramica del piano, costituita
 
 Per chiudere l&#39;interfaccia, selezionare **[!UICONTROL Close]**.
 
-Per modificare la modalità di visualizzazione del ROI del piano, selezionare **[!UICONTROL X]** o **[!UICONTROL &#x200B; %]** in **[!UICONTROL View ROI]**.
+Per modificare la modalità di visualizzazione del ROI del piano, selezionare **[!UICONTROL X]** o **[!UICONTROL  %]** in **[!UICONTROL View ROI]**.
 
 ## Spesa canale a pagamento e ROI previsti
 
@@ -72,6 +72,13 @@ Questa visualizzazione del grafico a linee mostra una curva di ritorno marginale
 
 Per selezionare un canale specifico per la visualizzazione, seleziona un canale dal menu a discesa **[!UICONTROL View]**.
 
+## Sinergie dei canali
+
+La matrice delle sinergie di canale consente di identificare in che modo i canali di marketing interagiscono per creare effetti moltiplicativi, oltre ai singoli contributi.
+
+![Pianificare le sinergie dei canali](/help/assets/plan-channel-synergies.png)
+
+Per scaricare un file CSV che rappresenta la matrice, selezionare ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 ## Raggruppamento per intervallo di date
 
