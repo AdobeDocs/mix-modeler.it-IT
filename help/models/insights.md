@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2488'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,7 @@ Per visualizzare le informazioni sul modello, nell&#39;interfaccia ![Models](/he
 Sono disponibili le seguenti schede:
 
 * [Approfondimenti modello](#model-insights)
+* [Sinergia dei canali](#channel-synergy)
 * [Fattori](#factors-beta) [!BADGE beta]
 * [Attribuzione](#attribution) (solo per modelli abilitati per MTA)
 * [Diagnostica](#diagnostics)
@@ -109,6 +110,25 @@ Sono disponibili le seguenti colonne:
 Per selezionare un canale specifico o tutti i canali, selezionare dal menu a discesa **[!UICONTROL View]**.
 
 Per scaricare il contenuto della tabella dei raggruppamenti dei punti di contatto, seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+
+## Sinergia dei canali
+
+Nella scheda **[!UICONTROL Channel synergy]**, la visualizzazione **[!UICONTROL Channel synergies]** consente di identificare il modo in cui i canali di marketing interagiscono per creare effetti moltiplicativi, oltre ai singoli contributi.
+
+La matrice della mappa di calore fornisce una rappresentazione visiva dei valori di sinergia tra coppie di canali di spesa. Questa matrice aiuta gli addetti al marketing a comprendere in che modo i canali interagiscono per stimolare le prestazioni. Per ciascun modello, i valori di sinergia vengono normalizzati da 0 a 10. Questi valori quantificano la *prossima sinergia del dollaro*, che stima l&#39;efficacia della collaborazione tra due canali quando ciascuno di essi riceve un ulteriore dollaro di spesa ai livelli correnti.
+
+Questo framework per il prossimo dollaro offre una misura realistica della forza di sinergia relativa, in quanto il framework tiene conto delle condizioni di spesa effettive nei dati di formazione e come tale consente decisioni di ottimizzazione più informate.
+
+![Pianificare le sinergie dei canali](/help/assets/model-channel-synergies.png)
+
+Per scaricare un file CSV che rappresenta la matrice, selezionare ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+
+>[!NOTE]
+>
+>Se la scheda **[!UICONTROL Channel synergy]** non è visibile per un modello esistente, assicurati di riaddestrare il modello per abilitare la funzionalità e la visualizzazione.
+
+
 
 ## **[!UICONTROL Factors]** [!BADGE beta]
 
@@ -238,7 +258,7 @@ Per ogni percorso di conversione, vedi:
 >title="Grafici di valutazione dei modelli"
 >abstract="Le visualizzazioni di valutazione dei modelli si suddividono in base alle conversioni effettive rispetto a quelle previste o residue."
 >additional-url="https://experienceleague.adobe.com/it/docs/mix-modeler/using/overview" text="Panoramica su Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440802/?captions=ita&learn=on&enablevpops" text="Demo Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demo Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +275,7 @@ Per ogni percorso di conversione, vedi:
 
 La scheda **[!UICONTROL Diagnostics]** mostra le visualizzazioni per:
 
-* **[!UICONTROL Model Assessment]** visualizzazioni, costituite da:
+* **[!UICONTROL Model Assessment]** visualizzazioni costituite da:
 
   ![Valutazione modello](../assets/model-assessment.png)
 
@@ -277,7 +297,7 @@ Per suddividere la visualizzazione, selezionare una delle opzioni seguenti dall&
 
   Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica](/help/assets/icons/Download.svg).
 
-* Tabella **[!UICONTROL Model training fit metrics]**, che visualizza per ogni metrica di conversione:
+* Tabella **[!UICONTROL Model training fit metrics]** che visualizza per ogni metrica di conversione:
 
   ![Tabella delle metriche Adattamento al modello](../assets/model-training-fit-metrics.png)
 
@@ -305,7 +325,7 @@ Per suddividere la visualizzazione, selezionare una delle opzioni seguenti dall&
 
 >[!AVAILABILITY]
 >
->La funzionalità descritta in questa sezione si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota verrà rimossa quando la funzionalità sarà generalmente disponibile. Per informazioni sulla procedura di rilascio di Mix Modeler, vedere [Versioni delle funzionalità di Mix Modeler](/help/releases/latest.md).
+>La funzionalità descritta in questa sezione si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell’ambiente. Questa nota viene rimossa quando la funzionalità è generalmente disponibile. Per informazioni sulla procedura di rilascio di Mix Modeler, vedere [Versioni delle funzionalità di Mix Modeler](/help/releases/latest.md).
 >
 
 Se viene rilevata una deriva del modello, viene visualizzata una notifica **[!UICONTROL Model drift detected]** nella parte superiore.
