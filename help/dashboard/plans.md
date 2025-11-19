@@ -3,9 +3,9 @@ title: Prestazioni da pianificare
 description: Scopri come utilizzare le Prestazioni per pianificare una panoramica in Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 733fc969a780e777eae67042303180707ec4ed8d
+source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La scheda **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** è una funzionalità alfa e la relativa funzionalità è soggetta a modifiche. Questa funzione è disponibile per un numero limitato di clienti.
+>La scheda **[!UICONTROL Performance to pan]** [!BADGE Beta]{type=Informative} in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** è una funzionalità beta e la relativa funzionalità è soggetta a modifiche. Questa funzione è disponibile per un numero limitato di clienti.
 
+La scheda **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** fornisce un dashboard di tracciamento per monitorare le prestazioni di marketing rispetto al piano. Puoi monitorare le prestazioni effettive rispetto a quelle pianificate tramite schede di stato e visualizzazioni.
 
-
-
-La scheda **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** fornisce un dashboard di tracciamento per monitorare le prestazioni di marketing rispetto al piano.
+La dashboard consente di identificare lacune, individuare rischi o opportunità e apportare modifiche tempestive ai piani e ai budget.
 
 Per selezionare i dati visualizzati per le schede di stato e le visualizzazioni dei KPI:
 
@@ -27,24 +26,22 @@ Per selezionare i dati visualizzati per le schede di stato e le visualizzazioni 
 
 * Specifica un periodo di data. Per modificare il periodo di data, immettere manualmente una data di inizio e una data di fine oppure selezionare un periodo di data, utilizzando ![Calendario](/help/assets/icons/Calendar.svg).
 
-La scheda **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} mostra:
+La scheda **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} mostra:
 
-* Schede di stato KPI
+* [Schede di stato KPI](#kpi-status-cards):
 
    * [Budget](#budget)
    * [Ricavi](#revenue)
    * [ROI](#roi)
-   * [Ordini](#orders)
+   * [KPI](#kpi)
 
-* Visualizzazioni
-   * [ROI: effettivo e previsto](#roi-actual-vs-forecasted)
-   * [Spesa: Effettiva e Pianificata](#spend-actual-vs-planned)
-   * [ROI per intervalli di date](#roi-by-date-ranges)
-   * [Ricavi: effettivi e previsti](#revenue-actual-vs-forecasted)
-   * [Intervalli di date effettivi e previsti](#actual-vs-predicted-spend-by-date-ranges)
-   * [Spesa per intervalli di date](#spend-by-date-ranges)
-   * [Ricavi per intervalli di date](#revenue-by-date-ranges)
-   * [Spesa per intervalli di date (e canali)](#spend-by-date-ranges-and-channels)
+* [Visualizzazione](#visualizations):
+   * [*Metrica*](#metric-actual-vs-planned)
+   * [*Metrica*](#metric-actual-vs-planned-by-granularity)
+   * [Canale ](#channel-metric-by-granularity)
+   * [*Metrica*](#metric-vs-metric-by-channel)
+   * [*Metrica*](#metric-by-granularity)
+   * [*Metrica*](#metric-by-channel)
 
 ## Schede di stato KPI
 
@@ -65,54 +62,69 @@ Una visualizzazione circolare dell’avanzamento che mostra il confronto tra i r
 Visualizzazione a linee che visualizza il ROI per il periodo di data.
 
 
-### Ordini
+### KPI
 
-Visualizzazione delle linee che visualizza gli ordini per il periodo della data.
+Visualizzazione a linee che visualizza l’indicatore KPI per il periodo della data.
 
 Per selezionare un altro indicatore KPI:
 
 1. Seleziona ![Modifica](/help/assets/icons/Edit.svg).
-1. Nella finestra di dialogo **[!UICONTROL KPI status card]**, selezionare un indicatore KPI dal menu a discesa **[!UICONTROL KPI]**.
+1. Nella finestra di dialogo **[!UICONTROL KPI status card]**, selezionare un indicatore KPI dal menu a discesa **[!UICONTROL KPI]**. Opzioni disponibili: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI] e [!UICONTROL Spend].
 
 
 ## Visualizzare
 
+Sono disponibili sei visualizzazioni e puoi modificare ciascuna delle sei.
+
+Per ridimensionare una visualizzazione, utilizzare l&#39;handle ┛ nell&#39;angolo inferiore destro. Per spostare una visualizzazione, trascinala e rilasciala nella posizione desiderata.
+
+Puoi passare il cursore del mouse su qualsiasi linea, barra o elemento a dispersione in una visualizzazione per visualizzare una finestra a comparsa con informazioni aggiuntive.
+
 ![Visualizzazione](../assets/performance-to-plan-visualizations.png)
 
-### ROI: effettivo e previsto
+### *Metrica*: Effettivo rispetto a pianificato
 
-Visualizzazione a linee che confronta il ROI effettivo con il ROI previsto per il periodo di date.
-
-
-### Spesa: Effettiva e Pianificata
-
-Visualizzazione di un grafico a barre che confronta la spesa effettiva rispetto al budget pianificato tra canali diversi per il periodo di tempo.
-
-### ROI per intervalli di date
-
-Visualizzazione con grafico a barre che mostra il ROI per intervallo di date per il periodo di date.
+Visualizzazione a barre in pila che confronta i valori della metrica selezionata per progressivo, progressivo pianificato e totale.
 
 
-### Ricavi: effettivi e previsti
+### *Metrica*: Effettivo rispetto a pianificato da *granularità*
 
-Visualizzazione delle linee che confronta i ricavi effettivi rispetto ai ricavi previsti per il periodo di date.
-
-
-### Spesa effettiva e prevista per intervalli di date
-
-Visualizzazione con grafico a barre che mostra la spesa effettiva rispetto alla spesa prevista per intervallo di date per il periodo di date.
+Visualizzazione a linee che mostra i valori effettivi e pianificati per la metrica selezionata e la granularità selezionata.
 
 
-### Spesa per intervalli di date
+### Canale *metrica* per *granularità*
 
-Visualizzazione con grafico a barre che mostra la spesa per intervallo di date per il periodo di date.
-
-
-### Ricavi per intervalli di date
-
-Visualizzazione con grafico a barre che mostra i ricavi per intervalli di date per il periodo di date.
+Visualizzazione a barre sovrapposte che mostra le barre sovrapposte che visualizzano i canali per la metrica selezionata e la granularità selezionata.
 
 
-### Spesa per intervalli di date e canali
+### *Metrica* rispetto a *Metrica* per canale
 
-Visualizzazione con grafico a barre in pila che mostra la spesa per intervalli di date e canale per il periodo di date.
+Visualizzazione a dispersione che mostra un grafico a dispersione per i canali nelle metriche selezionate.
+
+
+### *Metrica* per *granularità*
+
+Visualizzazione a barre che mostra i valori effettivi e pianificati per la metrica selezionata.
+
+
+### *Metrica* per canale
+
+Visualizzazione su più righe che mostra la metrica selezionata sulla granularità selezionata.
+
+
+### Modificare una visualizzazione
+
+Per modificare una visualizzazione:
+
+1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) per aprire la finestra di dialogo **[!UICONTROL Edit data]**.
+1. A seconda della visualizzazione, puoi modificare:
+
+   * Una o due metriche: selezionare una metrica dal menu a discesa **[!UICONTROL Select metric]**.
+
+      * Per i piani basati sul ROI, le opzioni sono: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend] e [!UICONTROL Volume].
+      * Per i piani basati su CPA, le opzioni sono: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend] e [!UICONTROL Volume].
+   * **[!UICONTROL Granularity]**: selezionare **[!UICONTROL date ranges]** o **[!UICONTROL week]** dal menu a discesa **[!UICONTROL Granularity]**.
+
+   In **[!UICONTROL Preview]** vengono visualizzate le differenze tra le modifiche e la visualizzazione **[!UICONTROL Current]**.
+
+1. Selezionare **[!UICONTROL Apply]** per applicare le modifiche. Seleziona **[!UICONTROL Cancel]** per annullare eventuali modifiche alla visualizzazione.
