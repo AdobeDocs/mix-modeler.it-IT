@@ -38,7 +38,7 @@ La scheda **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} mostra:
 * [Visualizzazione](#visualizations):
    * [*Metrica*](#metric-actual-vs-planned)
    * [*Metrica*](#metric-actual-vs-planned-by-granularity)
-   * [Canale ](#channel-metric-by-granularity)
+   * [Canale &#x200B;](#channel-metric-by-granularity)
    * [*Metrica*](#metric-vs-metric-by-channel)
    * [*Metrica*](#metric-by-granularity)
    * [*Metrica*](#metric-by-channel)
