@@ -3,7 +3,7 @@ title: Prestazioni da pianificare
 description: Scopri come utilizzare le Prestazioni per pianificare una panoramica in Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
+source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->La scheda **[!UICONTROL Performance to pan]** [!BADGE Beta]{type=Informative} in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** è una funzionalità beta e la relativa funzionalità è soggetta a modifiche. Questa funzione è disponibile per un numero limitato di clienti.
+>La scheda **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** è una funzionalità beta e la relativa funzionalità è soggetta a modifiche. Questa funzione è disponibile per un numero limitato di clienti.
 
 La scheda **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** fornisce un dashboard di tracciamento per monitorare le prestazioni di marketing rispetto al piano. Puoi monitorare le prestazioni effettive rispetto a quelle pianificate tramite schede di stato e visualizzazioni.
 
