@@ -11,9 +11,9 @@ ht-degree: 18%
 
 ---
 
-# Guida Adobe Mix Modeler
+# Guida di Adobe Mix Modeler
 
-Questa guida alla documentazione tecnica fornisce supporto autonomo per Adobe **Mix Modeler**. Mix Modeler è un’applicazione Adobe Experience Cloud che misura le campagne e ottimizza la pianificazione olistica su tutti i canali: a pagamento, guadagnato e di proprietà. Mix Modeler è basato su Adobe Experience Platform e su Adobe Sensei.
+Questa guida alla documentazione tecnica fornisce supporto autonomo per Adobe **Mix Modeler**. Mix Modeler è un’applicazione Adobe Experience Cloud che misura le campagne e ottimizza la pianificazione olistica su tutti i canali: a pagamento, guadagnato e di proprietà. Mix Modeler è basato su Adobe Experience Platform e viene fornito con tecnologia Adobe Sensei.
 
 ## Inizia con le nozioni di base
 
@@ -21,7 +21,7 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Adobe **
   <tr style="border: 0;">
     <td>
     <a href="/help/get-started/about.md"><img src="assets/whatis-mm.png"></a>
-    <div><strong>Guida introduttiva</strong><br/>Ottieni una panoramica e informazioni sul flusso di lavoro di Mix Modeler.</div>
+    <div><strong>Guida rapida</strong><br/>Ottieni una panoramica di e di insight nel flusso di lavoro di Mix Modeler.</div>
     </td>
     <td>
     <a href="/help/ingest-data/overview.md"><img src="assets/data-ingestion-mm.png"></a>
@@ -74,7 +74,7 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Adobe **
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=it">Panoramica</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=it">Casi d'uso</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=it">Flusso di lavoro utente</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=it">Presentazione dell'interfaccia utente</a>
+      <strong>Tutorial</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Panoramica</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Casi d'uso</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Flusso di lavoro utente</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Presentazione dell'interfaccia utente</a>
     </td>
   </tr>
 </table>

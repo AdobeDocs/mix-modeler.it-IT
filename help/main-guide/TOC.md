@@ -5,7 +5,7 @@ user-guide-description: Scopri come utilizzare Mix Modeler.
 source-git-commit: cc6f7810bf60c7b364280139cb1cbb39794595d8
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 51%
    + [Conversioni](/help/harmonize-data/conversions.md)
    + [Rapporto utilizzo](/help/harmonize-data/usage-report.md)
 
-+ Acquisire dati {#ingest-data}
++ Acquisire i dati {#ingest-data}
    + [Panoramica](/help/ingest-data/overview.md)
    + [Schemi](/help/ingest-data/schemas.md)
    + [Set di dati](/help/ingest-data/datasets.md)
