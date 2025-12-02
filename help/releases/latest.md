@@ -4,7 +4,7 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 5f3b5462bd2174534692051f61c57f0d3f9d4db0
+source-git-commit: cfdab6820423f1c5a01ecac52796414cde9a9935
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 6%
@@ -43,7 +43,7 @@ Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rila
 |---|---|---|---|
 | **[!UICONTROL Compare plans update]** | Nell&#39;interfaccia utente [Confronta piani](/help/plans/compare.md) sono ora visualizzati ulteriori dettagli per il marketing a pagamento: ROI o CPA e ricavi. | 20 agosto 2025 | 20 agosto 2025 |
 | **Aggiornamenti per l&#39;armonizzazione** | Tutte le regole dei set di dati ora utilizzano una mappa [generica simile all&#39;esperienza dei campi armonizzati](/help/harmonize-data/dataset-rules.md), indipendentemente dal tipo di set di dati. Quando mappi un campo armonizzato standard da un set di dati di riepilogo, Mix Modeler tenta di dedurre automaticamente il campo set di dati Experience Platform corrispondente. | mercoledì 29 luglio 2025 | mercoledì 29 luglio 2025 |
-| **Ottimizzazione avanzata del ROI marginale pan/CPA** | Consente di migliorare il modo in cui i budget di marketing vengono distribuiti nel tempo. Invece di far convergere il ROI/CPA marginale nell&#39;intero periodo di pianificazione, puoi [ottimizzare in mesi](/help/plans/build.md) mantenendo al contempo i pattern di spesa mensili. | mercoledì 8 luglio 2025 | mercoledì 8 luglio 2025 |
+| **Ottimizzazione del ROI marginale del piano migliorata/CPA** | Consente di migliorare il modo in cui i budget di marketing vengono distribuiti nel tempo. Invece di far convergere il ROI/CPA marginale nell&#39;intero periodo di pianificazione, puoi [ottimizzare in mesi](/help/plans/build.md) mantenendo al contempo i pattern di spesa mensili. | mercoledì 8 luglio 2025 | mercoledì 8 luglio 2025 |
 
 
 ## Maggio - giugno 2025
