@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
+source-git-commit: 16ec71a73b577d124ac1ef420741849cdb1c139f
 workflow-type: tm+mt
-source-wordcount: '2488'
+source-wordcount: '2498'
 ht-degree: 2%
 
 ---
@@ -80,9 +80,9 @@ Visualizzazione con grafico a barre orizzontale che visualizza le prestazioni de
 
 ### Curve di risposta marginale.
 
-Il grafico a linee visualizza e confronta i rendimenti marginali generati dall’investimento nei canali di marketing.  Identifica inoltre il punto di pareggio in cui il ritorno incrementale è inferiore alla spesa incrementale. Di conseguenza, questa visualizzazione ti aiuta a capire quando l’investimento marketing inizia a diventare meno incisivo.
+Il grafico a linee visualizza e confronta i rendimenti marginali generati dall’investimento nei canali di marketing.  E identifica il punto di spesa corrente e il punto di pareggio marginale (dove il ritorno incrementale è inferiore alla spesa incrementale). Di conseguenza, questa visualizzazione ti aiuta a capire quando l’investimento marketing inizia a diventare meno incisivo.
 
-La curva, il punto di pareggio e i valori corrispondenti vengono calcolati in base all’intervallo di dati selezionato e al canale selezionato.
+La curva, il punto di spesa corrente, il punto di pareggio marginale e i valori corrispondenti vengono calcolati in base all’intervallo di dati selezionato e al canale selezionato.
 
 Per cambiare il canale:
 
@@ -258,7 +258,7 @@ Per ogni percorso di conversione, vedi:
 >title="Grafici di valutazione dei modelli"
 >abstract="Le visualizzazioni di valutazione dei modelli si suddividono in base alle conversioni effettive rispetto a quelle previste o residue."
 >additional-url="https://experienceleague.adobe.com/it/docs/mix-modeler/using/overview" text="Panoramica su Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440802/?captions=ita&learn=on&enablevpops" text="Demo Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demo Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
