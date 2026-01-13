@@ -3,9 +3,9 @@ title: Panoramica dei piani
 description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 0d11168b71319e6c854482f89dbb1bb68962a880
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Per creare un piano, utilizzare la procedura guidata di creazione del piano di M
 
 Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia di Mix Modeler:
 
-1. Seleziona ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** dalla barra a sinistra.
+1. Seleziona ![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]** dalla barra a sinistra.
 
 1. Viene visualizzata una tabella dei piani correnti e del relativo stato.
 
@@ -63,6 +63,10 @@ Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia di Mix Mod
 
    È possibile utilizzare ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per selezionare ![Spunta](/help/assets/icons/Checkmark.svg) le colonne da visualizzare nella tabella.
 
+   Per ordinare la tabella in qualsiasi colonna con ordine crescente ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg) o decrescente ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg), selezionare il titolo della colonna.
+
+   Per ordinare o ridimensionare la colonna **[!UICONTROL Name]**, **[!UICONTROL Model]** o **[!UICONTROL Date range]**, selezionare **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg), **[!UICONTROL Model]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) o **[!UICONTROL Date range]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). Dal menu di scelta rapida selezionare **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** o **[!UICONTROL Resize column]**. In alternativa, per ridimensionare una colonna è possibile passare il puntatore del mouse sul separatore di colonna.
+
 1. Utilizza ![Ricerca](/help/assets/icons/Search.svg) per cercare e filtrare la tabella per uno o più piani specifici.
 
 ### Pianificare gli approfondimenti
@@ -83,7 +87,7 @@ Per duplicare un piano:
 - Seleziona ![Altro](/help/assets/icons/More.svg) per un piano. Dal menu di scelta rapida, selezionare **[!UICONTROL Duplicate]**.
 - In alternativa, selezionare un piano nella tabella ![SelectBox](/help/assets/icons/SelectBox.svg) e selezionare ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni blu.
 
-Viene creato un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)] (_n_)**. Viene automaticamente reindirizzato a [Creazione piano](build.md) per fornire dettagli aggiornati per il piano copiato.
+Viene creato un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)](_n_)**. Viene automaticamente reindirizzato a [Creazione piano](build.md) per fornire dettagli aggiornati per il piano copiato.
 
 - I dettagli (come Descrizione, Budget e altro) del piano originale vengono copiati.
 - I vincoli di budget del piano originale vengono copiati nel piano appena creato.
@@ -114,6 +118,6 @@ Per eliminare più piani:
 
 1. Selezionare più piani.
 1. Dalla barra delle azioni blu, selezionare ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare i piani.
-1. Selezionare **[!UICONTROL Delete]** nella finestra di conferma **[!UICONTROL Delete *x *piani]**&#x200B;per eliminare i piani. Selezionare **[!UICONTROL Cancel]**&#x200B;per annullare.
+1. Selezionare **[!UICONTROL Delete]** nella finestra di conferma **[!UICONTROL Delete *x *piani]**per eliminare i piani. Selezionare **[!UICONTROL Cancel]**per annullare.
 
 
