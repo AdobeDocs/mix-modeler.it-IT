@@ -3,9 +3,9 @@ title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
+source-git-commit: b631cf8d06fe71d9f5ca547923eb3237c677a915
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,13 @@ Per visualizzare una tabella delle regole dei set di dati disponibili, nell’in
 
 1. Seleziona **[!UICONTROL Dataset rules]** dalla barra superiore. Viene visualizzata una tabella delle regole del set di dati.
 
+Puoi cercare rapidamente un set di dati utilizzando ![Cerca](/help/assets/icons/Search.svg) **[!UICONTROL _Inserisci un nome per il set di dati_]**.
+
 Le colonne della tabella specificano i dettagli sulle regole del set di dati:
 
 | Nome colonna | Dettagli |
 | ---------------------- | ----------|
-| Set di dati | Nome del set di dati. |
+| Set di dati | Nome del set di dati.  Utilizza ![Altro](/help/assets/icons/More.svg) per selezionare le azioni per un set di dati. Puoi eseguire le seguenti operazioni:<ul><li>![Anteprima](/help/assets/icons/Preview.svg) **[!UICONTROL View]** per visualizzare la configurazione delle regole del set di dati. Tutti i campi sono disabilitati.</li><li>![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** per modificare la configurazione delle regole del set di dati.</li><li>![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare la configurazione delle regole del set di dati. Viene richiesto di confermare l’eliminazione nella finestra di dialogo Elimina set di dati. Selezionare **[!UICONTROL Delete]** per eliminare definitivamente la configurazione della regola del set di dati.</li><ul> |
 | Origine | L’origine del set di dati: Adobe Analytics, Eventi esperienza, Riepilogo (aggregato) o Eventi esperienza del consumatore. |
 | Schema | Schema a cui è conforme il set di dati. È possibile selezionare rapidamente il nome dello schema per aprire lo schema in una nuova scheda nell&#39;editor schema in ![Schema](/help/assets/icons/Schemas.svg) [Schemi](../ingest-data/schemas.md). |
 | Granularità | Granularità dei dati nel set di dati. I valori possibili sono Giornaliero, Settimanale, Mensile o Annuale. |
@@ -68,17 +70,17 @@ Nella schermata **[!UICONTROL Create]**,
 
       1. Selezionare **[!UICONTROL Count]** o **[!UICONTROL Sum]** da **[!UICONTROL Mapping type]**.
 
-      1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**&#x200B;a cui vuoi mappare il campo armonizzato per impostazione predefinita.
+      1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**a cui vuoi mappare il campo armonizzato per impostazione predefinita.
 
    1. Quando il campo selezionato è di tipo dimensione:
 
       1. Selezionare **[!UICONTROL Map Into]** o **[!UICONTROL Case]** da **[!UICONTROL Mapping type]**.
 
-      1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+      1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-      1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+      1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-         1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**&#x200B;specifico, che si tratti di **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**&#x200B;oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**&#x200B;un valore immesso in&#x200B;**[!UICONTROL * Immettere il valore di input *]**.
+         1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**specifico, che si tratti di **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**o **[!UICONTROL Ends With]**un valore immesso in**[!UICONTROL * Immettere il valore di input *]**.
 
          1. Per aggiungere un altro caso, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, per aggiungere un&#39;altra condizione, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 

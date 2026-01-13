@@ -3,10 +3,10 @@ title: Schemi
 description: Scopri come gestire gli schemi necessari per acquisire i dati in Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: b0306ad6fad8966822ed14c67f159a4aefb4e3f8
+source-git-commit: 7524c2ffc0408b04e6bef5bd5deedc1feea0b682
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 3%
+source-wordcount: '598'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ Per gestire gli schemi, supportare i dati che desideri acquisire in Experience P
 
 1. Seleziona ![Schemi](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, sotto **[!UICONTROL SETUP]**.
 
-Per ulteriori informazioni, consulta la [Panoramica dell&#39;interfaccia utente degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it).
+Per ulteriori informazioni, consulta la [Panoramica dell&#39;interfaccia utente degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en).
 
 ## Dati aggregati o di riepilogo
 
@@ -69,10 +69,26 @@ Di seguito è riportato un esempio più completo di **[!DNL LumaPaidMarketingSch
 
 Data la natura asincrona dell’acquisizione del profilo, durante la raccolta di dati aggregati o di riepilogo da origini esterne si consiglia di utilizzare il gruppo di campi Dettagli audit del sistema Source esterno come parte di uno schema. Questo gruppo di campi definisce un set di proprietà di controllo per le origini esterne.
 
+## Gruppo di campi Campi Fattore standard
+
+Per comodità, Experience Platform supporta un gruppo di campi Factor Standard dedicato per i dati dei fattori interni ed esterni, che spesso fanno parte dei dati di riepilogo, dei fattori interni o dei fattori esterni. Questo gruppo di campi definisce i campi seguenti:
+
+| Nome visualizzato campo | Nome campo | Tipo di campo | Tipo di dati | Obbligatorio | Descrizione |
+|---|---|---|---|:-:|---|
+| Nome fattore | nomeFattore | Dimensione | Stringa | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | Nome del fattore |
+| Valore fattore | factorValue | Metrica | Doppio | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | Valore del fattore |
+| Tipo di fattore | factorType | Dimensione | Stringa (enum) | | Tipo del fattore.<br/>I valori possibili sono: <ul><li>Interno (fattore interno)</li><li>Esterno (fattore esterno)</li></ul> |
+| Tipo di valore | valueType | Dimensione | Stringa (enum) | | I valori possibili sono:<ul><li>Effettivo (valore effettivo)</li><li>Previsto (valore previsto)</li></ul>Se non è specificato alcun valore, il valore predefinito è Effettivo. |
+| Granularità | granularità | Dimensione | Stringa (enum) | | I valori possibili sono:<ul><li>Giornaliero</li><li>Ogni settimana</li><li>Mensile</li></ul> |
+
+Un set di dati di riepilogo, fattore interno o fattore esterno può essere basato su:
+
+- Uno schema che **utilizza** il gruppo Campi Factor Standard. Questo set di dati viene visualizzato come **[!UICONTROL Factors]** quando si configurano le regole del set di dati. I campi armonizzati definiti dall’utente, come parte delle regole del set di dati per il set di dati, sono disponibili come fattori quando si crea un modello.
+- Uno schema che **non utilizza** il gruppo Campi Factor Standard. Questo set di dati viene visualizzato come **[!UICONTROL Summary]** quando si configurano le regole del set di dati. Il set di dati è configurato come dati di riepilogo e non influenza i dati armonizzati.
 
 ## Tipi di dati supportati
 
-Attualmente, Mix Modeler supporta un sottoinsieme di tipi di dati di Experience Platform. Sono supportati i seguenti tipi di dati di base (campi), menzionati in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it#data-type):
+Attualmente, Mix Modeler supporta un sottoinsieme di tipi di dati di Experience Platform. Sono supportati i seguenti tipi di dati di base (campi), menzionati in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type):
 
 - Stringa
 - Intero
