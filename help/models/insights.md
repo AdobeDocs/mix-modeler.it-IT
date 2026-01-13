@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 16ec71a73b577d124ac1ef420741849cdb1c139f
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2499'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Queste informazioni aiutano a supportare la definizione delle priorità e l’al
 
 Per visualizzare le informazioni sul modello, nell&#39;interfaccia ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** in Mix Modeler:
 
-1. Dalla tabella **[!UICONTROL Models]**, selezionare il nome di un modello con **[!UICONTROL Last run status]** di <span style="color:green">●</span> **[!UICONTROL Success]**.
+1. Dalla tabella **[!UICONTROL Models]**, selezionare il nome di un modello con **[!UICONTROL Last run status]** di ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
 1. Dal menu di scelta rapida, selezionare **[!UICONTROL Model Insights]**.
 
@@ -60,7 +60,7 @@ La scheda Approfondimenti modello mostra le visualizzazioni per [Contributo per 
 * Per scaricare i dati completi di Approfondimenti modello in formato Microsoft® Excel, seleziona ![Scarica](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-### Contributo per data e media di base.
+### Contributo per data e media di base
 
 Questa visualizzazione con grafico in pila è ordinata come segue:
 
@@ -74,11 +74,11 @@ Questa visualizzazione rappresenta la proporzione di contributo ottenuta per bas
 
 Una visualizzazione ad anello che mostra una distribuzione del contributo tra vari canali. Questa visualizzazione mostra l’incrementalità attraverso l’obiettivo dei primi tre canali con prestazioni (escluse le categorie base e *Tutte le altre*). La visualizzazione consente di supportare la definizione delle priorità e l’allocazione del budget.
 
-### Riepilogo prestazioni marketing.
+### Riepilogo prestazioni marketing
 
 Visualizzazione con grafico a barre orizzontale che visualizza le prestazioni del ROI o CPA per ciascun canale. Questa visualizzazione evidenzia il ROI/CPA dei tuoi investimenti di marketing. I canali sono ordinati in ordine decrescente in base al ROI/CPA. La visualizzazione consente di identificare quali canali sono più efficaci e quali potrebbero necessitare di ottimizzazione.
 
-### Curve di risposta marginale.
+### Curve di risposta marginale
 
 Il grafico a linee visualizza e confronta i rendimenti marginali generati dall’investimento nei canali di marketing.  E identifica il punto di spesa corrente e il punto di pareggio marginale (dove il ritorno incrementale è inferiore alla spesa incrementale). Di conseguenza, questa visualizzazione ti aiuta a capire quando l’investimento marketing inizia a diventare meno incisivo.
 
@@ -258,7 +258,7 @@ Per ogni percorso di conversione, vedi:
 >title="Grafici di valutazione dei modelli"
 >abstract="Le visualizzazioni di valutazione dei modelli si suddividono in base alle conversioni effettive rispetto a quelle previste o residue."
 >additional-url="https://experienceleague.adobe.com/it/docs/mix-modeler/using/overview" text="Panoramica su Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440802/?captions=ita&learn=on&enablevpops" text="Demo Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demo Mix Modeler"
 
 
 >[!CONTEXTUALHELP]

@@ -2,10 +2,10 @@
 user-guide-title: Guida di Mix Modeler
 breadcrumb-title: Guida di Mix Modeler
 user-guide-description: Scopri come utilizzare Mix Modeler.
-source-git-commit: cc6f7810bf60c7b364280139cb1cbb39794595d8
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 55%
+source-wordcount: '90'
+ht-degree: 54%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 55%
 + Governance dei dati {#data-governance}
    + [Panoramica](/help/data-governance/overview.md)
    + [Controllo degli accessi](/help/data-governance/access-controls.md)
-   + [Registri di audit](/help/data-governance/audit-logs.md)
+   + [Registri di controllo](/help/data-governance/audit-logs.md)
    + [Criteri](/help/data-governance/policies.md)
 
 + [Casi d’uso](/help/main-guide/use-cases.md)
@@ -60,6 +60,7 @@ ht-degree: 55%
 
 + Versioni {#releases}
    + [Versione più recente](/help/releases/latest.md)
+   + [Versioni del 2025](/help/releases/2025.md)
    + [Versioni del 2024](/help/releases/2024.md)
    + [Versioni del 2023](/help/releases/2023.md)
    + [Test](../releases/test.md)
