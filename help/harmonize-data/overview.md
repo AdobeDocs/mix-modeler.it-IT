@@ -3,10 +3,10 @@ title: Panoramica dell’armonizzazione dei set di dati
 description: Scopri come armonizzare i dati in Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
+source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 5%
+source-wordcount: '1347'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ I dati in Mix Modeler sono di natura diversa a seconda della fonte di dati. I da
 * dati aggregati o riassuntivi, ad esempio raccolti da fonti di dati provenienti da giardini murati o dati pubblicitari offline raccolti (come spendere) dall’esecuzione di una campagna su cartelloni pubblicitari, un evento o una campagna pubblicitaria fisica,
 * dati evento, ad esempio da origini dati di prime parti. Questi dati dell’evento possono essere raccolti tramite il connettore di origine di Adobe Analytics da Adobe Analytics, oppure tramite il SDK web o mobile di Experience Platform o l’API di Edge Network, oppure possono essere acquisiti tramite i connettori di origine.
 
-Il servizio di armonizzazione di Mix Modeler assimila i dati aggregati e di evento in una visualizzazione dati coerente. Questa visualizzazione dati, combinata con [dati relativi a fattori interni ed esterni](#factors), è l&#39;origine dei modelli in Mix Modeler. Il servizio utilizza la granularità più elevata tra i diversi set di dati. Ad esempio, se un set di dati ha una granularità mensile e i set di dati rimanenti hanno granularità settimanale e giornaliera, il servizio di armonizzazione crea una visualizzazione dati con granularità mensile.
+Il servizio di armonizzazione di Mix Modeler assimila i dati aggregati e di evento in una visualizzazione dati coerente. Questa visualizzazione dati è l’origine dei modelli in Mix Modeler. Il servizio utilizza la granularità più elevata tra i diversi set di dati. Ad esempio, se un set di dati ha una granularità mensile e i set di dati rimanenti hanno granularità settimanale e giornaliera, il servizio di armonizzazione crea una visualizzazione dati con granularità mensile.
 
 ## Fattori
 
@@ -27,7 +27,22 @@ I fattori sono fondamentali per la creazione di modelli e vuoi capire quale impa
 
 * I fattori esterni sono fattori che esulano dal controllo dell’organizzazione, ma che possono comunque influire sulle conversioni ottenute. Alcuni esempi sono CPI, S&amp;P 500 e altro ancora.
 
+La funzionalità Fattori di Mix Modeler utilizza un flusso di lavoro di fattori armonizzati. Questo flusso di lavoro semplifica la gestione dei fattori, garantisce coerenza tra i modelli e offre un’esperienza intuitiva.
 
+Nell’ambito del flusso di lavoro dei fattori armonizzati:
+
+1. Definisci campi armonizzati per i fattori da un set di dati fattore in [regole set di dati](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+1. [Sincronizza](/help/harmonize-data/dataset-rules.md#sync-data) i dati armonizzati.
+1. [Utilizza i fattori](/help/models/build.md#configure) nella configurazione del modello.
+
+### Migrazione
+
+Potresti avere modelli che non hanno ancora adottato il flusso di lavoro dei fattori armonizzati e utilizzare il flusso di lavoro dei fattori basati su set di dati di Experience Platform. Questi modelli continuano a visualizzare i fattori basati sul set di dati originale fino a quando i modelli non vengono aggiornati con nuovi fattori basati sul flusso di lavoro dei fattori armonizzati.
+
+Quando duplica un modello che utilizza il flusso di lavoro dei fattori basati su set di dati:
+
+* Se il modello non è stato armonizzato, la configurazione del fattore precedente non verrà trasferita nel modello duplicato. Devi aggiungere dei fattori utilizzando il nuovo flusso di lavoro dei fattori armonizzati.
+* Se il modello è stato armonizzato, i fattori vengono riportati e vengono conservati o aggiornati.
 
 ## Un esempio di dati armonizzati
 
@@ -37,10 +52,10 @@ Immagina di disporre dei seguenti set di dati per Mix Modeler.
 
 Contiene il set di dati dell’attività di marketing di YouTube, con una granularità dei dati aggregati impostata su giornaliero.
 
-| Data | Tipo di data | Channel | Campaign | Marchio | Geo | Clic | Spesa |
+| Data | Tipo di data | Canale | Campaign | Marchio | Geo | Clic | Spesa |
 |---|:--:|---|---|---|---|---:|---:|
-| 12-31-2021 | giorno | YouTube | Y_Autunno_02 | BrandX | STATI UNITI | 10000 | 100 |
-| 01-01-2022 | giorno | YouTube | Y_Autunno_02 | BrandX | STATI UNITI | 1000 | 10 |
+| 12-31-2021 | giorno | YouTube | Y_Autunno_02 | BrandX | US | 10000 | 100 |
+| 01-01-2022 | giorno | YouTube | Y_Autunno_02 | BrandX | US | 1000 | 10 |
 | 01-03-2022 | giorno | YouTube | Y_Autunno_01 | BrandY | CA | 10000 | 100 |
 | 01-04-2022 | giorno | YouTube | Y_Summer_01 | Nullo | CA | 9000 | 80 |
 
@@ -51,11 +66,11 @@ Contiene il set di dati dell’attività di marketing di YouTube, con una granul
 
 Contiene il set di dati dell’attività di marketing da Facebook, con una granularità dei dati aggregati impostata su settimanale.
 
-| Data | Tipo di data | Channel | Campaign | Geo | Clic | Spesa |
+| Data | Tipo di data | Canale | Campaign | Geo | Clic | Spesa |
 |--- |:---:|--- |---|---|---:|---:|
-| 01-01-2022 | settimana | Facebook | FB_Autunno_01 | STATI UNITI | 8000 | 100 |
-| 01-08-2022 | settimana | Facebook | FB_Autunno_02 | STATI UNITI | 1000 | 10 |
-| 01-08-2022 | settimana | Facebook | FB_Autunno_01 | STATI UNITI | 7000 | 100 |
+| 01-01-2022 | settimana | Facebook | FB_Autunno_01 | US | 8000 | 100 |
+| 01-08-2022 | settimana | Facebook | FB_Autunno_02 | US | 1000 | 10 |
+| 01-08-2022 | settimana | Facebook | FB_Autunno_01 | US | 7000 | 100 |
 | 01-16-2022 | settimana | Facebook | FB_Estate_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
@@ -67,9 +82,9 @@ Un set di dati di conversione con granularità dell’insieme di dati aggregati 
 
 | Data | Tipo di data | Geo | Obiettivo | Ricavi |
 |--- |:---: |---|---|---:|
-| 01-01-2022 | giorno | STATI UNITI | Moda | 200 |
-| 01-08-2022 | giorno | STATI UNITI | Moda | 10 |
-| 01-08-2022 | giorno | STATI UNITI | Gioielli | 1100 |
+| 01-01-2022 | giorno | US | Moda | 200 |
+| 01-08-2022 | giorno | US | Moda | 10 |
+| 01-08-2022 | giorno | US | Gioielli | 1100 |
 | 01-16-2022 | giorno | CA | Gioielli | 80 |
 
 {style="table-layout:auto"}
@@ -79,7 +94,7 @@ Un set di dati di conversione con granularità dell’insieme di dati aggregati 
 
 Un esempio di set di dati di evento esperienza (eventi Web SDK) dal cliente.
 
-| Timestamp | Spazio dei nomi identità | ID identità | Channel | Clic |
+| Timestamp | Spazio dei nomi identità | ID identità | Canale | Clic |
 |--- |--- |--- |--- |---:|
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
@@ -93,18 +108,18 @@ Desideri creare un set di dati armonizzato con granularità impostata su Settima
 
 **Set di dati armonizzato**
 
-| Data | Tipo di data | Channel | Campaign | Marchio | Geo | Obiettivo | Clic | Spesa | Ricavi |
+| Data | Tipo di data | Canale | Campaign | Marchio | Geo | Obiettivo | Clic | Spesa | Ricavi |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 12-27-2021 | settimana | YouTube | Y_Autunno_02 | BrandX | STATI UNITI | Nullo | 11000 | 110 | Nullo |
+| 12-27-2021 | settimana | YouTube | Y_Autunno_02 | BrandX | US | Nullo | 11000 | 110 | Nullo |
 | 01-03-2022 | settimana | YouTube | Y_Autunno_01 | BrandY | CA | Nullo | 10000 | 100 | Nullo |
 | 01-03-2022 | settimana | YouTube | Y_Summer_01 | Nullo | CA | Nullo | 9000 | 80 | Nullo |
-| 01-01-2022 | settimana | Facebook | FB_Autunno_01 | Nullo | STATI UNITI | Nullo | 8000 | 100 | Nullo |
-| 01-08-2022 | settimana | Facebook | FB_Autunno_02 | Nullo | STATI UNITI | Nullo | 1000 | 10 | Nullo |
-| 01-08-2022 | settimana | Facebook | FB_Autunno_01 | Nullo | STATI UNITI | Nullo | 7000 | 100 | Nullo |
+| 01-01-2022 | settimana | Facebook | FB_Autunno_01 | Nullo | US | Nullo | 8000 | 100 | Nullo |
+| 01-08-2022 | settimana | Facebook | FB_Autunno_02 | Nullo | US | Nullo | 1000 | 10 | Nullo |
+| 01-08-2022 | settimana | Facebook | FB_Autunno_01 | Nullo | US | Nullo | 7000 | 100 | Nullo |
 | 01-16-2022 | settimana | Facebook | FB_Estate_01 | Nullo | CA | Nullo | 10000 | 80 | Nullo |
-| 12-27-2021 | settimana | Nullo | Nullo | Nullo | STATI UNITI | Moda | Nullo | Nullo | 200 |
-| 01-03-2022 | settimana | Nullo | Nullo | Nullo | STATI UNITI | Moda | Nullo | Nullo | 10 |
-| 01-03-2022 | settimana | Nullo | Nullo | Nullo | STATI UNITI | Gioielli | Nullo | Nullo | 1100 |
+| 12-27-2021 | settimana | Nullo | Nullo | Nullo | US | Moda | Nullo | Nullo | 200 |
+| 01-03-2022 | settimana | Nullo | Nullo | Nullo | US | Moda | Nullo | Nullo | 10 |
+| 01-03-2022 | settimana | Nullo | Nullo | Nullo | US | Gioielli | Nullo | Nullo | 1100 |
 | 01-10-2022 | settimana | Nullo | Nullo | Nullo | CA | Gioielli | Nullo | Nullo | 80 |
 | 01-01-2022 | settimana | CSE | Nullo | Nullo | Nullo | Nullo | 2 | Nullo | Nullo |
 | 01-08-2022 | settimana | CSE | Nullo | Nullo | Nullo | Nullo | 2 | Nullo | Nullo |
