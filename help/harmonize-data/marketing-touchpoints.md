@@ -3,9 +3,9 @@ title: Punti di contatto di marketing
 description: Scopri come creare punti di contatto di marketing da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 6751cea9155bab54c9c8405a57151323f570c477
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '494'
 ht-degree: 11%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 11%
 # Punti di contatto di marketing {#marketing-touchpoints}
 
 >[!CONTEXTUALHELP]
->id="harmonizeddata_marketingtouchpoint"
->title="Punto di contatto di marketing"
->abstract="I punti di contatto di marketing sono eventi di marketing a livello di destinatario, singolo utente e/o cookie utilizzati per valutare l’impatto degli investimenti di marketing sulle conversioni numeriche o basate sui ricavi."
+>id="harmonizeddata_marketingtouchpoints_create"
+>title="Punti di contatto di marketing"
+>abstract="I punti di contatto di marketing sono eventi di marketing a livello di destinatario, singolo utente e/o cookie utilizzati per valutare l’impatto degli investimenti di marketing sulle conversioni numeriche o basate sui ricavi.<br/><br/>Non è possibile impostare il modello con punti di contatto che presentano dati sovrapposti e deve essere presente almeno un punto di contatto con spesa."
 
 
 I punti di contatto di marketing sono eventi di marketing a livello di destinatario, singolo utente e/o cookie utilizzati per valutare l’impatto degli investimenti di marketing sulle conversioni numeriche o basate sui ricavi.
@@ -58,7 +58,7 @@ Per aggiungere un punto di contatto di marketing, nell&#39;interfaccia ![DataSea
 
       1. Selezionare un valore per l&#39;operatore ![Chevron](/help/assets/icons/ChevronDown.svg), ad esempio **[!UICONTROL is]**.
 
-      1. Selezionare un valore da **[!UICONTROL *Selezionare un valore *]**&#x200B;o immettere un valore, ad esempio **[!DNL Luma]**.
+      1. Selezionare un valore da **[!UICONTROL *Selezionare un valore *]**o immettere un valore, ad esempio **[!DNL Luma]**.
 
    1. Selezionare un campo armonizzato da **[!UICONTROL Touchpoint volume]**, ad esempio **[!UICONTROL Impressions]**.
 

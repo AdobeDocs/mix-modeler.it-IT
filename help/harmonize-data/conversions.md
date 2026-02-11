@@ -3,14 +3,21 @@ title: Conversioni
 description: Scopri come creare conversioni da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 2%
 
 ---
 
-# Conversioni
+# Conversioni {#conversions}
+
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_conversions_create"
+>title="Conversione"
+>abstract="Gli eventi di conversione sono obiettivi aziendali che identificano l’impatto delle attività di marketing. Esempi: ordini di e-commerce, acquisti in-store, visite al sito web e altro ancora."
+
 
 Gli eventi di conversione sono obiettivi aziendali che identificano l’impatto delle attività di marketing. Esempi: ordini di e-commerce, acquisti in-store, visite al sito web e così via.
 
@@ -18,7 +25,7 @@ Puoi definire le conversioni marketing per l’analisi di attribuzione.
 
 ## Gestire le conversioni
 
-Per visualizzare una tabella delle conversioni disponibili, nell’interfaccia Mix Modeler:
+Per visualizzare una tabella delle conversioni disponibili, nell’interfaccia di Mix Modeler:
 
 1. Seleziona ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
@@ -52,7 +59,7 @@ Per aggiungere una conversione, nell&#39;interfaccia ![DataSearch](/help/assets/
 
       1. Selezionare un valore per l&#39;operatore ![Chevron](/help/assets/icons/ChevronDown.svg), ad esempio **[!UICONTROL is]**.
 
-      1. Selezionare un valore da **[!UICONTROL *Selezionare un valore *]**&#x200B;o immettere un valore, ad esempio **[!UICONTROL Store]**.
+      1. Selezionare un valore da **[!UICONTROL *Selezionare un valore *]**o immettere un valore, ad esempio **[!UICONTROL Store]**.
 
    1. Selezionare un campo armonizzato da **[!UICONTROL Conversion metric for analysis]**, ad esempio **[!UICONTROL Orders]**.
 
