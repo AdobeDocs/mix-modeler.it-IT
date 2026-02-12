@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 197aa8d5593932e68e592b89dceabf7dc75c7cc7
+source-git-commit: 0a6ed07585f4e2d324159f649efedf2ec6d1b40b
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2827'
 ht-degree: 2%
 
 ---
@@ -74,9 +74,19 @@ Questa visualizzazione rappresenta la proporzione di contributo ottenuta per bas
 
 Una visualizzazione ad anello che mostra una distribuzione del contributo tra vari canali. Questa visualizzazione mostra l’incrementalità attraverso l’obiettivo dei primi tre canali con prestazioni (escluse le categorie base e *Tutte le altre*). La visualizzazione consente di supportare la definizione delle priorità e l’allocazione del budget.
 
-### Riepilogo prestazioni marketing
+### Riepilogo prestazioni marketing {#marketing-performance-summary}
+
+
+>[!CONTEXTUALHELP]
+>id="models_insights_marketingperformancesummary"
+>title="Canali non definiti"
+>abstract="I canali non definiti sono inclusi, ma non presentano conversioni attribuite."
+
 
 Visualizzazione con grafico a barre orizzontale che visualizza le prestazioni del ROI o CPA per ciascun canale. Questa visualizzazione evidenzia il ROI/CPA dei tuoi investimenti di marketing. I canali sono ordinati in ordine decrescente in base al ROI/CPA. La visualizzazione consente di identificare quali canali sono più efficaci e quali potrebbero necessitare di ottimizzazione.
+
+I canali non definiti sono inclusi nella visualizzazione ma non hanno conversioni attribuite.
+
 
 ### Curve di risposta marginale
 
@@ -277,7 +287,7 @@ Per ogni percorso di conversione, vedi:
 >title="Grafici di valutazione dei modelli"
 >abstract="Le visualizzazioni di valutazione dei modelli si suddividono in base alle conversioni effettive rispetto a quelle previste o residue."
 >additional-url="https://experienceleague.adobe.com/it/docs/mix-modeler/using/overview" text="Panoramica su Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440802/?captions=ita&learn=on&enablevpops" text="Demo Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demo Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
