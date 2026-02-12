@@ -3,12 +3,13 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 7526706a710bf9277ddaa48c8b7b07fb321eda34
+source-git-commit: 595dc75ee9159a92d893310d5e414f955655be98
 workflow-type: tm+mt
-source-wordcount: '2844'
-ht-degree: 3%
+source-wordcount: '2839'
+ht-degree: 2%
 
 ---
+
 
 # Approfondimenti modello
 
@@ -47,7 +48,7 @@ Se nel modello viene rilevata una deriva del modello, viene visualizzata una fin
 
 ![Finestra di dialogo rilevata deviazione modello](/help/assets/model-drift-dialog.png)
 
-## Approfondimenti modello
+## Approfondimenti modello {#model-insights-section}
 
 La scheda Approfondimenti modello mostra le visualizzazioni per [Contributo per data e supporto di base](#contribution-by-date-and-base-media), [Contributo per canale](#contribution-by-channel), [Riepilogo prestazioni marketing](#marketing-performance-summary) e [Curve di risposta marginali](#marginal-response-curves). La scheda fornisce anche una tabella con [raggruppamento punto di contatto](#touchppint-breakdown).
 
@@ -76,12 +77,10 @@ Una visualizzazione ad anello che mostra una distribuzione del contributo tra va
 
 ### Riepilogo prestazioni marketing {#marketing-performance-summary}
 
-
 >[!CONTEXTUALHELP]
 >id="models_insights_undefinedchannels"
 >title="Canali non definiti"
 >abstract="I canali non definiti sono inclusi, ma non presentano conversioni attribuite."
-
 
 Visualizzazione con grafico a barre orizzontale che visualizza le prestazioni del ROI o CPA per ciascun canale. Questa visualizzazione evidenzia il ROI/CPA dei tuoi investimenti di marketing. I canali sono ordinati in ordine decrescente in base al ROI/CPA. La visualizzazione consente di identificare quali canali sono più efficaci e quali potrebbero necessitare di ottimizzazione.
 
@@ -164,7 +163,6 @@ Se non sono disponibili dati, viene visualizzato un messaggio ![TabellaEGrafico]
 
 ## Attribuzione {#attribution}
 
-
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbychannel"
 >title="Raggruppamento per canale"
@@ -181,7 +179,6 @@ Se non sono disponibili dati, viene visualizzato un messaggio ![TabellaEGrafico]
 >[!NOTE]
 >
 >La scheda Attribuzione è disponibile solo per i modelli abilitati per MTA.
-
 
 Utilizzando la scheda [!UICONTROL Attribution], puoi comprendere l’efficacia dei punti di contatto e delle campagne di marketing con dati a livello di evento.  Vedi [Genera modello](build.md).
 
@@ -286,8 +283,6 @@ Per ogni percorso di conversione, vedi:
 >id="models_diagnostics_modelassessment"
 >title="Grafici di valutazione dei modelli"
 >abstract="Le visualizzazioni di valutazione dei modelli si suddividono in base alle conversioni effettive rispetto a quelle previste o residue."
->additional-url="https://experienceleague.adobe.com/it/docs/mix-modeler/using/overview" text="Panoramica su Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440802/?captions=ita&learn=on&enablevpops" text="Demo Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
@@ -382,7 +377,7 @@ Se viene rilevata una deriva del modello, viene visualizzata una notifica **[!UI
 Selezionare **[!UICONTROL Hide]** per nascondere la notifica. La notifica riapparirà il giorno successivo o al successivo accesso.
 
 
-## [!UICONTROL Historical overview]
+## Panoramica storica
 
 La scheda Cronologia mostra le visualizzazioni per:
 
