@@ -3,10 +3,10 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 95cc236a70db0226293f97389343dbcb75c3d203
+source-git-commit: 7526706a710bf9277ddaa48c8b7b07fb321eda34
 workflow-type: tm+mt
-source-wordcount: '2827'
-ht-degree: 2%
+source-wordcount: '2844'
+ht-degree: 3%
 
 ---
 
@@ -47,7 +47,7 @@ Se nel modello viene rilevata una deriva del modello, viene visualizzata una fin
 
 ![Finestra di dialogo rilevata deviazione modello](/help/assets/model-drift-dialog.png)
 
-## [!UICONTROL Model insights]
+## Approfondimenti modello
 
 La scheda Approfondimenti modello mostra le visualizzazioni per [Contributo per data e supporto di base](#contribution-by-date-and-base-media), [Contributo per canale](#contribution-by-channel), [Riepilogo prestazioni marketing](#marketing-performance-summary) e [Curve di risposta marginali](#marginal-response-curves). La scheda fornisce anche una tabella con [raggruppamento punto di contatto](#touchppint-breakdown).
 
@@ -140,7 +140,7 @@ Per scaricare un file CSV che rappresenta la matrice, selezionare ![Scarica](/he
 
 
 
-## **[!UICONTROL Factors]** [!BADGE beta] {#factors}
+## Fattori {#factors}
 
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
@@ -162,7 +162,7 @@ Per scaricare un file CSV contenente i dati per la tabella, seleziona ![Scarica]
 
 Se non sono disponibili dati, viene visualizzato un messaggio ![TabellaEGrafico](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
-## [!UICONTROL Attribution] {#attribution}
+## Attribuzione {#attribution}
 
 
 >[!CONTEXTUALHELP]
@@ -207,13 +207,13 @@ I punteggi dell’evento granulare di attribuzione multi-touch di Mix Modeler so
 
 La scheda Attribuzione è costituita dalle seguenti visualizzazioni:
 
-### [!UICONTROL Overview]
+### Panoramica
 
 La visualizzazione [!UICONTROL Overview] mostra, per i modelli di attribuzione selezionati, i totali e le percentuali di conversione. Selezionando più modelli si aggiungono ulteriori cerchi alla visualizzazione, ciascuno con il proprio colore corrispondente alla legenda.
 
 Per visualizzare un pop-up con i dettagli di un modello di attribuzione, passa il cursore del mouse su uno dei cerchi nella visualizzazione.
 
-### [!UICONTROL Trends]
+### Tendenze
 
 La visualizzazione [!UICONTROL Daily trends], [!UICONTROL Weekly trends] o [!UICONTROL Monthly trends] mostra le tendenze di conversione giornaliere, settimanali o mensili per i modelli di attribuzione selezionati.
 
@@ -221,7 +221,7 @@ Per scegliere il periodo, selezionare **[!UICONTROL Daily trends]**, **[!UICONTR
 
 Per visualizzare i dettagli, passa il cursore del mouse sulla riga di dati di un modello di attribuzione specifico per visualizzare un elemento a comparsa che mostra il numero totale di conversioni per tali dati.
 
-### [!UICONTROL Breakdown]
+### Raggruppamento
 
 La visualizzazione [!UICONTROL Breakdown] è una suddivisione per canale o punto di contatto delle conversioni per ciascuno dei modelli di attribuzione selezionati. Questa visualizzazione può essere utile per prendere decisioni sull’efficacia di ciascun canale o punto di contatto.
 
@@ -229,7 +229,7 @@ Per scegliere il tipo di suddivisione, selezionare **[!UICONTROL Breakdown by ch
 
 Per visualizzare i dettagli, passa il cursore sopra uno degli elementi del grafico.
 
-### [!UICONTROL Top campaigns]
+### Campagne principali
 
 La visualizzazione Campagne principali mostra una tabella delle campagne principali con colonne per Nome campagna, Canale, Tipo di media e Conversioni incrementali. Questa visualizzazione può aiutare a informare il team dell’efficacia di una campagna specifica per un dato canale e fornire informazioni sulle campagne in cui investire ulteriormente.
 
@@ -249,7 +249,7 @@ La finestra di dialogo espansa Prime campagne mostra la stessa tabella con colon
 Per chiudere la finestra di dialogo Inizio campagne espansa, selezionare **[!UICONTROL Close]**.
 
 
-### [!UICONTROL Breakdown by touchpoint position]
+### Suddivisione per posizione punto di contatto
 
 La visualizzazione [!UICONTROL Breakdown by touchpoint position] è una suddivisione delle conversioni attribuite per posizione del punto di contatto e punto di contatto in tutti i percorsi di conversione. Questo grafico consente di confrontare se un punto di contatto contribuisce meglio in una posizione rispetto alle posizioni rimanenti e ad altri punti di contatto in qualsiasi posizione.
 
@@ -267,7 +267,7 @@ Le posizioni [!UICONTROL Starter], [!UICONTROL Player] e [!UICONTROL Closer] son
 | [!UICONTROL Closer] | Questa posizione indica se il punto di contatto è l’ultimo contatto prima della conversione. |
 
 
-### [!UICONTROL Top conversion paths]
+### Percorsi di conversione principali
 
 La visualizzazione [!UICONTROL Top conversion paths] mostra i primi 5 percorsi di conversione in base ai modelli di attribuzione selezionati.
 
@@ -280,14 +280,14 @@ Per ogni percorso di conversione, vedi:
 * la somma di queste percentuali di contributo del modello di attribuzione del canale.
 
 
-## [!UICONTROL Diagnostics] {#diagnostics}
+## Diagnostica {#diagnostics}
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="Grafici di valutazione dei modelli"
 >abstract="Le visualizzazioni di valutazione dei modelli si suddividono in base alle conversioni effettive rispetto a quelle previste o residue."
 >additional-url="https://experienceleague.adobe.com/it/docs/mix-modeler/using/overview" text="Panoramica su Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440802/?captions=ita&learn=on&enablevpops" text="Demo Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demo Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
@@ -417,7 +417,7 @@ Per selezionare un canale alternativo basato sul volume da visualizzare per ques
 * Selezionare un canale da **[!UICONTROL Channels]**.
 
 
-## **[!UICONTROL Edit]**
+## Modifica
 
 Puoi modificare il nome, la descrizione e la pianificazione dell’apprendimento e del punteggio del modello.
 
