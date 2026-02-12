@@ -3,7 +3,7 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 0a6ed07585f4e2d324159f649efedf2ec6d1b40b
+source-git-commit: 95cc236a70db0226293f97389343dbcb75c3d203
 workflow-type: tm+mt
 source-wordcount: '2827'
 ht-degree: 2%
@@ -78,7 +78,7 @@ Una visualizzazione ad anello che mostra una distribuzione del contributo tra va
 
 
 >[!CONTEXTUALHELP]
->id="models_insights_marketingperformancesummary"
+>id="models_insights_undefinedchannels"
 >title="Canali non definiti"
 >abstract="I canali non definiti sono inclusi, ma non presentano conversioni attribuite."
 
@@ -287,7 +287,7 @@ Per ogni percorso di conversione, vedi:
 >title="Grafici di valutazione dei modelli"
 >abstract="Le visualizzazioni di valutazione dei modelli si suddividono in base alle conversioni effettive rispetto a quelle previste o residue."
 >additional-url="https://experienceleague.adobe.com/it/docs/mix-modeler/using/overview" text="Panoramica su Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440802/?captions=ita&learn=on&enablevpops" text="Demo Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demo Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
