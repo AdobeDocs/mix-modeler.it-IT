@@ -3,10 +3,10 @@ title: Creare modelli
 description: Scopri come creare modelli in Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
+source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 0%
+source-wordcount: '1024'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,12 @@ Il nome e la descrizione vengono definiti nel passaggio **[!UICONTROL Setup]**:
 
 1. Selezionare **[!UICONTROL Next]** per continuare con il passaggio successivo. Selezionare **[!UICONTROL Cancel]** per annullare la configurazione del modello.
 
-## Configura
+## Configura{#configure}
+
+>[!CONTEXTUALHELP]
+>id="model_marketingtouchpoints_select"
+>title="Punti di contatto di marketing"
+>abstract="I punti di contatto di marketing sono eventi di marketing a livello di destinatario, singolo utente e/o cookie utilizzati per valutare l’impatto degli investimenti di marketing sulle conversioni numeriche o basate sui ricavi.<br/><br/>Non è possibile impostare il modello con punti di contatto che presentano dati sovrapposti e deve essere presente almeno un punto di contatto con spesa."
 
 Il modello viene configurato nel passaggio **[!UICONTROL Configure]**. La configurazione comporta la definizione di obiettivi di conversione, punti di contatto di marketing, popolazione di dati idonea, fattori esterni e interni e altro ancora.
 
