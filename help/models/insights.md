@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 595dc75ee9159a92d893310d5e414f955655be98
+source-git-commit: fe998df0b26f0cef448471147191032751f0c41e
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2772'
 ht-degree: 2%
 
 ---
@@ -172,7 +172,7 @@ Se non sono disponibili dati, viene visualizzato un messaggio ![TabellaEGrafico]
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Suddivisione per posizione punto di contatto"
->abstract="Questa visualizzazione mostra una suddivisione delle conversioni attribuite per posizione del punto di contatto e del punto di contatto in tutti i percorsi di conversione. La visualizzazione confronta se un punto di contatto contribuisce meglio in una posizione rispetto a quella delle posizioni rimanenti e di altri punti di contatto in qualsiasi posizione. La somma del contributo in percentuale per un modello di attribuzione in tutti i punti di contatto e le posizioni è pari a 100. Le posizioni principiante, influencer e finisher sono definite come segue:<ul><li>**Starter**: indica se il punto di contatto è il primo contatto in un percorso di conversione.</li><li>**Lettore**: indica se il punto di contatto non è né il primo né l&#39;ultimo contatto che porta alla conversione.</li><li>**Più vicino**: indica se il punto di contatto è l&#39;ultimo contatto prima della conversione.</li></ul>"
+>abstract="Questa visualizzazione mostra una suddivisione delle conversioni attribuite per posizione del punto di contatto e del punto di contatto in tutti i percorsi di conversione. La visualizzazione confronta se un punto di contatto contribuisce meglio in una posizione rispetto a quella delle posizioni rimanenti e di altri punti di contatto in qualsiasi posizione."
 
 
 
@@ -312,7 +312,7 @@ Per ogni percorso di conversione, vedi:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
 >title="Data modello a partire da"
->abstract="I dati per questa tabella vengono generati solo per periodi di tempo specifici.  La data **[!UICONTROL As of]** indica quando i dati sono stati generati e si basa sui dati da startDate a endDate."
+>abstract="I dati per questa tabella vengono generati solo per periodi di tempo specifici.  La data **[!UICONTROL As of]** indica quando i dati sono stati generati e si basa sui dati dalla data specificata fino a un anno fa."
 
 
 La scheda **[!UICONTROL Diagnostics]** mostra le visualizzazioni per:
