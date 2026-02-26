@@ -4,7 +4,7 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 95b38fd12554e7ad223434c056d870a561fd9c68
+source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 3%
@@ -41,3 +41,4 @@ Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rila
 * **Test limitati**: un rilascio graduale inizia con il test da parte degli utenti interni di Adobe. Viene quindi reso disponibile a un piccolo gruppo di clienti per garantire che la funzione soddisfi le esigenze e le aspettative dei clienti.
 
 * **Inizio rollout**: il rollout di una versione graduale inizia con la fase Test limitato. La versione viene quindi scalata dallo 0% al 100% di disponibilità ai clienti nel corso di un paio di mesi. Il rollout graduale avviene a livello di organizzazione Experience Cloud, in modo che tutti gli utenti autorizzati in un’organizzazione ricevano la stessa esperienza.
+
