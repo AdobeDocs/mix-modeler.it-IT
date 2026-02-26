@@ -3,9 +3,9 @@ title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
+source-git-commit: 9987c845414fa5a3abda201d55f7b1ed6e211780
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ Per creare una regola del set di dati, nell&#39;interfaccia ![DataSearch](/help/
 
 Nella schermata **[!UICONTROL Create]**,
 
-1. In **[!UICONTROL Dataset details]**, selezionare un set di dati da **[!UICONTROL Select dataset]** per iniziare la configurazione. Nell&#39;elenco, i set di dati sono classificati in **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** e **[!UICONTROL Summary]**.
+1. In **[!UICONTROL Dataset details]**, selezionare un set di dati da **[!UICONTROL Select dataset]** per iniziare la configurazione. Nell&#39;elenco, i set di dati sono suddivisi in categorie in **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]**, **[!UICONTROL Factors]** e **[!UICONTROL Consumer Experience Events]**.
 
 1. Selezionare un giorno per **[!UICONTROL Start of the week]**.
 
 1. Selezionare **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** per **[!UICONTROL Granularity]**.
 
-1. Dopo aver selezionato un set di dati della categoria **[!UICONTROL Summary]**, selezionare **[!UICONTROL Aggregation]** o **[!UICONTROL Replacement]** per **[!UICONTROL Data restatement is by]**.
+1. Dopo aver selezionato un set di dati della categoria **[!UICONTROL Summary]** o **[!UICONTROL Factors]**, selezionare **[!UICONTROL Aggregation]** o **[!UICONTROL Replacement]** per **[!UICONTROL Data restatement is by]**.
 
    La segnalazione dei dati da parte degli editori è molto importante per gli analisti di marketing, in quanto lavorare con gli editori spesso implica una spesa significativa e le modifiche nei dati di segnalazione possono comportare informazioni e piani di investimento molto diversi. Inoltre, gli analisti di marketing hanno bisogno di dati accurati per ricavare le informazioni giuste e presentare proposte convincenti per conquistare la fiducia delle parti interessate. Tuttavia, questi editori, come Google e Facebook, spesso aggiornano o eliminano i dati di reporting mentre riconciliano i loro dati. L’intervallo di tempo per la maggior parte delle modifiche è entro 7 giorni dalle prestazioni multimediali riportate. Ulteriori modifiche nei dati sono possibili entro 30 giorni. In generale, dopo 30 giorni, i libri sono considerati chiusi e i dati completi.
 
@@ -62,25 +62,23 @@ Nella schermata **[!UICONTROL Create]**,
 
    Puoi inviare righe aggiornate di dati di riepilogo come righe incrementali in un set di dati Experience Platform e il servizio di armonizzazione aggiorna il set di dati armonizzato con tali dati aggiornati. Allo stesso modo, puoi anche rimuovere le righe di dati di riepilogo che devono essere riflesse nel servizio di armonizzazione.
 
-1. Nella sezione **[!UICONTROL Map to harmonized fields]**:
+1. Nella sezione **[!UICONTROL Map to harmonized fields]** selezionare un campo armonizzato da **[!UICONTROL Standard harmonized field]**. Per [creare rapidamente un nuovo campo armonizzato](/help/harmonize-data/fields.md#add-a-harmonized-field), selezionare **[!UICONTROL Create new]**.
 
-   1. Selezionare un campo armonizzato da **[!UICONTROL Standard harmonized field]**.
-
-   1. Quando il campo armonizzato selezionato è di tipo metrica:
+   * Quando il campo armonizzato selezionato è di tipo metrica:
 
       1. Selezionare **[!UICONTROL Count]** o **[!UICONTROL Sum]** da **[!UICONTROL Mapping type]**.
 
-      1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**&#x200B;a cui vuoi mappare il campo armonizzato per impostazione predefinita.
+      1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**a cui vuoi mappare il campo armonizzato per impostazione predefinita.
 
-   1. Quando il campo selezionato è di tipo dimensione:
+   * Quando il campo selezionato è di tipo dimensione:
 
       1. Selezionare **[!UICONTROL Map Into]** o **[!UICONTROL Case]** da **[!UICONTROL Mapping type]**.
 
-      1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+      1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-      1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+      1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-         1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**&#x200B;specifico, che si tratti di **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**&#x200B;oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**&#x200B;un valore immesso in&#x200B;**[!UICONTROL * Immettere il valore di input *]**.
+         1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**specifico, che si tratti di **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**o **[!UICONTROL Ends With]**un valore immesso in**[!UICONTROL * Immettere il valore di input *]**.
 
          1. Per aggiungere un altro caso, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, per aggiungere un&#39;altra condizione, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -90,7 +88,7 @@ Nella schermata **[!UICONTROL Create]**,
 
          1. Per impostare il valore del risultato per un caso, immettere il valore in **[!UICONTROL Then]**.
 
-      L’esempio seguente
+     L’esempio seguente:
 
       * utilizza un **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** per mappare il campo armonizzato **[!UICONTROL Channel Type At Source]** al campo **[!UICONTROL channel_type]** dal set di dati **[!DNL Luma Transactions]**.
 
@@ -101,15 +99,6 @@ Nella schermata **[!UICONTROL Create]**,
 
         ![Evento regola set di dati](/help/assets/dataset-create-event.png)
 
-      Quando mappi un campo armonizzato standard da un set di dati di riepilogo, Mix Modeler tenta di dedurre il campo set di dati Experience Platform corrispondente. In caso di esito positivo:
-
-      * Se il campo è di tipo dimensione, **[!UICONTROL Map into]** viene selezionato come **[!UICONTROL Mapping type]**.
-      * Se il campo è di tipo metrica, **[!UICONTROL Sum]** viene selezionato come **[!UICONTROL Mapping type]**.
-      * **[!UICONTROL Field]** è selezionato come tipo di mappatura **[!UICONTROL Default]**.
-      * Il campo del set di dati Experience Platform corrispondente viene inserito automaticamente per *AEP Dataset Field*.
-
-      Puoi modificare qualsiasi valore proposto se questi non sono corretti o se non supportano il tuo caso d’uso specifico.
-
 1. Seleziona ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** per definire campi aggiuntivi.
 
 Al termine, selezionare **[!UICONTROL Save as draft]** per salvare una bozza della regola o **[!UICONTROL Save]** per salvare e attivare la regola. Selezionare **[!UICONTROL Cancel]** per annullare la configurazione della regola.
@@ -119,7 +108,82 @@ Al termine, selezionare **[!UICONTROL Save as draft]** per salvare una bozza del
 >L&#39;esperienza dedicata **[!UICONTROL Map to harmonized fields]** per le regole dei set di dati di riepilogo è obsoleta. Tutte le regole del set di dati ora utilizzano un&#39;esperienza **[!UICONTROL Map to harmonized fields]** simile, indipendentemente dal tipo di set di dati. Per i set di dati di riepilogo per i quali sono state definite regole utilizzando l&#39;esperienza **[!UICONTROL Map to harmonized fields]** obsoleta, è possibile verificare queste regole rispetto all&#39;esperienza **[!UICONTROL Map to harmonized field]** generica.
 >
 
+#### Set di dati di riepilogo
 
+Quando mappi un campo armonizzato standard da un set di dati di riepilogo, Mix Modeler tenta di dedurre il campo set di dati Experience Platform corrispondente. In caso di esito positivo:
+
+* Se il campo è di tipo dimensione, **[!UICONTROL Map into]** viene selezionato come **[!UICONTROL Mapping type]**.
+* Se il campo è di tipo metrica, **[!UICONTROL Sum]** viene selezionato come **[!UICONTROL Mapping type]**.
+* **[!UICONTROL Field]** è selezionato come tipo di mappatura **[!UICONTROL Default]**.
+* Il campo del set di dati Experience Platform corrispondente viene inserito automaticamente per *AEP Dataset Field*.
+
+Puoi modificare qualsiasi valore proposto se questi non sono corretti o se non supportano il tuo caso d’uso specifico.
+
+
+#### Set di dati dei fattori
+
+I campi armonizzati vengono mappati ai campi di un set di dati di fattore, per cui puoi [aggiungere fattori come parte della configurazione del modello](/help/models/build.md).
+
+Quando mappi campi armonizzati a campi in set di dati di un fattore, si applica quanto segue:
+
+##### Nome fattore
+
+Quando mappi un campo fattore standard armonizzato da un set di dati fattore e il set di dati fattore contiene un singolo fattore, utilizza **[!UICONTROL Map into]** come **[!UICONTROL Mapping type]** e immetti un valore predefinito per il campo armonizzato **[!UICONTROL Factor Name]**.
+
+![Regola set di dati - mappa set di dati a fattore singolo](../assets/dataset-create-rule-factor-single.png)
+
+Se il set di dati del fattore contiene più fattori, utilizzare **[!UICONTROL Case As]** come **[!UICONTROL Mapping Type]** per definire una mappatura tra il campo armonizzato Nome fattore e ogni nome di fattore distinto.
+
+![Regola set di dati - mappa set di dati a fattore singolo](../assets/dataset-create-rule-factor-multiple.png)
+
+
+##### Tipo di fattore
+
+Questo campo è facoltativo nel set di dati e nello schema del fattore. Se **[!UICONTROL Factor type]** è definito nel set di dati e nello schema del fattore e specifica **[!UICONTROL Internal]** o **[!UICONTROL External]**, viene utilizzato il valore specificato. Se non viene specificato alcun valore, viene utilizzato il valore predefinito **[!UICONTROL Internal]**.
+
+##### Tipo di valore
+
+Questo campo è facoltativo nel set di dati e nello schema del fattore. Se **[!UICONTROL Value type]** è definito nel set di dati e nello schema del fattore e specifica **[!UICONTROL Actual]** o **[!UICONTROL Forecasted]**, viene utilizzato il valore specificato. Se non viene specificato alcun valore, viene utilizzato il valore predefinito **[!UICONTROL Actual]**.
+
+
+##### Granularità
+
+È possibile definire una regola del set di dati per la granularità di un set di dati fattore quando tutti i fattori all’interno del set di dati fattore hanno la stessa granularità di origine.
+
+Non appena i set di dati dei fattori sono armonizzati, tutti i set di dati si conformano al più alto livello di granularità tra i set di dati armonizzati.
+
+
+##### Valore fattore
+
+Per il campo armonizzato **[!UICONTROL Factor value]**, utilizza uno degli operatori di aggregazione come **[!UICONTROL Mapping Type]**. Quando in un set di dati di fattori sono definiti più fattori, l’operatore aggregato viene applicato a tutti i fattori.
+
+
+##### Esempio
+
+* Hai un set di dati di fattore, con i seguenti dati di esempio:
+
+  | Marca temporale | Nome fattore | Valore fattore |
+  |---|---|---:|
+  | 13 marzo 2025 | _definedsp500 | 10 |
+  | 13 marzo 2025 | _cpi | 20 |
+  | 14 marzo 2025 | _definedsp500 | 30 |
+  | 14 marzo 2025 | _cpi | 40 |
+  | 15 marzo 2025 | _definedsp500 | 50 |
+  | 15 marzo 2025 | _cpi | 60 |
+
+
+* E si definiscono le seguenti regole del set di dati per **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]** e **[!UICONTROL Granularity]**:
+
+  ![Regole del set di dati - esempio fattori](../assets/dataset-create-rule-factor-example.png)
+
+* In questo modo si ottengono i seguenti dati armonizzati:
+
+  | Nome fattore | Valore fattore | Tipo di fattore | Tipo di valore |
+  |---|---:|---|---|
+  | CPI | 20 | Interno | Effettivo |
+  | S&amp;P 500 | 10 | Interno | Effettivo |
+
+  Poiché non sono state definite regole per set di dati per **[!UICONTROL Factor Type]** e **[!UICONTROL Value Type]**, vengono utilizzate le impostazioni predefinite.
 
 ### Modificare una regola del set di dati
 
