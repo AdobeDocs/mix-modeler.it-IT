@@ -3,10 +3,10 @@ title: Panoramica dell’armonizzazione dei set di dati
 description: Scopri come armonizzare i dati in Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
+source-git-commit: 23cb7cefe3d1dabfdb8484ad150c38d785841e3b
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 6%
+source-wordcount: '1369'
+ht-degree: 7%
 
 ---
 
@@ -52,7 +52,7 @@ Immagina di disporre dei seguenti set di dati per Mix Modeler.
 
 Contiene il set di dati dell’attività di marketing di YouTube, con una granularità dei dati aggregati impostata su giornaliero.
 
-| Data | Tipo di data | Canale | Campaign | Marchio | Geo | Clic | Spesa |
+| Data | Tipo di data | Canale | Campaign | Brand | Geo | Clic | Spesa |
 |---|:--:|---|---|---|---|---:|---:|
 | 12-31-2021 | giorno | YouTube | Y_Autunno_02 | BrandX | US | 10000 | 100 |
 | 01-01-2022 | giorno | YouTube | Y_Autunno_02 | BrandX | US | 1000 | 10 |
@@ -94,7 +94,7 @@ Un set di dati di conversione con granularità dell’insieme di dati aggregati 
 
 Un esempio di set di dati di evento esperienza (eventi Web SDK) dal cliente.
 
-| Timestamp | Spazio dei nomi identità | ID identità | Canale | Clic |
+| Marca temporale | Spazio dei nomi identità | ID identità | Canale | Clic |
 |--- |--- |--- |--- |---:|
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
@@ -108,7 +108,7 @@ Desideri creare un set di dati armonizzato con granularità impostata su Settima
 
 **Set di dati armonizzato**
 
-| Data | Tipo di data | Canale | Campaign | Marchio | Geo | Obiettivo | Clic | Spesa | Ricavi |
+| Data | Tipo di data | Canale | Campaign | Brand | Geo | Obiettivo | Clic | Spesa | Ricavi |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
 | 12-27-2021 | settimana | YouTube | Y_Autunno_02 | BrandX | US | Nullo | 11000 | 110 | Nullo |
 | 01-03-2022 | settimana | YouTube | Y_Autunno_01 | BrandY | CA | Nullo | 10000 | 100 | Nullo |
@@ -132,7 +132,7 @@ Desideri creare un set di dati armonizzato con granularità impostata su Settima
 Per creare un set di dati armonizzato, come nell&#39;[esempio](#an-example-of-harmonized-data) semplificato, devi seguire questi passaggi:
 
 1. Definisci ulteriori [campi armonizzati](fields.md) da utilizzare oltre i campi armonizzati globali già disponibili.
-1. Imposta [regole set di dati](dataset-rules.md) per mappare i campi dai set di dati aggregati o dell&#39;evento esperienza ai campi armonizzati.
+1. Imposta [regole set di dati](dataset-rules.md) per mappare i campi dai set di dati aggregati (fattore o riepilogo) o evento esperienza ai campi armonizzati.
 1. Definisci [punti di contatto di marketing](marketing-touchpoints.md) utilizzando i campi standard e armonizzati aggiuntivi definiti.
 1. Definisci [conversioni](conversions.md) utilizzando i campi standard e altri campi armonizzati definiti.
 
@@ -149,7 +149,7 @@ Per visualizzare i dati armonizzati, nell’interfaccia di Mix Modeler:
 
    1. Per modificare le colonne dei campi armonizzati visualizzate per la tabella dati armonizzata, utilizzare ![Impostazioni](/help/assets/icons/Setting.svg) per aprire la finestra di dialogo **[!UICONTROL Column settings]**.
 
-      1. Selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) una o più colonne da **[!UICONTROL AVAILABLE COLUMNS]** e utilizzare ![Chevron right](/help/assets/icons/ChevronRight.svg) per aggiungere queste colonne a **[!UICONTROL SELECTED COLUMNS]**.
+      1. Selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) una o più colonne da **[!UICONTROL AVAILABLE COLUMNS]** e utilizzare ![Chevron right](/help/assets/icons/ChevronRight.svg) per aggiungere queste colonne a **[!UICONTROL SELECTED COLUMNS]**. Sono disponibili tutti i campi armonizzati standard definiti (inclusi i campi relativi ai set di dati dei fattori, ad esempio **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]**, **[!UICONTROL Factor Type]** e **[!UICONTROL Factor Value Type]**).
 
       1. Selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) una o più colonne da **[!UICONTROL SELECTED COLUMNS]** e utilizzare ![Chevron left](/help/assets/icons/ChevronLeft.svg) per rimuovere le colonne selezionate e riportarle a **[!UICONTROL AVAILABLE COLUMNS]**.
 
