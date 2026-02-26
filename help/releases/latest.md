@@ -4,16 +4,16 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 0a5fdbe90c4a32de45f4f2756f080dc265f5fbb7
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '361'
 ht-degree: 8%
 
 ---
 
 # Note sulla versione corrente di Mix Modeler
 
-**Ultimo aggiornamento**: 13 gennaio 2026.
+**Ultimo aggiornamento**: 26 febbraio 2026.
 
 Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rilasci di Mix Modeler funzionano su un modello di consegna continua, che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
 
@@ -22,6 +22,7 @@ Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rila
 
 | Funzione | Descrizione | [Inizio rollout](#release-strategy) | [Disponibilità generale](#release-strategy) |
 |---|---|---|---|
+| **Flusso di lavoro dei fattori armonizzati** | I fattori sono ora gestiti come parte di un [flusso di lavoro dei fattori armonizzati](/help/harmonize-data/overview.md#factors). In questo modo è più semplice [definire i dati dei fattori](/help/ingest-data/schemas.md#factor-standard-fields-field-group), [gestire i fattori interni ed esterni come parte delle regole del set di dati](/help/harmonize-data/dataset-rules.md#factor-datasets) e utilizzare i dati dei fattori in [modelli](/help/models/build.md#configure). | giovedì 25 febbraio 2026 | giovedì 25 febbraio 2026 |
 | **[!UICONTROL Granular incrementality reporting]** | Definisci i campi armonizzati in modo da poter analizzare in profondità il reporting del modello utilizzando [campi di reporting di approfondimenti granulari](/help/models/build.md#granular-insights-reporting-fields), invece di dover creare modelli separati. | giovedì 18 febbraio 2026 | giovedì 18 febbraio 2026 |
 
 ## Gennaio 2026
