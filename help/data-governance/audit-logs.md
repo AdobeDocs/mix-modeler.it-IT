@@ -1,20 +1,21 @@
 ---
-title: Registri di audit
+title: Registri di controllo
 description: Scopri come accedere ai registri di audit da Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 5%
+source-wordcount: '488'
+ht-degree: 4%
 
 ---
 
-# Registri di audit
+# Registri di controllo
 
 Per aumentare la trasparenza e la visibilità delle attività eseguite nel sistema, l’attività dell’utente all’interno del flusso di lavoro di Mix Modeler viene acquisita nei registri di audit di Experience Platform per comprendere eventuali modifiche guidate dall’utente alle categorie Mix Modeler. Questi registri costituiscono un audit trail che può essere utile per la risoluzione dei problemi e può aiutare la tua azienda a rispettare in modo efficace le politiche aziendali di gestione dei dati e i requisiti normativi.
 
-<!-- DO WE HAVE TO ADD THIS
+<!-- 
+DO WE HAVE TO ADD THIS
 If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
 -->
 
@@ -67,4 +68,4 @@ Per esaminare il registro di controllo, nell’interfaccia di Mix Modeler:
 
 Quando la funzione è abilitata per la tua organizzazione, i registri di audit vengono raccolti automaticamente quando si verifica un’attività. Non è necessario abilitare manualmente la raccolta dei registri di controllo.
 
-Per visualizzare ed esportare i registri di audit, è necessario disporre dell&#39;autorizzazione di controllo dell&#39;accesso per i registri di audit. Per informazioni su come gestire le singole autorizzazioni per le funzionalità di Mix Modeler, consulta la [documentazione sul controllo degli accessi](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home).
+Per visualizzare ed esportare i registri di audit, è necessario disporre dell&#39;autorizzazione di controllo dell&#39;accesso per i registri di audit. Per informazioni su come gestire le singole autorizzazioni per le funzionalità di Mix Modeler, consulta la [documentazione sul controllo degli accessi](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).

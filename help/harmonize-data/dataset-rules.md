@@ -3,9 +3,9 @@ title: Regole del set di dati
 description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9987c845414fa5a3abda201d55f7b1ed6e211780
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2106'
 ht-degree: 0%
 
 ---
@@ -68,17 +68,17 @@ Nella schermata **[!UICONTROL Create]**,
 
       1. Selezionare **[!UICONTROL Count]** o **[!UICONTROL Sum]** da **[!UICONTROL Mapping type]**.
 
-      1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**&#x200B;a cui vuoi mappare il campo armonizzato per impostazione predefinita.
+      1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**a cui vuoi mappare il campo armonizzato per impostazione predefinita.
 
    * Quando il campo selezionato è di tipo dimensione:
 
       1. Selezionare **[!UICONTROL Map Into]** o **[!UICONTROL Case]** da **[!UICONTROL Mapping type]**.
 
-      1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+      1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-      1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+      1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-         1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**&#x200B;specifico, che si tratti di **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**&#x200B;oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**&#x200B;un valore immesso in&#x200B;**[!UICONTROL * Immettere il valore di input *]**.
+         1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**specifico, che si tratti di **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**o **[!UICONTROL Ends With]**un valore immesso in**[!UICONTROL * Immettere il valore di input *]**.
 
          1. Per aggiungere un altro caso, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, per aggiungere un&#39;altra condizione, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -248,7 +248,7 @@ I casi d’uso tipici sono:
 * la stessa metrica pubblicitaria è misurata e segnalata in più set di dati, oppure
 * la misurazione delle metriche può essere incompleta in alcuni set di dati, mentre un altro set di dati può essere un superset di una particolare metrica, con conseguente doppio conteggio.
 
-### Configura
+### Configurare
 
 Per configurare le preferenze di unione dati:
 
@@ -265,7 +265,7 @@ Per configurare le preferenze di unione dati:
 
       1. Seleziona ![Più](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
          1. Selezionare una metrica dall&#39;elenco **[!UICONTROL *Selezione metrica *]**.
-         1. Selezionare **[!UICONTROL CHANNELS]** o **[!UICONTROL CONVERSION TYPES]**. Dall&#39;elenco, selezionare **[!UICONTROL All]** o un canale o un tipo di conversione specifico.
+         1. Seleziona **[!UICONTROL CHANNELS]** (Mostra origine dati) o **[!UICONTROL CONVERSION TYPES]** (Blocca selezione). Dall&#39;elenco, selezionare **[!UICONTROL All]** o un canale o un tipo di conversione specifico.
          1. Selezionare **[!UICONTROL Summary]** o **[!UICONTROL Event]** per specificare se i dati di riepilogo o i dati evento sono preferiti per la metrica (e per tutti o per il canale selezionato) durante l&#39;unione dei dati.
 
          Per aggiungere uno o più tipi di canale o conversione aggiuntivi:
