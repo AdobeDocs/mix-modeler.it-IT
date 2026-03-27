@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Guarda questo video per un’introduzione al flusso di lavoro degli utenti in Mix Modeler.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440211/?captions=ita&learn=on)
 
 
 Un flusso di lavoro tipico in Mix Modeler è costituito dalle seguenti attività:
