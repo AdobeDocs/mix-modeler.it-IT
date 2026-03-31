@@ -1,12 +1,12 @@
 ---
-title: Creare modelli in Mix Modeler
-description: Scopri come creare modelli in Mix Modeler, e come impostare, configurare e specificare opzioni avanzate per il modello.
+title: Creare Modelli In Mix Modeler
+description: Scopri come creare modelli in Mix Modeler, e come impostare, configurare e specificare opzioni avanzate per il modello. Ad esempio obiettivi di conversione, punti di contatto, adstock e pianificazione.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: efe31b517c1a6be518101fa8266b020348241b98
+source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Per creare modelli personalizzati basati sull’intelligenza artificiale, l’interfaccia fornisce un flusso guidato e dettagliato di configurazione del modello.
 
-Nell&#39;interfaccia ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** in Mix Modeler, selezionare **[!UICONTROL Open model canvas]**.
+Nell&#39;interfaccia ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** in [!DNL Mix Modeler], selezionare **[!UICONTROL Open model canvas]**.
 
 ## Configurazione
 
@@ -27,7 +27,7 @@ Nell&#39;interfaccia ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Mo
 
 1. Selezionare **[!UICONTROL Next]** per continuare con il passaggio successivo. Selezionare **[!UICONTROL Cancel]** per annullare la configurazione del modello.
 
-## Configurare{#configure}
+## Configurare {#configure}
 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
@@ -96,61 +96,96 @@ Il modello viene configurato nel passaggio **[!UICONTROL Configure]**. La config
    * Per aggiungere un set di dati fattore, selezionare **[!UICONTROL Add Factor]**. Potete aggiungere un massimo di 30 fattori a un modello.
 
       1. Selezionare **[!UICONTROL Factor dataset]** dal menu a discesa. I fattori disponibili sono i fattori per i quali hai definito un campo armonizzato in [regole set di dati](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
-In base al set di dati selezionato, il **[!UICONTROL Factor type**] è **[!UICONTROL Internal]** o **[!UICONTROL External]**.
+In base al set di dati selezionato, **[!UICONTROL Factor type]** è **[!UICONTROL Internal]** o **[!UICONTROL External]**.
 
       1. Selezionare **[!UICONTROL Impact on conversion]** dal menu a discesa. Opzioni disponibili: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** o **[!UICONTROL Negative]**. L&#39;opzione predefinita è **[!UICONTROL Auto]**, che consente al modello di determinare l&#39;impatto del set di dati del fattore.
 
    * Per eliminare un set di dati di fattore, selezionare ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
 
-
-
 1. Per definire l&#39;intervallo di lookback per il modello, immettere un valore compreso tra `1` e `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** nella sezione **[!UICONTROL Define lookback window]**.
+
+1. Per definire la finestra di formazione per un modello, in **[!UICONTROL Define training window]**, seleziona la posizione in cui desideri iniziare a valutare le conversioni.
+
+   ![Modello - Definisci la finestra di formazione](/help/assets/model-define-training-window.png)
+
+   Puoi scegliere tra:
+
+   * **[!UICONTROL Have Mix Modeler select a helpful training window]** e
+
+   * **[!UICONTROL Manually input a training window]**. Se selezionata, definire il numero di anni in **[!UICONTROL Include events the following years prior to a conversion]**.
+
+   Questo input è necessario per un modello. Il numero di anni determina il limite di channel adstock che è possibile configurare nel passaggio **[!UICONTROL Advanced]**.
 
 1. Selezionare **[!UICONTROL Next]** per continuare con il passaggio successivo. Se è necessaria una configurazione maggiore, una struttura e un testo rossi spiegano quale configurazione aggiuntiva è necessaria. <br/>Selezionare **[!UICONTROL Back]** per tornare al passaggio precedente. <br/>Selezionare **[!UICONTROL Cancel]** per annullare la configurazione del modello.
 
 
-## Avanzate
+## Avanzate {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
 >title="Channel adstock"
->abstract="Incorpora competenze di dominio, risultati di sperimentazione o analisi di canale precedenti direttamente nella configurazione del modello. La configurazione di Adstock aiuta a guidare il modello per allinearsi alle aspettative reali e migliora l’interpretabilità e la fiducia nell’output. Il totale delle settimane di lookback più le settimane di ritardo per canale è limitato a un ottavo della finestra di formazione configurata. Questo limite consente al modello di disporre di dati sufficienti per apprendere gli effetti del materiale pubblicitario."
+>abstract="Incorpora competenze di dominio, risultati di sperimentazione o analisi di canale precedenti direttamente nella configurazione del modello. La configurazione di Adstock aiuta a guidare il modello per allinearsi alle aspettative reali e migliora l’interpretabilità e la fiducia nell’output. Il totale delle settimane di lookback più le settimane di ritardo per canale è limitato a un ottavo della finestra di formazione configurata. Questo tappo consente di ottenere dati sufficienti per consentire al modello di apprendere gli effetti adstock."
 
-È possibile specificare impostazioni avanzate nel passaggio **[!UICONTROL Advanced]**. In questo passaggio, puoi abilitare il modello per l’attribuzione multi-touch (MTA).
+È possibile specificare impostazioni avanzate nel passaggio **[!UICONTROL Advanced]**. In questo passaggio puoi definire [condivisione di spesa](#spend-share), abilitare il tuo modello per [attribuzione multi-touch (MTA)](#mta), definire [conoscenza precedente](#prior-knowledge) e definire [channel adstock](#channel-adstock).
 
-1. Nella sezione **[!UICONTROL Spend share]**:
+### Condivisione di spesa
 
-   * Per utilizzare i rapporti di investimento di marketing storici per informare il modello quando i dati di marketing sono sparsi, attivare **[!UICONTROL Allow spend share]**. Si consiglia questa impostazione, in particolare nei seguenti scenari:
-      * Un canale non dispone di un numero sufficiente di osservazioni (ad esempio, bassa frequenza di spesa, impression o clic).
-      * Stai modellando contenuti multimediali ad alto contenuto ma regolari e potenzialmente molto spesi (come la TV per alcuni marchi), in cui i dati possono essere scarsi.
+Nella sezione **[!UICONTROL Spend share]**:
 
-     >[!NOTE]
-     >
-     >Per gli investimenti una tantum (ad esempio un annuncio per il Super Bowl), considera l’inclusione di tali dati come fattore invece di fare affidamento sulla quota di spesa.
-     >
+* Per utilizzare i rapporti di investimento di marketing storici per informare il modello quando i dati di marketing sono sparsi, attivare **[!UICONTROL Allow spend share]**. Si consiglia questa impostazione, in particolare nei seguenti scenari:
+   * Un canale non dispone di un numero sufficiente di osservazioni (ad esempio, bassa frequenza di spesa, impression o clic).
+   * Stai modellando contenuti multimediali ad alto contenuto ma regolari e potenzialmente molto spesi (come la TV per alcuni marchi), in cui i dati possono essere scarsi.
+
+  >[!NOTE]
+  >
+  >Per investimenti una tantum (ad esempio un annuncio per il Super Bowl), incorpora tali dati come fattore invece di fare affidamento sulla quota di spesa.
+  >
+
+### MTA
+
+Nella sezione **[!UICONTROL MTA enabled]**:
+
+* Per abilitare le funzionalità MTA per il modello, attiva **[!UICONTROL MTA enabled]**. Se hai abilitato l’MTA, gli approfondimenti sull’attribuzione multi-touch sono disponibili dopo aver addestrato e valutato il modello. Consulta la scheda [Attribuzione](insights.md#attribution) in [Informazioni sul modello](insights.md).
 
 
-1. Nella sezione **[!UICONTROL MTA enabled]**:
+### Conoscenze precedenti
 
-   * Per abilitare le funzionalità MTA per il modello, attiva **[!UICONTROL MTA enabled]**. Se hai abilitato l’MTA, gli approfondimenti sull’attribuzione multi-touch sono disponibili dopo aver addestrato e valutato il modello. Consulta la scheda [Attribuzione](insights.md#attribution) in [Informazioni sul modello](insights.md).
+Nella sezione **[!UICONTROL Prior knowledge]**:
 
-1. Nella sezione **[!UICONTROL Prior knowledge]**:
+![Modello - Conoscenza precedente](/help/assets/model-prior-knowledge-step.png)
 
-   ![Modello - Conoscenza precedente](/help/assets/model-prior-knowledge-step.png)
+1. Selezionare **[!UICONTROL Rule type]**, che è per impostazione predefinita **[!UICONTROL Absolute values]**.
 
-   1. Selezionare **[!UICONTROL Rule type]**, che è per impostazione predefinita **[!UICONTROL Absolute values]**.
+1. Specificare le percentuali di contributo per i canali elencati in **[!UICONTROL Name]**, utilizzando la colonna **[!UICONTROL Contribution proportion]**.
 
-   1. Specificare le percentuali di contributo per i canali elencati in **[!UICONTROL Name]**, utilizzando la colonna **[!UICONTROL Contribution proportion]**.
+1. Se appropriato, puoi aggiungere per ogni canale una percentuale di **[!UICONTROL Level of confidence]**.
 
-   1. Se appropriato, puoi aggiungere per ogni canale una percentuale di **[!UICONTROL Level of confidence]**.
+1. Se necessario, utilizzare **[!UICONTROL Clear all]** per cancellare tutti i valori di input per le colonne **[!UICONTROL Contribution proportion]** e **[!UICONTROL Level of confidence]**.
 
-   1. Se necessario, utilizzare **[!UICONTROL Clear all]** per cancellare tutti i valori di input per le colonne **[!UICONTROL Contribution proportion]** e **[!UICONTROL Level of confidence]**.
+
+### Channel adstock
+
+Nella sezione **[!UICONTROL Channel adstock]** è possibile definire singoli lookback di adstock (effetti di trascinamento o decadimento) e ritardi (tempi di risposta ritardati) per ogni canale (canale di marketing) definito nel modello.
+
+Questa configurazione di channel adstock consente un controllo dettagliato sul modo in cui i diversi canali di marketing influiscono sui risultati aziendali nel tempo. In alternativa, è possibile utilizzare i valori predefiniti di sistema e una configurazione unica.
+
+La configurazione di channel adstock consente di acquisire sfumature specifiche per il canale. Ad esempio, l’impatto a lungo termine delle campagne TV, l’impatto a breve termine della ricerca a pagamento o il ritardo tra la spesa degli influencer e le conversioni osservabili. Sperimenta i parametri di lookback e lag di adstock per generare informazioni più precise, personalizzate e affidabili. In ultima analisi, una configurazione di channel adstock può portare a allocazioni di budget più precise e a decisioni aziendali migliori.
+
+![Canale adstock](/help/assets/channel-ad-stock.png)
+
+Per configurare il canale adstock:
+
+* Per ogni canale (**[!UICONTROL Name]**), definire un valore **[!UICONTROL Lag (weeks)]**, **[!UICONTROL Min Lookback (weeks)]** e **[!UICONTROL Max Lookback (weeks)]**. Per ogni valore:
+
+   * Utilizza ![Aggiungi](/help/assets/icons/Add.svg) per aumentare un valore, ![Sottrai](/help/assets/icons/Subtract.svg) per diminuirlo o immetti un valore manualmente.
+
+  Il totale delle settimane di lag più il massimo delle settimane di lookback per canale è limitato a un ottavo della finestra di apprendimento configurata. Questo tappo consente di ottenere dati sufficienti per consentire al modello di apprendere gli effetti adstock. Ad esempio, per un intervallo di formazione di due anni, il massimo di **[!UICONTROL Lag (weeks)]** e **[!UICONTROL Lookback (weeks)]** per un canale è 13 settimane. Questo limite viene applicato quando si definiscono i valori.
 
 
 ## Impostare le opzioni
 
-Puoi [pianificare l&#39;apprendimento e il punteggio](#schedule), [definire la finestra di apprendimento](#training-window) e specificare [campi di reporting di approfondimenti granulari](#granular-insights-reporting-fields) per il modello nel passaggio **[!UICONTROL Set options]**.
+Puoi [pianificare l&#39;apprendimento e il punteggio](#schedule) e specificare [campi di reporting di approfondimenti granulari](#granular-insights-reporting-fields) per il modello nel passaggio **[!UICONTROL Set options]**.
 
 
 ### Pianificazione
@@ -169,17 +204,6 @@ Per pianificare l’apprendimento e il punteggio del modello:
    * **[!UICONTROL Monthly]**: selezionare un giorno del mese dal menu a discesa Esegui su ogni e immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
 
 1. Selezionare **[!UICONTROL Training frequency]** dal menu a discesa: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
-
-
-### Finestra di formazione
-
-Nella sezione **[!UICONTROL Define training window]**, seleziona tra:
-
-![Modello - Definisci la finestra di formazione](/help/assets/model-define-training-window.png)
-
-* **[!UICONTROL Have Mix Modeler select a helpful training window]** e
-
-* **[!UICONTROL Manually input a training window]**. Se selezionata, definire il numero di anni in **[!UICONTROL Include events the following years prior to a conversion]**.
 
 
 ### Campi di reporting per approfondimenti granulari

@@ -4,10 +4,10 @@ description: Note sulla versione più recente di Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
+source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 3%
+source-wordcount: '435'
+ht-degree: 5%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 3%
 **Ultimo aggiornamento**: 26 febbraio 2026.
 
 Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rilasci di Mix Modeler funzionano su un modello di consegna continua, che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
+
+## Marzo 2026
+
+| Funzione | Descrizione | [Inizio rollout](#release-strategy) | [Disponibilità generale](#release-strategy) |
+|---|---|---|---|
+| **Canale adstock** | Puoi incorporare le competenze del dominio, i risultati di esperimenti o le analisi dei canali precedenti direttamente nella configurazione avanzata del modello tramite [Channel adstock](/help/models/build.md#channel-adstock). Mostra [informazioni sul canale adstock](/help/models/insights.md#channel-adstock) nell&#39;analisi del canale di un modello. | 30 marzo 2026 | 30 marzo 2026 |
 
 ## Febbraio 2026
 
