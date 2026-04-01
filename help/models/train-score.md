@@ -2,7 +2,8 @@
 title: Formazione e valutazione dei modelli
 description: Scopri come addestrare e valutare i modelli.
 feature: Models
-source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
+exl-id: c4fbe13e-4548-421b-ba90-274fc42f4be2
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -61,9 +62,8 @@ Specifica l’intervallo di date. È possibile utilizzare il ![Calendario](/help
 
    ![Reimpostare un modello](../assets/rescore-model.png)
 
-1. Selezionare **[!UICONTROL Score]**. Quando si assegna un nuovo punteggio a un modello utilizzando un intervallo di dati specifico, viene visualizzata una finestra di dialogo **[!UICONTROL Existing model is replaced]** in cui viene richiesto di confermare la sostituzione del modello con nuovi punteggi per l’intervallo di date selezionato. Selezionare **[!UICONTROL Replace model]** per confermare.
+1. Seleziona **[!UICONTROL Score]**. Quando si ricalcola il punteggio di un modello utilizzando un intervallo di dati specifico, viene visualizzata una finestra di dialogo **[!UICONTROL Existing model is replaced]** in cui viene richiesto di confermare la sostituzione del modello con nuovi punteggi per l’intervallo di date selezionato. Selezionare **[!UICONTROL Replace model]** per confermare.
 
 >[!IMPORTANT]
 >
 >Il recore di un modello non modifica i piani già creati in base al modello con nuovo punteggio. Per utilizzare il nuovo modello con ricalcolo in un piano, è necessario creare un nuovo piano.
-

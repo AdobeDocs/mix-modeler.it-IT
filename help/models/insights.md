@@ -3,9 +3,9 @@ title: Approfondimenti modello
 description: Scopri come ottenere dettagli sul modello, come panoramica storica, informazioni sul modello e qualità del modello in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: be10a2fff940db4effe8f5d23aa7404e6d77ac74
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '2896'
 ht-degree: 3%
 
 ---
@@ -189,7 +189,7 @@ I canali con curve di decadimento più lente (code più lunghe) indicano un impa
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Ripartizione contributo fattore"
->abstract="Il raggruppamento dei contributi dei fattori mostra la proporzione di conversioni di base che possono essere attribuite ai vari fattori inclusi nel modello.<br/><br/>Base pura rappresenta le conversioni sottostanti che si verificano indipendentemente dai punti di contatto di marketing e dai fattori inclusi nel modello. Include conversioni guidate da brand equity, acquisti ripetuti, domanda organica, tendenze di mercato a lungo termine e stagionalità."
+>abstract="La ripartizione dei contributi dei fattori mostra la proporzione delle conversioni di base attribuibili ai vari fattori inclusi nel modello.<br/><br/>Base pura rappresenta le conversioni sottostanti che si verificano indipendentemente dai punti di contatto e dai fattori di marketing inclusi nel modello. Include conversioni guidate da brand equity, acquisti ripetuti, domanda organica, tendenze di mercato a lungo termine e stagionalità."
 
 
 La scheda Fattori [!BADGE beta] mostra informazioni relative ai fattori esterni.
@@ -456,27 +456,3 @@ Per visualizzare un canale alternativo basato sul volume per questa visualizzazi
 
 * Selezionare un canale da **[!UICONTROL Channels]**.
 
-
-## Modifica
-
-Puoi modificare il nome, la descrizione e la pianificazione dell’apprendimento e del punteggio del modello.
-
-1. Seleziona ![Modifica](/help/assets/icons/Edit.svg) Modifica
-
-1. Nella finestra di dialogo **[!UICONTROL Edit model]**:
-
-   * Immettere un nuovo **[!UICONTROL Name]** e **[!UICONTROL Description]**.
-
-   * Per abilitare la pianificazione, abilitare **[!UICONTROL Status]**. Puoi abilitare la pianificazione solo per i modelli che sono stati addestrati e valutati.
-
-      1. Seleziona **[!UICONTROL Scoring frequency]**:
-
-         * **[!UICONTROL Daily]**: immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]**: selezionare un giorno della settimana e immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Monthly]**: selezionare un giorno del mese dal menu a discesa Esegui su ogni e immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
-
-      1. Selezionare **[!UICONTROL Training frequency]** dal menu a discesa: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
-
-     ![Modifica modello](../assets/model-edit.png)
-
-1. Seleziona **[!UICONTROL Save]**.

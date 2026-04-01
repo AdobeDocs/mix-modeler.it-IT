@@ -1,11 +1,11 @@
 ---
 title: Panoramica dei modelli
-description: Scopri come generare e utilizzare i modelli in Mix Modeler.
+description: Scopri come creare, addestrare, valutare e gestire modelli di apprendimento automatico in Mix Modeler per misurare e prevedere i risultati di marketing.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 La funzionalità dei modelli di Mix Modeler consente di configurare, addestrare e valutare modelli specifici per gli obiettivi aziendali. La formazione e il punteggio supportano l’apprendimento del trasferimento basato sull’intelligenza artificiale tra attribuzione multitouch e modellazione marketing mix.
 
-I modelli si basano sui dati armonizzati creati come parte del flusso di lavoro dell’applicazione Mix Modeler.
+I modelli si basano sui dati armonizzati creati come parte del flusso di lavoro dell’applicazione.
 
 Un modello in Mix Modeler è un modello di apprendimento automatico utilizzato per misurare e prevedere un risultato specifico basato sugli investimenti di un addetto marketing. I punti di contatto di marketing e i dati di riepilogo possono essere utilizzati come input. Mix Modeler consente di creare varianti di modelli basati su diversi set di variabili, dimensioni e risultati, come ricavi, unità vendute, lead.
 
@@ -32,8 +32,7 @@ Un modello può facoltativamente includere:
 * Conoscenza preventiva dei contributi di marketing da altre fonti, come la precedente esperienza delle parti interessate, test incrementali, altri modelli.
 * La condivisione di spesa, che utilizza come proxy la condivisione di spesa relativa quando i dati di marketing sono sparsi.
 
-La prima volta che viene creato un modello, la creazione avvia immediatamente il processo di formazione e punteggio. Dopo il completamento dell’esecuzione iniziale dell’addestramento e del punteggio, gli approfondimenti del modello sono disponibili per la revisione. Un modello può essere successivamente riaddestrato. Inoltre, i dati possono essere aggiunti al modello che richiede il ripristino manuale del modello. Il training e il re-scoring sono un processo iterativo, in quanto emergono nuovi risultati e informazioni e sono necessari adeguamenti per ottenere un adattamento del modello più appropriato per gli obiettivi aziendali.
-
+La prima volta che viene creato un modello, la creazione avvia immediatamente il processo di formazione e punteggio. Dopo il completamento dell’esecuzione iniziale dell’addestramento e del punteggio, gli approfondimenti del modello sono disponibili per la revisione. Un modello può essere successivamente riqualificato. Inoltre, i dati possono essere aggiunti al modello che richiede il ripristino manuale del modello. La riqualificazione e il ricalcolo sono un processo iterativo, in quanto emergono nuovi risultati e informazioni e sono necessari adeguamenti per ottenere un adattamento del modello più appropriato per gli obiettivi aziendali.
 
 ## Creare modelli
 
@@ -43,7 +42,7 @@ Per creare un modello, utilizzare il flusso di configurazione guidato passo pass
 
 Per visualizzare una tabella dei modelli correnti, nell’interfaccia di Mix Modeler:
 
-1. Seleziona ![FileData](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
+1. Seleziona ![FileDataS2](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
 1. Viene visualizzata una tabella dei modelli correnti.
 
@@ -58,7 +57,7 @@ Per visualizzare una tabella dei modelli correnti, nell’interfaccia di Mix Mod
    | **[!UICONTROL Last run]** | La data e l’ora dell’ultimo addestramento del modello. |
    | **[!UICONTROL Status]** | Stato del modello. |
 
-   Per ordinare la tabella in qualsiasi colonna con ordine crescente ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg) o decrescente ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg), selezionare il titolo della colonna.
+   Per ordinare la tabella in qualsiasi colonna in ordine crescente ![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg) o decrescente ![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg), selezionare il titolo della colonna.
 
    Per ordinare o ridimensionare la colonna **[!UICONTROL Name]**, selezionare **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). Dal menu di scelta rapida selezionare **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** o **[!UICONTROL Resize column]**. In alternativa, è possibile passare il puntatore del mouse sul separatore di colonna per ridimensionare la colonna **[!UICONTROL Name]**.
 
@@ -98,18 +97,16 @@ La funzionalità Approfondimenti modello è disponibile solo su modelli con form
 
 Per visualizzare le informazioni di un modello:
 
-1. Seleziona ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
-
+1. Seleziona ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 1. Selezionate il nome del modello.
 
 Sei stato reindirizzato a [Model Insights](insights.md).
-
 
 ### Visualizza dettagli
 
 Per visualizzare ulteriori dettagli su un modello:
 
-1. Seleziona ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
+1. Seleziona ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
 1. Seleziona ![Info](/help/assets/icons/Info.svg) per un modello per visualizzare un popup con i dettagli.
 
@@ -118,55 +115,62 @@ Per visualizzare ulteriori dettagli su un modello:
 
 Potete duplicare rapidamente un modello.
 
-1. Seleziona ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
+1. Seleziona ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
 1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Duplicate]**.
 
-Sei stato reindirizzato ai passaggi per creare un nuovo modello, con un nome proposto composto dal nome del modello originale seguito da **[!UICONTROL (Copy)] (_n_)**.
+Sei stato reindirizzato ai passaggi per creare un nuovo modello, con un nome proposto composto dal nome del modello originale seguito da **[!UICONTROL (Copy)](_n_)**.
 
 ### Modifica
 
 Puoi modificare il nome, la descrizione e la pianificazione dell’apprendimento e del punteggio di un modello.
 
-1. Seleziona ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
+1. Seleziona ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 
 1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Edit]**.
 
    Nella finestra di dialogo **[!UICONTROL Edit model]**:
 
+   ![Modifica modello](../assets/model-edit.png)
+
    * Immettere un nuovo **[!UICONTROL Name]** e **[!UICONTROL Description]**.
 
-   * Per abilitare la pianificazione, abilitare **[!UICONTROL Status]**. Puoi abilitare la pianificazione solo per i modelli che sono stati addestrati e valutati.
+   * Per abilitare la pianificazione, abilitare **[!UICONTROL Enable schedule model training and scoring]**. Puoi abilitare la pianificazione solo per i modelli che sono stati addestrati e valutati.
 
       1. Seleziona **[!UICONTROL Scoring frequency]**:
 
-         * **[!UICONTROL Daily]**: immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]**: selezionare un giorno della settimana e immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Monthly]**: selezionare un giorno del mese dal menu a discesa Esegui su ogni e immettere un&#39;ora valida (ad esempio `05:22 pm`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Daily]**: immettere un&#39;ora valida (ad esempio `10:00 am`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg) per definire l&#39;ora.
+         * **[!UICONTROL Weekly]**: selezionare un giorno della settimana e immettere un&#39;ora valida (ad esempio `10:00 am`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg) per definire l&#39;ora.
+         * **[!UICONTROL Monthly]**: selezionare un giorno del mese dal menu a discesa Esegui su ogni e immettere un&#39;ora valida (ad esempio `10:00 am`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg) per definire l&#39;ora.
 
       1. Selezionare **[!UICONTROL Training frequency]** dal menu a discesa: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
 
-     ![Modifica modello](../assets/model-edit.png)
+   * Per aggiornare i campi di reporting di [granular insights](/help/models/build.md#granular-insights-reporting-fields), nella sezione **[!UICONTROL Granular Insights Reporting Fields]**:
+      1. Seleziona uno o più campi armonizzati da **[!UICONTROL _Seleziona campi armonizzati_]** sotto **[!UICONTROL Includes]**. I campi armonizzati selezionati vengono aggiunti al pannello.
+      1. Selezionare **[!UICONTROL *Campo armonizzato *]**![CrossSize100](/help/assets/icons/CrossSize100.svg) per rimuovere un campo armonizzato dal contenitore con i campi armonizzati selezionati.
+      1. Selezionare **[!UICONTROL Clear all]** per rimuovere tutti i campi armonizzati selezionati.
+
+     >[!IMPORTANT]
+     >Se aggiungi campi di reporting di informazioni granulari a un modello creato **prima del 18 febbraio 2026**, è necessario un nuovo punteggio del modello. Il nuovo punteggio garantisce che lo schema sottostante al modello venga aggiornato con campi di reporting di informazioni granulari.
+     >
+     >L’approccio consigliato è quello di duplicare tale modello. Includi inoltre i campi di reporting di informazioni granulari nella creazione del modello duplicato.
+     >
 
 1. Seleziona **[!UICONTROL Save]**.
 
-
-
 ### Addestra
 
-È consigliabile riqualificare un modello quando si desidera includere nuovi dati di marketing e di fattore incrementali. Per ulteriori informazioni, vedere [Modelli di addestramento e valutazione](train-score.md#train).
-
+Conserva un modello quando desideri includere nuovi dati di marketing e di fattore incrementali. Per ulteriori informazioni, vedere [Modelli di addestramento e valutazione](train-score.md#train).
 
 ### Punteggio
 
 Puoi assegnare un punteggio incrementale a un modello in base a nuovi dati di marketing o ripristinare un modello per un intervallo di date specifico. Per ulteriori informazioni, vedere [Modelli di addestramento e valutazione](train-score.md#score).
 
-
 ### Elimina modelli
 
 Per eliminare un modello:
 
-1. Seleziona ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
+1. Seleziona ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** dalla barra a sinistra.
 1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Delete]**. In alternativa, selezionare ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** dalla barra delle azioni blu.
 1. Selezionare **[!UICONTROL Delete]** nella finestra di dialogo di conferma **[!UICONTROL Delete model]** per eliminare il modello. Selezionare **[!UICONTROL Cancel]** per annullare.
 
@@ -174,5 +178,5 @@ Per eliminare più modelli:
 
 1. Seleziona più modelli.
 1. Dalla barra blu delle azioni, seleziona ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare i modelli.
-1. Selezionare **[!UICONTROL Delete]** nella finestra di dialogo di conferma **[!UICONTROL Delete *x *modelli]**&#x200B;per eliminare i modelli. Selezionare **[!UICONTROL Cancel]**&#x200B;per annullare.
+1. Selezionare **[!UICONTROL Delete]** nella finestra di dialogo di conferma **[!UICONTROL Delete *x *modelli]**per eliminare i modelli. Selezionare **[!UICONTROL Cancel]**per annullare.
 
