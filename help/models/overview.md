@@ -3,9 +3,9 @@ title: Panoramica dei modelli
 description: Scopri come creare, addestrare, valutare e gestire modelli di apprendimento automatico in Mix Modeler per misurare e prevedere i risultati di marketing.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: e78380c2f735c1658a8d4d69353c7953ceb9c8c3
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Potete duplicare rapidamente un modello.
 
 1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Duplicate]**.
 
-Sei stato reindirizzato ai passaggi per creare un nuovo modello, con un nome proposto composto dal nome del modello originale seguito da **[!UICONTROL (Copy)] (_n_)**.
+Sei stato reindirizzato ai passaggi per creare un nuovo modello, con un nome proposto composto dal nome del modello originale seguito da **[!UICONTROL (Copy)](_n_)**.
 
 ### Modifica
 
@@ -151,9 +151,8 @@ Puoi modificare il nome, la descrizione e la pianificazione dell’apprendimento
       1. Selezionare **[!UICONTROL Clear all]** per rimuovere tutti i campi armonizzati selezionati.
 
      >[!IMPORTANT]
-     >Se aggiungi campi di reporting di informazioni granulari a un modello creato **prima del 18 febbraio 2026**, è necessario un nuovo punteggio del modello. Il nuovo punteggio garantisce che lo schema sottostante al modello venga aggiornato con campi di reporting di informazioni granulari.
-     >
-     >L’approccio consigliato è quello di duplicare tale modello. Includi inoltre i campi di reporting di informazioni granulari nella creazione del modello duplicato.
+     >Qualsiasi modello con MTA creato prima del 12 gennaio 2026 deve essere duplicato per abilitare informazioni granulari sul modello.<br/>
+     >La registrazione è necessaria affinché qualsiasi modello esistente rifletta le dimensioni granulari aggiornate nei dati di punteggio.
      >
 
 1. Seleziona **[!UICONTROL Save]**.
@@ -178,5 +177,5 @@ Per eliminare più modelli:
 
 1. Seleziona più modelli.
 1. Dalla barra blu delle azioni, seleziona ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare i modelli.
-1. Selezionare **[!UICONTROL Delete]** nella finestra di dialogo di conferma **[!UICONTROL Delete *x *modelli]**&#x200B;per eliminare i modelli. Selezionare **[!UICONTROL Cancel]**&#x200B;per annullare.
+1. Selezionare **[!UICONTROL Delete]** nella finestra di dialogo di conferma **[!UICONTROL Delete *x *modelli]**per eliminare i modelli. Selezionare **[!UICONTROL Cancel]**per annullare.
 
