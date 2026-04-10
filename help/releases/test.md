@@ -4,11 +4,10 @@ description: Test
 feature-set: Experience Cloud
 feature: Release Notes
 hide: true
-hidefromtoc: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 8340b8a6c32670f372fff489fd46ea1003ff1d02
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -30,7 +29,7 @@ Sembra che non supportiamo correttamente i file SVG in una casella ombreggiata. 
 
 >[!BEGINSHADEBOX]
 
-Questo articolo documenta il pannello Attribuzione in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Consulta [Pannello di attribuzione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/attribution) per la ![versione di CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** di questo articolo.
+Questo articolo documenta il pannello Attribuzione in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Consulta il [pannello Attribuzione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/attribution) per la versione ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** di questo articolo.
 
 >[!ENDSHADEBOX]
 
