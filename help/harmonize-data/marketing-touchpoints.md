@@ -5,8 +5,8 @@ feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 11%
+source-wordcount: '477'
+ht-degree: 12%
 
 ---
 
@@ -58,7 +58,7 @@ Per aggiungere un punto di contatto di marketing, nell&#39;interfaccia ![DataSea
 
       1. Selezionare un valore per l&#39;operatore ![Chevron](/help/assets/icons/ChevronDown.svg), ad esempio **[!UICONTROL is]**.
 
-      1. Selezionare un valore da **[!UICONTROL *Selezionare un valore *]**&#x200B;o immettere un valore, ad esempio **[!DNL Luma]**.
+      1. Selezionare un valore da **[!UICONTROL *Selezionare un valore *]**o immettere un valore, ad esempio **[!DNL Luma]**.
 
    1. Selezionare un campo armonizzato da **[!UICONTROL Touchpoint volume]**, ad esempio **[!UICONTROL Impressions]**.
 
