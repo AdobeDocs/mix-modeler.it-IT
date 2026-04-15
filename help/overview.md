@@ -4,7 +4,7 @@ description: Scopri come misurare le campagne e ottimizzare le pianificazioni in
 short-description: Scopri come misurare le campagne e ottimizzare le pianificazioni in modo olistico su tutti i canali con Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: be8ff78c9f286356e9335b81f11a4efb07e39956
+source-git-commit: 51e259410b5d6af8cc9d17b051a7d7ca9ed59d2a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 14%
@@ -78,3 +78,4 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Adobe **
     </td>
   </tr>
 </table>
+
