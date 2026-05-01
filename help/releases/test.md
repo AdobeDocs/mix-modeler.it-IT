@@ -7,9 +7,13 @@ hide: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
 TQID: https://experienceleague.adobe.com/BTd4-OINWubpSgFga7QE-ASje73fnySf1nIxTOivlVQ
 autotag-review: '2026-05-01T09:04:46.084Z'
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: fe2edbb1-46f9-4347-a27c-577cab3640cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 327
@@ -23,7 +27,7 @@ Verificare una tabella con caratteri Unicode
 
 | Tag | Visualizzazione dati | Proprietari | Altri filtri |
 |---|---|---|---|
-| Puoi ![Cercare](/help/assets/icons/Search.svg) *Cerca tag* per limitare l&#39;elenco dei tag. <br/><br/>Quando si selezionano uno o più tag, l&#39;elenco è limitato automaticamente per mostrare gli altri tag rimanenti. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. | Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per limitare l&#39;elenco delle visualizzazioni dati. <br/>È possibile selezionare più visualizzazioni dati per filtrare l&#39;elenco dei filtri. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. | Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per limitare l&#39;elenco delle visualizzazioni dati. <br/>È possibile selezionare più visualizzazioni dati per filtrare l&#39;elenco dei filtri. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. | Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per limitare l&#39;elenco delle visualizzazioni dati. <br/>È possibile selezionare più visualizzazioni dati per filtrare l&#39;elenco dei filtri. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. 🅐 🅔 |
+| Puoi ![Cercare](/help/assets/icons/Search.svg) *Cerca tag* per limitare l&#39;elenco dei tag. <br/><br/>Quando si selezionano uno o più tag, l&#39;elenco è limitato automaticamente per mostrare gli altri tag rimanenti. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**&#x200B;7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. | Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per limitare l&#39;elenco delle visualizzazioni dati. <br/>È possibile selezionare più visualizzazioni dati per filtrare l&#39;elenco dei filtri. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**&#x200B;7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. | Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per limitare l&#39;elenco delle visualizzazioni dati. <br/>È possibile selezionare più visualizzazioni dati per filtrare l&#39;elenco dei filtri. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**&#x200B;7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. | Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per limitare l&#39;elenco delle visualizzazioni dati. <br/>È possibile selezionare più visualizzazioni dati per filtrare l&#39;elenco dei filtri. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**&#x200B;7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. 🅐 🅔 |
 
 {style="table-layout:fixed"}
 
