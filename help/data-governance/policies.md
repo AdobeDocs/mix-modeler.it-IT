@@ -28,7 +28,7 @@ ht-degree: 2%
 
 # Criteri
 
-Una volta eseguito il flusso di lavoro per creare un modello e inviare la configurazione del modello, [l&#39;applicazione dei criteri](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) verifica se sono presenti violazioni. Se si verifica una violazione dei criteri, viene visualizzato un messaggio a comparsa che indica che uno o più criteri sono stati violati. Questa verifica ha lo scopo di garantire che le operazioni sui dati e le azioni di marketing all’interno di Experience Platform siano conformi ai criteri di utilizzo dei dati.
+Una volta eseguito il flusso di lavoro per creare un modello e inviare la configurazione del modello, [l&#39;applicazione dei criteri](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) verifica se sono presenti violazioni. Se si verifica una violazione dei criteri, viene visualizzato un messaggio a comparsa che indica che uno o più criteri sono stati violati. Questa verifica ha lo scopo di garantire che le operazioni sui dati e le azioni di marketing all’interno di Experience Platform siano conformi ai criteri di utilizzo dei dati.
 
 Per impostazione predefinita, Mix Modeler verifica la presenza di violazioni dei criteri definiti da Adobe associati alle etichette e alle azioni di marketing seguenti:
 
@@ -77,7 +77,7 @@ Currently,  Mix Modeler does not support all of the data governance functionalit
 
 >[!MORELIKETHIS]
 >
->[Panoramica sui criteri di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+>[Panoramica sui criteri di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/policies/overview)
 >
 >
 
