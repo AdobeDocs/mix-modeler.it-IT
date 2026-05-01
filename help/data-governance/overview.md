@@ -3,10 +3,28 @@ title: Panoramica sulla governance dei dati
 description: Scopri come utilizzare i servizi e gli strumenti di Experience Platform che ti consentono di controllare i dati sull’esperienza raccolti. In questo modo, rispetti le tue pratiche commerciali, gli obblighi legali e il processo di sviluppo.
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
-source-git-commit: bdde574b150bda2b0c82a9f5a20160fed26cb69d
+TQID: https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+subfeature_v2:
+  - id: bf7ac0fc-effb-4f0c-b93f-658412718d3c
+  - id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+autotag-review: '2026-05-01T09:16:50.195Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: 462
+ht-degree: 3%
 
 ---
 
@@ -25,8 +43,8 @@ Sono disponibili le seguenti funzioni di governance dei dati:
 | Funzione | Dettagli |
 |---|---|
 | Controlli di accesso | Sono supportati il controllo dell’accesso basato sul ruolo e il controllo dell’accesso basato su attributi (a livello di campo). Per ulteriori informazioni, vedere [Controlli di accesso](access-controls.md). |
-| Registri di audit | Quando gli utenti creano, aggiornano o eliminano specifiche categorie di Mix Modeler, la funzionalità di controllo di Experience Platform registra l’attività nei registri di controllo. Consulta [Registri di controllo](audit-logs.md) per ulteriori informazioni. |
+| Registri di controllo | Quando gli utenti creano, aggiornano o eliminano specifiche categorie di Mix Modeler, la funzionalità di controllo di Experience Platform registra l’attività nei registri di controllo. Consulta [Registri di controllo](audit-logs.md) per ulteriori informazioni. |
 | Criteri | Come parte del flusso di lavoro dei dati armonizzato, vengono applicati i criteri definiti da Experience Platform. Qualsiasi violazione delle etichette di utilizzo dei dati viene segnalata e visualizzata all’utente. Consulta [Criteri](policies.md) per ulteriori informazioni. |
 | Crittografia | Tutti i set di dati utilizzati per l’input e l’output di modelli seguono le linee guida di Experience Platform. La crittografia dei dati di Experience Platform si applica ai dati in transito e a riposo. |
 | Igiene dei dati | Tutti i set di dati utilizzati per i modelli di input e out seguono le linee guida di Experience Platform. Experience Platform fornisce una serie di strumenti per gestire il ciclo di vita dei dati del cliente, incluso il supporto di diversi tipi di scadenza dei dati. Quando elimini un set di dati di origine da Experience Platform, utilizzato come parte dei dati armonizzati, viene inviata una notifica. Per ulteriori informazioni, vedere [Regole del set di dati](/help/harmonize-data/dataset-rules.md). |
-| Chiavi gestite dal cliente | Dopo aver concesso la licenza a Mix Modeler con il componente aggiuntivo Privacy Security Shield, è possibile utilizzare la funzionalità Chiavi gestite dal cliente per sfruttare l&#39;insieme di credenziali delle chiavi di Azure per inserire le proprie chiavi tramite API. Hai a disposizione la gestione completa dei dati elaborati all’interno dei modelli in Mix Modeler. |
+| Chiavi gestite dal cliente | Dopo aver concesso la licenza a Mix Modeler con il componente aggiuntivo Privacy Security Shield, puoi utilizzare la funzionalità Chiavi gestite dal cliente per sfruttare Azure Key Vault e inserire le tue chiavi tramite API. Hai a disposizione la gestione completa dei dati elaborati all’interno dei modelli in Mix Modeler. |

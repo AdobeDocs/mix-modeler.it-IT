@@ -3,10 +3,27 @@ title: Panoramica dell’armonizzazione dei set di dati
 description: Scopri come armonizzare i dati in Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 23cb7cefe3d1dabfdb8484ad150c38d785841e3b
+TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2:
+  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+  - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+  - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+autotag-review: '2026-05-01T09:10:10.340Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 7%
+source-wordcount: 1382
+ht-degree: 17%
 
 ---
 
@@ -57,7 +74,7 @@ Contiene il set di dati dell’attività di marketing di YouTube, con una granul
 | 12-31-2021 | giorno | YouTube | Y_Autunno_02 | BrandX | US | 10000 | 100 |
 | 01-01-2022 | giorno | YouTube | Y_Autunno_02 | BrandX | US | 1000 | 10 |
 | 01-03-2022 | giorno | YouTube | Y_Autunno_01 | BrandY | CA | 10000 | 100 |
-| 01-04-2022 | giorno | YouTube | Y_Summer_01 | Nullo | CA | 9000 | 80 |
+| 01-04-2022 | giorno | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -110,19 +127,19 @@ Desideri creare un set di dati armonizzato con granularità impostata su Settima
 
 | Data | Tipo di data | Canale | Campaign | Brand | Geo | Obiettivo | Clic | Spesa | Ricavi |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 12-27-2021 | settimana | YouTube | Y_Autunno_02 | BrandX | US | Nullo | 11000 | 110 | Nullo |
-| 01-03-2022 | settimana | YouTube | Y_Autunno_01 | BrandY | CA | Nullo | 10000 | 100 | Nullo |
-| 01-03-2022 | settimana | YouTube | Y_Summer_01 | Nullo | CA | Nullo | 9000 | 80 | Nullo |
-| 01-01-2022 | settimana | Facebook | FB_Autunno_01 | Nullo | US | Nullo | 8000 | 100 | Nullo |
-| 01-08-2022 | settimana | Facebook | FB_Autunno_02 | Nullo | US | Nullo | 1000 | 10 | Nullo |
-| 01-08-2022 | settimana | Facebook | FB_Autunno_01 | Nullo | US | Nullo | 7000 | 100 | Nullo |
-| 01-16-2022 | settimana | Facebook | FB_Estate_01 | Nullo | CA | Nullo | 10000 | 80 | Nullo |
-| 12-27-2021 | settimana | Nullo | Nullo | Nullo | US | Moda | Nullo | Nullo | 200 |
-| 01-03-2022 | settimana | Nullo | Nullo | Nullo | US | Moda | Nullo | Nullo | 10 |
-| 01-03-2022 | settimana | Nullo | Nullo | Nullo | US | Gioielli | Nullo | Nullo | 1100 |
-| 01-10-2022 | settimana | Nullo | Nullo | Nullo | CA | Gioielli | Nullo | Nullo | 80 |
-| 01-01-2022 | settimana | CSE | Nullo | Nullo | Nullo | Nullo | 2 | Nullo | Nullo |
-| 01-08-2022 | settimana | CSE | Nullo | Nullo | Nullo | Nullo | 2 | Nullo | Nullo |
+| 12-27-2021 | settimana | YouTube | Y_Autunno_02 | BrandX | US | Null | 11000 | 110 | Null |
+| 01-03-2022 | settimana | YouTube | Y_Autunno_01 | BrandY | CA | Null | 10000 | 100 | Null |
+| 01-03-2022 | settimana | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
+| 01-01-2022 | settimana | Facebook | FB_Autunno_01 | Null | US | Null | 8000 | 100 | Null |
+| 01-08-2022 | settimana | Facebook | FB_Autunno_02 | Null | US | Null | 1000 | 10 | Null |
+| 01-08-2022 | settimana | Facebook | FB_Autunno_01 | Null | US | Null | 7000 | 100 | Null |
+| 01-16-2022 | settimana | Facebook | FB_Estate_01 | Null | CA | Null | 10000 | 80 | Null |
+| 12-27-2021 | settimana | Null | Null | Null | US | Moda | Null | Null | 200 |
+| 01-03-2022 | settimana | Null | Null | Null | US | Moda | Null | Null | 10 |
+| 01-03-2022 | settimana | Null | Null | Null | US | Gioielli | Null | Null | 1100 |
+| 01-10-2022 | settimana | Null | Null | Null | CA | Gioielli | Null | Null | 80 |
+| 01-01-2022 | settimana | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 01-08-2022 | settimana | CSE | Null | Null | Null | Null | 2 | Null | Null |
 
 {style="table-layout:auto"}
 

@@ -3,10 +3,22 @@ title: Campi armonizzati
 description: Scopri come definire i campi da utilizzare nell’ambito dell’armonizzazione dei dati in Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2:
+  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+  - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:13:17.577Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 8%
+source-wordcount: 688
+ht-degree: 11%
 
 ---
 
@@ -23,12 +35,12 @@ I campi di armonizzazione globali predefiniti disponibili in Mix Modeler sono:
 
 | Nome campo | Nome visualizzato | Categoria | Tipo di dati | Commento |
 | ---------------------- | ---------------------- | --------- | --------- | --------- |
-| brand | Marchio | Dimensione | Stringa |           |
-| campaign | Campaign | Dimensione | Stringa |           |
-| channel | Channel | Dimensione | Stringa |           |
+| brand | Brand | Dimensione | Stringa |           |
+| campagna | Campaign | Dimensione | Stringa |           |
+| canale | Canale | Dimensione | Stringa |           |
 | channel_id | ID canale | Dimensione | Stringa |           |
 | channel_type_at_source | Tipo Di Canale In Source | Dimensione | Stringa |           |
-| channel | Channel | Dimensione | Stringa |           |
+| canale | Canale | Dimensione | Stringa |           |
 | clic | Clic | Metrica | Numero |           |
 | conversiontype | Tipo di conversione | Dimensione | Stringa |           |
 | costo | Costo | Metrica | Valuta |           |

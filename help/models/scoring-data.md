@@ -3,10 +3,23 @@ title: Utilizzare i dati di punteggio
 description: Scopri come i dati di punteggio di un modello in Mix Modeler vengono mantenuti.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/6eMg5Azsb-rdyG5g-hIkiyJrVbgOOul5V-0TvxzCTyo
+autotag-review: '2026-05-01T08:58:54.964Z'
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2:
+  - id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 6%
+source-wordcount: 684
+ht-degree: 11%
 
 ---
 
@@ -19,7 +32,7 @@ Ciascuno di questi set di dati è conforme a uno schema. Questo articolo documen
 
 ## Schema dati di punteggio aggregato
 
-Lo schema per il punteggio dei dati è denominato come `AMM AI Schema - <name of model> <id>`. Esempio: `AMM AI Schema - Model for Online Conversion 10120`.
+Lo schema per il punteggio dei dati è denominato come `AMM AI Schema - <name of model> <id>`. Ad esempio: `AMM AI Schema - Model for Online Conversion 10120`.
 
 Il set di dati, che mantiene i dati di punteggio per un modello, è denominato come `AMM AI Aggregrate Scores - <id>`, ad esempio `AMM AI Aggregrate Scores - 10120`.
 
@@ -37,7 +50,7 @@ Lo schema include un gruppo di campi con un oggetto contenente i dettagli dei pu
 | `mediaChannel` | Stringa | Nome del canale utilizzato durante il passaggio di configurazione del punto di contatto. |
 | `mediaSubChannel` | Stringa | Nome del sottocanale. |
 | `revenue` | Doppio | Ricavi attribuiti a questa conversione per il punto di contatto specificato. |
-| `scoreCreatedTime` | DateTime | Timestamp di creazione di questo record di punteggio. |
+| `scoreCreatedTime` | Data e ora | Timestamp di creazione di questo record di punteggio. |
 | `touchpointEndDate` | Data | Data di fine della finestra del punto di contatto. |
 | `touchpointName` | Stringa | Nome del punto di contatto creato durante il passaggio di impostazione della definizione del punto di contatto. Attualmente il punto di contatto è definito sul canale multimediale. |
 | `touchpointStartDate` | Data | Data di inizio della finestra del punto di contatto. |
@@ -45,7 +58,7 @@ Lo schema include un gruppo di campi con un oggetto contenente i dettagli dei pu
 
 ## Schema dati per il punteggio evento
 
-Lo schema per il punteggio dei dati è denominato come `Attribution AI Scores - <name of model> <id> - Schema`. Esempio: `Attribution AI Scores - Model for Online Conversion 10120 - Schema`.
+Lo schema per il punteggio dei dati è denominato come `Attribution AI Scores - <name of model> <id> - Schema`. Ad esempio: `Attribution AI Scores - Model for Online Conversion 10120 - Schema`.
 
 Il set di dati, che mantiene i dati di punteggio per un modello, è denominato come `Attribution AI Scores - <name of model> <id>`, ad esempio `Attribution AI Scores - Model for Online Conversion 10120 `.
 
@@ -68,9 +81,9 @@ Il gruppo di campi contiene i campi seguenti.
 |      `product` | Stringa | L’identificatore XDM del prodotto stesso. <br> **Esempio:** `RX 1080 ti` |
 |      `productType` | Stringa | Il nome visualizzato del prodotto presentato all’utente per questa visualizzazione prodotto. <br> **Esempio:** `Gpus` |
 |      `quantity` | Intero | Quantità acquistata durante la conversione. <br> **Esempio:** `1` |
-|      `receivedTimeStamp` | DateTime | Timestamp ricevuto della conversione. <br> **Esempio:** `2020-06-09T00:01:51.000Z` |
+|      `receivedTimeStamp` | Data e ora | Timestamp ricevuto della conversione. <br> **Esempio:** `2020-06-09T00:01:51.000Z` |
 |      `skuId` | Stringa | Stock Keeping Unit (SKU), l’identificatore univoco di un prodotto definito dal fornitore. <br> **Esempio:** `MJ-03-XS-Black` |
-|      `timestamp` | DateTime | Timestamp della conversione. <br> **Esempio:** `2020-06-09T00:01:51.000Z` |
+|      `timestamp` | Data e ora | Timestamp della conversione. <br> **Esempio:** `2020-06-09T00:01:51.000Z` |
 |      `totalDaysToConversion` | Intero |  |
 |      `totalTouchpointCount` | Intero | |
 | `customerProfile` | Oggetto | Dettagli di identità dell’utente utilizzato per generare il modello. |
@@ -96,15 +109,15 @@ Il gruppo di campi contiene i campi seguenti.
 |           `geo` | Stringa | |
 |           `mediaAction` | Stringa | |
 |           `mediaChannel` | Stringa | |
-|           `receivedTimeStamp` | DateTime | |
-|           `timestamp` | DateTime | |
+|           `receivedTimeStamp` | Data e ora | |
+|           `timestamp` | Data e ora | |
 |      `isFirstInThePosition` | Intero | |
 |      `lag` | Intero | |
 |      `position` | Stringa | |
 |      `touchpointCountToConversion` | Intero | |
 |      `touchpointName` | Stringa | Nome del punto di contatto configurato durante la configurazione. <br> **Esempio:** `PAID_SEARCH_CLICK` |
 | `conversionName` | Stringa | Nome della conversione configurata durante la configurazione. <br> **Esempio:** `Order`, `Lead`, `Visit` |
-| `scoreCreatedTime` | DateTime | |
+| `scoreCreatedTime` | Data e ora | |
 | `segmentation` | Stringa | Segmento di conversione, ad esempio segmentazione geografica, rispetto al quale viene generato il modello. Quando i segmenti sono assenti, `segmentation` è uguale a `conversionName`. <br> **Esempio:** `ORDER_US` |
 
 
