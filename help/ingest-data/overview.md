@@ -3,10 +3,16 @@ title: Panoramica dell’acquisizione dei dati
 description: Scopri come acquisire dati in Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: e0abf868-dae2-4c1c-83e9-b21799232845id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+subfeature_v2: id: ad7101f7-ae92-401b-a25a-d3060d42989did: d1167c89-f64a-42ca-ac95-1d91b7790df2id: ee1bf083-e090-4def-936b-c111d29f42d0id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:11:34.506Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 7%
+source-wordcount: 584
+ht-degree: 14%
 
 ---
 
@@ -23,7 +29,7 @@ Ad esempio:
 * Aggregare o riepilogare dati provenienti da giardini murati (come Facebook, YouTube), da origini del traffico o da dati pubblicitari offline.
 * Dati aggregati o di riepilogo non di marketing contenenti fattori interni o esterni utili per la creazione di modelli.
 
-Puoi utilizzare qualsiasi tipo di meccanismo supportato da Experience Platform per acquisire a livello di evento l’esperienza, aggregare i dati relativi alle attività di marketing e i dati provenienti da altre origini. Ad esempio gli SDK di Experience Platform, le API, i connettori di origine e l’acquisizione in streaming e batch. Per ulteriori informazioni sull&#39;acquisizione dei dati in Experience Platform per l&#39;utilizzo in Adobe Mix Modeler, consulta la [Panoramica sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home).
+Puoi utilizzare qualsiasi tipo di meccanismo supportato da Experience Platform per acquisire a livello di evento l’esperienza, aggregare i dati relativi alle attività di marketing e i dati provenienti da altre origini. Ad esempio gli SDK di Experience Platform, le API, i connettori di origine e l’acquisizione in streaming e batch. Per ulteriori informazioni sull&#39;acquisizione dei dati in Experience Platform per l&#39;utilizzo in Adobe Mix Modeler, consulta la [Panoramica sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
 
 ## Linee guida
 
@@ -41,13 +47,13 @@ Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre
 
 +++ Aggregazione dei dati relativi allo sforzo di marketing
 
-| Geo | Data | Tipo di data | Canale | Campaign | Clic | Guadagnato | Coinvolgimento | Impression | Open | Di proprietà | Inviato | Spesa |
+| Geo | Data | Tipo di data | Canale | Campaign | Click | Guadagnato | Coinvolgimento | Impression | Apri | Di proprietà | Inviato | Spesa |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
-| AMER | 31/10/2021 | giorno | EMAIL | | 12752 | | | | | | 1132945 | |
-| AMER | 31/10/2021 | giorno | FB | | 148844 | | | | | | | 42111 |
-| AMER | 31/10/2021 | giorno | YT | | | | 2314452 | | | | | 10540 |
-| JPN | 21/10/2021 | giorno | EMAIL | | 21089 | | | | | | 3283626 | |
-| JPN | 21/10/2021 | giorno | SOCIAL | | | | 621 | | | | | 74512 |
+| AMER | 2021-10-31 | giorno | EMAIL | | 12752 | | | | | | 1132945 | |
+| AMER | 2021-10-31 | giorno | FB | | 148844 | | | | | | | 42111 |
+| AMER | 2021-10-31 | giorno | YT | | | | 2314452 | | | | | 10540 |
+| JPN | 2021-10-21 | giorno | EMAIL | | 21089 | | | | | | 3283626 | |
+| JPN | 2021-10-21 | giorno | SOCIAL | | | | 621 | | | | | 74512 |
 
 {style="table-layout:auto"}
 
@@ -57,10 +63,10 @@ Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre
 
 | Geo | Data | Tipo di data | Prodotto | Unità vendute | Ricavi |
 |---|:---|:---:|---|--:|--:|
-| EMEA | 13/09/2021 | giorno | Economia creatrice | 603 | 36537,68 |
-| EMEA | 13/09/2021 | giorno | Metaverse | 55 | 21704,37 |
-| JPN | 30/05/2022 | giorno | Pro Imaging | 487 | 64469,60 |
-| JPN | 30/05/2022 | giorno | Document Cloud | 642 | 100509,07 |
+| EMEA | 2021-09-13 | giorno | Economia creatrice | 603 | 36537.68 |
+| EMEA | 2021-09-13 | giorno | Metaverse | 55 | 21704.37 |
+| JPN | 2022-05-30 | giorno | Pro Imaging | 487 | 64469.60 |
+| JPN | 2022-05-30 | giorno | Document Cloud | 642 | 100509.07 |
 
 {style="table-layout:auto"}
 
@@ -70,10 +76,10 @@ Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre
 
 | Dati | Tipo di data | Fattore | Valore |
 |---|:---:|:---:|:---|
-| 02/08/2020 | settimana | SPX | 3325,866 |
-| 09/08/2020 | settimana | SPX | 3364,158 |
-| 16/08/2020 | settimana | SPX | 3385,858 |
-| 23/08/2020 | settimana | SPX | 3497,965 |
+| 2020-08-02 | settimana | SPX | 3325.866 |
+| 2020-08-09 | settimana | SPX | 3364.158 |
+| 2020-08-16 | settimana | SPX | 3385.858 |
+| 2020-08-23 | settimana | SPX | 3497.965 |
 
 {style="table-layout:auto"}
 
@@ -82,14 +88,14 @@ Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre
 Per lavorare con i dati in Mix Modeler, è necessario che siano raccolti in set di dati e modellati secondo gli schemi in Experience Platform. L’interfaccia di Mix Modeler consente di accedere facilmente sia agli schemi di Experience Platform che all’interfaccia utente dei set di dati.
 
 
-## Convalida
+## Convalidare
 
 Per verificare se i dati sono disponibili correttamente in Mix Modeler, puoi effettuare le seguenti operazioni:
 
 * Utilizza le visualizzazioni in [Panoramica](/help/overview.md).
 * Scarica e controlla i dati da [Dati armonizzati](/help/harmonize-data/overview.md) nei set di dati armonizzati.
 
-Per verificare se i dati vengono acquisiti correttamente in Experience Platform, è possibile [scrivere ed eseguire query SQL utilizzando Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home).
+Per verificare se i dati vengono acquisiti correttamente in Experience Platform, è possibile [scrivere ed eseguire query SQL utilizzando Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

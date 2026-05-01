@@ -3,9 +3,15 @@ title: Casi d’uso di Mix Modeler
 description: Casi di utilizzo di Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
+TQID: https://experienceleague.adobe.com/AaVm2Jwz9MX-zuURspqkXLG9ZoO91iBowQU-hWBg-4M
+autotag-review: '2026-05-01T08:58:19.052Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a234aebd-3855-4376-a64d-29b38411e0c5id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: 645
 ht-degree: 3%
 
 ---
@@ -34,9 +40,9 @@ L’approccio basato su passaggi per questo caso d’uso è:
 
 | Passaggio | Dettagli |
 |---|---|
-| Acquisisci | Identifica e acquisisci le origini dati in schemi comuni. <br/>Applica gli investimenti esistenti in Adobe Analytics o Customer Journey Analytics per velocizzare l’implementazione. |
+| Acquisisci | Identifica e acquisisci le origini dati in schemi comuni. <br/>Applica gli investimenti esistenti in Adobe Analytics o Customer Journey Analytics per velocizzare la distribuzione. |
 | Configurare | Configura modelli flessibili utilizzando un framework AI-as-a-Service per i tuoi obiettivi aziendali specifici<br/>Assicurati automaticamente la coerenza tra punto di contatto e livello di riepilogo con l&#39;apprendimento del trasferimento bidirezionale. |
-| Analizza | Comprendi chiaramente il ROI del marketing complessivo e dei singoli canali/sottocanali.<br/>Scopri chiaramente quali punti di contatto sono più adatti per favorire le conversioni incrementali. |
+| Analizza | Comprendi chiaramente il ROI del marketing complessivo e dei singoli canali/sottocanali.<br/>Scopri chiaramente quali punti di contatto possono favorire le conversioni incrementali. |
 
 {style="table-layout:auto"}
 
@@ -73,9 +79,9 @@ L’approccio basato su passaggi per questo caso d’uso è:
 
 | Passaggio | Dettagli |
 |---|---|
-| Configurare | Personalizza facilmente i modelli di misurazione per gli obiettivi aziendali.<br/>Definisci i parametri con pochi clic, senza bisogno di codifica: ad esempio canali, aree geografiche, cicli di vendita, ritardi, fattori di business interni ed esterni e altro ancora. |
+| Configurare | Possibilità di personalizzare facilmente i modelli di misurazione in base agli obiettivi aziendali.<br/>Definisci i parametri con pochi clic, senza bisogno di codifica: ad esempio canali, aree geografiche, cicli di vendita, ritardi, fattori di business interni ed esterni e altro ancora. |
 | Addestra | Addestra i modelli AI/ML configurati su per scoprire il modo migliore per adattarsi ai dati di input, fornendo risultati più precisi. |
-| Ottimizzare | Ottieni allocazioni di budget ottimizzate automatizzate in base alle previsioni del modello.<br/>Sviluppa e confronta più scenari di budget in pochi clic utilizzando un&#39;interfaccia utente intuitiva. |
+| Ottimizzare | Ottieni allocazioni di budget ottimizzate automatizzate in base alle previsioni dei modelli.<br/>Sviluppa e confronta più scenari di budget in pochi clic tramite un&#39;interfaccia utente intuitiva. |
 
 {style="table-layout:auto"}
 
@@ -155,7 +161,7 @@ L’approccio basato su passaggi per questo caso d’uso è:
 | Passaggio | Dettagli |
 |---|---|
 | Modello | Configura e addestra un modello AI/ML per ottenere punteggi di punti di contatto MTA coerenti e risultati aggregati MMM. |
-| Analizza | Esporta punteggi incrementali di punti di contatto in strumenti di business intelligence esterni o Customer Journey Analytics.<br/>Esegui analisi granulare e crea dashboard avanzate utilizzando i punteggi di punti di contatto. |
+| Analizza | Esporta punteggi incrementali di punti di contatto in strumenti di business intelligence esterni o Customer Journey Analytics.<br/>Esegui analisi granulare e crea dashboard avanzate utilizzando i punteggi dei punti di contatto. |
 | Azione | Crea e attiva lookalike per i segmenti consumer principali utilizzando Real-Time Customer Data Platform.<br/>Sviluppa strategie di marketing basate sui dati per segmenti di clienti per campagne future. |
 
 {style="table-layout:auto"}

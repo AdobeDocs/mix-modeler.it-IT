@@ -3,10 +3,15 @@ title: Schemi
 description: Scopri come gestire gli schemi necessari per acquisire i dati in Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 7524c2ffc0408b04e6bef5bd5deedc1feea0b682
+TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T08:56:54.552Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 4%
+source-wordcount: 613
+ht-degree: 6%
 
 ---
 
@@ -18,7 +23,7 @@ Per gestire gli schemi, supportare i dati che desideri acquisire in Experience P
 
 1. Seleziona ![Schemi](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, sotto **[!UICONTROL SETUP]**.
 
-Per ulteriori informazioni, consulta la [Panoramica dell&#39;interfaccia utente degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it).
+Per ulteriori informazioni, consulta la [Panoramica dell&#39;interfaccia utente degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en).
 
 ## Dati aggregati o di riepilogo
 
@@ -44,22 +49,22 @@ Questo semplice schema può essere utilizzato per acquisire set di dati contenen
 
 - Dati di indice della concorrenza
 
-  | timestamp | date_type | fattore | valore |
+  | timestamp | date_type | fattore | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000Z | settimana | competitor_index | 289,8 |
-  | 2020-12-05T00:00:00.000Z | settimana | competitor_index | 291,2 |
-  | 2020-12-12T00:00:00.000Z | settimana | competitor_index | 280,07 |
+  | 2020-11-28T00:00:00.000Z | settimana | competitor_index | 289.8 |
+  | 2020-12-05T00:00:00.000Z | settimana | competitor_index | 291.2 |
+  | 2020-12-12T00:00:00.000Z | settimana | competitor_index | 280.07 |
   | ... | ... | ... | ... |
 
 - Dati festività pubbliche
 
-  | timestamp | date_type | fattore | valore |
+  | timestamp | date_type | fattore | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000Z | settimana | all_Holiday_flag | 0,0 |
-  | 2020-12-05T00:00:00.000Z | settimana | all_Holiday_flag | 0,0 |
-  | 2020-12-12T00:00:00.000Z | settimana | all_Holiday_flag | 0,0 |
-  | 12-12-2020:00:00.000Z | settimana | all_Holiday_flag | 0,0 |
-  | 2020-12-26T00:00:00.000Z | settimana | all_Holiday_flag | 1,0 |
+  | 2020-11-28T00:00:00.000Z | settimana | all_Holiday_flag | 0.0 |
+  | 2020-12-05T00:00:00.000Z | settimana | all_Holiday_flag | 0.0 |
+  | 2020-12-12T00:00:00.000Z | settimana | all_Holiday_flag | 0.0 |
+  | 12-12-2020:00:00.000Z | settimana | all_Holiday_flag | 0.0 |
+  | 2020-12-26T00:00:00.000Z | settimana | all_Holiday_flag | 1.0 |
   | ... | ... | ... | ... |
 
 
@@ -79,7 +84,7 @@ Per comodità, Experience Platform supporta un gruppo di campi Factor Standard d
 | Valore fattore | factorValue | Metrica | Doppio | ![Segno di spunta](/help/assets/icons/Checkmark.svg) | Valore del fattore |
 | Tipo di fattore | factorType | Dimensione | Stringa (enum) | | Tipo del fattore.<br/>I valori possibili sono: <ul><li>Interno (fattore interno)</li><li>Esterno (fattore esterno)</li></ul> |
 | Tipo di valore | valueType | Dimensione | Stringa (enum) | | I valori possibili sono:<ul><li>Effettivo (valore effettivo)</li><li>Previsto (valore previsto)</li></ul>Se non è specificato alcun valore, il valore predefinito è Effettivo. |
-| Granularità | granularità | Dimensione | Stringa (enum) | | I valori possibili sono:<ul><li>Giornaliero</li><li>Ogni settimana</li><li>Mensile</li></ul> |
+| Granularità | granularità | Dimensione | Stringa (enum) | | I valori possibili sono:<ul><li>Giornaliera</li><li>Settimanale</li><li>Mensile</li></ul> |
 
 Un set di dati di riepilogo, fattore interno o fattore esterno può essere basato su:
 
@@ -88,7 +93,7 @@ Un set di dati di riepilogo, fattore interno o fattore esterno può essere basat
 
 ## Tipi di dati supportati
 
-Attualmente, Mix Modeler supporta un sottoinsieme di tipi di dati di Experience Platform. Sono supportati i seguenti tipi di dati di base (campi), menzionati in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it#data-type):
+Attualmente, Mix Modeler supporta un sottoinsieme di tipi di dati di Experience Platform. Sono supportati i seguenti tipi di dati di base (campi), menzionati in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type):
 
 - Stringa
 - Intero

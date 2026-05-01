@@ -3,9 +3,16 @@ title: Panoramica dei modelli
 description: Scopri come creare, addestrare, valutare e gestire modelli di apprendimento automatico in Mix Modeler per misurare e prevedere i risultati di marketing.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: e78380c2f735c1658a8d4d69353c7953ceb9c8c3
+TQID: https://experienceleague.adobe.com/2EmrUfSObFMDb0rNRG1OWqU8c2P9Dp1nf1y8-SpEY3k
+autotag-review: '2026-05-01T08:59:10.903Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453id: c89e26b6-808d-4500-8b01-450a63466999id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: 1082
 ht-degree: 0%
 
 ---
@@ -119,7 +126,7 @@ Potete duplicare rapidamente un modello.
 
 1. Seleziona ![Altro](/help/assets/icons/More.svg) per un modello e dal menu di scelta rapida seleziona **[!UICONTROL Duplicate]**.
 
-Sei stato reindirizzato ai passaggi per creare un nuovo modello, con un nome proposto composto dal nome del modello originale seguito da **[!UICONTROL (Copy)] (_n_)**.
+Sei stato reindirizzato ai passaggi per creare un nuovo modello, con un nome proposto composto dal nome del modello originale seguito da **[!UICONTROL (Copy)](_n_)**.
 
 ### Modifica
 
@@ -177,5 +184,5 @@ Per eliminare più modelli:
 
 1. Seleziona più modelli.
 1. Dalla barra blu delle azioni, seleziona ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare i modelli.
-1. Selezionare **[!UICONTROL Delete]** nella finestra di dialogo di conferma **[!UICONTROL Delete *x *modelli]**&#x200B;per eliminare i modelli. Selezionare **[!UICONTROL Cancel]**&#x200B;per annullare.
+1. Selezionare **[!UICONTROL Delete]** nella finestra di dialogo di conferma **[!UICONTROL Delete *x *modelli]**per eliminare i modelli. Selezionare **[!UICONTROL Cancel]**per annullare.
 
