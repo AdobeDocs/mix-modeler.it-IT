@@ -5,22 +5,15 @@ feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
 autotag-review: '2026-05-01T08:59:31.397Z'
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
-  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2896
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -88,12 +81,12 @@ Questa visualizzazione rappresenta la proporzione di contributo ottenuta per bas
 
 Una visualizzazione ad anello che mostra una distribuzione del contributo tra vari canali. Questa visualizzazione mostra l’incrementalità attraverso l’obiettivo dei primi tre canali con prestazioni (escluse le categorie base e *Tutte le altre*). La visualizzazione consente di supportare la definizione delle priorità e l’allocazione del budget.
 
-### Riepilogo prestazioni marketing {#marketing-performance-summary}
+### Riepilogo prestazioni di marketing {#marketing-performance-summary}
 
 >[!CONTEXTUALHELP]
 >id="models_insights_undefinedchannels"
 >title="Canali non definiti"
->abstract="I canali non definiti sono inclusi, ma non presentano conversioni attribuite."
+>abstract="I canali non definiti sono inclusi, ma non viene loro attribuita alcuna conversione."
 
 Visualizzazione con grafico a barre orizzontale che visualizza le prestazioni del ROI o CPA per ciascun canale. Questa visualizzazione evidenzia il ROI/CPA dei tuoi investimenti di marketing. I canali sono ordinati in ordine decrescente in base al ROI/CPA. La visualizzazione consente di identificare quali canali sono più efficaci e quali potrebbero necessitare di ottimizzazione.
 
@@ -201,8 +194,8 @@ I canali con curve di decadimento più lente (code più lunghe) indicano un impa
 
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
->title="Ripartizione contributo fattore"
->abstract="La ripartizione dei contributi dei fattori mostra la proporzione delle conversioni di base attribuibili ai vari fattori inclusi nel modello.<br/><br/>Base pura rappresenta le conversioni sottostanti che si verificano indipendentemente dai punti di contatto e dai fattori di marketing inclusi nel modello. Include conversioni guidate da brand equity, acquisti ripetuti, domanda organica, tendenze di mercato a lungo termine e stagionalità."
+>title="Raggruppamento dei contributi per fattori"
+>abstract="La ripartizione dei contributi dei fattori mostra la proporzione delle conversioni di base attribuibili ai vari fattori inclusi nel modello.<br/><br/>Base pura rappresenta le conversioni sottostanti che si verificano indipendentemente dai punti di contatto e dai fattori di marketing inclusi nel modello. Include conversioni derivanti da brand equity, acquisti ripetuti, domanda organica, tendenze di mercato a lungo termine e stagionalità."
 
 
 La scheda Fattori [!BADGE beta] mostra informazioni relative ai fattori esterni.
@@ -229,8 +222,8 @@ Se non sono disponibili dati, viene visualizzato un messaggio ![TabellaEGrafico]
 
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
->title="Suddivisione per posizione punto di contatto"
->abstract="Questa visualizzazione mostra una suddivisione delle conversioni attribuite per posizione del punto di contatto e del punto di contatto in tutti i percorsi di conversione. La visualizzazione confronta se un punto di contatto contribuisce meglio in una posizione rispetto alle posizioni rimanenti e ad altri punti di contatto in qualsiasi posizione."
+>title="Raggruppamento per posizione del punto di contatto"
+>abstract="Questa visualizzazione mostra un raggruppamento delle conversioni attribuite per posizione del punto di contatto e per punto di contatto in tutti i percorsi di conversione. La visualizzazione confronta se un punto di contatto contribuisce meglio in una posizione rispetto alle posizioni rimanenti e ad altri punti di contatto in qualsiasi posizione."
 
 
 
@@ -304,7 +297,7 @@ La finestra di dialogo espansa **[!UICONTROL Top campaigns]** mostra la stessa t
 Per chiudere la finestra di dialogo Inizio campagne espansa, selezionare **[!UICONTROL Close]**.
 
 
-### Suddivisione per posizione punto di contatto
+### Raggruppamento per posizione del punto di contatto
 
 La visualizzazione [!UICONTROL Breakdown by touchpoint position] è una suddivisione delle conversioni attribuite per posizione del punto di contatto e punto di contatto in tutti i percorsi di conversione. Questo grafico consente di confrontare se un punto di contatto contribuisce meglio in una posizione rispetto alle posizioni rimanenti e ad altri punti di contatto in qualsiasi posizione.
 
@@ -345,8 +338,8 @@ Per ogni percorso di conversione, vedi:
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeltrainingfitmetrics"
->title="Metriche di adattamento del modello"
->abstract="Mostra una panoramica delle metriche di adattamento di più modelli di apprendimento."
+>title="Metriche di idoneità del modello"
+>abstract="Mostra una panoramica di più metriche di idoneità per l’addestramento del modello."
 
 
 >[!CONTEXTUALHELP]
@@ -358,7 +351,7 @@ Per ogni percorso di conversione, vedi:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="Misura di efficienza"
->abstract="La misura di efficienza generata dal modello di attribuzione algoritmica indica l’importanza relativa di un punto di contatto verso una conversione indipendente dal volume del punto di contatto. Questa misura è su una scala da 1 a 5. Tieni presente che un volume di punti di contatto più elevato non garantisce una misura di efficienza più elevata."
+>abstract="La misura di efficienza generata dal modello di attribuzione algoritmica indica l’importanza relativa di un punto di contatto per la conversione, indipendente dal volume di punti di contatto. Questa misura è su una scala da 1 a 5. Nota: un volume di punti di contatto più elevato non garantisce una misura di efficienza più alta."
 
 
 >[!CONTEXTUALHELP]
@@ -417,7 +410,7 @@ Per suddividere la visualizzazione, selezionare una delle opzioni seguenti dall&
   La visualizzazione mostra, in ordine decrescente di [!UICONTROL Efficiency measure] ![Ordine decrescente](/help/assets/icons/SortOrderDown.svg), per ogni punto di contatto:
 
    * **[!UICONTROL Paths touched]**: visualizza la percentuale di percorsi che raggiungono la conversione e la percentuale di percorsi che non raggiungono la conversione. Per un punto di contatto, puoi vedere più conversioni attribuite quando il rapporto di conversione dell’attribuzione è elevato. Questo rapporto confronta la percentuale di percorsi che portano alla conversione rispetto alla percentuale di percorsi che portano alla conversione *not*.
-   * **[!UICONTROL Efficiency measure]**: generato dal modello di attribuzione algoritmica, la misura di efficienza indica l&#39;importanza relativa di un punto di contatto verso la conversione, indipendentemente dal volume del punto di contatto. L&#39;efficienza è misurata su una scala da 1 a 5. Tieni presente che un volume di punti di contatto più elevato non garantisce una misura di efficienza più elevata.
+   * **[!UICONTROL Efficiency measure]**: generato dal modello di attribuzione algoritmica, la misura di efficienza indica l&#39;importanza relativa di un punto di contatto verso la conversione, indipendentemente dal volume del punto di contatto. L&#39;efficienza è misurata su una scala da 1 a 5. Nota: un volume di punti di contatto più elevato non garantisce una misura di efficienza più alta.
    * **[!UICONTROL Total volume]**: numero aggregato di volte in cui un utente tocca un punto di contatto. Il numero include i punti di contatto visualizzati in un percorso che raggiunge la conversione e i percorsi *non* che determinano la conversione.
 
 
