@@ -17,7 +17,7 @@ autotag-review: '2026-05-01T09:15:50.061Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 424
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_conversions_create"
 >title="Conversione"
->abstract="Gli eventi di conversione sono obiettivi aziendali che identificano l’impatto delle attività di marketing. Esempi: ordini di e-commerce, acquisti in-store, visite al sito web e altro ancora."
+>abstract="Gli eventi di conversione sono obiettivi aziendali che identificano l’impatto delle attività di marketing. Esempi: ordini di e-commerce, acquisti in negozio, visite al sito web e altro ancora."
 
 
 Gli eventi di conversione sono obiettivi aziendali che identificano l’impatto delle attività di marketing. Esempi: ordini di e-commerce, acquisti in-store, visite al sito web e così via.

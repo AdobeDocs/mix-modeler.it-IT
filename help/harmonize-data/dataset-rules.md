@@ -22,7 +22,7 @@ autotag-review: '2026-05-01T09:12:48.985Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2106
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -234,13 +234,13 @@ Per sincronizzare i dati tra i dati armonizzati e i set di dati di riepilogo e/o
    ![Sincronizza dati](/help/assets/sync-data.png)
 
 
-## Preferenze di unione dati {#data-merge-preferences}
+## Preferenze unione dati {#data-merge-preferences}
 
 
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_datasetrules_datamergepreferences"
->title="Preferenza metrica predefinita"
->abstract="La preferenza predefinita viene applicata quando, durante l’armonizzazione, più sorgenti di dati tentano di aggiornare un campo metrico per un determinato canale. Questa preferenza viene applicata a livello di sandbox, a meno che non venga bypassata per alcune preferenze di metrica, se definite di seguito."
+>title="Preferenza di metrica predefinita"
+>abstract="La preferenza predefinita viene applicata quando, durante l’armonizzazione, più origini dati tentano di aggiornare il campo di una metrica di un determinato canale. Questa preferenza è applicata a livello di sandbox, a meno che non venga sostituita per alcune preferenze di metrica, se definite di seguito."
 
 
 >[!NOTE]
