@@ -5,26 +5,15 @@ feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: e0abf868-dae2-4c1c-83e9-b21799232845
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
-  - id: c89e26b6-808d-4500-8b01-450a63466999
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: e0abf868-dae2-4c1c-83e9-b21799232845id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15id: a9505d76-24a1-4ffe-bd01-6ac32d5af453id: bc2f5225-03d4-4bc8-89ec-99d78c30e6ddid: c89e26b6-808d-4500-8b01-450a63466999
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
 source-wordcount: 1578
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -49,7 +38,7 @@ Nell&#39;interfaccia ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Mo
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Punti di contatto di marketing"
->abstract="I punti di contatto di marketing sono eventi di marketing a livello di destinatario, singolo utente e/o cookie utilizzati per valutare l’impatto degli investimenti di marketing sulle conversioni numeriche o basate sui ricavi.<br/><br/>Non è possibile impostare il modello con punti di contatto che presentano dati sovrapposti e deve esistere almeno un punto di contatto con spesa."
+>abstract="I punti di contatto di marketing sono eventi di marketing a livello di destinatario, singolo utente e/o cookie utilizzati per valutare l’impatto degli investimenti di marketing sulle conversioni numeriche o basate sui ricavi.<br/><br/>Non è possibile configurare il modello con punti di contatto che presentano dati sovrapposti ed è necessario che sia presente almeno un punto di contatto con spesa."
 
 
 Il modello viene configurato nel passaggio **[!UICONTROL Configure]**. La configurazione comporta la definizione di obiettivi di conversione, punti di contatto di marketing, popolazione di dati idonea, fattori esterni e interni e altro ancora.
@@ -141,8 +130,8 @@ In base al set di dati selezionato, **[!UICONTROL Factor type]** è **[!UICONTRO
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
->title="Channel adstock"
->abstract="Incorpora competenze di dominio, risultati di sperimentazione o analisi di canale precedenti direttamente nella configurazione del modello. La configurazione di Adstock aiuta a guidare il modello per allinearsi alle aspettative reali e migliora l’interpretabilità e la fiducia nell’output. Il totale delle settimane di lookback più le settimane di ritardo per canale è limitato a un ottavo della finestra di formazione configurata. Questo tappo consente di ottenere dati sufficienti per consentire al modello di apprendere gli effetti adstock."
+>title="Canale stock annunci"
+>abstract="Incorpora le competenze del dominio, i risultati delle sperimentazioni o le analisi di canale precedenti direttamente nella configurazione del modello. La configurazione dello stock annunci consente di allineare il modello alle aspettative reali, migliorando l’interpretabilità e l’affidabilità dei risultati. Il totale delle settimane di lookback più le settimane di attesa per ciascun canale non può superare un ottavo dell’intervallo di addestramento configurato. Questo limite consente di disporre dati sufficienti affinché il modello possa apprendere gli effetti dello stock annunci."
 
 È possibile specificare impostazioni avanzate nel passaggio **[!UICONTROL Advanced]**. In questo passaggio puoi definire [condivisione di spesa](#spend-share), abilitare il tuo modello per [attribuzione multi-touch (MTA)](#mta), definire [conoscenza precedente](#prior-knowledge) e definire [channel adstock](#channel-adstock).
 
@@ -181,7 +170,7 @@ Nella sezione **[!UICONTROL Prior knowledge]**:
 1. Se necessario, utilizzare **[!UICONTROL Clear all]** per cancellare tutti i valori di input per le colonne **[!UICONTROL Contribution proportion]** e **[!UICONTROL Level of confidence]**.
 
 
-### Channel adstock
+### Canale stock annunci
 
 Nella sezione **[!UICONTROL Channel adstock]** è possibile definire singoli lookback di adstock (effetti di trascinamento o decadimento) e ritardi (tempi di risposta ritardati) per ogni canale (canale di marketing) definito nel modello.
 
@@ -197,7 +186,7 @@ Per configurare il canale adstock:
 
    * Utilizza ![Aggiungi](/help/assets/icons/Add.svg) per aumentare un valore, ![Sottrai](/help/assets/icons/Subtract.svg) per diminuirlo o immetti un valore manualmente.
 
-  Il totale delle settimane di lag più il massimo delle settimane di lookback per canale è limitato a un ottavo della finestra di apprendimento configurata. Questo tappo consente di ottenere dati sufficienti per consentire al modello di apprendere gli effetti adstock. Ad esempio, per un intervallo di formazione di due anni, il massimo di **[!UICONTROL Lag (weeks)]** e **[!UICONTROL Lookback (weeks)]** per un canale è 13 settimane. Questo limite viene applicato quando si definiscono i valori.
+  Il totale delle settimane di lag più il massimo delle settimane di lookback per canale è limitato a un ottavo della finestra di apprendimento configurata. Questo limite consente di disporre dati sufficienti affinché il modello possa apprendere gli effetti dello stock annunci. Ad esempio, per un intervallo di formazione di due anni, il massimo di **[!UICONTROL Lag (weeks)]** e **[!UICONTROL Lookback (weeks)]** per un canale è 13 settimane. Questo limite viene applicato quando si definiscono i valori.
 
 * Per ripristinare i valori predefiniti di tutti i canali adstock:
 

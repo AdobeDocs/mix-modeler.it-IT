@@ -5,22 +5,15 @@ feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
 autotag-review: '2026-05-01T08:59:31.397Z'
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
-  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2896
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -174,7 +167,7 @@ Questo framework per il prossimo dollaro offre una misura realistica della forza
 >Se la scheda **[!UICONTROL Channel synergy]** non è visibile per un modello esistente, assicurati di riaddestrare il modello per abilitare la funzionalità e la visualizzazione.
 
 
-### Channel adstock
+### Canale stock annunci
 
 Le visualizzazioni di channel adstock mostrano una visualizzazione per ogni channel adstock configurato. Le visualizzazioni consentono di comprendere in che modo l’impatto della spesa di marketing per ciascun canale persiste e decade nel tempo e oltre l’esposizione iniziale. La visualizzazione fornisce una visione realistica del trasferimento dei canali attraverso l’incorporazione di dinamiche temporali che vengono apprese dal modello.
 
@@ -202,7 +195,7 @@ I canali con curve di decadimento più lente (code più lunghe) indicano un impa
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Raggruppamento dei contributi per fattori"
->abstract="La ripartizione dei contributi dei fattori mostra la proporzione delle conversioni di base attribuibili ai vari fattori inclusi nel modello.<br/><br/>Base pura rappresenta le conversioni sottostanti che si verificano indipendentemente dai punti di contatto e dai fattori di marketing inclusi nel modello. Include conversioni derivanti da brand equity, acquisti ripetuti, domanda organica, tendenze di mercato a lungo termine e stagionalità."
+>abstract="Il raggruppamento dei contributi per fattori mostra la proporzione di conversioni di base attribuibile ai vari fattori inclusi nel modello.<br/><br/>La base pura rappresenta le conversioni sottostanti che si verificano indipendentemente dai punti di contatto di marketing e dai fattori inclusi nel modello. Include conversioni derivanti da brand equity, acquisti ripetuti, domanda organica, tendenze di mercato a lungo termine e stagionalità."
 
 
 La scheda Fattori [!BADGE beta] mostra informazioni relative ai fattori esterni.
@@ -230,7 +223,7 @@ Se non sono disponibili dati, viene visualizzato un messaggio ![TabellaEGrafico]
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Raggruppamento per posizione del punto di contatto"
->abstract="Questa visualizzazione mostra un raggruppamento delle conversioni attribuite per posizione del punto di contatto e per punto di contatto in tutti i percorsi di conversione. La visualizzazione confronta se un punto di contatto contribuisce meglio in una posizione rispetto alle posizioni rimanenti e ad altri punti di contatto in qualsiasi posizione."
+>abstract="Questa visualizzazione mostra un raggruppamento delle conversioni attribuite per posizione del punto di contatto e per punto di contatto in tutti i percorsi di conversione. La visualizzazione confronta se il contributo di un punto di contatto è maggiore in una posizione rispetto alle altre posizioni e rispetto ad altri punti di contatto in qualsiasi posizione."
 
 
 
@@ -358,13 +351,13 @@ Per ogni percorso di conversione, vedi:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="Misura di efficienza"
->abstract="La misura di efficienza generata dal modello di attribuzione algoritmica indica l’importanza relativa di un punto di contatto per la conversione, indipendente dal volume di punti di contatto. Questa misura è su una scala da 1 a 5. Nota: un volume di punti di contatto più elevato non garantisce una misura di efficienza più alta."
+>abstract="La misura di efficienza generata dal modello di attribuzione algoritmica indica l’importanza relativa di un punto di contatto per la conversione, indipendente dal volume di punti di contatto. È misurata su una scala da 1 a 5. Nota: un volume di punti di contatto più elevato non garantisce una misura di efficienza più alta."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="Volume totale"
->abstract="Il volume totale è il numero aggregato di volte in cui un utente tocca un punto di contatto. Ed è comprensivo di punti di contatto visualizzati su un percorso che raggiunge e percorsi che non determinano conversione."
+>abstract="Il volume totale è il numero aggregato di volte in cui un utente interagisce con un punto di contatto. E include i i punti di contatto che appaiono sia su un percorso che porta alla conversione, sia su percorsi che non portano a una conversione."
 
 
 >[!CONTEXTUALHELP]
