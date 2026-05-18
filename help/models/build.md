@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
 source-wordcount: 1578
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,7 @@ Nell&#39;interfaccia ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Mo
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Punti di contatto di marketing"
->abstract="I punti di contatto di marketing sono eventi di marketing a livello di destinatario, singolo utente e/o cookie utilizzati per valutare l’impatto degli investimenti di marketing sulle conversioni numeriche o basate sui ricavi.<br/><br/>Non è possibile impostare il modello con punti di contatto che presentano dati sovrapposti e deve esistere almeno un punto di contatto con spesa."
+>abstract="I punti di contatto di marketing sono eventi di marketing a livello di destinatario, singolo utente e/o cookie utilizzati per valutare l’impatto degli investimenti di marketing sulle conversioni numeriche o basate sui ricavi.<br/><br/>Non è possibile configurare il modello con punti di contatto che presentano dati sovrapposti ed è necessario che sia presente almeno un punto di contatto con spesa."
 
 
 Il modello viene configurato nel passaggio **[!UICONTROL Configure]**. La configurazione comporta la definizione di obiettivi di conversione, punti di contatto di marketing, popolazione di dati idonea, fattori esterni e interni e altro ancora.
@@ -141,8 +141,8 @@ In base al set di dati selezionato, **[!UICONTROL Factor type]** è **[!UICONTRO
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
->title="Channel adstock"
->abstract="Incorpora competenze di dominio, risultati di sperimentazione o analisi di canale precedenti direttamente nella configurazione del modello. La configurazione di Adstock aiuta a guidare il modello per allinearsi alle aspettative reali e migliora l’interpretabilità e la fiducia nell’output. Il totale delle settimane di lookback più le settimane di ritardo per canale è limitato a un ottavo della finestra di formazione configurata. Questo tappo consente di ottenere dati sufficienti per consentire al modello di apprendere gli effetti adstock."
+>title="Canale stock annunci"
+>abstract="Incorpora le competenze del dominio, i risultati delle sperimentazioni o le analisi di canale precedenti direttamente nella configurazione del modello. La configurazione dello stock annunci consente di allineare il modello alle aspettative reali, migliorando l’interpretabilità e l’affidabilità dei risultati. Il totale delle settimane di lookback più le settimane di attesa per ciascun canale non può superare un ottavo dell’intervallo di addestramento configurato. Questo limite consente di disporre dati sufficienti affinché il modello possa apprendere gli effetti dello stock annunci."
 
 È possibile specificare impostazioni avanzate nel passaggio **[!UICONTROL Advanced]**. In questo passaggio puoi definire [condivisione di spesa](#spend-share), abilitare il tuo modello per [attribuzione multi-touch (MTA)](#mta), definire [conoscenza precedente](#prior-knowledge) e definire [channel adstock](#channel-adstock).
 
@@ -181,7 +181,7 @@ Nella sezione **[!UICONTROL Prior knowledge]**:
 1. Se necessario, utilizzare **[!UICONTROL Clear all]** per cancellare tutti i valori di input per le colonne **[!UICONTROL Contribution proportion]** e **[!UICONTROL Level of confidence]**.
 
 
-### Channel adstock
+### Canale stock annunci
 
 Nella sezione **[!UICONTROL Channel adstock]** è possibile definire singoli lookback di adstock (effetti di trascinamento o decadimento) e ritardi (tempi di risposta ritardati) per ogni canale (canale di marketing) definito nel modello.
 
@@ -197,7 +197,7 @@ Per configurare il canale adstock:
 
    * Utilizza ![Aggiungi](/help/assets/icons/Add.svg) per aumentare un valore, ![Sottrai](/help/assets/icons/Subtract.svg) per diminuirlo o immetti un valore manualmente.
 
-  Il totale delle settimane di lag più il massimo delle settimane di lookback per canale è limitato a un ottavo della finestra di apprendimento configurata. Questo tappo consente di ottenere dati sufficienti per consentire al modello di apprendere gli effetti adstock. Ad esempio, per un intervallo di formazione di due anni, il massimo di **[!UICONTROL Lag (weeks)]** e **[!UICONTROL Lookback (weeks)]** per un canale è 13 settimane. Questo limite viene applicato quando si definiscono i valori.
+  Il totale delle settimane di lag più il massimo delle settimane di lookback per canale è limitato a un ottavo della finestra di apprendimento configurata. Questo limite consente di disporre dati sufficienti affinché il modello possa apprendere gli effetti dello stock annunci. Ad esempio, per un intervallo di formazione di due anni, il massimo di **[!UICONTROL Lag (weeks)]** e **[!UICONTROL Lookback (weeks)]** per un canale è 13 settimane. Questo limite viene applicato quando si definiscono i valori.
 
 * Per ripristinare i valori predefiniti di tutti i canali adstock:
 
