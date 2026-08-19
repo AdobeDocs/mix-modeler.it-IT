@@ -4,24 +4,15 @@ description: Scopri come definire le regole del set di dati da utilizzare come p
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
 TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-subfeature_v2:
-  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
-  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2adid: d4b8ba18-64c1-4413-be54-74405ec7f558
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2106
+source-wordcount: 2161
 ht-degree: 3%
 
 ---
@@ -33,6 +24,7 @@ Le regole del set di dati ti aiutano a mappare i campi armonizzati con i campi d
 * Per i dati aggregati acquisiti in Adobe Experience Platform, mappi uno o più campi del set di dati disponibili ai campi armonizzati appropriati.
 * Per i dati evento, puoi mappare singolarmente uno o più campi armonizzati ai campi del set di dati, direttamente o utilizzando le condizioni.
 
+![Elenco regole set di dati](/help/assets/harmonize-dataset-rules-list.png)
 
 ## Gestire le regole dei set di dati
 
@@ -42,7 +34,15 @@ Per visualizzare una tabella delle regole dei set di dati disponibili, nell’in
 
 1. Seleziona **[!UICONTROL Dataset rules]** dalla barra superiore. Viene visualizzata una tabella delle regole del set di dati.
 
-Puoi cercare rapidamente un set di dati utilizzando ![Cerca](/help/assets/icons/Search.svg) **[!UICONTROL _Inserisci un nome per il set di dati_]**.
+Puoi cercare e filtrare i set di dati:
+
+* Cerca rapidamente un set di dati utilizzando ![Cerca](/help/assets/icons/Search.svg) **[!UICONTROL _Immetti un nome per il set di dati_]**.
+* Filtra i set di dati utilizzando:
+  * **[!UICONTROL Source]**: selezionare tra **[!UICONTROL all]**, **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Adobe Audience Manager]**, **[!UICONTROL Experience Events]**, **[!UICONTROL Consumer Experience Events]** o **[!UICONTROL Factors]**.
+  * **[!UICONTROL Granularity]**: selezionare tra **[!UICONTROL all]**, **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]**.
+  * **[!UICONTROL Start of the week]**: selezionare tutti o un possibile giorno feriale (**[!UICONTROL Monday]** a **[!UICONTROL Sunday]**).
+
+Utilizza ![CrossSize200](/help/assets/icons/CrossSize200.svg) **[!UICONTROL Clear]** per cancellare tutti i filtri e il campo di ricerca.
 
 Le colonne della tabella specificano i dettagli sulle regole del set di dati:
 
@@ -82,38 +82,38 @@ Nella schermata **[!UICONTROL Create]**,
 
    * Quando il campo armonizzato selezionato è di tipo metrica:
 
-      1. Selezionare **[!UICONTROL Count]** o **[!UICONTROL Sum]** da **[!UICONTROL Mapping type]**.
+     1. Selezionare **[!UICONTROL Count]** o **[!UICONTROL Sum]** da **[!UICONTROL Mapping type]**.
 
-      1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**&#x200B;a cui vuoi mappare il campo armonizzato per impostazione predefinita.
+     1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**a cui vuoi mappare il campo armonizzato per impostazione predefinita.
 
    * Quando il campo selezionato è di tipo dimensione:
 
-      1. Selezionare **[!UICONTROL Map Into]** o **[!UICONTROL Case]** da **[!UICONTROL Mapping type]**.
+     1. Selezionare **[!UICONTROL Map Into]** o **[!UICONTROL Case]** da **[!UICONTROL Mapping type]**.
 
-      1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+     1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-      1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+     1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-         1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**&#x200B;specifico, che si tratti di **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**&#x200B;oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**&#x200B;un valore immesso in&#x200B;**[!UICONTROL * Immettere il valore di input *]**.
+        1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**specifico, che si tratti di **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**o **[!UICONTROL Ends With]**un valore immesso in**[!UICONTROL * Immettere il valore di input *]**.
 
-         1. Per aggiungere un altro caso, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, per aggiungere un&#39;altra condizione, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
+        1. Per aggiungere un altro caso, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, per aggiungere un&#39;altra condizione, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
-         1. Per eliminare un caso o una condizione, selezionare ![Chiudi](/help/assets/icons/Close.svg) nel contenitore corrispondente.
+        1. Per eliminare un caso o una condizione, selezionare ![Chiudi](/help/assets/icons/Close.svg) nel contenitore corrispondente.
 
-         1. Per specificare se devono essere applicate le condizioni di un caso o tutte, selezionare **[!UICONTROL Any of]** o **[!UICONTROL All of]**.
+        1. Per specificare se devono essere applicate le condizioni di un caso o tutte, selezionare **[!UICONTROL Any of]** o **[!UICONTROL All of]**.
 
-         1. Per impostare il valore del risultato per un caso, immettere il valore in **[!UICONTROL Then]**.
+        1. Per impostare il valore del risultato per un caso, immettere il valore in **[!UICONTROL Then]**.
 
      L’esempio seguente:
 
-      * utilizza un **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** per mappare il campo armonizzato **[!UICONTROL Channel Type At Source]** al campo **[!UICONTROL channel_type]** dal set di dati **[!DNL Luma Transactions]**.
+     * utilizza un **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** per mappare il campo armonizzato **[!UICONTROL Channel Type At Source]** al campo **[!UICONTROL channel_type]** dal set di dati **[!DNL Luma Transactions]**.
 
-      * utilizza un **[!UICONTROL Case]** **[!UICONTROL Mapping type]** per mappare in modo condizionale il valore del campo **[!UICONTROL marketing.campaignName]** nel set di dati **[!DNL Luma Transactions]** al campo armonizzato **[!UICONTROL Campaign]**. Il campo armonizzato di Campaign è impostato su:
+     * utilizza un **[!UICONTROL Case]** **[!UICONTROL Mapping type]** per mappare in modo condizionale il valore del campo **[!UICONTROL marketing.campaignName]** nel set di dati **[!DNL Luma Transactions]** al campo armonizzato **[!UICONTROL Campaign]**. Il campo armonizzato di Campaign è impostato su:
 
-         * `Black Friday` quando **[!UICONTROL marketing.campaignName]** è `_black_friday` o `BlackFriday`.
-         * al valore di **[!UICONTROL marketing.campaignName]** in tutti gli altri casi.
+       * `Black Friday` quando **[!UICONTROL marketing.campaignName]** è `_black_friday` o `BlackFriday`.
+       * al valore di **[!UICONTROL marketing.campaignName]** in tutti gli altri casi.
 
-        ![Evento regola set di dati](/help/assets/dataset-create-event.png)
+       ![Evento regola set di dati](/help/assets/dataset-create-event.png)
 
 1. Seleziona ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** per definire campi aggiuntivi.
 
@@ -279,19 +279,19 @@ Per configurare le preferenze di unione dati:
 
    * Per aggiungere preferenze specifiche basate su metriche:
 
-      1. Seleziona ![Più](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
-         1. Selezionare una metrica dall&#39;elenco **[!UICONTROL *Selezione metrica *]**.
-         1. Seleziona **[!UICONTROL CHANNELS]** (Mostra origine dati) o **[!UICONTROL CONVERSION TYPES]** (Blocca selezione). Dall&#39;elenco, selezionare **[!UICONTROL All]** o un canale o un tipo di conversione specifico.
-         1. Selezionare **[!UICONTROL Summary]** o **[!UICONTROL Event]** per specificare se i dati di riepilogo o i dati evento sono preferiti per la metrica (e per tutti o per il canale selezionato) durante l&#39;unione dei dati.
+     1. Seleziona ![Più](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+        1. Selezionare una metrica dall&#39;elenco **[!UICONTROL *Selezione metrica *]**.
+        1. Seleziona **[!UICONTROL CHANNELS]** (Mostra origine dati) o **[!UICONTROL CONVERSION TYPES]** (Blocca selezione). Dall&#39;elenco, selezionare **[!UICONTROL All]** o un canale o un tipo di conversione specifico.
+        1. Selezionare **[!UICONTROL Summary]** o **[!UICONTROL Event]** per specificare se i dati di riepilogo o i dati evento sono preferiti per la metrica (e per tutti o per il canale selezionato) durante l&#39;unione dei dati.
 
-         Per aggiungere uno o più tipi di canale o conversione aggiuntivi:
+        Per aggiungere uno o più tipi di canale o conversione aggiuntivi:
 
-         1. Seleziona ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** o ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
-         1. Seleziona **[!UICONTROL Summary]** (Mostra origine dati) o **[!UICONTROL Event]** (Blocca selezione).
+        1. Seleziona ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** o ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+        1. Seleziona **[!UICONTROL Summary]** (Mostra origine dati) o **[!UICONTROL Event]** (Blocca selezione).
 
-         Per eliminare un tipo di canale o conversione, selezionare ![Cross](/help/assets/icons/Close.svg).
+        Per eliminare un tipo di canale o conversione, selezionare ![Cross](/help/assets/icons/Close.svg).
 
-      1. Per aggiungere preferenze più specifiche basate su metriche, ripeti il passaggio precedente.
+     1. Per aggiungere preferenze più specifiche basate su metriche, ripeti il passaggio precedente.
 
    * Per eliminare una specifica preferenza basata su metriche esistente, selezionare ![Elimina](/help/assets/icons/Delete.svg).
 
