@@ -17,18 +17,27 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:06:55.437Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 1e6444e672e85d9f3f666bc865d020fb67c45b09
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 5%
+source-wordcount: 524
+ht-degree: 6%
 
 ---
 
 # Note sulla versione corrente di Mix Modeler
 
-**Ultimo aggiornamento**: 26 febbraio 2026.
+**Ultimo aggiornamento**: 19 agosto 2026.
 
 Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rilasci di Mix Modeler funzionano su un modello di consegna continua, che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
+
+## Agosto 2026
+
+| Funzione | Descrizione | [Inizio rollout](#release-strategy) | [Disponibilità generale](#release-strategy) |
+|---|---|---|---|
+| **Filtro sulle regole del set di dati** | Nella configurazione dei set di dati armonizzati, puoi [filtrare le regole del set di dati in base all&#39;origine, alla granularità e all&#39;inizio della settimana](/help/harmonize-data/dataset-rules.md#manage-dataset-rules). | 19 agosto 2026 | 19 agosto 2026 |
+| **Canale multimediale a pagamento attivo** | In Approfondimenti modello puoi selezionare di [concentrarsi sul contributo del canale media a pagamento](/help/models/insights.md#contribution-by-channel). | 19 agosto 2026 | 19 agosto 2026 |
+| **Configurazione riepilogo prestazioni marketing** | Puoi [selezionare la metrica e il modo in cui viene visualizzata](/help/models/insights.md#marketing-performance-summary) per il riepilogo delle prestazioni di marketing dei modelli con fatturato in Approfondimenti modelli. | 19 agosto 2026 | 19 agosto 2026 |
+
 
 ## Marzo 2026
 
