@@ -3,31 +3,42 @@ title: Panoramica sulla governance dei dati
 description: Scopri come utilizzare i servizi e gli strumenti di Experience Platform che ti consentono di controllare i dati sull’esperienza raccolti. In questo modo, rispetti le tue pratiche commerciali, gli obblighi legali e il processo di sviluppo.
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
-TQID: https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4
+autotag-review: '2026-05-01T09:16:50.195Z'
+TQID: 'https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+    internal-label: Data governance
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: bf7ac0fc-effb-4f0c-b93f-658412718d3c
+    internal-label: Audits
   - id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
+    internal-label: Policies
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: '2026-05-01T09:16:50.195Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Privacy
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: '462'
 ht-degree: 3%
-
 ---
-
 # Panoramica sulla governance dei dati
 
 L’integrazione tra Mix Modeler e Experience Platform offre a Mix Modeler le funzionalità per sfruttare le funzioni di governance dei dati intrinseche di Experience Platform. Questa sezione della documentazione descrive le specifiche delle funzioni di governance dei dati disponibili in Mix Modeler.

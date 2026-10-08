@@ -3,26 +3,32 @@ title: Pianificare gli approfondimenti
 description: Scopri come visualizzare informazioni approfondite sul piano e modificarlo in Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-TQID: https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM
+autotag-review: '2026-04-28T06:09:37.014Z'
+TQID: 'https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-04-28T06:09:37.014Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 1174
+source-wordcount: '1190'
 ht-degree: 0%
-
 ---
-
 # Pianificare gli approfondimenti
 
 
@@ -32,12 +38,12 @@ In [!UICONTROL Plan insights] vengono create le informazioni del piano, con [!UI
 Quando crei gli approfondimenti, visualizzi una panoramica del piano, costituita da:
 
 - Intestazione che visualizza [!UICONTROL Model], [!UICONTROL Data range] e [!UICONTROL Plan target] su cui si basa il piano.
-   - Se hai definito un piano basato sull’obiettivo, un badge indica lo stato del target. Le opzioni possibili sono:
+  - Se hai definito un piano basato sull’obiettivo, un badge indica lo stato del target. Le opzioni possibili sono:
 
-      - [!BADGE Destinazione raggiungibile]{type=Positive}
-      - [!BADGE Destinazione non raggiungibile]{type=Negative}
+    - [!BADGE Destinazione raggiungibile]{type=Positive}
+    - [!BADGE Destinazione non raggiungibile]{type=Negative}
 
-   - Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]** per visualizzare ulteriori dettagli.
+  - Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]** per visualizzare ulteriori dettagli.
 
 - [Visualizzazione [!UICONTROL Forecasted paid channel ROI]](#forecasted-paid-channel-spend-and-roi)
 - [Visualizzazione [!UICONTROL Forecasted revenue]](#forecasted-revenue)
@@ -45,12 +51,12 @@ Quando crei gli approfondimenti, visualizzi una panoramica del piano, costituita
 - [Visualizzazione [!UICONTROL Marginal channel return]](#marginal-channel-return)
 - [[!UICONTROL Data range breakdown] tabella del piano](#date-range-breakdown), con colonne per
 
-   - Canale
-   - ROI
-   - CPA
-   - Ricavi
-   - Obiettivo di conversione
-   - Spesa
+  - Canale
+  - ROI
+  - CPA
+  - Ricavi
+  - Obiettivo di conversione
+  - Spesa
 
 Per chiudere l&#39;interfaccia, selezionare **[!UICONTROL Close]**.
 
@@ -151,33 +157,33 @@ Per modificare il piano, selezionare ![Modifica](/help/assets/icons/Edit.svg) **
 
            Questa opzione consente di inserire budget per uno o più intervalli di date.
 
-            1. Nel contenitore **[!UICONTROL Optimize]**:
-               1. Selezionare una conversione dal menu a discesa **[!UICONTROL Select conversion]**.
-               1. Selezionare un modello dal menu a discesa **[!UICONTROL Select model]**.
-            1. Specificare **[!UICONTROL Date range]** digitando le date o selezionando un intervallo di date utilizzando ![Calendario](/help/assets/icons/Calendar.svg).
-            1. Immetti **[!UICONTROL Budget]**.
-Per aggiungere altri intervalli di date, ciascuno con il proprio budget, selezionare ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
-Per eliminare un intervallo di date e il budget associato, selezionare ![Chiudi](/help/assets/icons/Close.svg).
-            1. Per definire un budget massimo facoltativo entro il quale si desidera vincolare il piano:
-               1. Attiva **[!UICONTROL Maximize budget]**.
-               1. Specifica l&#39;importo del budget massimo. L’importo deve essere uguale o superiore all’importo totale dei budget specificati per gli intervalli di date.
+           1. Nel contenitore **[!UICONTROL Optimize]**:
+              1. Selezionare una conversione dal menu a discesa **[!UICONTROL Select conversion]**.
+              1. Selezionare un modello dal menu a discesa **[!UICONTROL Select model]**.
+           1. Specificare **[!UICONTROL Date range]** digitando le date o selezionando un intervallo di date utilizzando ![Calendario](/help/assets/icons/Calendar.svg).
+           1. Immetti **[!UICONTROL Budget]**.
+              Per aggiungere altri intervalli di date, ciascuno con il proprio budget, selezionare ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+              Per eliminare un intervallo di date e il budget associato, selezionare ![Chiudi](/help/assets/icons/Close.svg).
+           1. Per definire un budget massimo facoltativo entro il quale si desidera vincolare il piano:
+              1. Attiva **[!UICONTROL Maximize budget]**.
+              1. Specifica l&#39;importo del budget massimo. L’importo deve essere uguale o superiore all’importo totale dei budget specificati per gli intervalli di date.
 
 
          - **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
 
            ![Destinazione piano](../assets/plan-target.png)
 
-            1. Nel contenitore **[!UICONTROL Optimize]**
-               1. Selezionare una conversione dal menu a discesa **[!UICONTROL Select conversion]**.
-               1. Selezionare una metrica di destinazione dal menu a discesa **[!UICONTROL Select target metric]**. È possibile selezionare tra **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** o **[!UICONTROL ROI]**.
-               1. Selezionare un modello dal menu a discesa **[!UICONTROL Select model]**.
-            1. Specificare un intervallo di date digitando le date o selezionando un intervallo di date utilizzando ![Calendario](/help/assets/icons/Calendar.svg).
-            1. Immetti un valore per la metrica di destinazione selezionata. Ad esempio, un numero per **[!UICONTROL Conversion]**, una percentuale per **[!UICONTROL ROI]** o valori di valuta per **[!UICONTROL CPA]** e **[!UICONTROL Revenue]**.
-Per aggiungere altri intervalli di date, ciascuno con la propria metrica di destinazione, selezionare ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
-Per eliminare un intervallo di date e la metrica di destinazione associata, selezionare ![Chiudi](/help/assets/icons/Close.svg).
-            1. Per definire un budget massimo facoltativo entro il quale si desidera vincolare il piano:
-               1. Attiva **[!UICONTROL Maximize budget]**.
-               1. Specifica l&#39;importo del budget massimo.
+           1. Nel contenitore **[!UICONTROL Optimize]**
+              1. Selezionare una conversione dal menu a discesa **[!UICONTROL Select conversion]**.
+              1. Selezionare una metrica di destinazione dal menu a discesa **[!UICONTROL Select target metric]**. È possibile selezionare tra **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** o **[!UICONTROL ROI]**.
+              1. Selezionare un modello dal menu a discesa **[!UICONTROL Select model]**.
+           1. Specificare un intervallo di date digitando le date o selezionando un intervallo di date utilizzando ![Calendario](/help/assets/icons/Calendar.svg).
+           1. Immetti un valore per la metrica di destinazione selezionata. Ad esempio, un numero per **[!UICONTROL Conversion]**, una percentuale per **[!UICONTROL ROI]** o valori di valuta per **[!UICONTROL CPA]** e **[!UICONTROL Revenue]**.
+              Per aggiungere altri intervalli di date, ciascuno con la propria metrica di destinazione, selezionare ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+              Per eliminare un intervallo di date e la metrica di destinazione associata, selezionare ![Chiudi](/help/assets/icons/Close.svg).
+           1. Per definire un budget massimo facoltativo entro il quale si desidera vincolare il piano:
+              1. Attiva **[!UICONTROL Maximize budget]**.
+              1. Specifica l&#39;importo del budget massimo.
 
          1. Selezionare **[!UICONTROL Next]** per tornare alla sezione **[!UICONTROL Spend selection]**.
 
