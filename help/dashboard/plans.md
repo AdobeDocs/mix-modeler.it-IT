@@ -3,26 +3,37 @@ title: Prestazioni da pianificare
 description: Scopri come utilizzare le Prestazioni per pianificare una panoramica in Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
+autotag-review: '2026-05-01T09:20:18.412Z'
+TQID: 'https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
+  - id: c564971c-1597-4a46-a354-33d74ee8a5d1
+    internal-label: Dashboard
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:20:18.412Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # Prestazioni da pianificare
 
 >[!NOTE]
@@ -43,18 +54,18 @@ La scheda **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} mostra:
 
 * [Schede di stato KPI](#kpi-status-cards):
 
-   * [Budget](#budget)
-   * [Ricavi](#revenue)
-   * [ROI](#roi)
-   * [KPI](#kpi)
+  * [Budget](#budget)
+  * [Ricavi](#revenue)
+  * [ROI](#roi)
+  * [KPI](#kpi)
 
 * [Visualizzazione](#visualizations):
-   * [*Metrica*: Effettivo rispetto a pianificato](#metric-actual-vs-planned)
-   * [*Metrica*: Effettivo rispetto a pianificato da *granularità*](#metric-actual-vs-planned-by-granularity)
-   * [Canale *metrica* per *granularità*](#channel-metric-by-granularity)
-   * [*Metrica* rispetto a *Metrica* per canale](#metric-vs-metric-by-channel)
-   * [*Metrica* per *granularità*](#metric-by-granularity)
-   * [*Metrica* per canale](#metric-by-channel)
+  * [*Metrica*: Effettivo rispetto a pianificato](#metric-actual-vs-planned)
+  * [*Metrica*: Effettivo rispetto a pianificato da *granularità*](#metric-actual-vs-planned-by-granularity)
+  * [Canale *metrica* per *granularità*](#channel-metric-by-granularity)
+  * [*Metrica* rispetto a *Metrica* per canale](#metric-vs-metric-by-channel)
+  * [*Metrica* per *granularità*](#metric-by-granularity)
+  * [*Metrica* per canale](#metric-by-channel)
 
 ## Schede di stato KPI
 
@@ -134,8 +145,8 @@ Per modificare una visualizzazione:
 
    * Una o due metriche: selezionare una metrica dal menu a discesa **[!UICONTROL Select metric]**.
 
-      * Per i piani basati sul ROI, le opzioni sono: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend] e [!UICONTROL Volume].
-      * Per i piani basati su CPA, le opzioni sono: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend] e [!UICONTROL Volume].
+     * Per i piani basati sul ROI, le opzioni sono: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend] e [!UICONTROL Volume].
+     * Per i piani basati su CPA, le opzioni sono: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend] e [!UICONTROL Volume].
    * **[!UICONTROL Granularity]**: selezionare **[!UICONTROL date ranges]** o **[!UICONTROL week]** dal menu a discesa **[!UICONTROL Granularity]**.
 
    In **[!UICONTROL Preview]** vengono visualizzate le differenze tra le modifiche e la visualizzazione **[!UICONTROL Current]**.

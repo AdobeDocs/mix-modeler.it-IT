@@ -5,29 +5,33 @@ feature-set: Experience Cloud
 feature: Release Notes
 hide: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-TQID: https://experienceleague.adobe.com/BTd4-OINWubpSgFga7QE-ASje73fnySf1nIxTOivlVQ
 autotag-review: '2026-05-01T09:04:46.084Z'
+TQID: 'https://experienceleague.adobe.com/BTd4-OINWubpSgFga7QE-ASje73fnySf1nIxTOivlVQ'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
+  - id: ca6bcd6f-f5ca-4e5f-a5ae-7dce7177bde9
+    internal-label: Release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: '327'
 ht-degree: 1%
-
 ---
-
 # Test
 
 Verificare una tabella con caratteri Unicode
 
 | Tag | Visualizzazione dati | Proprietari | Altri filtri |
 |---|---|---|---|
-| Puoi ![Cercare](/help/assets/icons/Search.svg) *Cerca tag* per limitare l&#39;elenco dei tag. <br/><br/>Quando si selezionano uno o più tag, l&#39;elenco è limitato automaticamente per mostrare gli altri tag rimanenti. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**&#x200B;7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. | Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per limitare l&#39;elenco delle visualizzazioni dati. <br/>È possibile selezionare più visualizzazioni dati per filtrare l&#39;elenco dei filtri. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**&#x200B;7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. | Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per limitare l&#39;elenco delle visualizzazioni dati. <br/>È possibile selezionare più visualizzazioni dati per filtrare l&#39;elenco dei filtri. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**&#x200B;7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. | Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per limitare l&#39;elenco delle visualizzazioni dati. <br/>È possibile selezionare più visualizzazioni dati per filtrare l&#39;elenco dei filtri. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**&#x200B;7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. 🅐 🅔 |
+| Puoi ![Cercare](/help/assets/icons/Search.svg) *Cerca tag* per limitare l&#39;elenco dei tag. <br/><br/>Quando si selezionano uno o più tag, l&#39;elenco è limitato automaticamente per mostrare gli altri tag rimanenti. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. | Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per limitare l&#39;elenco delle visualizzazioni dati. <br/>È possibile selezionare più visualizzazioni dati per filtrare l&#39;elenco dei filtri. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. | Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per limitare l&#39;elenco delle visualizzazioni dati. <br/>È possibile selezionare più visualizzazioni dati per filtrare l&#39;elenco dei filtri. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. | Puoi ![Cercare](/help/assets/icons/Search.svg) *Cercare le visualizzazioni dati* per limitare l&#39;elenco delle visualizzazioni dati. <br/>È possibile selezionare più visualizzazioni dati per filtrare l&#39;elenco dei filtri. <br/><br/>Il numero in **[!UICONTROL Tags]** **2︎⃣** fa riferimento al numero di tag disponibili. <br/><br/>Il numero in **[!UICONTROL *tag *]**7︎⃣ si riferisce al numero di filtri contrassegnati con il tag specificato. 🅐 🅔 |
 
 {style="table-layout:fixed"}
 
@@ -38,7 +42,7 @@ Sembra che non supportiamo correttamente i file SVG in una casella ombreggiata. 
 
 >[!BEGINSHADEBOX]
 
-Questo articolo documenta il pannello Attribuzione in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Consulta il [pannello Attribuzione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/attribution) per la versione ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** di questo articolo.
+Questo articolo documenta il pannello Attribuzione in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Consulta il [pannello Attribuzione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) per la versione ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** di questo articolo.
 
 >[!ENDSHADEBOX]
 
