@@ -142,9 +142,9 @@ I concetti chiave alla base della modellazione del marketing mix sono:
 * **Modello moltiplicativo**: le vendite o le conversioni sono il prodotto di una linea di base e di moltiplicatori multimediali.
 
   Quindi, invece di utilizzare un modello additivo:
-  *Conversioni settimanali = Domanda prevista **+**Moltiplicatore della ricerca **+**Moltiplicatore della visualizzazione **+**....*
+  *Conversioni settimanali = Domanda prevista **+**&#x200B;Moltiplicatore della ricerca **+**&#x200B;Moltiplicatore della visualizzazione **+**....*
 utilizza un modello moltiplicativo:
-  *Conversioni settimanali = Domanda prevista **x**Moltiplicatore della ricerca **x**Moltiplicatore della visualizzazione **x**....*
+  *Conversioni settimanali = Domanda prevista **x**&#x200B;Moltiplicatore della ricerca **x**&#x200B;Moltiplicatore della visualizzazione **x**....*
 
   Oppure in una formula: ** Y = ⨍<sub>BL</sub>(X<sub>fattori</sub>;<sub>fattori</sub>) x ⨍<sub>S</sub>(X<sub>S</sub>;<sub>S</sub>) x ⨍<sub>D</sub>(X<sub>D</sub>;<sub>D</sub>)*
 
