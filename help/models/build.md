@@ -4,7 +4,7 @@ description: Scopri come creare modelli in Mix Modeler, e come impostare, config
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
+TQID: 'https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
     internal-label: Mix Modeler
@@ -13,9 +13,9 @@ feature_v2:
     internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
-subfeature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-    internal-label: Harmonized Data
+    internal-label: Harmonized data
+subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
+source-git-commit: d83e095cdcd2954b5c6cc5f4b3f32a26cf27ed9a
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 9%
